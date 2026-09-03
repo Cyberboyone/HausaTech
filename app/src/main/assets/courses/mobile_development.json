@@ -1,0 +1,1264 @@
+{
+  "id": "mobile_development",
+  "title": "Mobile Development",
+  "icon": "mobile",
+  "levels": [
+    {
+      "level": "Beginner",
+      "lessons": [
+        {
+          "id": "mob-b1",
+          "order": 1,
+          "title": "Menene Mobile App Development?",
+          "summary": "Ma'anar gina apps na wayar hannu",
+          "content": "Mobile App Development shine aikin gina software da ke gudana a wayar hannu ko tablet, kamar apps na WhatsApp, Facebook, ko bankin dijital. Wadannan apps sun bambanta da shafukan yanar gizo na yau da kullum domin galibi ana sauke su daga shago kamar Google Play Store ko Apple App Store, sannan su gudana kai tsaye a na'urar mai amfani.\n\nApps na wayar hannu suna da damar amfani da fasalolin na'urar kai tsaye - kamar kyamara, GPS, ko sanarwa (notifications) - wanda ke sa su iya bayar da gogewa mafi kyau ga mai amfani fiye da shafin yanar gizo na yau da kullum a wasu lokuta.",
+          "quiz": [
+            {
+              "question": "Menene Mobile App Development?",
+              "options": [
+                "Aikin gina software da ke gudana a wayar hannu ko tablet",
+                "Nau'in wayar hannu",
+                "Sunan kamfani",
+                "Wani irin cuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "Mobile App Development yana mai da hankali kan gina apps don wayoyi da tablets."
+            },
+            {
+              "question": "Ta ina ake sauke apps na wayar hannu galibi?",
+              "options": [
+                "Google Play Store ko Apple App Store",
+                "Ta hanyar wasika",
+                "Ta hanyar rediyo",
+                "Babu wata hanya"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wadannan shagunan biyu sune manyan hanyoyin sauke apps na wayar hannu."
+            },
+            {
+              "question": "Wanne fasali ne apps na wayar hannu ke iya amfani dashi kai tsaye?",
+              "options": [
+                "Kyamara, GPS, ko sanarwa (notifications)",
+                "Kawai rubutu",
+                "Babu wani fasali na musamman",
+                "Kalanda kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Apps na wayar hannu suna da damar amfani da kayan aikin na'urar kai tsaye."
+            },
+            {
+              "question": "Wanne misali ne na app na wayar hannu?",
+              "options": [
+                "WhatsApp",
+                "Microsoft Word don kwamfuta kadai",
+                "Babu wani misali",
+                "Fayil na PDF"
+              ],
+              "answerIndex": 0,
+              "explanation": "WhatsApp misali ne sananne na mobile app."
+            },
+            {
+              "question": "Me ke sa apps na wayar hannu su bambanta da shafukan yanar gizo na yau da kullum?",
+              "options": [
+                "Ana sauke su daga shago kuma suna amfani da fasalolin na'urar kai tsaye",
+                "Babu wani bambanci",
+                "Suna aiki ne kawai a kwamfuta",
+                "Ba sa amfani da intanet kwata-kwata"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wannan shine babban bambancin da ke tsakanin apps na wayar hannu da shafukan yanar gizo."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-b1.png",
+            "caption": "Ma'anar gina apps na wayar hannu"
+          }
+        },
+        {
+          "id": "mob-b2",
+          "order": 2,
+          "title": "Android vs iOS",
+          "summary": "Bambancin manyan tsarurrukan wayar hannu guda biyu",
+          "content": "Android da iOS su ne manyan tsarurrukan aiki (operating systems) guda biyu na wayar hannu a duniya. Android, wanda Google ta kirkira, yana gudana akan wayoyi daga kamfanoni da yawa (Samsung, Tecno, Infinix), yayin da iOS, wanda Apple ta kirkira, yana gudana ne kawai akan wayoyin iPhone.\n\nGina app don Android galibi ana amfani da Kotlin ko Java, yayin da don iOS ake amfani da Swift. Kowanne tsari yana da nasa shago (Play Store da App Store) da kuma ka'idojinsa na musamman wajen bugawa da amincewa da apps.",
+          "quiz": [
+            {
+              "question": "Wanne kamfani ne ya kirkiri Android?",
+              "options": [
+                "Google",
+                "Apple",
+                "Microsoft",
+                "Samsung"
+              ],
+              "answerIndex": 0,
+              "explanation": "Google ce ta kirkiri tsarin Android."
+            },
+            {
+              "question": "Wanne kamfani ne ya kirkiri iOS?",
+              "options": [
+                "Apple",
+                "Google",
+                "Samsung",
+                "Microsoft"
+              ],
+              "answerIndex": 0,
+              "explanation": "Apple ce ta kirkiri tsarin iOS."
+            },
+            {
+              "question": "A wanne wayoyi ne iOS ke gudana?",
+              "options": [
+                "iPhone kadai",
+                "Duk wayoyi",
+                "Samsung kadai",
+                "Tecno kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "iOS na Apple ne kadai, don haka yana gudana akan iPhone kadai."
+            },
+            {
+              "question": "Wanne yare ne ake amfani da shi wajen gina apps na Android?",
+              "options": [
+                "Kotlin ko Java",
+                "Swift kadai",
+                "Babu wani yare",
+                "HTML kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Kotlin da Java sune manyan yarukan da ake amfani dasu don Android."
+            },
+            {
+              "question": "Wanne yare ne ake amfani da shi wajen gina apps na iOS?",
+              "options": [
+                "Swift",
+                "Kotlin",
+                "Java kadai",
+                "Babu wani yare"
+              ],
+              "answerIndex": 0,
+              "explanation": "Swift shine yaren da Apple ta gina musamman don iOS."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-b2.png",
+            "caption": "Bambancin manyan tsarurrukan wayar hannu guda biyu"
+          }
+        },
+        {
+          "id": "mob-b3",
+          "order": 3,
+          "title": "Native vs Cross-Platform Development",
+          "summary": "Hanyoyin gina app don na'urori daban-daban",
+          "content": "Native Development yana nufin gina app na musamman don tsari ɗaya kacal (Android ko iOS), ta amfani da yarukan da suka dace da wancan tsari (Kotlin don Android, Swift don iOS). Wannan yana bayar da mafi kyawun aiki (performance) domin app din yana amfani da kayan aikin na'ura kai tsaye.\n\nCross-Platform Development kuma yana bada damar rubuta code guda ɗaya wanda zai iya gudana akan Android da iOS duka biyu, ta amfani da fasahohi kamar Flutter ko React Native. Wannan yana rage lokaci da kuɗin haɓaka domin ba a bukatar gina apps guda biyu daban-daban.",
+          "quiz": [
+            {
+              "question": "Menene Native Development?",
+              "options": [
+                "Gina app na musamman don tsari ɗaya kacal",
+                "Gina app wanda ke aiki a dukkan tsarurruka",
+                "Nau'in wayar hannu",
+                "Sunan kamfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "Native yana bukatar gina app daban ga kowane tsari (Android/iOS)."
+            },
+            {
+              "question": "Menene Cross-Platform Development?",
+              "options": [
+                "Rubuta code guda ɗaya wanda zai iya gudana a Android da iOS duka",
+                "Gina app don Android kadai",
+                "Nau'in wayar hannu",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Cross-platform yana bada damar amfani da code guda ɗaya a dukkan tsarurruka."
+            },
+            {
+              "question": "Wace fa'ida ce Native Development ke bayarwa?",
+              "options": [
+                "Mafi kyawun aiki (performance) domin amfani da kayan aikin na'ura kai tsaye",
+                "Karancin kuɗi koyaushe",
+                "Babu wata fa'ida",
+                "Rage lokacin haɓaka koyaushe"
+              ],
+              "answerIndex": 0,
+              "explanation": "Native apps galibi suna da sauri da inganci fiye da cross-platform saboda kusanci da na'ura."
+            },
+            {
+              "question": "Wanne fasaha ne misali na Cross-Platform Development?",
+              "options": [
+                "Flutter ko React Native",
+                "Kotlin kadai",
+                "Swift kadai",
+                "Babu wata fasaha"
+              ],
+              "answerIndex": 0,
+              "explanation": "Flutter da React Native sanannun fasahohi ne na cross-platform."
+            },
+            {
+              "question": "Wace fa'ida ce Cross-Platform ke bayarwa ga kamfani?",
+              "options": [
+                "Rage lokaci da kuɗin haɓaka domin ba a bukatar apps guda biyu daban",
+                "Kara kuɗin haɓaka",
+                "Babu wata fa'ida",
+                "Rage saurin app"
+              ],
+              "answerIndex": 0,
+              "explanation": "Rubuta code ɗaya maimakon biyu yana rage kuɗi da lokaci."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-b3.png",
+            "caption": "Hanyoyin gina app don na'urori daban-daban"
+          }
+        },
+        {
+          "id": "mob-b4",
+          "order": 4,
+          "title": "UI/UX na Asali ga Wayar Hannu",
+          "summary": "Tsara kamanni da gogewar app mai kyau",
+          "content": "UI (User Interface) yana nufin kamannin app - launi, maballi, da tsari na abubuwa a shafi. UX (User Experience) kuma yana nufin yadda mai amfani ke ji da kuma sauki wajen amfani da app din gaba ɗaya - misali, shin sauki ne a same abin da ake nema ba tare da rudani ba?\n\nGa wayar hannu, ana bukatar mai da hankali kan girman allo karami - maballi da rubutu ya kamata su isasshe girma domin a iya taɓawa cikin sauki da yatsa. Haka kuma, ana bukatar tunanin yadda za a sarrafa sarari mai iyaka a shafi ba tare da cika shi da abubuwa da yawa ba.",
+          "quiz": [
+            {
+              "question": "Menene UI (User Interface)?",
+              "options": [
+                "Kamannin app - launi, maballi, da tsarin abubuwa",
+                "Yadda mai amfani ke ji gaba ɗaya",
+                "Nau'in wayar hannu",
+                "Sunan kamfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "UI tana mai da hankali kan kamannin gani na app."
+            },
+            {
+              "question": "Menene UX (User Experience)?",
+              "options": [
+                "Yadda mai amfani ke ji da sauki wajen amfani da app gaba ɗaya",
+                "Kawai launi na app",
+                "Nau'in wayar hannu",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "UX tana mai da hankali kan gamsuwar mai amfani gaba ɗaya."
+            },
+            {
+              "question": "Me yasa maballi ya kamata ya kasance babba a app na wayar hannu?",
+              "options": [
+                "Domin a iya taɓawa cikin sauki da yatsa akan karamin allo",
+                "Domin yana da kyan gani kawai",
+                "Babu wani dalili",
+                "Domin dole ne bisa doka"
+              ],
+              "answerIndex": 0,
+              "explanation": "Girman allo karami na wayar hannu yana bukatar maballi masu isasshen girma don taɓawa."
+            },
+            {
+              "question": "Me ya kamata a guji yi da sarari mai iyaka na wayar hannu?",
+              "options": [
+                "Cika shi da abubuwa da yawa",
+                "Amfani da shi yadda ya kamata",
+                "Bar shi babu komai gaba ɗaya",
+                "Babu abin da za a guji"
+              ],
+              "answerIndex": 0,
+              "explanation": "Cika sarari da abubuwa da yawa na iya rikita mai amfani a karamin allo."
+            },
+            {
+              "question": "Wace tambaya ce UX ke amsawa?",
+              "options": [
+                "Shin sauki ne a same abin da ake nema ba tare da rudani ba?",
+                "Wane launi ne ya fi kyau kawai?",
+                "Nawa app din take da tsada?",
+                "Babu wata tambaya"
+              ],
+              "answerIndex": 0,
+              "explanation": "UX tana mai da hankali kan sauki da gogewar mai amfani gaba ɗaya."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-b4.png",
+            "caption": "Tsara kamanni da gogewar app mai kyau"
+          }
+        },
+        {
+          "id": "mob-b5",
+          "order": 5,
+          "title": "Kayan Aikin Farko (Android Studio, Xcode)",
+          "summary": "Software da ake amfani da su wajen gina apps",
+          "content": "Android Studio shine kayan aiki na hukuma da Google ta kirkira domin gina apps na Android, wanda ke dauke da editan code, na'ura mai kwaikwayon waya (emulator) domin gwada app din ba tare da waya ta ainihi ba, da kuma kayan aikin bincike matsala (debugging).\n\nXcode kuma shine kayan aiki na hukuma da Apple ta kirkira domin gina apps na iOS, wanda ke gudana ne kawai a kwamfutocin Mac. Dukkan biyu suna kyauta a sauke, wanda ke sa mafarin koyon mobile development ya zama mai sauki ga kowa da kowa.",
+          "quiz": [
+            {
+              "question": "Menene Android Studio?",
+              "options": [
+                "Kayan aiki na hukuma da Google ta kirkira domin gina apps na Android",
+                "Nau'in wayar hannu",
+                "Sunan kamfani na Apple",
+                "Wani irin cuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "Android Studio kayan aiki ne na asali na gina apps na Android."
+            },
+            {
+              "question": "Menene Xcode?",
+              "options": [
+                "Kayan aiki na hukuma da Apple ta kirkira domin gina apps na iOS",
+                "Kayan aiki na Android",
+                "Sunan wayar hannu",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Xcode kayan aiki ne na asali na gina apps na iOS."
+            },
+            {
+              "question": "A wanne kwamfuta ne Xcode ke gudana?",
+              "options": [
+                "Mac kadai",
+                "Windows kadai",
+                "Kowace kwamfuta",
+                "Babu wani takamaiman kwamfuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "Xcode na Apple ne, don haka yana gudana ne kawai akan Mac."
+            },
+            {
+              "question": "Menene emulator a Android Studio ke bayarwa?",
+              "options": [
+                "Na'ura mai kwaikwayon waya domin gwada app ba tare da waya ta ainihi ba",
+                "Kayan aiki na daukar hoto",
+                "Sunan kamfani",
+                "Babu wani amfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "Emulator yana bada damar gwada app a kwamfuta kafin amfani da waya ta gaske."
+            },
+            {
+              "question": "Shin Android Studio da Xcode suna da tsada wajen sauke su?",
+              "options": [
+                "A'a, su duka kyauta ne",
+                "E, suna da tsada sosai",
+                "Kawai ɗaya ne kyauta",
+                "Babu wani zabi na kyauta"
+              ],
+              "answerIndex": 0,
+              "explanation": "Duka Android Studio da Xcode kyauta ne, wanda ke sauƙaƙa fara koyo."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-b5.png",
+            "caption": "Software da ake amfani da su wajen gina apps"
+          }
+        },
+        {
+          "id": "mob-b6",
+          "order": 6,
+          "title": "Gina App na Farko Mai Sauki",
+          "summary": "Matakan farko na aikace-aikacen gina app",
+          "content": "Don gina app na farko mai sauki, misali app na 'Sannu Duniya' (Hello World), za a fara da kirkirar sabon 'project' a Android Studio ko Xcode, sannan a rubuta kadan code domin nuna rubutu a allo lokacin da app din ya bude. Wannan aiki mai sauki yana bada damar fahimtar tsarin gaba ɗaya na yadda ake gina app, kafin a fara kara sarkakiya.\n\nBayan wannan, mataki na gaba shine koyon yadda ake amfani da maballi (buttons), fom (forms), da kuma yadda ake sauya daga shafi zuwa wani a cikin app din. Fara da sauki sannan a kara sarkakiya a hankali shine mafi kyawun tafarki ga sabon dan koyo.",
+          "quiz": [
+            {
+              "question": "Menene aikin farko da ake ba da shawara ga sabon dan koyon mobile development?",
+              "options": [
+                "App na 'Sannu Duniya' (Hello World)",
+                "App mai sarkakiya sosai kai tsaye",
+                "Babu wani aiki mai sauki",
+                "App na banki nan take"
+              ],
+              "answerIndex": 0,
+              "explanation": "Hello World app ce mai sauki wadda ake amfani da ita wajen koyon asali."
+            },
+            {
+              "question": "Me ake bukata don fara aiki a Android Studio ko Xcode?",
+              "options": [
+                "Kirkirar sabon 'project'",
+                "Sayen sabon waya",
+                "Sayen sabuwar kwamfuta",
+                "Babu bukatar wani abu"
+              ],
+              "answerIndex": 0,
+              "explanation": "Kowane app yana farawa da kirkirar sabon project a kayan aikin da aka zaba."
+            },
+            {
+              "question": "Wace fa'ida ce aikin 'Hello World' ke bayarwa?",
+              "options": [
+                "Bada damar fahimtar tsarin gaba ɗaya kafin a kara sarkakiya",
+                "Bada kuɗi kai tsaye",
+                "Babu wata fa'ida",
+                "Yana kara wahalar koyo"
+              ],
+              "answerIndex": 0,
+              "explanation": "Hello World yana taimaka wa sabon dan koyo fahimtar asalin tsari ba tare da rudani ba."
+            },
+            {
+              "question": "Wanne mataki ne bayan Hello World?",
+              "options": [
+                "Koyon amfani da maballi da fom",
+                "Buga app din nan take",
+                "Kammala aiki gaba ɗaya",
+                "Babu wani mataki na gaba"
+              ],
+              "answerIndex": 0,
+              "explanation": "Bayan asali, ana koyon fasalolin mu'amala kamar maballi da fom."
+            },
+            {
+              "question": "Wace hikima ce mafi kyau ga sabon dan koyo?",
+              "options": [
+                "Fara da sauki sannan a kara sarkakiya a hankali",
+                "Fara da mafi wahala kai tsaye",
+                "Tsallake asalin ilimi",
+                "Babu wata hikima ta musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wannan tafarki yana taimaka wa sabon dan koyo gina tushe mai ƙarfi."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-b6.png",
+            "caption": "Matakan farko na aikace-aikacen gina app"
+          }
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "lessons": [
+        {
+          "id": "mob-i1",
+          "order": 1,
+          "title": "Flutter da React Native",
+          "summary": "Zurfin bayani kan manyan cross-platform frameworks",
+          "content": "Flutter, wanda Google ta kirkira, yana amfani da yaren Dart, kuma yana zana kowane bangare na app din da kansa (custom rendering), wanda ke bada damar app dinsa ya yi kama iri ɗaya a Android da iOS. React Native kuma, wanda Facebook ta kirkira, yana amfani da JavaScript kuma yana amfani da fasalolin 'native' na asali na kowane tsari, wanda ke sa app dinsa ya yi kama da app na asali fiye da Flutter wani lokaci.\n\nZabi tsakanin su biyu ya dogara ne akan bukatar aikin - Flutter ta fi dacewa idan kana son cikakken iko akan kyan gani, yayin da React Native ta fi dacewa idan timinka na da gogewa a JavaScript tuni.",
+          "quiz": [
+            {
+              "question": "Wanne yare ne Flutter ke amfani da shi?",
+              "options": [
+                "Dart",
+                "JavaScript",
+                "Kotlin",
+                "Swift"
+              ],
+              "answerIndex": 0,
+              "explanation": "Flutter yana amfani da yaren Dart wanda Google ta gina."
+            },
+            {
+              "question": "Wanne yare ne React Native ke amfani da shi?",
+              "options": [
+                "JavaScript",
+                "Dart",
+                "Swift",
+                "Kotlin"
+              ],
+              "answerIndex": 0,
+              "explanation": "React Native yana amfani da JavaScript."
+            },
+            {
+              "question": "Wanne kamfani ne ya kirkiri Flutter?",
+              "options": [
+                "Google",
+                "Facebook",
+                "Apple",
+                "Microsoft"
+              ],
+              "answerIndex": 0,
+              "explanation": "Google ce ta kirkiri Flutter."
+            },
+            {
+              "question": "Wanne kamfani ne ya kirkiri React Native?",
+              "options": [
+                "Facebook (Meta)",
+                "Google",
+                "Apple",
+                "Amazon"
+              ],
+              "answerIndex": 0,
+              "explanation": "Facebook (yanzu Meta) ta kirkiri React Native."
+            },
+            {
+              "question": "Yaushe React Native ta fi dacewa a matsayin zabi?",
+              "options": [
+                "Idan timin ka na da gogewa a JavaScript tuni",
+                "Idan kake son kyan gani na musamman kadai",
+                "Babu wani lokaci mai dacewa",
+                "Koyaushe Flutter ta fi kyau"
+              ],
+              "answerIndex": 0,
+              "explanation": "React Native tana da amfani musamman idan timin ka ya riga ya san JavaScript."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-i1.png",
+            "caption": "Zurfin bayani kan manyan cross-platform frameworks"
+          }
+        },
+        {
+          "id": "mob-i2",
+          "order": 2,
+          "title": "Ajiyar Bayanai a App (Local Storage)",
+          "summary": "Yadda apps ke ajiye bayanai a na'urar mai amfani",
+          "content": "Apps na iya bukatar ajiye bayanai a wayar kanta domin amfani na gaba, ko da babu intanet. Ana amfani da hanyoyi daban-daban bisa girman bayanai: 'SharedPreferences' (Android) ko 'UserDefaults' (iOS) don karamin bayani kamar saitunan mai amfani, da kuma database na cikin gida kamar SQLite ko Room domin bayanai masu tsari da yawa.\n\nAjiyar bayanai a cikin gida (local storage) yana da amfani domin app din ya iya aiki koda babu intanet (offline mode), sannan ya sabunta bayanan zuwa server lokacin da intanet ya dawo, wani tsari da ake kira 'offline-first' design.",
+          "quiz": [
+            {
+              "question": "Menene SharedPreferences a Android ke ajiyewa?",
+              "options": [
+                "Karamin bayani kamar saitunan mai amfani",
+                "Manyan bayanai masu tsari",
+                "Hotuna kadai",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "SharedPreferences ta dace da karamin bayani, ba manyan bayanai masu tsari ba."
+            },
+            {
+              "question": "Wanne database ne ake amfani dashi wajen ajiya na cikin gida mai tsari?",
+              "options": [
+                "SQLite ko Room",
+                "MySQL kai tsaye ta intanet",
+                "Excel",
+                "Babu wani database"
+              ],
+              "answerIndex": 0,
+              "explanation": "SQLite/Room sune manyan zabuka don ajiyar bayanai masu tsari a cikin app."
+            },
+            {
+              "question": "Me ake kira ajiyar bayanai a wayar UserDefaults a iOS?",
+              "options": [
+                "UserDefaults",
+                "SharedPreferences",
+                "Room",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "UserDefaults ita ce dabarar iOS ta ajiyar karamin bayani, kwatankwacin SharedPreferences a Android."
+            },
+            {
+              "question": "Menene 'offline-first' design?",
+              "options": [
+                "Tsara app ya yi aiki koda babu intanet sannan ya sabunta lokacin da intanet ya dawo",
+                "Tsara app wanda ke bukatar intanet koyaushe",
+                "Nau'in wayar hannu",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Offline-first yana tabbatar da app na aiki ko da babu intanet."
+            },
+            {
+              "question": "Me yasa ajiyar bayanai a cikin gida ke da amfani?",
+              "options": [
+                "Domin app din ya iya aiki koda babu intanet",
+                "Domin dole ne bisa doka",
+                "Babu wani amfani",
+                "Domin yana kara farashin waya"
+              ],
+              "answerIndex": 0,
+              "explanation": "Local storage yana tabbatar da app na iya aiki hatta ba tare da intanet ba."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-i2.png",
+            "caption": "Yadda apps ke ajiye bayanai a na'urar mai amfani"
+          }
+        },
+        {
+          "id": "mob-i3",
+          "order": 3,
+          "title": "APIs da Backend Integration a Mobile",
+          "summary": "Yadda apps ke sadarwa da bayanan da ke bayan fage",
+          "content": "Yawancin apps na wayar hannu suna bukatar bayanai daga wani backend server - misali, app na sayarwa yana bukatar samun jerin kayayyaki daga database mai nisa. App din yana amfani da REST API domin aika bukata zuwa server, sannan ya karba amsa (galibi a tsarin JSON) domin nunawa ga mai amfani.\n\nAna bukatar sarrafa hakuri (loading states) yayin da app din ke jira amsa daga server, da kuma tsara yadda za a nuna kuskure idan intanet bai yi aiki ba ko server ya ƙasa amsawa - wannan yana da matukar muhimmanci wajen bada gogewa mai kyau ga mai amfani.",
+          "quiz": [
+            {
+              "question": "Ta yaya app na sayarwa ke samun jerin kayayyaki?",
+              "options": [
+                "Ta hanyar aika bukata zuwa backend server ta amfani da REST API",
+                "Ta hanyar rediyo",
+                "Ta hanyar kiran waya",
+                "Babu wata hanya"
+              ],
+              "answerIndex": 0,
+              "explanation": "Apps na amfani da APIs domin samun bayanai daga backend."
+            },
+            {
+              "question": "Wanne tsari ne galibi ake amfani da shi wajen amsar API?",
+              "options": [
+                "JSON",
+                "MP3",
+                "PDF",
+                "Babu wani tsari"
+              ],
+              "answerIndex": 0,
+              "explanation": "JSON tsari ne mai sauki karantawa da ake amfani da shi wajen musayar bayanai."
+            },
+            {
+              "question": "Me ake bukatar sarrafawa yayin da app ke jira amsa daga server?",
+              "options": [
+                "Loading states",
+                "Ranar haihuwar mai amfani",
+                "Launi na wayar hannu",
+                "Babu bukatar sarrafa komai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Loading states suna nuna wa mai amfani cewa app din yana aiki a bango."
+            },
+            {
+              "question": "Me ya kamata a yi idan intanet bai yi aiki ba lokacin da app ke bukatar bayanai?",
+              "options": [
+                "Nuna kuskure ga mai amfani cikin sauki gani",
+                "Rufe app din ba tare da bayani ba",
+                "Babu wani abin yi",
+                "Share dukkan bayanan mai amfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "Sanar da mai amfani game da matsalar intanet yana bada gogewa mafi kyau."
+            },
+            {
+              "question": "Me yasa sarrafa kuskure yayin bukatar API ke da muhimmanci?",
+              "options": [
+                "Yana bada gogewa mai kyau ga mai amfani ko da wata matsala ta faru",
+                "Babu wani muhimmanci",
+                "Domin dole ne bisa doka",
+                "Domin yana kara saurin app"
+              ],
+              "answerIndex": 0,
+              "explanation": "Sarrafa kuskure yadda ya kamata yana tabbatar mai amfani baya rudewa idan wata matsala ta taso."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-i3.png",
+            "caption": "Yadda apps ke sadarwa da bayanan da ke bayan fage"
+          }
+        },
+        {
+          "id": "mob-i4",
+          "order": 4,
+          "title": "Gwaji da Debugging na Mobile Apps",
+          "summary": "Yadda ake tabbatar da app yana aiki daidai",
+          "content": "Gwajin mobile apps yana da wasu kalubale na musamman fiye da gwajin web apps, domin akwai wayoyi masu girma daban-daban, tsarin aiki (Android/iOS) daban-daban, da sigogi daban-daban na tsarin aiki. Ana bukatar gwada app din a na'urori na ainihi (real devices) baya ga emulators, domin wasu matsaloli suna bayyana ne kawai a wayar ta ainihi.\n\nKayan aiki kamar Firebase Test Lab suna bada damar gwada app din akan wayoyi da yawa daban-daban ta atomatik, wanda ke sauƙaƙa gano matsalolin da za su iya bayyana a wasu na'urori kawai amma ba a wasu ba.",
+          "quiz": [
+            {
+              "question": "Me yasa gwajin mobile apps ke da wasu kalubale na musamman?",
+              "options": [
+                "Domin akwai wayoyi masu girma da tsarin aiki daban-daban",
+                "Domin babu wata kalubale",
+                "Domin apps na wayar hannu basu bukatar gwaji",
+                "Domin dole ne bisa doka"
+              ],
+              "answerIndex": 0,
+              "explanation": "Bambancin na'urori da sigogi na tsarin aiki yana kawo kalubale na musamman."
+            },
+            {
+              "question": "Me yasa ake bukatar gwada app a na'urori na ainihi baya ga emulators?",
+              "options": [
+                "Domin wasu matsaloli suna bayyana ne kawai a wayar ta ainihi",
+                "Domin emulators sun fi kyau koyaushe",
+                "Babu bukatar gwada wayar ta ainihi",
+                "Domin dole ne bisa doka"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wasu matsaloli (kamar na baturi ko sensor) basa bayyana a emulator."
+            },
+            {
+              "question": "Menene Firebase Test Lab ke bayarwa?",
+              "options": [
+                "Gwada app akan wayoyi da yawa daban-daban ta atomatik",
+                "Gina app daga karce",
+                "Sunan kamfani na hosting",
+                "Babu wani amfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "Firebase Test Lab yana sauƙaƙa gwada app akan na'urori masu bambanci."
+            },
+            {
+              "question": "Wanne bambanci ne ke kawo kalubale ga gwajin mobile apps?",
+              "options": [
+                "Girman wayoyi da sigogin tsarin aiki daban-daban",
+                "Launi na app kadai",
+                "Sunan kamfani kadai",
+                "Babu wani bambanci mai kalubale"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wadannan bambance-bambance suna kara wahalar tabbatar da app na aiki daidai a ko'ina."
+            },
+            {
+              "question": "Me ya kamata a yi domin gano matsalolin da ke bayyana a wasu na'urori kadai?",
+              "options": [
+                "Gwada app a na'urori da yawa daban-daban",
+                "Gwada app a na'ura ɗaya kadai",
+                "Babu wani abin yi",
+                "Tsallake gwaji gaba ɗaya"
+              ],
+              "answerIndex": 0,
+              "explanation": "Gwada a na'urori masu bambanci yana taimaka wa gano matsalolin da ba a iya gani ba a wuri guda kadai."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-i4.png",
+            "caption": "Yadda ake tabbatar da app yana aiki daidai"
+          }
+        },
+        {
+          "id": "mob-i5",
+          "order": 5,
+          "title": "Buga App a Google Play/App Store",
+          "summary": "Matakan da ake bi kafin jama'a su sami damar sauke app",
+          "content": "Kafin buga app a Google Play Store, ana bukatar kirkirar asusun developer (wanda ke bukatar biyan karamin kuɗi sau ɗaya kacal), sannan a shirya bayanai kamar bayanin app din, hotuna, da manufofin sirri (privacy policy). Google zai bincika app din kafin ya buga shi ga jama'a, kodayake wannan tsari galibi ba ya dauke lokaci mai tsawo idan aka kwatanta da Apple.\n\nApple App Store yana da tsari mafi tsauri na bincike (review), wanda zai iya dauke kwanaki da yawa, kuma Apple na iya kin amincewa da app idan bai bi ka'idojinsu ba. Fahimtar wadannan bambance-bambance yana taimaka wa mai gina app tsara lokacin da ake tsammani don kaddamar da app din.",
+          "quiz": [
+            {
+              "question": "Me ake bukata kafin buga app a Google Play Store?",
+              "options": [
+                "Kirkirar asusun developer da biyan karamin kuɗi sau ɗaya",
+                "Babu wani bukata na musamman",
+                "Sayen sabuwar waya",
+                "Kirkirar sabon kamfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "Asusun developer da karamin kuɗi na dole kafin buga app a Play Store."
+            },
+            {
+              "question": "Wanne shago ne ya fi tsauri wajen bincike (review)?",
+              "options": [
+                "Apple App Store",
+                "Google Play Store",
+                "Su biyu daidai suke",
+                "Babu wani bincike da ake yi"
+              ],
+              "answerIndex": 0,
+              "explanation": "Apple na da tsari mai tsauri na bincike wanda zai iya dauke kwanaki."
+            },
+            {
+              "question": "Wanne bayani ne ake bukata a shirya kafin buga app?",
+              "options": [
+                "Bayanin app, hotuna, da manufofin sirri",
+                "Kawai sunan app kadai",
+                "Babu wani bayani da ake bukata",
+                "Adireshin gidan mai gina app"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wadannan bayanai suna bada damar masu amfani su fahimci app din kafin sauke shi."
+            },
+            {
+              "question": "Me zai iya faruwa idan app bai bi ka'idojin Apple ba?",
+              "options": [
+                "Apple na iya kin amincewa da app",
+                "Za a buga app din nan take",
+                "Babu wata sanarwa",
+                "Google zai magance shi"
+              ],
+              "answerIndex": 0,
+              "explanation": "Apple na iya ki amincewa idan app bai bi ka'idojinsu ba."
+            },
+            {
+              "question": "Me yasa ya kamata a fahimci bambancin lokutan bincike na shagunan biyu?",
+              "options": [
+                "Domin tsara lokacin da ake tsammani don kaddamar da app",
+                "Babu wani dalili",
+                "Domin dole ne bisa doka",
+                "Domin yana kara kuɗin app"
+              ],
+              "answerIndex": 0,
+              "explanation": "Sanin wannan bambanci yana taimaka wa mai gina app shirya jadawalin kaddamarwa."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-i5.png",
+            "caption": "Matakan da ake bi kafin jama'a su sami damar sauke app"
+          }
+        },
+        {
+          "id": "mob-i6",
+          "order": 6,
+          "title": "Monetization - Samun Kuɗi Daga App",
+          "summary": "Hanyoyin samun kuɗi daga app na wayar hannu",
+          "content": "Akwai hanyoyi da yawa na samun kuɗi daga app: Talla (ads) yana bawa app damar zama kyauta ga masu amfani yayin da ake samun kuɗi daga kamfanonin da ke son yin tallace-tallace; In-App Purchases yana bada damar sayan abubuwa a cikin app (kamar sabbin fasaloli ko kayan wasa); Subscription kuma yana bukatar biyan kuɗi na wata-wata don ci gaba da amfani da wasu fasaloli.\n\nZaɓan hanyar da ta fi dacewa ya dogara da irin app din da kake gina - misali, app na kayan aiki na yau da kullum wanda ake amfani da shi na dogon lokaci ya fi dacewa da subscription, yayin da app na wasa mai sauki zai iya amfana daga talla da in-app purchases.",
+          "quiz": [
+            {
+              "question": "Menene 'In-App Purchases'?",
+              "options": [
+                "Sayan abubuwa a cikin app kamar sabbin fasaloli",
+                "Sayen app din da kansa kadai",
+                "Nau'in wayar hannu",
+                "Sunan kamfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "In-App Purchases suna bada damar sayan abubuwa a cikin app bayan an sauke shi."
+            },
+            {
+              "question": "Menene Subscription a matsayin hanyar samun kuɗi?",
+              "options": [
+                "Biyan kuɗi na wata-wata don ci gaba da amfani da wasu fasaloli",
+                "Biya sau ɗaya kadai",
+                "Babu biya kwata-kwata",
+                "Sayen app din kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Subscription yana bukatar biya akai-akai (misali kowace wata) don ci gaba da fasaloli."
+            },
+            {
+              "question": "Wace fa'ida ce talla (ads) ke bayarwa ga masu amfani?",
+              "options": [
+                "App din ya zama kyauta ga masu amfani",
+                "Suna biyan kuɗi mai yawa",
+                "Babu wata fa'ida",
+                "Suna rasa dama amfani da app"
+              ],
+              "answerIndex": 0,
+              "explanation": "Talla yana bada damar app ya zama kyauta ga mai amfani, yayin da kamfanoni ke biyan kuɗi don talla."
+            },
+            {
+              "question": "Wanne app ne ya fi dacewa da subscription?",
+              "options": [
+                "App na kayan aiki na yau da kullum wanda ake amfani da shi na dogon lokaci",
+                "App mai sauki mai amfani sau ɗaya kadai",
+                "Babu wani app da ya dace",
+                "App na wasa mai sauki kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Subscription ta fi dacewa da apps da ake amfani dasu akai-akai na dogon lokaci."
+            },
+            {
+              "question": "Wace hanyar samun kuɗi za ta iya dacewa da app na wasa mai sauki?",
+              "options": [
+                "Talla da in-app purchases",
+                "Subscription kadai",
+                "Babu wata hanya mai dacewa",
+                "Biyan kuɗi mai tsada sau ɗaya kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Apps na wasa masu sauki galibi suna amfana da talla da siyayya na cikin app."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-i6.png",
+            "caption": "Hanyoyin samun kuɗi daga app na wayar hannu"
+          }
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "lessons": [
+        {
+          "id": "mob-a1",
+          "order": 1,
+          "title": "Push Notifications da Background Services",
+          "summary": "Yadda apps ke aiki ko da ba a bude su ba",
+          "content": "Push Notifications suna bada damar server ya aika sako zuwa wayar mai amfani ko da app din ba a bude yake ba, misali sanarwar sabon sako a WhatsApp. Wannan yana amfani da tsari na musamman - Firebase Cloud Messaging (FCM) don Android, da Apple Push Notification service (APNs) don iOS.\n\nBackground Services kuma suna bada damar app ya ci gaba da aiki a bango, misali sabunta wurin da mai amfani yake (location) don app na taxi. Ana bukatar sarrafa wadannan da hankali domin kada su cinye baturin waya da yawa, kuma tsarurrukan aiki na yau da kullum suna da ka'idoji masu tsauri kan yadda apps za su iya amfani da background services.",
+          "quiz": [
+            {
+              "question": "Menene Push Notifications ke bada damar yi?",
+              "options": [
+                "Server ya aika sako zuwa wayar mai amfani ko da app ba a bude yake ba",
+                "App din ya rufe kansa",
+                "Nau'in wayar hannu",
+                "Sunan kamfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "Push notifications suna aiki ko da app din ba a bude yake ba a wancan lokaci."
+            },
+            {
+              "question": "Wanne tsari ne ake amfani da shi don push notifications a Android?",
+              "options": [
+                "Firebase Cloud Messaging (FCM)",
+                "Apple Push Notification service",
+                "Babu wata hanya",
+                "SharedPreferences"
+              ],
+              "answerIndex": 0,
+              "explanation": "FCM shine tsari da ake amfani dashi don push notifications a Android."
+            },
+            {
+              "question": "Wanne tsari ne ake amfani da shi don push notifications a iOS?",
+              "options": [
+                "Apple Push Notification service (APNs)",
+                "Firebase Cloud Messaging",
+                "SQLite",
+                "Babu wata hanya"
+              ],
+              "answerIndex": 0,
+              "explanation": "APNs shine tsari na Apple don push notifications a iOS."
+            },
+            {
+              "question": "Wanne misali ne na Background Service?",
+              "options": [
+                "Sabunta wurin da mai amfani yake don app na taxi",
+                "Kunna app din kai tsaye",
+                "Share dukkan bayanan mai amfani",
+                "Babu wani misali"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wannan misali ne na app da ke aiki a bango koda ba a bude shi kai tsaye ba."
+            },
+            {
+              "question": "Me yasa ake bukatar sarrafa background services da hankali?",
+              "options": [
+                "Domin kada su cinye baturin waya da yawa",
+                "Domin dole ne bisa doka kadai",
+                "Babu wani dalili",
+                "Domin yana kara saurin waya"
+              ],
+              "answerIndex": 0,
+              "explanation": "Yawan amfani da background services ba tare da kula ba na iya cinye baturi da yawa."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-a1.png",
+            "caption": "Yadda apps ke aiki ko da ba a bude su ba"
+          }
+        },
+        {
+          "id": "mob-a2",
+          "order": 2,
+          "title": "Tsaron App na Wayar Hannu",
+          "summary": "Matakan kariya na musamman ga mobile apps",
+          "content": "Tsaron mobile apps ya kunshi matakai kamar ɓoye bayanai masu muhimmanci (kamar API keys) don kada masu kutse su same su ta hanyar duba code din app din bayan an sauke shi. Ana kuma bukatar amfani da HTTPS koyaushe wajen sadarwa da backend, domin kare bayanan da ake tura tsakanin app da server daga leken asiri.\n\nHaka kuma, ana bada shawarar amfani da 'certificate pinning' wanda ke tabbatar da app din yana magana ne kai tsaye da ainihin server din da ya kamata, ba wani mai kutse wanda ke kwaikwayon server din ba (man-in-the-middle attack). Wadannan matakai suna da matukar muhimmanci musamman ga apps na banki ko wadanda ke rike da bayanan sirri.",
+          "quiz": [
+            {
+              "question": "Me yasa ake bukatar ɓoye API keys a cikin app?",
+              "options": [
+                "Domin kada masu kutse su same su ta hanyar duba code na app",
+                "Domin dole ne bisa doka kadai",
+                "Babu wani dalili",
+                "Domin yana kara girman app"
+              ],
+              "answerIndex": 0,
+              "explanation": "API keys da ba a ɓoye su ba na iya bayyana ga masu kutse."
+            },
+            {
+              "question": "Me yasa ake bukatar amfani da HTTPS koyaushe a mobile apps?",
+              "options": [
+                "Domin kare bayanan da ake tura tsakanin app da server daga leken asiri",
+                "Domin yana kara saurin app",
+                "Babu wani dalili",
+                "Domin dole ne bisa doka kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "HTTPS yana kare bayanan da ke tafiya tsakanin app da server."
+            },
+            {
+              "question": "Menene 'certificate pinning'?",
+              "options": [
+                "Tabbatar da app yana magana ne kai tsaye da ainihin server din da ya kamata",
+                "Share dukkan bayanan app",
+                "Nau'in wayar hannu",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Certificate pinning yana kariya daga hare-haren man-in-the-middle."
+            },
+            {
+              "question": "Menene 'man-in-the-middle attack'?",
+              "options": [
+                "Mai kutse wanda ke kwaikwayon server din da app din ke magana da shi",
+                "Nau'in wayar hannu",
+                "Sunan kamfani",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wannan hari yana bada damar mai kutse ya sa ido ko canza sadarwar tsakanin app da server."
+            },
+            {
+              "question": "Wanne app ne ya fi bukatar matakan tsaro masu zurfi kamar certificate pinning?",
+              "options": [
+                "Apps na banki ko wadanda ke rike da bayanan sirri",
+                "App na wasa mai sauki kadai",
+                "Babu wani app da ya bukaci wannan",
+                "App na kalanda kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Apps masu bayanan sirri masu muhimmanci suna bukatar mafi tsauri matakan tsaro."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-a2.png",
+            "caption": "Matakan kariya na musamman ga mobile apps"
+          }
+        },
+        {
+          "id": "mob-a3",
+          "order": 3,
+          "title": "Performance Optimization ga Mobile Apps",
+          "summary": "Yadda ake sa app ya yi sauri kuma ya rage cinye baturi",
+          "content": "Performance Optimization a mobile ya kunshi dabaru kamar: rage girman hotuna kafin sanya su a app, amfani da 'lazy loading' don loda abubuwa kawai lokacin da ake bukatarsu, da kuma rage yawan bukatun network da app din ke yi. Wadannan dabaru suna sa app ya yi sauri kuma ya cinye karancin bayanan intanet (data) na mai amfani.\n\nHaka kuma, ana bukatar kula da yadda app din ke amfani da baturi - misali, guje wa yin amfani da GPS ko sensor koyaushe idan ba a bukatarsu ba, domin wadannan fasaloli suna cinye baturi da yawa. Kayan aiki kamar Android Profiler suna taimaka wa masu haɓaka gano wadanne bangarori ne ke cinye albarkatun na'ura da yawa.",
+          "quiz": [
+            {
+              "question": "Wace dabara ce za ta iya sa app ya yi sauri?",
+              "options": [
+                "Rage girman hotuna kafin sanya su a app",
+                "Kara girman hotuna",
+                "Babu wata dabara",
+                "Kara bukatun network ba dalili"
+              ],
+              "answerIndex": 0,
+              "explanation": "Hotuna masu karancin girma suna loda cikin sauri."
+            },
+            {
+              "question": "Menene 'lazy loading' a mobile apps?",
+              "options": [
+                "Loda abubuwa kawai lokacin da ake bukatarsu",
+                "Loda dukkan abubuwa nan take koyaushe",
+                "Share abubuwa gaba ɗaya",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Lazy loading yana rage lodawa mara bukata nan take."
+            },
+            {
+              "question": "Me ya kamata a guji yi domin kada a cinye baturi da yawa?",
+              "options": [
+                "Amfani da GPS ko sensor koyaushe ba dalili",
+                "Rufe app din gaba ɗaya",
+                "Amfani da app din sau ɗaya kadai",
+                "Babu abin da za a guji"
+              ],
+              "answerIndex": 0,
+              "explanation": "GPS da sensors na iya cinye baturi da yawa idan ana amfani dasu ba dalili."
+            },
+            {
+              "question": "Menene Android Profiler ke bayarwa?",
+              "options": [
+                "Taimaka wa masu haɓaka gano wadanne bangarori ne ke cinye albarkatu da yawa",
+                "Gina app daga karce",
+                "Sunan kamfani",
+                "Babu wani amfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "Android Profiler kayan aiki ne na bincika aikin app da amfaninsa na albarkatu."
+            },
+            {
+              "question": "Wace fa'ida ce rage bukatun network ke bayarwa?",
+              "options": [
+                "Sa app ya yi sauri kuma ya rage cinye bayanan intanet na mai amfani",
+                "Kara cinye bayanan intanet",
+                "Babu wata fa'ida",
+                "Rage saurin app"
+              ],
+              "answerIndex": 0,
+              "explanation": "Rage bukatun network yana rage yawan bayanan intanet da mai amfani ke kashewa."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-a3.png",
+            "caption": "Yadda ake sa app ya yi sauri kuma ya rage cinye baturi"
+          }
+        },
+        {
+          "id": "mob-a4",
+          "order": 4,
+          "title": "CI/CD don Mobile Development",
+          "summary": "Atomatik gina da gwada apps kafin buga su",
+          "content": "Kamar yadda aka koya a darasin cloud computing, CI/CD tana atomatik gina da gwada code duk lokacin da injiniya ya kara canji. A mobile development, wannan yana da amfani sosai domin gina app na Android ko iOS na iya dauke lokaci, kuma ana bukatar gwada shi akan na'urori daban-daban kafin a buga shi.\n\nKayan aiki kamar Fastlane suna sauƙaƙa aikin CI/CD na musamman ga mobile apps, ta hanyar atomatik gina app din, gudanar da tests, da kuma sanya app din zuwa Google Play ko App Store, wanda ke rage aikin da injiniyoyi ke bukatar yi da hannu kafin kowace sabuntawa.",
+          "quiz": [
+            {
+              "question": "Me CI/CD ke yi duk lokacin da injiniya ya kara canji a mobile app?",
+              "options": [
+                "Yana atomatik gina da gwada code din",
+                "Yana share code din",
+                "Yana kunna wayar hannu",
+                "Babu abin da yake yi"
+              ],
+              "answerIndex": 0,
+              "explanation": "CI/CD yana atomatik gina da gwada sabon canji da aka kara."
+            },
+            {
+              "question": "Me yasa CI/CD ke da amfani sosai a mobile development?",
+              "options": [
+                "Domin gina app na iya dauke lokaci kuma ana bukatar gwadawa akan na'urori daban-daban",
+                "Babu wani amfani",
+                "Domin dole ne bisa doka",
+                "Domin yana kara farashin app"
+              ],
+              "answerIndex": 0,
+              "explanation": "Mobile apps na bukatar gina da gwaji akan na'urori masu bambanci, wanda CI/CD ke sauƙaƙawa."
+            },
+            {
+              "question": "Wanne kayan aiki ne aka gina musamman don CI/CD na mobile?",
+              "options": [
+                "Fastlane",
+                "Excel",
+                "Photoshop",
+                "Babu wani kayan aiki na musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "Fastlane kayan aiki ne sananne na CI/CD na musamman ga mobile apps."
+            },
+            {
+              "question": "Me Fastlane zai iya yi ta atomatik?",
+              "options": [
+                "Gina app, gudanar da tests, da sanya app zuwa Play Store/App Store",
+                "Share dukkan code din",
+                "Kirkirar sabon app daga karce",
+                "Babu abin da yake iya yi ta atomatik"
+              ],
+              "answerIndex": 0,
+              "explanation": "Fastlane yana atomatik dukkan wadannan matakai na deployment."
+            },
+            {
+              "question": "Wace fa'ida ce CI/CD ke bayarwa ga injiniyoyin mobile?",
+              "options": [
+                "Rage aikin da ake bukatar yi da hannu kafin kowace sabuntawa",
+                "Kara aikin da ake yi da hannu",
+                "Babu wata fa'ida",
+                "Rage saurin sabuntawa"
+              ],
+              "answerIndex": 0,
+              "explanation": "Automation yana sauƙaƙa aikin injiniyoyi wajen sakin sabbin sigogi."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-a4.png",
+            "caption": "Atomatik gina da gwada apps kafin buga su"
+          }
+        },
+        {
+          "id": "mob-a5",
+          "order": 5,
+          "title": "Wearables da IoT Integration",
+          "summary": "Hade apps da na'urori kamar agogon hannu",
+          "content": "Wearables (kamar Apple Watch ko Wear OS) da na'urorin IoT (Internet of Things, kamar firji mai wayo ko na'urar auna zuciya) suna bada sabuwar dama ga masu gina apps na wayar hannu su hada da wadannan na'urori. Misali, wani app na motsa jiki zai iya karban bayanan bugun zuciya kai tsaye daga agogon hannu, ya nuna su ga mai amfani a wayarsa.\n\nHada app da wearables/IoT yana bukatar fahimtar musamman fasahar sadarwa kamar Bluetooth Low Energy (BLE), wadda ke bada damar na'urori masu karancin baturi (kamar sensor) su sadar da wayar hannu ba tare da cinye baturi da yawa ba.",
+          "quiz": [
+            {
+              "question": "Menene Wearables?",
+              "options": [
+                "Na'urori kamar Apple Watch ko Wear OS da za a sanya a jiki",
+                "Nau'in wayar hannu kadai",
+                "Sunan kamfani",
+                "Wani irin cuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wearables na'urori ne masu sawa a jiki kamar agogon hannu."
+            },
+            {
+              "question": "Menene IoT (Internet of Things)?",
+              "options": [
+                "Na'urori kamar firji mai wayo da ke hade da intanet",
+                "Nau'in wayar hannu",
+                "Sunan kamfani",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "IoT yana bayyana na'urori masu hade da intanet baya ga kwamfuta da waya."
+            },
+            {
+              "question": "Wanne misali ne na amfani da wearables a app?",
+              "options": [
+                "App na motsa jiki yana karban bugun zuciya daga agogon hannu",
+                "App na kalanda kadai",
+                "Babu wani misali",
+                "App na jarabawa kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wannan misali ne mai sauki na yadda apps ke hade da wearables."
+            },
+            {
+              "question": "Wace fasaha ce ake amfani da ita don sadarwa da na'urori masu karancin baturi?",
+              "options": [
+                "Bluetooth Low Energy (BLE)",
+                "5G kadai",
+                "Fiber optic",
+                "Babu wata fasaha ta musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "BLE tana bada damar sadarwa ba tare da cinye baturi da yawa ba."
+            },
+            {
+              "question": "Me yasa BLE ke da amfani ga na'urorin IoT/wearables?",
+              "options": [
+                "Domin ba ta cinye baturi da yawa yayin sadarwa",
+                "Domin tana cinye baturi da yawa",
+                "Babu wani amfani",
+                "Domin dole ne bisa doka"
+              ],
+              "answerIndex": 0,
+              "explanation": "Karancin cinyewar baturi yana da muhimmanci ga karamin na'urorin da ke da baturi kadan."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-a5.png",
+            "caption": "Hade apps da na'urori kamar agogon hannu"
+          }
+        },
+        {
+          "id": "mob-a6",
+          "order": 6,
+          "title": "Sana'o'i a Fannin Mobile Development",
+          "summary": "Hanyoyin fara sana'a a fannin gina apps na wayar hannu",
+          "content": "Akwai sana'o'i da yawa a fannin mobile: 'Android Developer' yana mai da hankali kan gina apps na Android, 'iOS Developer' yana mai da hankali kan iOS, kuma 'Mobile Engineer' na iya nufin wanda ke amfani da cross-platform frameworks domin gina apps ga dukkan tsarurruka biyu.\n\nDon fara wannan tafarki, ana ba da shawarar zaɓan hanya ɗaya (Native Android/iOS ko Cross-Platform) a koya sosai, sannan a buga wani app mai sauki na kansa a Google Play ko App Store domin samun gogewa ta ainihi kan dukkan tsarin - daga rubuta code zuwa buga app din ga jama'a.",
+          "quiz": [
+            {
+              "question": "Menene aikin Android Developer?",
+              "options": [
+                "Mai da hankali kan gina apps na Android",
+                "Mai da hankali kan iOS kadai",
+                "Girki na abinci",
+                "Tuki na mota"
+              ],
+              "answerIndex": 0,
+              "explanation": "Android Developer yana mai da hankali kan gina apps don tsarin Android."
+            },
+            {
+              "question": "Menene aikin iOS Developer?",
+              "options": [
+                "Mai da hankali kan gina apps na iOS",
+                "Mai da hankali kan Android kadai",
+                "Sayar da kaya",
+                "Manomi"
+              ],
+              "answerIndex": 0,
+              "explanation": "iOS Developer yana mai da hankali kan gina apps don na'urorin Apple."
+            },
+            {
+              "question": "Menene ake nufi da Mobile Engineer wanda ke amfani da cross-platform?",
+              "options": [
+                "Yana gina apps ga dukkan tsarurruka biyu ta amfani da code guda ɗaya",
+                "Yana gina Android kadai",
+                "Yana gina iOS kadai",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wannan rawar tana amfani da fasahohi kamar Flutter/React Native don dukkan tsarurruka."
+            },
+            {
+              "question": "Me ake ba da shawara a matsayin mataki na farko don shiga fannin mobile?",
+              "options": [
+                "Zaɓan hanya ɗaya (Native ko Cross-Platform) a koya sosai",
+                "Koyon dukkan hanyoyi a lokaci ɗaya",
+                "Jira har a gama koyon komai",
+                "Babu wani mataki na farko"
+              ],
+              "answerIndex": 0,
+              "explanation": "Zaɓan hanya ɗaya yana bada tushe mai ƙarfi kafin fadada zuwa wasu."
+            },
+            {
+              "question": "Wace fa'ida ce buga wani app na kansa ke bayarwa ga mai koyo?",
+              "options": [
+                "Samun gogewa ta ainihi daga rubuta code zuwa buga app ga jama'a",
+                "Babu wata fa'ida",
+                "Domin dole ne bisa doka",
+                "Domin yana kara farashin waya"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wannan gogewa tana koya wa mutum dukkan matakan aiki, ba kawai rubuta code ba."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "mob-a6.png",
+            "caption": "Hanyoyin fara sana'a a fannin gina apps na wayar hannu"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1264 @@
+{
+  "id": "web_development",
+  "title": "Web Development",
+  "icon": "web",
+  "levels": [
+    {
+      "level": "Beginner",
+      "lessons": [
+        {
+          "id": "web-b1",
+          "order": 1,
+          "title": "Menene Yanar Gizo da Yadda Shafuka Ke Aiki",
+          "summary": "Bayani mai sauki kan yadda ake ganin shafin intanet",
+          "content": "Lokacin da ka rubuta adireshin shafi a browser dinka (kamar Chrome), browser din yana aika bukata zuwa wata sabar (server) mai nisa, wanda ke rike da fayilolin shafin. Sabar zai mayar da wadannan fayiloli, sannan browser dinka zai fassara su ya nuna maka shafin da ka gani a allo.\n\nWadannan fayiloli galibi sun kunshi HTML (tsarin shafi), CSS (kayan ado), da JavaScript (rayarwa). Wannan tsari na aikawa da karban bayanai yana faruwa cikin dakika kadan duk lokacin da ka ziyarci wani shafi.",
+          "quiz": [
+            {
+              "question": "Me ke faruwa lokacin da ka rubuta adireshin shafi a browser?",
+              "options": [
+                "Browser yana aika bukata zuwa sabar mai nisa",
+                "Ana kunna wayarka kai tsaye",
+                "Ana share tarihin bincike",
+                "Babu abin da ke faruwa"
+              ],
+              "answerIndex": 0,
+              "explanation": "Browser yana tuntubar sabar don karban fayilolin shafin."
+            },
+            {
+              "question": "Wanne fayil ne ke bayar da tsarin shafi?",
+              "options": [
+                "HTML",
+                "CSS",
+                "JavaScript kadai",
+                "Babu wani fayil"
+              ],
+              "answerIndex": 0,
+              "explanation": "HTML tana bada tsarin asali na shafi."
+            },
+            {
+              "question": "Wanne fayil ne ke bada kayan ado ga shafi?",
+              "options": [
+                "CSS",
+                "HTML",
+                "Sabar",
+                "Babu wani fayil"
+              ],
+              "answerIndex": 0,
+              "explanation": "CSS tana kula da yadda shafi yake gani (launi, girma, tsari)."
+            },
+            {
+              "question": "Wanne fayil ne ke rayar da shafi (misali danna maballi)?",
+              "options": [
+                "JavaScript",
+                "HTML kadai",
+                "CSS kadai",
+                "Babu wani fayil"
+              ],
+              "answerIndex": 0,
+              "explanation": "JavaScript tana kunna hulɗa da mai amfani a shafi."
+            },
+            {
+              "question": "Wanene ke rike da fayilolin shafi kafin a nuna maka?",
+              "options": [
+                "Sabar (server)",
+                "Wayarka kadai",
+                "Babu wanda ke rikesu",
+                "Kamfanin intanet"
+              ],
+              "answerIndex": 0,
+              "explanation": "Sabar tana rike da fayilolin shafi har sai an bukace su."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-b1.png",
+            "caption": "Bayani mai sauki kan yadda ake ganin shafin intanet"
+          }
+        },
+        {
+          "id": "web-b2",
+          "order": 2,
+          "title": "HTML - Tsarin Shafin Yanar Gizo",
+          "summary": "Fahimtar harshen da ke ba shafi tsari",
+          "content": "HTML (HyperText Markup Language) ba yare ne na shirye-shirye ba, a maimakon haka yare ne na 'markup' da ke bada tsari ga abun cikin shafi ta amfani da 'tags'. Misali, <h1>Sannu</h1> yana nuna 'Sannu' a matsayin babban taken shafi, yayin da <p>Wannan sakin layi ne</p> ke nuna sakin layi.\n\nHTML tana amfani da tsarin tree (tree) - shafi yana da wani babban tag <html> wanda ke dauke da <head> (bayanan da ba a gani kai tsaye ba) da <body> (abin da ake gani a shafi). Sanin manyan tags kamar <div>, <a> (hanyar sadarwa/link), da <img> (hoto) tushen fahimtar HTML ne.",
+          "quiz": [
+            {
+              "question": "Menene HTML?",
+              "options": [
+                "Yaren markup da ke bada tsari ga abun cikin shafi",
+                "Yaren shirye-shirye kamar Python",
+                "Nau'in wayar hannu",
+                "Sunan kamfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "HTML tana bada tsari, ba ita ce yaren shirye-shirye na gargajiya ba."
+            },
+            {
+              "question": "Menene <h1> ke wakilta?",
+              "options": [
+                "Babban take na shafi",
+                "Sakin layi",
+                "Hoto",
+                "Hanyar sadarwa"
+              ],
+              "answerIndex": 0,
+              "explanation": "<h1> tag ne da ake amfani da shi don babban taken shafi."
+            },
+            {
+              "question": "Menene <p> ke wakilta?",
+              "options": [
+                "Sakin layi (paragraph)",
+                "Babban take",
+                "Hoto",
+                "Jerin abubuwa"
+              ],
+              "answerIndex": 0,
+              "explanation": "<p> tag ne da ake amfani da shi don sakin layi na rubutu."
+            },
+            {
+              "question": "A cikin wanne tag ne ake sanya abin da ake gani a shafi?",
+              "options": [
+                "<body>",
+                "<head>",
+                "<html> kadai",
+                "Babu wani tag"
+              ],
+              "answerIndex": 0,
+              "explanation": "<body> tag ne da ke dauke da abin da ake gani a shafi."
+            },
+            {
+              "question": "Wanne tag ne ake amfani da shi don hoto?",
+              "options": [
+                "<img>",
+                "<a>",
+                "<div>",
+                "<p>"
+              ],
+              "answerIndex": 0,
+              "explanation": "<img> tag ne na musamman don nuna hoto a shafi."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-b2.png",
+            "caption": "Fahimtar harshen da ke ba shafi tsari"
+          }
+        },
+        {
+          "id": "web-b3",
+          "order": 3,
+          "title": "CSS - Kayan Ado na Shafi",
+          "summary": "Yadda ake sarrafa launi da tsarin gani na shafi",
+          "content": "CSS (Cascading Style Sheets) yana bada damar sarrafa yadda shafin HTML yake gani - launi, girman rubutu, sarari tsakanin abubuwa, da tsarin gani gaba ɗaya. Misali, za a iya rubuta 'h1 { color: blue; }' domin sanya dukkan <h1> tags a shafi launin shudi.\n\nCSS tana bada damar 'selectors' domin zaɓan wane bangare na HTML za a yi wa kayan ado, kuma 'properties' domin bayyana wane fasali (kamar launi ko girma) za a canza. Wannan raba tsari (HTML) daga kayan ado (CSS) yana sa shafuka su zama masu sauki gyarawa da sabuntawa.",
+          "quiz": [
+            {
+              "question": "Menene CSS ke yi?",
+              "options": [
+                "Yana sarrafa yadda shafin HTML yake gani",
+                "Yana kirkirar tsarin shafi",
+                "Yana rayar da shafi",
+                "Nau'in database"
+              ],
+              "answerIndex": 0,
+              "explanation": "CSS tana kula da kayan ado da tsarin gani na shafi."
+            },
+            {
+              "question": "A misalin 'h1 { color: blue; }', me ake yi?",
+              "options": [
+                "Sanya dukkan h1 tags launin shudi",
+                "Share dukkan h1 tags",
+                "Kirkirar sabon h1 tag",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Wannan CSS rule tana sanya launin shudi ga dukkan h1 elements."
+            },
+            {
+              "question": "Menene 'selector' a CSS?",
+              "options": [
+                "Yana zaɓan wane bangare na HTML za a yi wa kayan ado",
+                "Nau'in database",
+                "Sunan kamfani",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Selector yana tantance wane HTML element CSS rule zai shafa."
+            },
+            {
+              "question": "Wace fa'ida ce raba HTML da CSS ke bayarwa?",
+              "options": [
+                "Yana sa shafuka su zama masu sauki gyarawa da sabuntawa",
+                "Yana kara rikitar da shafi",
+                "Babu wata fa'ida",
+                "Yana rage saurin shafi"
+              ],
+              "answerIndex": 0,
+              "explanation": "Raba tsari da kayan ado yana sauƙaƙa kula da shafi."
+            },
+            {
+              "question": "Menene 'property' a CSS?",
+              "options": [
+                "Fasalin da za a canza kamar launi ko girma",
+                "Nau'in HTML tag",
+                "Sunan kamfani",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Property tana nuna wane fasali (kamar color ko font-size) ake canzawa."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-b3.png",
+            "caption": "Yadda ake sarrafa launi da tsarin gani na shafi"
+          }
+        },
+        {
+          "id": "web-b4",
+          "order": 4,
+          "title": "JavaScript - Rayar da Shafi",
+          "summary": "Yadda ake sanya shafi ya yi hulda da mai amfani",
+          "content": "JavaScript yare ne na shirye-shirye da ke bada damar shafi ya 'rayu' - misali, canza abun cikin shafi ba tare da sake loda shi ba lokacin da mai amfani ya danna wani maballi, ko nuna sanarwa idan an cika wani fam (form) ba daidai ba.\n\nJavaScript na iya sarrafa HTML (canza abun cikinsa) da CSS (canza kayan adonsa) ta atomatik bisa abin da mai amfani ya yi. Misali, danna maballin 'Like' a shafin sada zumunta yana amfani da JavaScript don canza launi da adadin like ba tare da sake loda dukkan shafin ba.",
+          "quiz": [
+            {
+              "question": "Menene JavaScript ke yi wa shafi?",
+              "options": [
+                "Yana sanya shafi ya yi hulda da mai amfani",
+                "Yana bada tsari kadai",
+                "Yana bada kayan ado kadai",
+                "Babu wani aiki"
+              ],
+              "answerIndex": 0,
+              "explanation": "JavaScript tana kunna hulɗa da rayarwa a shafi."
+            },
+            {
+              "question": "Wanne misali ne na abin da JavaScript ke iya yi?",
+              "options": [
+                "Canza abun cikin shafi ba tare da sake loda shi ba",
+                "Sanya launi na dindindin ga shafi",
+                "Rike bayanan shafi a sabar",
+                "Babu wani misali"
+              ],
+              "answerIndex": 0,
+              "explanation": "JavaScript tana bada damar canje-canje masu rai ba tare da sake loda shafi ba."
+            },
+            {
+              "question": "Menene JavaScript ke sarrafawa a shafi?",
+              "options": [
+                "HTML da CSS ta atomatik bisa abin da mai amfani yayi",
+                "Sabar kadai",
+                "Babu abin da take sarrafawa",
+                "Kwamfutar mai amfani kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "JavaScript na iya canza HTML da CSS bisa yanayi da hulɗar mai amfani."
+            },
+            {
+              "question": "Wanne misali ne na amfani da JavaScript a rayuwar yau da kullum?",
+              "options": [
+                "Danna maballin Like a shafin sada zumunta",
+                "Bude littafi na takarda",
+                "Girki na abinci",
+                "Babu wani misali"
+              ],
+              "answerIndex": 0,
+              "explanation": "Danna Like yana amfani da JavaScript don sabunta adadin da launi ba tare da sake loda shafi ba."
+            },
+            {
+              "question": "Menene JavaScript?",
+              "options": [
+                "Yaren shirye-shirye da ke rayar da shafi",
+                "Nau'in HTML tag",
+                "Sunan kamfani",
+                "Wani irin cuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "JavaScript yare ne na programming da ke aiki a browser domin rayar da shafi."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-b4.png",
+            "caption": "Yadda ake sanya shafi ya yi hulda da mai amfani"
+          }
+        },
+        {
+          "id": "web-b5",
+          "order": 5,
+          "title": "Browser da Yadda Yake Fassara Code",
+          "summary": "Aikin da browser ke yi a bayan fage",
+          "content": "Browser (kamar Chrome, Firefox, ko Safari) shine software da ke karanta HTML, CSS, da JavaScript, ya fassara su, sannan ya nuna maka sakamakon a matsayin shafi mai kyau da za ka iya gani da hulda dashi. A cikin browser akwai wani bangare da ake kira 'rendering engine' wanda ke da alhakin wannan fassarawa.\n\nBrowsers daban-daban na iya fassara wasu code din daban-daban kadan a wasu lokuta, wanda shine dalilin da masu gina shafi ke bukatar gwada shafinsu a browsers daban-daban domin tabbatar da ya yi kama daidai a ko'ina.",
+          "quiz": [
+            {
+              "question": "Menene Browser?",
+              "options": [
+                "Software da ke karanta HTML, CSS, da JavaScript ya nuna sakamakon a matsayin shafi",
+                "Nau'in sabar",
+                "Sunan kamfani na intanet",
+                "Wani irin cuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "Browser yana fassara code ya nuna maka shafi mai kyau."
+            },
+            {
+              "question": "Menene 'rendering engine' a browser?",
+              "options": [
+                "Bangaren da ke da alhakin fassara code zuwa shafi mai kyau",
+                "Sunan kamfani",
+                "Nau'in database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Rendering engine shine sashin da ke gudanar da fassarar HTML/CSS/JS zuwa shafi."
+            },
+            {
+              "question": "Wanne misali ne na browser?",
+              "options": [
+                "Chrome",
+                "Windows",
+                "Excel",
+                "Android"
+              ],
+              "answerIndex": 0,
+              "explanation": "Chrome misali ne sananne na browser."
+            },
+            {
+              "question": "Me yasa masu gina shafi ke gwada shafinsu a browsers daban-daban?",
+              "options": [
+                "Domin browsers na iya fassara code din daban-daban kadan",
+                "Domin dole ne bisa doka",
+                "Babu wani dalili",
+                "Domin yana kara kuɗi"
+              ],
+              "answerIndex": 0,
+              "explanation": "Tabbatar da shafi ya yi kama daidai a ko'ina yana bukatar gwaji a browsers daban-daban."
+            },
+            {
+              "question": "Me browser ke yi da HTML, CSS, da JavaScript?",
+              "options": [
+                "Yana karanta su ya fassara su zuwa shafi",
+                "Yana share su nan take",
+                "Yana aika su zuwa wayarka kai tsaye ba tare da fassarawa ba",
+                "Babu abin da yake yi"
+              ],
+              "answerIndex": 0,
+              "explanation": "Fassara code zuwa shafi mai kyau shine babban aikin browser."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-b5.png",
+            "caption": "Aikin da browser ke yi a bayan fage"
+          }
+        },
+        {
+          "id": "web-b6",
+          "order": 6,
+          "title": "Gina Shafin Farko Mai Sauki",
+          "summary": "Matakan farko na hada HTML da CSS tare",
+          "content": "Don gina shafin farko, ana bukatar fayil na HTML wanda ya kunshi tsarin shafi (misali, take da sakin layi), sannan a hade shi da fayil na CSS ta amfani da <link> tag domin bada kayan ado. Yawancin editocin code (kamar VS Code) suna da fasalin duba shafinka kai tsaye yayin da kake rubuta code.\n\nMataki na farko mai kyau shine gina shafin 'About Me' mai sauki wanda ya kunshi sunanka, wani bayani a takaice game da kai, da hoto - wannan zai bawa mai koyo damar aiwatar da ka'idojin HTML da CSS da suka koya a wani aiki na ainihi.",
+          "quiz": [
+            {
+              "question": "Me ake bukata don gina shafin farko?",
+              "options": [
+                "Fayil na HTML, wanda za a iya hadewa da CSS",
+                "Kwamfuta mai tsada sosai kadai",
+                "Asusun banki",
+                "Babu bukatar wani abu"
+              ],
+              "answerIndex": 0,
+              "explanation": "HTML shine tushen shafi, sannan CSS za a iya hadawa domin kayan ado."
+            },
+            {
+              "question": "Ta yaya ake hada fayil na CSS zuwa HTML?",
+              "options": [
+                "Ta amfani da <link> tag",
+                "Ta amfani da <img> tag",
+                "Ba a iya hadawa ba",
+                "Ta hanyar sabar kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "<link> tag ana amfani da shi domin hada CSS file zuwa HTML."
+            },
+            {
+              "question": "Wanne kayan aiki ne ake amfani dashi wajen rubuta code?",
+              "options": [
+                "VS Code",
+                "Microsoft Word",
+                "Calculator",
+                "Camera"
+              ],
+              "answerIndex": 0,
+              "explanation": "VS Code editan code ne sananne da ake amfani dashi wajen gina shafuka."
+            },
+            {
+              "question": "Wanne shafi ne aiki mai kyau na farko ga mai koyo?",
+              "options": [
+                "Shafin 'About Me' mai sauki",
+                "Babban shafin sayarwa na duniya",
+                "Database na banki",
+                "Babu wani zabi mai kyau"
+              ],
+              "answerIndex": 0,
+              "explanation": "Shafin About Me yana bada damar aiwatar da ka'idoji na asali cikin sauki."
+            },
+            {
+              "question": "Wace fa'ida ce editocin code masu duba shafi kai tsaye ke bayarwa?",
+              "options": [
+                "Suna bada damar ganin sakamakon canje-canjenka nan take",
+                "Suna share code din",
+                "Babu wata fa'ida",
+                "Suna toshe kuskure kai tsaye"
+              ],
+              "answerIndex": 0,
+              "explanation": "Ganin sakamakon nan take yana taimaka wa mai koyo fahimtar tasirin kowane canji."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-b6.png",
+            "caption": "Matakan farko na hada HTML da CSS tare"
+          }
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "lessons": [
+        {
+          "id": "web-i1",
+          "order": 1,
+          "title": "Responsive Design",
+          "summary": "Gina shafi mai dacewa da kowace na'ura",
+          "content": "Responsive Design yana tabbatar da cewa shafinka yana gani da kyau ko wace irin na'ura ake amfani da ita don ganinsa - babban kwamfuta, tablet, ko karamar waya. Wannan ana samun sa ta hanyar amfani da CSS 'media queries', wanda ke bada damar canza tsarin shafi bisa girman allon na'urar.\n\nMisali, wani shafi zai iya nuna manyan hotuna guda uku a jere a kwamfuta, amma ya sauya zuwa hoto ɗaya bayan ɗaya a wayar hannu domin allon ta karama. Domin yawancin mutane a yau suke amfani da wayar hannu don shiga intanet, responsive design ya zama muhimmin bangare na gina kowane shafi na zamani.",
+          "quiz": [
+            {
+              "question": "Menene Responsive Design?",
+              "options": [
+                "Tabbatar da shafi yana gani da kyau a kowace irin na'ura",
+                "Gina shafi don kwamfuta kadai",
+                "Nau'in database",
+                "Sunan kamfani"
+              ],
+              "answerIndex": 0,
+              "explanation": "Responsive Design yana daidaita shafi bisa girman na'urar da ake amfani da ita."
+            },
+            {
+              "question": "Menene 'media queries' a CSS?",
+              "options": [
+                "Fasalin da ke bada damar canza tsarin shafi bisa girman allo",
+                "Nau'in HTML tag",
+                "Sunan kamfani",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Media queries suna bada damar CSS canzawa bisa girman allon na'ura."
+            },
+            {
+              "question": "Me yasa responsive design ke da muhimmanci a yau?",
+              "options": [
+                "Domin yawancin mutane suna amfani da wayar hannu don shiga intanet",
+                "Domin dole ne bisa doka",
+                "Babu wani dalili",
+                "Domin yana kara tsada"
+              ],
+              "answerIndex": 0,
+              "explanation": "Yawan masu amfani da wayar hannu ya sanya responsive design muhimmi."
+            },
+            {
+              "question": "Wanne canji ne zai iya faruwa a shafi mai responsive tsakanin kwamfuta da waya?",
+              "options": [
+                "Sauyawa daga hotuna uku a jere zuwa hoto ɗaya bayan ɗaya",
+                "Sauyawa daga Hausa zuwa Turanci",
+                "Sauya launi kadai",
+                "Babu wani canji"
+              ],
+              "answerIndex": 0,
+              "explanation": "Tsarin gani na iya sauyawa bisa girman allo don dacewa da karamar waya."
+            },
+            {
+              "question": "Ba tare da responsive design ba, me zai iya faruwa a wayar hannu?",
+              "options": [
+                "Shafi zai iya gani mara kyau ko wahalar amfani",
+                "Shafi zai yi sauri fiye da kima",
+                "Babu wata matsala",
+                "Shafi zai yi kyau koyaushe"
+              ],
+              "answerIndex": 0,
+              "explanation": "Rashin responsive design na iya sa shafi ya yi wuya a yi amfani da shi a karamin allo."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-i1.png",
+            "caption": "Gina shafi mai dacewa da kowace na'ura"
+          }
+        },
+        {
+          "id": "web-i2",
+          "order": 2,
+          "title": "Frontend Frameworks (React, Vue)",
+          "summary": "Kayan aikin da ke sauƙaƙa gina shafuka masu sarkakiya",
+          "content": "Frontend Frameworks kamar React (wanda Facebook/Meta ta kirkira) da Vue suna bada tsari da kayan aiki da ke sauƙaƙa gina shafuka masu sarkakiya, musamman wadanda ke da bangarori masu canzawa akai-akai (misali, shafin sada zumunta). Maimakon rubuta dukkan HTML da JavaScript da hannu, ana amfani da 'components' - kananan sassa masu sake amfani.\n\nMisali, wani 'Button component' za a iya gina shi sau ɗaya, sannan a sake amfani dashi a wurare da yawa a cikin app din, tare da bambancin launi ko rubutu bisa bukata. Wadannan frameworks suna sa gina manyan apps ya zama mai tsari da sauki fiye da amfani da HTML/CSS/JS na asali kawai.",
+          "quiz": [
+            {
+              "question": "Wanne kamfani ne ya kirkiri React?",
+              "options": [
+                "Facebook (Meta)",
+                "Google",
+                "Microsoft",
+                "Amazon"
+              ],
+              "answerIndex": 0,
+              "explanation": "React kayan aiki ne da Facebook (yanzu Meta) ta kirkira."
+            },
+            {
+              "question": "Menene 'component' a React ko Vue?",
+              "options": [
+                "Karamin sashi mai sake amfani na shafi",
+                "Sunan kamfani",
+                "Nau'in database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Component yana wakiltar wani sashi na UI da za a sake amfani da shi a wurare daban-daban."
+            },
+            {
+              "question": "Wace fa'ida ce Frontend Frameworks ke bayarwa?",
+              "options": [
+                "Suna sauƙaƙa gina shafuka masu sarkakiya",
+                "Suna kara wahalar gina shafi",
+                "Babu wata fa'ida",
+                "Suna rage saurin shafi koyaushe"
+              ],
+              "answerIndex": 0,
+              "explanation": "Frameworks suna bada tsari da kayan aiki wanda ke sauƙaƙa aiki."
+            },
+            {
+              "question": "Wanne misali ne na component mai sake amfani?",
+              "options": [
+                "Button component",
+                "Babban server",
+                "Database guda ɗaya",
+                "Babu wani misali"
+              ],
+              "answerIndex": 0,
+              "explanation": "Button misali ne mai sauki na component da za a sake amfani dashi a wurare da yawa."
+            },
+            {
+              "question": "A wanne irin app ne frameworks kamar React ke da amfani sosai?",
+              "options": [
+                "Apps masu bangarori masu canzawa akai-akai kamar sada zumunta",
+                "Shafi mai sauki na 'About Me' kadai",
+                "Littafi na dijital ba tare da hulɗa ba",
+                "Babu wani app na musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "React ta fi amfani a apps masu sarkakiya da yawan canje-canje."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-i2.png",
+            "caption": "Kayan aikin da ke sauƙaƙa gina shafuka masu sarkakiya"
+          }
+        },
+        {
+          "id": "web-i3",
+          "order": 3,
+          "title": "Backend Development",
+          "summary": "Menene ke faruwa a bayan fage na shafi",
+          "content": "Backend Development yana mai da hankali kan tsarin da ke aiki a bayan fage na wani shafi ko app - server, database, da tsarin da ke sarrafa bayanai kafin a aiko su zuwa frontend (bangaren da mai amfani ke gani). Misali, lokacin da ka shiga asusunka a wani shafi, backend ne ke tabbatar da kalmar sirrinka daidai ce kafin ya bada dama shiga.\n\nYaruka kamar Python (tare da Django ko Flask), JavaScript (tare da Node.js), da Java galibi ana amfani dasu wajen backend development. Backend yana da alhakin tsaro, sarrafa bayanai, da tabbatar da app din yana aiki daidai koda kuwa masu amfani da yawa suna amfani dashi lokaci ɗaya.",
+          "quiz": [
+            {
+              "question": "Menene Backend Development ke mayar da hankali a kai?",
+              "options": [
+                "Tsarin da ke aiki a bayan fage kamar server da database",
+                "Kayan ado na shafi kadai",
+                "Hoto na shafi kadai",
+                "Babu wani abin da yake kula dashi"
+              ],
+              "answerIndex": 0,
+              "explanation": "Backend yana kula da tsarin da ba a gani kai tsaye ba amma yana tafiyar da app din."
+            },
+            {
+              "question": "Wanne misali ne na aikin backend?",
+              "options": [
+                "Tabbatar da kalmar sirrinka daidai ce lokacin da ka shiga asusu",
+                "Sauya launi na maballi",
+                "Nuna hoto a shafi kadai",
+                "Babu wani misali"
+              ],
+              "answerIndex": 0,
+              "explanation": "Tabbatar da login shine misali sananne na aikin backend."
+            },
+            {
+              "question": "Wanne yare/kayan aiki ne ake amfani dashi wajen backend?",
+              "options": [
+                "Node.js",
+                "CSS kadai",
+                "HTML kadai",
+                "Photoshop"
+              ],
+              "answerIndex": 0,
+              "explanation": "Node.js kayan aiki ne sananne da ake amfani dashi wajen gina backend."
+            },
+            {
+              "question": "Wanene ke da alhakin tsaro da sarrafa bayanai a app?",
+              "options": [
+                "Backend",
+                "Frontend kadai",
+                "Browser kadai",
+                "Babu wanda ke da alhaki"
+              ],
+              "answerIndex": 0,
+              "explanation": "Backend yana da alhakin tsaro da sarrafa bayanai mai muhimmanci."
+            },
+            {
+              "question": "Me backend ke tabbatarwa idan masu amfani da yawa suke amfani da app lokaci ɗaya?",
+              "options": [
+                "App din yana aiki daidai ga kowa",
+                "Babu wata tabbaci da ake bukata",
+                "App din zai daina aiki nan take",
+                "Ba a bukatar backend a wannan hali"
+              ],
+              "answerIndex": 0,
+              "explanation": "Backend yana tabbatar da app din yana jure wa amfani daga mutane da yawa lokaci ɗaya."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-i3.png",
+            "caption": "Menene ke faruwa a bayan fage na shafi"
+          }
+        },
+        {
+          "id": "web-i4",
+          "order": 4,
+          "title": "Databases a Web Development",
+          "summary": "Yadda shafuka ke ajiye bayanan masu amfani",
+          "content": "Yawancin shafuka suna bukatar ajiye bayanai - misali, bayanan asusun mai amfani, sakonnin da aka aika, ko kayayyakin da ake sayarwa. Wannan ana yin sa ne ta amfani da database, wanda backend ke sadarwa dashi domin ajiyewa ko samo bayanai.\n\nMisali, lokacin da ka rubuta sabon sako a wani shafin sada zumunta, backend zai adana wannan sakon a database, sannan idan wani ya bude shafin, backend zai samo sakonnin daga database ya turo su zuwa frontend domin a nuna maka. Zaben tsakanin SQL da NoSQL database (kamar yadda aka koya a darasin cloud) ya dogara ne akan bukatar app din.",
+          "quiz": [
+            {
+              "question": "Me yasa yawancin shafuka ke bukatar database?",
+              "options": [
+                "Domin ajiye bayanai kamar bayanan asusu da sakonni",
+                "Domin dole ne bisa doka kadai",
+                "Babu wani dalili",
+                "Domin yana kara saurin shafi"
+              ],
+              "answerIndex": 0,
+              "explanation": "Database yana bada damar ajiya da samo bayanai masu muhimmanci ga app."
+            },
+            {
+              "question": "Wanene ke sadarwa da database a app?",
+              "options": [
+                "Backend",
+                "Frontend kadai",
+                "Browser kadai",
+                "Babu wanda ke sadarwa"
+              ],
+              "answerIndex": 0,
+              "explanation": "Backend ne ke sadarwa da database domin ajiyewa ko samo bayanai."
+            },
+            {
+              "question": "Me ke faruwa lokacin da ka rubuta sabon sako a shafin sada zumunta?",
+              "options": [
+                "Backend zai adana sakon a database",
+                "Sakon zai bace nan take",
+                "Ba a adana komai ba",
+                "Ana kai sakon zuwa wayarka kadai"
+              ],
+              "answerIndex": 0,
+              "explanation": "Sakonnin ana adana su a database domin a iya ganin su daga baya."
+            },
+            {
+              "question": "Wanne tsari ne ke amfani da database don nuna maka sakonnin wasu?",
+              "options": [
+                "Backend yana samo bayanai daga database ya turo zuwa frontend",
+                "Frontend yana samo bayanai kai tsaye ba tare da backend ba",
+                "Babu wata alaka",
+                "Bayanai suna zuwa ta wayar salula kai tsaye"
+              ],
+              "answerIndex": 0,
+              "explanation": "Backend yana matsayin tsakiya tsakanin database da frontend."
+            },
+            {
+              "question": "Me ya kamata a duba kafin zaban SQL ko NoSQL don wani app?",
+              "options": [
+                "Bukatar app din",
+                "Launi na app din",
+                "Sunan mai gina app din",
+                "Babu wani abin la'akari"
+              ],
+              "answerIndex": 0,
+              "explanation": "Zaben database ya dogara ne da yanayin bayanan da app din ke bukata."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-i4.png",
+            "caption": "Yadda shafuka ke ajiye bayanan masu amfani"
+          }
+        },
+        {
+          "id": "web-i5",
+          "order": 5,
+          "title": "REST APIs a Web",
+          "summary": "Yadda frontend da backend ke musayar bayanai",
+          "content": "REST API tana bada hanyar da frontend ke bukatar bayanai daga backend, ta amfani da 'HTTP methods' kamar GET (samo bayanai), POST (aika sabbin bayanai), PUT (sabunta bayanai), da DELETE (share bayanai). Misali, lokacin da wani app na sayayya ya nuna maka jerin kayayyaki, frontend din yana amfani da GET request zuwa backend domin samun wannan jerin daga database.\n\nWannan tsari yana bada damar frontend da backend su rabu kuma su iya aiki daban-daban - misali, za a iya sauya backend zuwa wani sabon tsari ba tare da canza frontend ba, matukar API din bai canza ba. Wannan yana sa gina da kula da manyan apps ya zama mai sauki.",
+          "quiz": [
+            {
+              "question": "Menene HTTP method 'GET' ke yi?",
+              "options": [
+                "Samo bayanai daga backend",
+                "Aika sabbin bayanai",
+                "Share bayanai",
+                "Sabunta bayanai"
+              ],
+              "answerIndex": 0,
+              "explanation": "GET request ana amfani da ita wajen samo bayanai daga sabar."
+            },
+            {
+              "question": "Menene HTTP method 'POST' ke yi?",
+              "options": [
+                "Aika sabbin bayanai zuwa backend",
+                "Samo bayanai kadai",
+                "Share dukkan database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "POST request ana amfani da ita wajen aika sabbin bayanai zuwa sabar."
+            },
+            {
+              "question": "Wanne HTTP method ne ake amfani dashi don share bayanai?",
+              "options": [
+                "DELETE",
+                "GET",
+                "POST",
+                "PUT"
+              ],
+              "answerIndex": 0,
+              "explanation": "DELETE request tana amfani da ita don share wani bayani daga database."
+            },
+            {
+              "question": "Wace fa'ida ce REST API ke bayarwa ga frontend da backend?",
+              "options": [
+                "Suna bada damar su rabu kuma su iya aiki daban-daban",
+                "Suna hana su sadarwa gaba ɗaya",
+                "Babu wata fa'ida",
+                "Suna sa dole a canza duka biyu tare koyaushe"
+              ],
+              "answerIndex": 0,
+              "explanation": "REST API yana bada damar canza backend ba tare da shafar frontend ba, matukar API din bai canza ba."
+            },
+            {
+              "question": "Wanne misali ne na amfani da GET request?",
+              "options": [
+                "Nuna jerin kayayyaki a app na sayayya",
+                "Share asusun mai amfani",
+                "Kunna wayar hannu",
+                "Babu wani misali"
+              ],
+              "answerIndex": 0,
+              "explanation": "GET request ana amfani da ita wajen samo jerin kayayyaki daga database."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-i5.png",
+            "caption": "Yadda frontend da backend ke musayar bayanai"
+          }
+        },
+        {
+          "id": "web-i6",
+          "order": 6,
+          "title": "Hosting da Deployment",
+          "summary": "Yadda ake sanya shafi a intanet don kowa ya iya ganinsa",
+          "content": "Hosting shine tsarin sanya fayilolin shafinka a wata sabar da ke hade da intanet koyaushe, ta yadda kowa a duniya zai iya ziyarta shi ta hanyar adireshinsa. Kamfanoni kamar Netlify, Vercel, ko AWS suna bada wannan sabis.\n\nDeployment kuma yana nufin tsarin daukar code dinka daga kwamfutarka ka sanya shi a wannan sabar hosting domin ya zama shafi na ainihi da mutane za su iya gani. Yawancin masu haɓaka a yau suna amfani da CI/CD (kamar yadda aka koya a darasin cloud) domin wannan tsari ya faru ta atomatik duk lokacin da suka loda sabon canji.",
+          "quiz": [
+            {
+              "question": "Menene Hosting?",
+              "options": [
+                "Sanya fayilolin shafinka a sabar da ke hade da intanet koyaushe",
+                "Nau'in wayar hannu",
+                "Sunan kamfani",
+                "Wani irin cuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "Hosting yana bada damar shafinka ya kasance a intanet koyaushe."
+            },
+            {
+              "question": "Wanne kamfani ne misali na mai bada hosting?",
+              "options": [
+                "Netlify",
+                "Firewall",
+                "Router",
+                "Antivirus"
+              ],
+              "answerIndex": 0,
+              "explanation": "Netlify kamfani ne sananne da ke bada hosting ga masu gina shafuka."
+            },
+            {
+              "question": "Menene Deployment?",
+              "options": [
+                "Tsarin daukar code daga kwamfutarka ka sanya shi a sabar hosting",
+                "Share code din",
+                "Nau'in database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Deployment yana sanya code din ya zama shafi na ainihi da mutane za su iya gani."
+            },
+            {
+              "question": "Ta yaya CI/CD ke taimaka wa deployment?",
+              "options": [
+                "Yana sanya deployment ya faru ta atomatik lokacin da aka loda sabon canji",
+                "Yana toshe deployment gaba ɗaya",
+                "Babu wata alaka",
+                "Yana rage saurin intanet"
+              ],
+              "answerIndex": 0,
+              "explanation": "CI/CD yana atomatik gwadawa da sakin sabon code zuwa hosting."
+            },
+            {
+              "question": "Me zai faru idan ba a yi hosting ga shafinka ba?",
+              "options": [
+                "Babu wanda zai iya ziyarce shi ta intanet",
+                "Zai gani daidai ga kowa a duniya",
+                "Zai yi aiki mafi kyau",
+                "Babu wata matsala"
+              ],
+              "answerIndex": 0,
+              "explanation": "Ba tare da hosting ba, shafi zai kasance kawai a kwamfutarka, ba a intanet ba."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-i6.png",
+            "caption": "Yadda ake sanya shafi a intanet don kowa ya iya ganinsa"
+          }
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "lessons": [
+        {
+          "id": "web-a1",
+          "order": 1,
+          "title": "Full-Stack Architecture",
+          "summary": "Yadda dukkan sassan web app ke hadewa",
+          "content": "Full-Stack Architecture yana bayyana yadda frontend, backend, da database ke hadewa tare domin gina cikakken app. Misali, wani app na sayayya zai kunshi: React frontend (abin da mai amfani ke gani), Node.js backend (yana sarrafa bukatun), da PostgreSQL database (yana ajiye bayanan kayayyaki da masu amfani).\n\nSanin yadda wadannan sassa uku ke hulɗa da juna - ta yaya bukata ke tafiya daga frontend zuwa backend, sannan zuwa database, sannan amsa ta dawo - yana da matukar muhimmanci ga duk wanda ke son zama Full-Stack Developer, domin yana bukatar fahimtar dukkan tsarin, ba sashi ɗaya kawai ba.",
+          "quiz": [
+            {
+              "question": "Menene Full-Stack Architecture?",
+              "options": [
+                "Yadda frontend, backend, da database ke hadewa tare",
+                "Nau'in database kadai",
+                "Sunan kamfani",
+                "Wani irin cuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "Full-Stack Architecture yana bayyana hadin gwiwar dukkan sassan app."
+            },
+            {
+              "question": "Wanne bangare ne mai amfani ke gani kai tsaye?",
+              "options": [
+                "Frontend",
+                "Database kadai",
+                "Backend kadai",
+                "Babu wani bangare"
+              ],
+              "answerIndex": 0,
+              "explanation": "Frontend shine bangaren da mai amfani ke gani da hulɗa dashi."
+            },
+            {
+              "question": "Ta yaya bukata ke tafiya a full-stack app?",
+              "options": [
+                "Daga frontend zuwa backend, sannan zuwa database, sannan amsa ta dawo",
+                "Kai tsaye daga database zuwa mai amfani",
+                "Babu wani tsari na musamman",
+                "Frontend yana magana da database kai tsaye koyaushe"
+              ],
+              "answerIndex": 0,
+              "explanation": "Bukata tana bi ta hanyar da aka tsara: frontend -> backend -> database -> dawowa."
+            },
+            {
+              "question": "Me yasa Full-Stack Developer ke bukatar fahimtar dukkan tsarin?",
+              "options": [
+                "Domin yana bukatar aiki a kowane bangare na app",
+                "Domin ba shi da wata bukata ta musamman",
+                "Domin backend ba shi da alaka da frontend",
+                "Babu wani dalili"
+              ],
+              "answerIndex": 0,
+              "explanation": "Full-Stack Developer yana aiki a duk matakan app, don haka fahimtar dukkan su yana da muhimmanci."
+            },
+            {
+              "question": "Wanne misali ne na database da za a iya amfani dashi a full-stack app?",
+              "options": [
+                "PostgreSQL",
+                "React",
+                "CSS",
+                "HTML"
+              ],
+              "answerIndex": 0,
+              "explanation": "PostgreSQL misali ne na database da ake amfani dashi wajen ajiye bayanan app."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-a1.png",
+            "caption": "Yadda dukkan sassan web app ke hadewa"
+          }
+        },
+        {
+          "id": "web-a2",
+          "order": 2,
+          "title": "Web Performance Optimization",
+          "summary": "Yadda ake sauya gudun aikin shafi",
+          "content": "Web Performance Optimization yana mai da hankali kan sanya shafuka su loda cikin sauri. Wannan yana da muhimmanci domin masu amfani suna barin shafuka masu jinkiri, kuma injunan bincike kamar Google suna kula da saurin shafi wajen tantance matsayinsa a sakamakon bincike.\n\nDabaru sun hada da: rage girman hotuna kafin a loda su (image compression), amfani da 'caching' (ajiye kwafin bayanai a na'urar mai amfani domin kar a sake bukatar su daga sabar kowane lokaci), da 'lazy loading' (loda hotuna kawai lokacin da mai amfani ya kai kusa da su a shafi, ba dukkan hotunan lokaci ɗaya ba).",
+          "quiz": [
+            {
+              "question": "Menene Web Performance Optimization ke mayar da hankali a kai?",
+              "options": [
+                "Sanya shafuka su loda cikin sauri",
+                "Kara girman hotuna",
+                "Rage tsaro na shafi",
+                "Babu wani abu na musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "Performance optimization yana kula da saurin loda shafi."
+            },
+            {
+              "question": "Me yasa saurin shafi ke da muhimmanci?",
+              "options": [
+                "Masu amfani suna barin shafuka masu jinkiri, kuma yana shafar matsayi a Google",
+                "Babu wani dalili",
+                "Domin dole ne bisa doka",
+                "Domin yana kara tsada"
+              ],
+              "answerIndex": 0,
+              "explanation": "Jinkirin shafi na iya sa masu amfani su bar shi, kuma yana shafar SEO."
+            },
+            {
+              "question": "Menene 'caching'?",
+              "options": [
+                "Ajiye kwafin bayanai a na'urar mai amfani domin kar a sake bukatar su kowane lokaci",
+                "Share dukkan bayanai",
+                "Nau'in database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Caching yana rage bukatar sake loda bayanai iri ɗaya daga sabar."
+            },
+            {
+              "question": "Menene 'lazy loading'?",
+              "options": [
+                "Loda hotuna kawai lokacin da mai amfani ya kai kusa da su a shafi",
+                "Loda dukkan hotuna lokaci ɗaya kafin komai",
+                "Share hotuna gaba ɗaya",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Lazy loading yana rage lokacin farko na loda shafi ta hanyar jinkirta hotunan da ba a kusa ganin su ba tukuna."
+            },
+            {
+              "question": "Wace dabara ce ake amfani da ita don rage girman hotuna?",
+              "options": [
+                "Image compression",
+                "Caching kadai",
+                "Database indexing",
+                "Load balancing"
+              ],
+              "answerIndex": 0,
+              "explanation": "Image compression yana rage girman fayil na hoto ba tare da rage inganci sosai ba."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-a2.png",
+            "caption": "Yadda ake sauya gudun aikin shafi"
+          }
+        },
+        {
+          "id": "web-a3",
+          "order": 3,
+          "title": "Tsaron Yanar Gizo don Masu Gina Shafi",
+          "summary": "Manyan hare-hare da masu gina shafi ke bukatar sani",
+          "content": "XSS (Cross-Site Scripting) wata dabara ce ta hari inda mai kutse ke shigar da JavaScript mai illa a cikin wani filin shigarwa na shafi (misali, sashin sharhi), wanda zai iya gudana a kwamfutar wani mai amfani dabam idan ba a bincika bayanan da aka shigar da kyau ba. CSRF (Cross-Site Request Forgery) kuma yana yaudarar mai amfani ya aiwatar da wani aiki ba tare da saninsa ba, ta hanyar amfani da asusun da yake shiga a wani shafi.\n\nDon guje wa wadannan, masu gina shafi na amfani da 'input sanitization' (tsarkake bayanan da aka shigar kafin a nuna su), da 'CSRF tokens' (wata alama ta musamman da ke tabbatar da cewa bukata ta zo daga ainihin mai amfani, ba wani shafi na karya ba).",
+          "quiz": [
+            {
+              "question": "Menene XSS (Cross-Site Scripting)?",
+              "options": [
+                "Shigar da JavaScript mai illa a cikin wani filin shigarwa na shafi",
+                "Nau'in database",
+                "Sunan kamfani",
+                "Wani irin waya"
+              ],
+              "answerIndex": 0,
+              "explanation": "XSS yana bada dama ga mai kutse ya gudanar da code mai illa a kwamfutar wani mai amfani."
+            },
+            {
+              "question": "Menene CSRF?",
+              "options": [
+                "Yaudarar mai amfani ya aiwatar da wani aiki ba tare da saninsa ba",
+                "Nau'in wayar hannu",
+                "Sunan kamfani",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "CSRF yana amfani da asusun da mai amfani yake shiga domin aiwatar da wani aiki ba tare da izininsa ba."
+            },
+            {
+              "question": "Menene 'input sanitization'?",
+              "options": [
+                "Tsarkake bayanan da aka shigar kafin a nuna su",
+                "Share dukkan bayanai",
+                "Nau'in database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Input sanitization yana kare shafi daga XSS ta hanyar tsarkake bayanan shigarwa."
+            },
+            {
+              "question": "Menene 'CSRF token' ke yi?",
+              "options": [
+                "Yana tabbatar da bukata ta zo daga ainihin mai amfani",
+                "Yana share bayanan mai amfani",
+                "Yana kunna wayar hannu",
+                "Babu wani aiki"
+              ],
+              "answerIndex": 0,
+              "explanation": "CSRF token yana kare app din daga bukatun karya da ba su fito daga ainihin mai amfani ba."
+            },
+            {
+              "question": "A wace filin shafi ne XSS ta fi yiwuwa ta faru?",
+              "options": [
+                "Sashin sharhi ko wani filin shigarwa marar tantancewa",
+                "Filin da ba ya karban wani shigarwa daga mai amfani",
+                "Hoton shafi kadai",
+                "Babu wani filin da za a iya kai hari"
+              ],
+              "answerIndex": 0,
+              "explanation": "Filayen da ke karban shigarwa daga mai amfani ba tare da tantancewa ba sune makasudin XSS."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-a3.png",
+            "caption": "Manyan hare-hare da masu gina shafi ke bukatar sani"
+          }
+        },
+        {
+          "id": "web-a4",
+          "order": 4,
+          "title": "Progressive Web Apps (PWA)",
+          "summary": "Shafukan yanar gizo da ke aiki kamar apps na wayar hannu",
+          "content": "Progressive Web App (PWA) shine wani shafin yanar gizo da aka gina ta yadda zai iya yin aiki kamar app na wayar hannu - za a iya sanya shi a allon gida (home screen), yana iya aiki ko da babu intanet (offline) ta hanyar 'service workers', kuma yana iya aiko sanarwa (push notifications) kamar yadda app na gaske zai yi.\n\nFa'idar PWA ita ce mai gina shafi zai iya samun fasalolin app na wayar hannu ba tare da bukatar rubuta daban-daban code na Android da iOS ba - code guda ɗaya (na yanar gizo) yana aiki a ko'ina, wanda ke rage lokaci da kuɗin da ake bukata wajen gina app.",
+          "quiz": [
+            {
+              "question": "Menene Progressive Web App (PWA)?",
+              "options": [
+                "Shafin yanar gizo da ke aiki kamar app na wayar hannu",
+                "Nau'in database",
+                "Sunan kamfani",
+                "Wani irin cuta"
+              ],
+              "answerIndex": 0,
+              "explanation": "PWA yana bada damar shafi ya yi aiki kamar native app."
+            },
+            {
+              "question": "Menene 'service worker' a PWA?",
+              "options": [
+                "Fasalin da ke bada damar app ya yi aiki ko da babu intanet",
+                "Sunan kamfani",
+                "Nau'in database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Service workers suna bada damar offline functionality a PWA."
+            },
+            {
+              "question": "Wace fa'ida ce PWA ke bayarwa ga mai gina app?",
+              "options": [
+                "Code guda ɗaya yana aiki a ko'ina, ba tare da rubuta daban-daban Android/iOS ba",
+                "Dole ne a rubuta code daban-daban ga kowace platform",
+                "Babu wata fa'ida",
+                "Yana kara tsadar gina app"
+              ],
+              "answerIndex": 0,
+              "explanation": "PWA yana rage bukatar rubuta code daban-daban ga kowace platform."
+            },
+            {
+              "question": "Wanne fasali ne PWA ke da shi kamar native app?",
+              "options": [
+                "Push notifications",
+                "Ba za a iya sanya shi a home screen ba",
+                "Ba ya iya aiki ba tare da intanet ba",
+                "Babu wani fasali na musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "PWA na iya aiko push notifications kamar yadda native apps ke yi."
+            },
+            {
+              "question": "Me PWA ke rage wa mai gina app?",
+              "options": [
+                "Lokaci da kuɗin da ake bukata wajen gina app",
+                "Adadin masu amfani",
+                "Saurin intanet",
+                "Babu abin da yake rage"
+              ],
+              "answerIndex": 0,
+              "explanation": "Domin code guda ɗaya yana aiki a dandamali da yawa, PWA yana rage kashe kuɗi da lokaci."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-a4.png",
+            "caption": "Shafukan yanar gizo da ke aiki kamar apps na wayar hannu"
+          }
+        },
+        {
+          "id": "web-a5",
+          "order": 5,
+          "title": "Server-Side Rendering vs Client-Side Rendering",
+          "summary": "Bambancin inda ake gina shafi kafin a nuna wa mai amfani",
+          "content": "Client-Side Rendering (CSR) yana nufin browser dinka ne ke gina shafi ta amfani da JavaScript bayan an loda dukkan code din - wannan yana nufin farkon lokacin loda zai iya dauke tsawon lokaci kadan, amma sabuntawa bayan haka na iya zama mai sauri. Server-Side Rendering (SSR) kuma yana nufin sabar ne ke gina cikakken shafin HTML kafin ya aiko shi zuwa browser, wanda ke sa shafin ya bayyana da sauri a karo na farko.\n\nSSR ya fi dacewa ga shafuka da ke bukatar bayyana da sauri kuma su kasance masu sauki ganewa ga injunan bincike (SEO), kamar labarai ko shagunan sayarwa. CSR kuma ya fi dacewa ga apps masu sarkakiya wadanda ke da hulɗa mai yawa, kamar dashboards ko apps na sada zumunta.",
+          "quiz": [
+            {
+              "question": "Menene Client-Side Rendering (CSR)?",
+              "options": [
+                "Browser ne ke gina shafi ta amfani da JavaScript bayan an loda code",
+                "Sabar ne ke gina shafi kafin a aiko shi",
+                "Nau'in database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "CSR yana amfani da JavaScript a browser domin gina shafi."
+            },
+            {
+              "question": "Menene Server-Side Rendering (SSR)?",
+              "options": [
+                "Sabar ne ke gina cikakken shafin HTML kafin ya aiko shi zuwa browser",
+                "Browser ne ke gina shafi gaba ɗaya",
+                "Nau'in database",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "SSR yana bada cikakken HTML daga sabar tun farko."
+            },
+            {
+              "question": "A wanne irin shafi ne SSR ya fi dacewa?",
+              "options": [
+                "Labarai ko shagunan sayarwa masu bukatar sauri da SEO",
+                "Dashboard mai sarkakiya kadai",
+                "Wasan bidiyo kadai",
+                "Babu wani shafi na musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "SSR yana bada sauri na farko da sauki na SEO, wanda ya dace da labarai da shagunan sayarwa."
+            },
+            {
+              "question": "A wanne irin app ne CSR ya fi dacewa?",
+              "options": [
+                "Apps masu sarkakiya kamar dashboards ko sada zumunta",
+                "Labarai masu sauki",
+                "Shafin gwamnati mai sauki",
+                "Babu wani app na musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "CSR ya fi dacewa ga apps masu hulɗa mai yawa bayan an loda su."
+            },
+            {
+              "question": "Wace fa'ida ce SSR ke bayarwa dangane da injunan bincike (SEO)?",
+              "options": [
+                "Yana sa shafin ya kasance mai sauki ganewa ga injunan bincike",
+                "Yana toshe injunan bincike gaba ɗaya",
+                "Babu wata fa'ida",
+                "Yana rage ganuwa a bincike"
+              ],
+              "answerIndex": 0,
+              "explanation": "SSR yana bada cikakken HTML wanda injunan bincike ke iya karantawa cikin sauki."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-a5.png",
+            "caption": "Bambancin inda ake gina shafi kafin a nuna wa mai amfani"
+          }
+        },
+        {
+          "id": "web-a6",
+          "order": 6,
+          "title": "Sana'o'i a Fannin Web Development",
+          "summary": "Hanyoyin fara sana'a a fannin gina shafuka",
+          "content": "Akwai sana'o'i da yawa a fannin web development, daga 'Frontend Developer' zuwa 'Backend Developer' zuwa 'Full-Stack Developer', kamar yadda aka koya a darasin farko. Haka kuma akwai 'UI/UX Designer' wanda ke tsara yadda shafi zai gani da yadda mai amfani zai yi hulda dashi, kodayake wannan ba shi kadai ne yake rubuta code ba, sau da yawa yana aiki kafada da kafada da injiniyoyi.\n\nDon fara wannan tafarki, ana ba da shawarar koyon HTML, CSS, da JavaScript sosai kafin ci gaba zuwa frameworks kamar React, sannan a gina ayyuka na ainihi (portfolio projects) domin nuna wa masu daukan ma'aikata iyawarka. Yawancin masu koyon kansu (self-taught) sun sami nasarar shiga fannin ta hanyar gina ayyuka masu kyau da za su iya nunawa.",
+          "quiz": [
+            {
+              "question": "Menene aikin UI/UX Designer?",
+              "options": [
+                "Tsara yadda shafi zai gani da yadda mai amfani zai yi hulda dashi",
+                "Rubuta backend code kadai",
+                "Sarrafa database kadai",
+                "Babu wani aiki na musamman"
+              ],
+              "answerIndex": 0,
+              "explanation": "UI/UX Designer yana kula da tsari da gogewar mai amfani a shafi."
+            },
+            {
+              "question": "Me ake ba da shawara koya farko kafin frameworks kamar React?",
+              "options": [
+                "HTML, CSS, da JavaScript",
+                "Kai tsaye zuwa React ba tare da tushen ba",
+                "Database kadai",
+                "Babu wani abin da ake bada shawara"
+              ],
+              "answerIndex": 0,
+              "explanation": "Tushen HTML/CSS/JS yana da muhimmanci kafin koyon frameworks."
+            },
+            {
+              "question": "Menene 'portfolio projects'?",
+              "options": [
+                "Ayyuka na ainihi da aka gina domin nuna wa masu daukan ma'aikata iyawa",
+                "Nau'in database",
+                "Sunan kamfani",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "Portfolio projects suna bada damar nuna iyawar aiki ta hanyar misalai na ainihi."
+            },
+            {
+              "question": "Shin dole ne UI/UX Designer ya rubuta code da kansa?",
+              "options": [
+                "A'a, sau da yawa yana aiki kafada da kafada da injiniyoyi",
+                "E, dole ne ya rubuta duk code din",
+                "Ba shi da alaka da injiniyoyi",
+                "Babu wata ma'ana"
+              ],
+              "answerIndex": 0,
+              "explanation": "UI/UX Designer yana aiki tare da injiniyoyi domin aiwatar da tsarinsa."
+            },
+            {
+              "question": "Ta yaya masu koyon kansu (self-taught) suka sami nasara a fannin?",
+              "options": [
+                "Ta hanyar gina ayyuka masu kyau da za su iya nunawa",
+                "Ba tare da wani aiki ba",
+                "Ta hanyar jira aiki ya zo ba tare da koyo ba",
+                "Babu wata hanya"
+              ],
+              "answerIndex": 0,
+              "explanation": "Gina ayyuka na ainihi yana bada damar nuna iyawa ko da ba tare da digiri na yau da kullum ba."
+            }
+          ],
+          "diagram": {
+            "type": "image",
+            "asset": "web-a6.png",
+            "caption": "Hanyoyin fara sana'a a fannin gina shafuka"
+          }
+        }
+      ]
+    }
+  ]
+}
