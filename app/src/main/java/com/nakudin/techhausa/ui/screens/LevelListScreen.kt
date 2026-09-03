@@ -3,7 +3,7 @@ package com.nakudin.techhausa.ui.screens
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -43,7 +43,7 @@ fun LevelListScreen(courseId: String, onBack: () -> Unit, onOpenLevel: (String) 
                 title = { Text(course?.title ?: "") },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
-                        Icon(Icons.Filled.ArrowBack, contentDescription = "Koma baya")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Koma baya")
                     }
                 }
             )

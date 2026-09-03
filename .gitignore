@@ -16,3 +16,5 @@ keystore.properties
 *.hprof
 .cxx/
 .externalNativeBuild/
+.kotlin/
+build-local.log

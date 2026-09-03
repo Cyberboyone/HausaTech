@@ -6,7 +6,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -80,7 +80,7 @@ fun QuizScreen(
                 title = { Text(if (showResults) "Sakamako" else "Tambaya ${currentIndex + 1}/${lesson.quiz.size}") },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
-                        Icon(Icons.Filled.ArrowBack, contentDescription = "Koma baya")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Koma baya")
                     }
                 }
             )

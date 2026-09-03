@@ -57,6 +57,16 @@ fun HomeScreen(
         if (query.isBlank()) emptyList() else CourseRepository.searchLessons(context, query)
     }
 
+    // Hoisted out of the LazyColumn scope below: remember() is @Composable
+    // and cannot be called inside a LazyListScope block.
+    val last = lastAccessed
+    val continueCourse = remember(last?.courseId) {
+        last?.let { CourseRepository.getCourse(context, it.courseId) }
+    }
+    val continueLesson = remember(last?.courseId, last?.lessonId) {
+        last?.let { CourseRepository.getLesson(context, it.courseId, it.lessonId) }
+    }
+
     Scaffold { padding ->
         LazyColumn(
             modifier = Modifier
@@ -115,23 +125,16 @@ fun HomeScreen(
                     }
                 }
             } else {
-                val last = lastAccessed
-                if (last != null) {
-                    val course = remember(last.courseId) { CourseRepository.getCourse(context, last.courseId) }
-                    val lesson = remember(last.courseId, last.lessonId) {
-                        CourseRepository.getLesson(context, last.courseId, last.lessonId)
-                    }
-                    if (course != null && lesson != null) {
-                        item {
-                            val completed = courseProgress[last.courseId] ?: 0
-                            val total = course.levels.sumOf { it.lessons.size }
-                            ContinueLearningCard(
-                                courseTitle = course.title,
-                                lessonTitle = lesson.title,
-                                progress = if (total > 0) completed.toFloat() / total else 0f,
-                                onClick = { onOpenLesson(last.courseId, last.lessonId) }
-                            )
-                        }
+                if (last != null && continueCourse != null && continueLesson != null) {
+                    item {
+                        val completed = courseProgress[last.courseId] ?: 0
+                        val total = continueCourse.levels.sumOf { it.lessons.size }
+                        ContinueLearningCard(
+                            courseTitle = continueCourse.title,
+                            lessonTitle = continueLesson.title,
+                            progress = if (total > 0) completed.toFloat() / total else 0f,
+                            onClick = { onOpenLesson(last.courseId, last.lessonId) }
+                        )
                     }
                 }
 

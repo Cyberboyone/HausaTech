@@ -7,11 +7,12 @@ import com.nakudin.techhausa.model.Lesson
 import kotlinx.serialization.json.Json
 
 /**
- * Loads course JSON files from assets/courses/*.json. Each file is one
- * course (English title) with 3 levels (English) and Hausa lesson content.
+ * Loads course JSON files from the bundled assets/courses folder. Each file
+ * is one course (English title) with 3 levels (English) and Hausa lesson
+ * content.
  *
- * Adding a new course later = drop another *.json file with this shape into
- * assets/courses/ and add its filename to COURSE_FILES below — no other
+ * Adding a new course later = drop another JSON file with this shape into
+ * assets/courses and add its filename to COURSE_FILES below — no other
  * code changes needed.
  */
 object CourseRepository {
