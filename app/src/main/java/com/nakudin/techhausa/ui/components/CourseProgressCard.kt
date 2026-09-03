@@ -1,26 +1,42 @@
 package com.nakudin.techhausa.ui.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
+import com.nakudin.techhausa.ui.theme.HausaTechSpacing
+import com.nakudin.techhausa.ui.theme.courseGradient
 
 /**
- * A course card for the Home screen showing overall progress — icon in a
- * tinted circle (the course's own brand color), title, lesson count, and a
- * progress bar with a percentage, so course status is visible without
- * opening it.
+ * Rich course card for the Home grid: icon with glow, title, level range,
+ * lesson counts, animated progress bar with percentage, and a continue
+ * action — washed in the course's own brand color.
  */
 @Composable
 fun CourseProgressCard(
     title: String,
-    icon: androidx.compose.ui.graphics.vector.ImageVector,
-    courseColor: androidx.compose.ui.graphics.Color,
+    icon: ImageVector,
+    courseColor: Color,
     completedCount: Int,
     totalCount: Int,
     onClick: () -> Unit,
@@ -28,43 +44,64 @@ fun CourseProgressCard(
 ) {
     val progress = if (totalCount > 0) completedCount.toFloat() / totalCount else 0f
 
-    ElevatedCard(
+    Card(
         modifier = modifier.fillMaxWidth(),
         onClick = onClick,
-        shape = MaterialTheme.shapes.large
+        shape = RoundedCornerShape(24.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
-        Row(
-            modifier = Modifier.padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(courseGradient(courseColor))
+                .padding(HausaTechSpacing.Lg)
         ) {
-            Box(
-                modifier = Modifier
-                    .size(52.dp)
-                    .clip(CircleShape)
-                    .background(courseColor.copy(alpha = 0.15f)),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(icon, contentDescription = null, tint = courseColor)
-            }
-            Spacer(Modifier.width(14.dp))
-            Column(Modifier.weight(1f)) {
-                Text(title, style = MaterialTheme.typography.titleMedium)
-                Spacer(Modifier.height(6.dp))
+            Column(verticalArrangement = Arrangement.spacedBy(HausaTechSpacing.Sm)) {
+                CourseIcon(
+                    icon = icon,
+                    color = courseColor,
+                    contentDescription = title
+                )
+                Spacer(Modifier.height(4.dp))
+                Text(title, style = MaterialTheme.typography.titleLarge)
+                Text(
+                    "Beginner - Advanced",
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    "$completedCount / $totalCount lessons",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    LinearProgressIndicator(
-                        progress = { progress },
-                        modifier = Modifier
-                            .weight(1f)
-                            .height(6.dp)
-                            .clip(CircleShape),
+                    AnimatedProgressBar(
+                        progress = progress,
                         color = courseColor,
-                        trackColor = courseColor.copy(alpha = 0.15f)
+                        modifier = Modifier.weight(1f)
                     )
-                    Spacer(Modifier.width(8.dp))
                     Text(
-                        "$completedCount/$totalCount",
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                        "${(progress * 100).toInt()}%",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = courseColor,
+                        modifier = Modifier.padding(start = HausaTechSpacing.Sm)
+                    )
+                }
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.padding(top = 4.dp)
+                ) {
+                    Text(
+                        "Continue",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = courseColor
+                    )
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowForward,
+                        contentDescription = null,
+                        tint = courseColor,
+                        modifier = Modifier.padding(start = 4.dp)
                     )
                 }
             }

@@ -1,23 +1,48 @@
 package com.nakudin.techhausa.ui.screens
 
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.data.CourseRepository
 import com.nakudin.techhausa.data.ProgressStore
 import com.nakudin.techhausa.ui.components.AdBanner
+import com.nakudin.techhausa.ui.components.AnimatedProgressBar
+import com.nakudin.techhausa.ui.components.CourseIcon
+import com.nakudin.techhausa.ui.components.Entrance
+import com.nakudin.techhausa.ui.components.HausaTechCard
 import com.nakudin.techhausa.ui.components.LessonCard
+import com.nakudin.techhausa.ui.components.MetaChip
 import com.nakudin.techhausa.ui.components.courseColorFor
+import com.nakudin.techhausa.ui.components.courseIconFor
+import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 import kotlinx.coroutines.flow.combine
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -53,12 +78,15 @@ fun LessonListScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("$level \u2014 ${course?.title ?: ""}") },
+                title = { Text(course?.title ?: "") },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Koma baya")
                     }
-                }
+                },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.background
+                )
             )
         },
         bottomBar = { AdBanner() }
@@ -66,32 +94,66 @@ fun LessonListScreen(
         LazyColumn(
             modifier = Modifier
                 .padding(padding)
-                .padding(16.dp)
                 .fillMaxSize(),
-            verticalArrangement = Arrangement.spacedBy(10.dp)
+            contentPadding = PaddingValues(HausaTechSpacing.Lg),
+            verticalArrangement = Arrangement.spacedBy(HausaTechSpacing.Md)
         ) {
             item {
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    LinearProgressIndicator(
-                        progress = { progress },
-                        modifier = Modifier
-                            .weight(1f)
-                            .height(8.dp)
-                            .clip(CircleShape),
-                        color = color,
-                        trackColor = color.copy(alpha = 0.15f)
-                    )
-                    Spacer(Modifier.width(10.dp))
-                    Text(
-                        "$completedCount/${lessons.size}",
-                        style = MaterialTheme.typography.labelMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
+                Entrance {
+                    Column {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            CourseIcon(
+                                icon = courseIconFor(course?.icon ?: ""),
+                                color = color,
+                                contentDescription = course?.title
+                            )
+                            Spacer(Modifier.width(HausaTechSpacing.Lg))
+                            Column(Modifier.weight(1f)) {
+                                Text(
+                                    level,
+                                    style = MaterialTheme.typography.headlineMedium
+                                )
+                                Spacer(Modifier.height(HausaTechSpacing.Xs))
+                                Row {
+                                    MetaChip(course?.title ?: "")
+                                    Spacer(Modifier.width(HausaTechSpacing.Sm))
+                                    MetaChip("${lessons.size} lessons")
+                                }
+                            }
+                        }
+                    }
                 }
-                Spacer(Modifier.height(4.dp))
+            }
+
+            item {
+                Entrance(index = 1) {
+                    HausaTechCard {
+                        Text(
+                            "Your Progress",
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        Spacer(Modifier.height(HausaTechSpacing.Xs))
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            AnimatedProgressBar(
+                                progress = progress,
+                                color = color,
+                                modifier = Modifier.weight(1f)
+                            )
+                            Text(
+                                "${(progress * 100).toInt()}%",
+                                style = MaterialTheme.typography.titleMedium,
+                                color = color,
+                                modifier = Modifier.padding(start = HausaTechSpacing.Sm)
+                            )
+                        }
+                        Spacer(Modifier.height(HausaTechSpacing.Xs))
+                        Text(
+                            "$completedCount daga cikin ${lessons.size} darasi",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
             }
 
             items(lessons, key = { it.id }) { lesson ->
@@ -102,7 +164,8 @@ fun LessonListScreen(
                     summary = lesson.summary,
                     completed = done,
                     bestScore = score,
-                    onClick = { onOpenLesson(lesson.id) }
+                    onClick = { onOpenLesson(lesson.id) },
+                    modifier = Modifier.fillMaxWidth()
                 )
             }
         }

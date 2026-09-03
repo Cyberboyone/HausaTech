@@ -1,29 +1,45 @@
 package com.nakudin.techhausa.ui.screens
 
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.GridItemSpan
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.itemsIndexed
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.data.CourseRepository
 import com.nakudin.techhausa.data.ProgressStore
 import com.nakudin.techhausa.ui.components.CourseProgressCard
+import com.nakudin.techhausa.ui.components.Entrance
+import com.nakudin.techhausa.ui.components.OverallProgressCard
+import com.nakudin.techhausa.ui.components.SectionHeader
+import com.nakudin.techhausa.ui.components.StatRow
 import com.nakudin.techhausa.ui.components.courseColorFor
 import com.nakudin.techhausa.ui.components.courseIconFor
+import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 import kotlinx.coroutines.flow.combine
 
 /**
- * The app-wide progress tab: total lessons completed across all 8 courses,
- * plus a per-course breakdown — the "how am I doing overall" view that
- * Home's per-course cards don't quite give you on their own.
+ * Premium progress dashboard: greeting header, large overall ring card
+ * with stats, then per-course cards in an adaptive grid.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ProgressScreen(onOpenCourse: (String) -> Unit) {
     val context = LocalContext.current
@@ -49,70 +65,68 @@ fun ProgressScreen(onOpenCourse: (String) -> Unit) {
     }
 
     val totalLessons = allLessonIds.size
-    val overallProgress = if (totalLessons > 0) totalCompleted.toFloat() / totalLessons else 0f
+    val remaining = (totalLessons - totalCompleted).coerceAtLeast(0)
 
-    Scaffold(
-        topBar = { TopAppBar(title = { Text("Ci Gabanka") }) }
-    ) { padding ->
-        LazyColumn(
+    Scaffold { padding ->
+        LazyVerticalGrid(
+            columns = GridCells.Adaptive(minSize = 300.dp),
             modifier = Modifier
                 .padding(padding)
                 .fillMaxSize(),
-            contentPadding = PaddingValues(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp)
+            contentPadding = PaddingValues(HausaTechSpacing.Lg),
+            verticalArrangement = Arrangement.spacedBy(HausaTechSpacing.Lg),
+            horizontalArrangement = Arrangement.spacedBy(HausaTechSpacing.Lg)
         ) {
-            item {
-                Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = MaterialTheme.shapes.extraLarge,
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
-                ) {
-                    Column(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(24.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                        Box(contentAlignment = Alignment.Center) {
-                            CircularProgressIndicator(
-                                progress = { overallProgress },
-                                modifier = Modifier.size(120.dp),
-                                strokeWidth = 10.dp,
-                                color = MaterialTheme.colorScheme.primary,
-                                trackColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
-                            )
-                            Text(
-                                "${(overallProgress * 100).toInt()}%",
-                                style = MaterialTheme.typography.headlineMedium
-                            )
-                        }
-                        Spacer(Modifier.height(12.dp))
+            item(span = { GridItemSpan(maxLineSpan) }) {
+                Entrance {
+                    Column {
                         Text(
-                            "$totalCompleted daga cikin $totalLessons darasi",
-                            style = MaterialTheme.typography.titleMedium
+                            "Your Progress",
+                            style = MaterialTheme.typography.headlineLarge
                         )
+                        Spacer(Modifier.height(HausaTechSpacing.Xs))
                         Text(
-                            "a fadin dukkan kwasoshi",
-                            style = MaterialTheme.typography.bodySmall,
+                            "Track your learning journey",
+                            style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }
                 }
             }
 
-            item {
-                Text("Kwas-kwas Daya-daya", style = MaterialTheme.typography.titleMedium)
+            item(span = { GridItemSpan(maxLineSpan) }) {
+                Entrance(index = 1) {
+                    OverallProgressCard(
+                        completed = totalCompleted,
+                        total = totalLessons,
+                        stats = {
+                            StatRow(
+                                stats = listOf(
+                                    "$totalCompleted" to "Completed",
+                                    "$remaining" to "Remaining",
+                                    "${courses.size}" to "Courses"
+                                )
+                            )
+                        }
+                    )
+                }
             }
 
-            items(courses, key = { it.id }) { course ->
-                CourseProgressCard(
-                    title = course.title,
-                    icon = courseIconFor(course.icon),
-                    courseColor = courseColorFor(course.id),
-                    completedCount = courseProgress[course.id] ?: 0,
-                    totalCount = course.totalLessons,
-                    onClick = { onOpenCourse(course.id) }
-                )
+            item(span = { GridItemSpan(maxLineSpan) }) {
+                SectionHeader(title = "Course Progress")
+            }
+
+            itemsIndexed(courses, key = { _, course -> course.id }) { index, course ->
+                Entrance(index = index) {
+                    CourseProgressCard(
+                        title = course.title,
+                        icon = courseIconFor(course.icon),
+                        courseColor = courseColorFor(course.id),
+                        completedCount = courseProgress[course.id] ?: 0,
+                        totalCount = course.totalLessons,
+                        onClick = { onOpenCourse(course.id) }
+                    )
+                }
             }
         }
     }

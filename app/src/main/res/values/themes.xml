@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.TechHausa" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Dark base window so the status/navigation bars and launch background
+         match the app's dark theme before Compose draws. -->
+    <style name="Theme.TechHausa" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FF0A0A0F</item>
+        <item name="android:statusBarColor">#FF0A0A0F</item>
+        <item name="android:navigationBarColor">#FF0A0A0F</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>
