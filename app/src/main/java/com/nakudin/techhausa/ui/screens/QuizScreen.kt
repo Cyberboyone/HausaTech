@@ -94,6 +94,8 @@ fun QuizScreen(
     val answers = remember { mutableStateListOf<Boolean>() }
     var showResults by remember { mutableStateOf(false) }
     var interstitialShown by remember { mutableStateOf(false) }
+    // Bumped on every retry so the options reshuffle each attempt.
+    var shuffleSeed by remember { mutableIntStateOf(0) }
 
     val activity = context as? Activity
     val interstitialManager = remember { InterstitialManager(context) }
@@ -106,6 +108,7 @@ fun QuizScreen(
         answers.clear()
         showResults = false
         interstitialShown = false
+        shuffleSeed++
         interstitialManager.load()
         rewardedManager.load()
     }
@@ -167,7 +170,25 @@ fun QuizScreen(
             return@Scaffold
         }
 
-        val question = lesson.quiz[currentIndex]
+        // Shuffle the options once per question (and again on every retry)
+        // so the correct answer isn't always in the same position. Scoring,
+        // selection, and correct/wrong states all read this normalized copy.
+        val rawQuestion = lesson.quiz[currentIndex]
+        val question = remember(rawQuestion, shuffleSeed) {
+            val correct = rawQuestion.options.getOrNull(rawQuestion.answerIndex)
+            if (correct == null || rawQuestion.options.size < 2) {
+                rawQuestion.copy(answerIndex = 0)
+            } else {
+                val distractors = rawQuestion.options
+                    .filterIndexed { index, _ -> index != rawQuestion.answerIndex }
+                    .shuffled()
+                val insertAt = (0..distractors.size).random()
+                rawQuestion.copy(
+                    options = distractors.toMutableList().apply { add(insertAt, correct) },
+                    answerIndex = insertAt
+                )
+            }
+        }
         val quizProgress = (currentIndex + 1).toFloat() / lesson.quiz.size
 
         LazyColumn(

@@ -248,4 +248,9 @@ this was a static read-through, not a substitute for actually building
 and clicking through it. The dependency versions in `build.gradle.kts`
 (Compose BOM, Navigation, AdMob, etc.) were current as of when this was
 written but are worth checking against latest before a real build.
+### Lesson content and quiz ordering
+The course lessons contain expanded Hausa teaching material with explanations, practical examples, application
+guidance, key terms, takeaways, and summaries. Quiz answer positions are shuffled at runtime (once per question,
+reshuffled on every retry), so the correct answer is not predictable from its position — scoring, selection, and
+correct/wrong states all read the same shuffled copy.
 

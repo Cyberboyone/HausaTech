@@ -11,7 +11,7 @@
           "order": 1,
           "title": "Menene Tsaron Yanar Gizo?",
           "summary": "Gabatarwa kan ma'anar tsaron yanar gizo da muhimmancinsa",
-          "content": "Tsaron Yanar Gizo (Cybersecurity) shine kariyar da muke yi wa kwamfutoci, wayoyi, da bayananmu daga masu kutse ko mugayen mutane da ke son sace bayanai ko cutar da na'urorinmu. A yau, kusan kowa yana amfani da wayar hannu ko intanet don aikin banki, sadarwa, da sayayya. Wannan ya sa mu zama makasudin masu laifin yanar gizo idan ba mu kula ba.\n\nMasu kutse suna amfani da hanyoyi daban-daban wajen kai wa mutane hari: suna iya aika sakon imel na yaudara, suna iya kirkirar shafuka na karya, ko kuma su yi amfani da cuta ta musamman (malware) don shiga wayarka ba tare da saninka ba.",
+          "content": "GABATARWA\n\nTsaron Yanar Gizo (Cybersecurity) shine kariyar da muke yi wa kwamfutoci, wayoyi, da bayananmu daga masu kutse ko mugayen mutane da ke son sace bayanai ko cutar da na'urorinmu. A yau, kusan kowa yana amfani da wayar hannu ko intanet don aikin banki, sadarwa, da sayayya. Wannan ya sa mu zama makasudin masu laifin yanar gizo idan ba mu kula ba.\n\nMasu kutse suna amfani da hanyoyi daban-daban wajen kai wa mutane hari: suna iya aika sakon imel na yaudara, suna iya kirkirar shafuka na karya, ko kuma su yi amfani da cuta ta musamman (malware) don shiga wayarka ba tare da saninka ba.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Menene Tsaron Yanar Gizo? a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Menene Tsaron Yanar Gizo?”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Menene Tsaron Yanar Gizo? kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nMenene Tsaron Yanar Gizo? ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "diagram": {
             "type": "image",
             "asset": "cyber_overview.png",
@@ -32,12 +32,12 @@
             {
               "question": "Me yasa tsaron yanar gizo ke da muhimmanci a yau?",
               "options": [
-                "Domin ba wanda ke amfani da intanet",
                 "Domin kowa yana amfani da wayar hannu don banki da sadarwa",
+                "Domin ba wanda ke amfani da intanet",
                 "Domin wayoyi ba su da amfani",
                 "Domin intanet baya aiki ba tare da shi ba"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Yawancin mutane suna amfani da intanet don ayyuka masu muhimmanci, wanda ke sanya su cikin hadari idan ba a kula ba."
             },
             {
@@ -54,23 +54,23 @@
             {
               "question": "Menene malware?",
               "options": [
-                "Wani irin abinci",
                 "Cuta ta musamman da ke shiga na'ura ba tare da izini ba",
+                "Wani irin abinci",
                 "Sunan wayar hannu",
                 "Nau'in kuɗin lantarki"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Malware wata cuta ce ta musamman da ke shiga na'urarka ba tare da saninka ba."
             },
             {
               "question": "Wanene ke bukatar sanin tsaron yanar gizo?",
               "options": [
+                "Duk wanda ke amfani da wayar hannu ko intanet",
                 "Injiniyoyin kwamfuta kadai",
                 "Malamai kadai",
-                "Duk wanda ke amfani da wayar hannu ko intanet",
                 "Ba wanda ke bukata"
               ],
-              "answerIndex": 2,
+              "answerIndex": 0,
               "explanation": "Domin kusan kowa yana amfani da intanet, kowa yana bukatar sanin yadda za a kare kansa."
             }
           ]
@@ -80,28 +80,28 @@
           "order": 2,
           "title": "Kalmomin Sirri Masu Ƙarfi",
           "summary": "Yadda ake kirkirar da kare kalmar sirri mai ƙarfi",
-          "content": "Kalmar sirri (password) ita ce makullin da ke kare asusunka na imel, kafofin sada zumunta, da banki. Idan kalmar sirrinka tana da rauni, mai kutse zai iya samun ta cikin sauki ya shiga asusunka.\n\nKalma mai ƙarfi tana da akalla haruffa 10 zuwa sama, ta hada da manyan haruffa, kananan haruffa, lambobi, da alamomi. Kar ka yi amfani da kalma ɗaya a duk asusunanka - idan mai kutse ya sami kalmar sirrin wani asusu, zai iya amfani da ita wajen shiga sauran asusunanka.",
+          "content": "GABATARWA\n\nKalmar sirri (password) ita ce makullin da ke kare asusunka na imel, kafofin sada zumunta, da banki. Idan kalmar sirrinka tana da rauni, mai kutse zai iya samun ta cikin sauki ya shiga asusunka.\n\nKalma mai ƙarfi tana da akalla haruffa 10 zuwa sama, ta hada da manyan haruffa, kananan haruffa, lambobi, da alamomi. Kar ka yi amfani da kalma ɗaya a duk asusunanka - idan mai kutse ya sami kalmar sirrin wani asusu, zai iya amfani da ita wajen shiga sauran asusunanka.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Kalmomin Sirri Masu Ƙarfi a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Kalmomin Sirri Masu Ƙarfi”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Kalmomin Sirri Masu Ƙarfi kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nKalmomin Sirri Masu Ƙarfi ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene ya kamata kalmar sirri mai ƙarfi ta kunsa?",
               "options": [
-                "Sunanka kawai",
                 "Manyan haruffa, kananan haruffa, lambobi, da alamomi",
+                "Sunanka kawai",
                 "Ranar haihuwarka kawai",
                 "Lambobi kadai"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Kalma mai ƙarfi tana hada haruffa daban-daban, lambobi, da alamomi."
             },
             {
               "question": "Me yasa kada a yi amfani da kalma ɗaya a duk asusunanka?",
               "options": [
-                "Domin yana da wahalar tunawa",
                 "Idan aka sace kalma ɗaya, duk asusunanka na iya fadawa hadari",
+                "Domin yana da wahalar tunawa",
                 "Domin apps ba sa yarda",
                 "Babu wani dalili"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Idan kalma ɗaya ta bayyana, mai kutse zai iya amfani da ita a duk sauran asusunanka."
             },
             {
@@ -118,23 +118,23 @@
             {
               "question": "Menene aikin password manager?",
               "options": [
-                "Yana sace kalmomin sirri",
                 "Yana taimaka maka ajiyewa da tunawa da kalmomi masu ƙarfi",
+                "Yana sace kalmomin sirri",
                 "Yana share asusunka",
                 "Babu wani amfani"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Password manager yana taimaka maka adana kalmomi masu ƙarfi daban-daban."
             },
             {
               "question": "Tsawon haruffa nawa akalla ya kamata kalmar sirri mai ƙarfi ta kunsa?",
               "options": [
+                "10 ko sama",
                 "3",
                 "5",
-                "10 ko sama",
                 "1"
               ],
-              "answerIndex": 2,
+              "answerIndex": 0,
               "explanation": "Ana ba da shawarar akalla haruffa 10 zuwa sama."
             }
           ],
@@ -149,7 +149,7 @@
           "order": 3,
           "title": "Yaudarar Imel da Sako (Phishing)",
           "summary": "Yadda ake gane sakonnin yaudara da guje musu",
-          "content": "Phishing wata dabara ce da masu laifi ke amfani da ita wajen aika sako da ke kama da na kamfani ko banki na gaskiya, domin yaudarar ka ka bayar da bayananka ko ka danna hanyar sadarwa mai hatsari.\n\nAlamomin sakon yaudara sun hada da: kuskuren rubutu, sako mai gaggawa, da adireshin imel wanda bai dace da na kamfanin gaske ba. Kada ka taba baiwa kowa kalmar sirrinka ko lambar OTP ko da wanene ne ya tambaya.",
+          "content": "GABATARWA\n\nPhishing wata dabara ce da masu laifi ke amfani da ita wajen aika sako da ke kama da na kamfani ko banki na gaskiya, domin yaudarar ka ka bayar da bayananka ko ka danna hanyar sadarwa mai hatsari.\n\nAlamomin sakon yaudara sun hada da: kuskuren rubutu, sako mai gaggawa, da adireshin imel wanda bai dace da na kamfanin gaske ba. Kada ka taba baiwa kowa kalmar sirrinka ko lambar OTP ko da wanene ne ya tambaya.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nPhishing yana kokarin sa mutum ya bayar da bayanai, ya bude wani abu ko ya yi wani aiki ta hanyar yaudara. Alamomi na iya hada da gaggawa mara dalili, adireshin da bai dace ba, ko bukatar sirri da ba a saba gani ba. Tabbatar da sakon ta wata hanya dabam yana rage hadari.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Yaudarar Imel da Sako (Phishing)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Yaudarar Imel da Sako (Phishing) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nYaudarar Imel da Sako (Phishing) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "diagram": {
             "type": "image",
             "asset": "phishing_flow.png",
@@ -159,45 +159,45 @@
             {
               "question": "Menene phishing?",
               "options": [
-                "Wasan bidiyo",
                 "Dabarar yaudara ta imel ko sako don sace bayananka",
+                "Wasan bidiyo",
                 "Wani irin kwamfuta",
                 "Sunan banki"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Phishing dabara ce ta aika sakon yaudara domin sace bayanan mutum."
             },
             {
               "question": "Wace alama ce ta sakon yaudara?",
               "options": [
-                "Sako mai natsuwa ba tare da bukatar bayani ba",
                 "Sako mai gaggawa yana bukatar ka danna link nan take",
+                "Sako mai natsuwa ba tare da bukatar bayani ba",
                 "Sako daga abokinka",
                 "Sako mara hanyar sadarwa"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Sakonnin yaudara galibi suna kirkirar jin gaggawa."
             },
             {
               "question": "Me ya kamata ka yi idan sako ya ce asusunka zai rufe sai ka danna link?",
               "options": [
-                "Ka danna link din nan take",
                 "Ka je shafin banki kai tsaye ba tare da amfani da link din ba",
+                "Ka danna link din nan take",
                 "Ka bayar da kalmar sirrinka",
                 "Ka aika sako ga abokanka"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Ya fi kyau a je shafin hukuma kai tsaye maimakon danna hanyoyi marasa tabbaci."
             },
             {
               "question": "Ya kamata ka baiwa wani lambar OTP idan ya bukace ka?",
               "options": [
-                "E, koyaushe",
                 "A'a, kada ka bayar da OTP ga kowa",
+                "E, koyaushe",
                 "Kawai idan ya ce dan banki ne",
                 "Kawai idan gaggawa ne"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Kada ka taba baiwa kowa lambar OTP."
             },
             {
@@ -218,17 +218,17 @@
           "order": 4,
           "title": "Cutar Kwamfuta da Kutse (Malware)",
           "summary": "Nau'ukan cuta na dijital da yadda ake kare kai",
-          "content": "Malware wani software ne da aka kirkira domin cutar da na'urarka ba tare da izininka ba. Akwai nau'uka daban-daban: Virus, Trojan (yana kama da app na gaske amma yana da illa a ɓoye), da Ransomware (yana kulle bayananka har sai ka biya kuɗi).\n\nDon kariya, ka sauke apps daga Google Play Store kadai, ka rika sabunta tsarin wayarka akai-akai, kuma ka yi amfani da app na antivirus mai kyau.",
+          "content": "GABATARWA\n\nMalware wani software ne da aka kirkira domin cutar da na'urarka ba tare da izininka ba. Akwai nau'uka daban-daban: Virus, Trojan (yana kama da app na gaske amma yana da illa a ɓoye), da Ransomware (yana kulle bayananka har sai ka biya kuɗi).\n\nDon kariya, ka sauke apps daga Google Play Store kadai, ka rika sabunta tsarin wayarka akai-akai, kuma ka yi amfani da app na antivirus mai kyau.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nMalware kalma ce ga software mai mugun nufi ko amfani. Ire-irensa sun hada da ransomware, spyware da wasu shirye-shiryen da ke lalata ko satar bayanai. Sabunta software, rage permissions da yin backups na daga cikin matakan kariya.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Cutar Kwamfuta da Kutse (Malware)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Cutar Kwamfuta da Kutse (Malware) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nCutar Kwamfuta da Kutse (Malware) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene ransomware?",
               "options": [
-                "App na wasa",
                 "Cuta da ke kulle bayananka har sai ka biya kuɗi",
+                "App na wasa",
                 "Sunan kamfanin waya",
                 "Software na banki"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Ransomware yana kulle bayanan wayarka har sai an biya kuɗi."
             },
             {
@@ -245,34 +245,34 @@
             {
               "question": "Menene Trojan?",
               "options": [
-                "App na gaske ba shi da illa",
                 "App wanda ke kama da na gaske amma yana da illa a ɓoye",
+                "App na gaske ba shi da illa",
                 "Sunan wani kamfani",
                 "Nau'in kalmar sirri"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Trojan yana kama da app na gaske amma yana ɓoye niyyar cutarwa."
             },
             {
               "question": "Wace alama za ta iya nuna wayarka na dauke da cuta?",
               "options": [
-                "Wayar tana aiki cikin sauri",
                 "Wayar tana aiki a hankali ba tare da dalili ba",
+                "Wayar tana aiki cikin sauri",
                 "Wayar tana da baturi mai kyau",
                 "Babu wata alama"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Aiki a hankali ba tare da dalili ba na iya nuna kasancewar cuta."
             },
             {
               "question": "Wace hanya ce mafi aminci wajen sauke apps?",
               "options": [
-                "Ta hanyar link daga WhatsApp",
                 "Google Play Store na hukuma",
+                "Ta hanyar link daga WhatsApp",
                 "Shafukan intanet marasa suna",
                 "Ta hanyar Bluetooth daga baƙo"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Google Play Store yana bincika apps kafin buga su."
             }
           ],
@@ -287,61 +287,61 @@
           "order": 5,
           "title": "Social Engineering",
           "summary": "Dabarun yaudarar mutane don samun bayanai",
-          "content": "Social engineering hanya ce da masu laifi ke amfani da ita domin yaudarar mutane su bayar da bayanansu na sirri, ta amfani da tsoro, gaggawa, ko sha'awa maimakon fasahar kwamfuta.\n\nHanya mafi kyau ta kariya ita ce ka rika tambaya kanka ko wannan tuntuɓar tana da ma'ana, sannan ka tabbatar ta hanyar lambar hukuma idan kana da shakka.",
+          "content": "GABATARWA\n\nSocial engineering hanya ce da masu laifi ke amfani da ita domin yaudarar mutane su bayar da bayanansu na sirri, ta amfani da tsoro, gaggawa, ko sha'awa maimakon fasahar kwamfuta.\n\nHanya mafi kyau ta kariya ita ce ka rika tambaya kanka ko wannan tuntuɓar tana da ma'ana, sannan ka tabbatar ta hanyar lambar hukuma idan kana da shakka.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nSocial engineering yana amfani da halayyar mutum maimakon fasaha kawai. Maharin na iya amfani da amincewa, tsoro, gaggawa ko son taimako wajen sa wanda aka hari ya karya dokar tsaro. Horar da masu amfani yana da muhimmanci kamar kayan kariya na fasaha.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Social Engineering”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Social Engineering kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nSocial Engineering ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene social engineering?",
               "options": [
-                "Gina gine-gine",
                 "Yaudarar mutane ta hanyar fasahar zamantakewa don samun bayanansu",
+                "Gina gine-gine",
                 "Nau'in kwamfuta",
                 "Aikin gwamnati"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Social engineering yana amfani da dabarun zamantakewa maimakon fasahar kwamfuta."
             },
             {
               "question": "Menene vishing?",
               "options": [
-                "Kamun kifi",
                 "Kiran waya na yaudara don sace bayanai",
+                "Kamun kifi",
                 "Nau'in app",
                 "Sunan wata cuta"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Vishing shine yaudara ta hanyar kiran waya."
             },
             {
               "question": "Wace dabara ce masu laifi ke amfani da ita don rufe hankalinka?",
               "options": [
-                "Nutsuwa da lokaci",
                 "Tsoro da gaggawa",
+                "Nutsuwa da lokaci",
                 "Bayar da lokaci mai yawa",
                 "Bada shawara su jira"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Suna amfani da tsoro da gaggawa domin ka aikata ba tare da tunani ba."
             },
             {
               "question": "Me ya kamata ka yi idan wani ya kira ka yana neman kalmar sirrinka?",
               "options": [
-                "Ka baiwa nan take",
                 "Ka rufe waya ka kira lambar hukuma ta banki",
+                "Ka baiwa nan take",
                 "Ka aika masa kuɗi",
                 "Ka yi masa magana na dogon lokaci"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Bankuna na gaske ba sa neman kalmar sirrinka ta waya."
             },
             {
               "question": "Me ya kamata ka yi idan kana da shakku game da tuntuɓa?",
               "options": [
+                "Ka tabbatar kafin ka amsa",
                 "Ka amince nan take",
                 "Ka yi watsi da shakkarka",
-                "Ka tabbatar kafin ka amsa",
                 "Ka aika bayananka nan take"
               ],
-              "answerIndex": 2,
+              "answerIndex": 0,
               "explanation": "A koyaushe ya kamata a tabbatar kafin bayar da bayani."
             }
           ],
@@ -356,61 +356,61 @@
           "order": 6,
           "title": "Tsaro na Wi-Fi da Intanet",
           "summary": "Yadda ake kare kai yayin amfani da Wi-Fi na jama'a",
-          "content": "Wi-Fi na jama'a na iya zama mai hatsari saboda masu kutse na iya sa ido kan bayanan da kake aikawa. Kada ka yi amfani da Wi-Fi na jama'a wajen shiga asusun banki, kuma idan dole, ka yi amfani da VPN domin ɓoye bayananka.\n\nA gida, ka tabbata Wi-Fi dinka na da kalmar sirri mai ƙarfi, kuma ka canza kalmar sirrin da kamfani ya baka tun asali.",
+          "content": "GABATARWA\n\nWi-Fi na jama'a na iya zama mai hatsari saboda masu kutse na iya sa ido kan bayanan da kake aikawa. Kada ka yi amfani da Wi-Fi na jama'a wajen shiga asusun banki, kuma idan dole, ka yi amfani da VPN domin ɓoye bayananka.\n\nA gida, ka tabbata Wi-Fi dinka na da kalmar sirri mai ƙarfi, kuma ka canza kalmar sirrin da kamfani ya baka tun asali.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nTsaron Wi-Fi ya hada da amfani da strong authentication, sabunta router firmware da canza default credentials. Haka kuma, mai amfani ya kamata ya yi taka-tsantsan da networks na jama’a kuma kada ya dauki sunan network ko alamar kulle a matsayin tabbacin tsaro gaba daya.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Tsaro na Wi-Fi da Intanet”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Tsaro na Wi-Fi da Intanet kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nTsaro na Wi-Fi da Intanet ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Me yasa Wi-Fi na jama'a ke da hatsari?",
               "options": [
-                "Domin ba shi da sauri",
                 "Masu kutse na iya sa ido kan bayanan da kake aikawa",
+                "Domin ba shi da sauri",
                 "Domin yana da tsada",
                 "Babu wani hatsari"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Wi-Fi na jama'a na iya bada dama ga masu kutse su ga bayanan da ake aikawa."
             },
             {
               "question": "Menene VPN ke yi?",
               "options": [
-                "Yana kara saurin intanet kawai",
                 "Yana ɓoye bayananka daga masu leken asiri",
+                "Yana kara saurin intanet kawai",
                 "Yana share hoto",
                 "Yana kunna wayar hannu"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "VPN yana ɓoye bayanan da kake tura ta intanet."
             },
             {
               "question": "Ya kamata ka yi amfani da Wi-Fi na jama'a wajen biyan kuɗin banki?",
               "options": [
-                "E, koyaushe amintacce",
                 "A'a, ya kamata a guji hakan",
+                "E, koyaushe amintacce",
                 "Ba ruwansa da tsaro",
                 "Kawai da dare"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Ya kamata a guji amfani da Wi-Fi na jama'a don ayyukan banki."
             },
             {
               "question": "Me yasa ake canza kalmar sirrin Wi-Fi na asali?",
               "options": [
-                "Domin kyakkyawa",
                 "Domin masu kutse na iya sanin kalmomin asali",
+                "Domin kyakkyawa",
                 "Babu amfani",
                 "Domin yana kara saurin intanet"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Kalmomin sirri na asali galibi sanannu ne."
             },
             {
               "question": "Menene mataki mafi kyau kafin shiga Wi-Fi na jama'a?",
               "options": [
-                "Ka shiga kai tsaye",
                 "Ka tabbatar sunan hanyar sadarwar na hukuma",
+                "Ka shiga kai tsaye",
                 "Ka bayar da bayanan bankinka",
                 "Ka kashe wayarka"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Tabbatar da sunan hanyar sadarwar yana rage hadarin shiga Wi-Fi na karya."
             }
           ],
@@ -430,7 +430,7 @@
           "order": 1,
           "title": "Tsaro na Wayar Hannu",
           "summary": "Matakan kariya na musamman ga wayar hannu",
-          "content": "Wayar hannu tana dauke da bayanai masu yawa game da rayuwarka. Ana ba da shawarar ka rika kulle wayarka da PIN, fingerprint, ko fuska, kuma ka kunna Find My Device domin idan wayarka ta bata, za ka iya bin diddiginta.\n\nKa rika duba izinin da apps ke bukata kafin ka amince, kuma ka yi backup na muhimman bayanai zuwa wuri mai aminci.",
+          "content": "GABATARWA\n\nWayar hannu tana dauke da bayanai masu yawa game da rayuwarka. Ana ba da shawarar ka rika kulle wayarka da PIN, fingerprint, ko fuska, kuma ka kunna Find My Device domin idan wayarka ta bata, za ka iya bin diddiginta.\n\nKa rika duba izinin da apps ke bukata kafin ka amince, kuma ka yi backup na muhimman bayanai zuwa wuri mai aminci.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Tsaro na Wayar Hannu a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka fara hada ra’ayoyi daban-daban. Ka kula da dalilin da ya sa ake zabar wata hanya, abin da zai iya lalacewa, da yadda za a gwada ko tsarin yana aiki yadda ake so.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Tsaro na Wayar Hannu”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Tsaro na Wayar Hannu kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nTsaro na Wayar Hannu ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Wace hanya ce ta kulle wayar hannu?",
@@ -457,12 +457,12 @@
             {
               "question": "Idan app na wasa yana bukatar izinin duba sakonninka, me ya kamata ka yi?",
               "options": [
-                "Ka amince nan take",
                 "Ka yi shakku kuma ka tantance dalilin bukatar",
+                "Ka amince nan take",
                 "Ka share wayarka",
                 "Ba ruwanka"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Idan izinin bai dace da aikin app ba, ya kamata a yi shakku."
             },
             {
@@ -499,7 +499,7 @@
           "order": 2,
           "title": "Sirri akan Kafofin Sada Zumunta",
           "summary": "Yadda ake kare bayanan sirri a Facebook, WhatsApp, da sauransu",
-          "content": "Kafofin sada zumunta na iya bayyana bayananmu ga masu laifi idan ba a kula ba. Ka duba saitunan sirri na kowace app, kada ka amince da bukatun abota daga mutanen da ba ka sani ba.\n\nKa yi hankali da abin da kake bugawa akan layi - koda bayan ka share shi, wasu na iya daukar hoton allo kafin ka share shi.",
+          "content": "GABATARWA\n\nKafofin sada zumunta na iya bayyana bayananmu ga masu laifi idan ba a kula ba. Ka duba saitunan sirri na kowace app, kada ka amince da bukatun abota daga mutanen da ba ka sani ba.\n\nKa yi hankali da abin da kake bugawa akan layi - koda bayan ka share shi, wasu na iya daukar hoton allo kafin ka share shi.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Sirri akan Kafofin Sada Zumunta a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka fara hada ra’ayoyi daban-daban. Ka kula da dalilin da ya sa ake zabar wata hanya, abin da zai iya lalacewa, da yadda za a gwada ko tsarin yana aiki yadda ake so.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Sirri akan Kafofin Sada Zumunta”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Sirri akan Kafofin Sada Zumunta kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nSirri akan Kafofin Sada Zumunta ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Me yasa a duba saitunan sirri na kafofin sada zumunta?",
@@ -515,34 +515,34 @@
             {
               "question": "Ya kamata ka amince da bukatar abota daga wanda ba ka sani ba?",
               "options": [
-                "E, koyaushe",
                 "A'a, sai an tabbatar wanene shi",
+                "E, koyaushe",
                 "Kawai idan hoto ne mai kyau",
                 "Kawai da dare"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Masu laifi na iya kirkirar asusu na karya."
             },
             {
               "question": "Me ya kamata a guji bugawa a bainar jama'a?",
               "options": [
-                "Labaran wasanni",
                 "Adireshin gida ko jadawalin tafiye-tafiye",
+                "Labaran wasanni",
                 "Hoton abinci",
                 "Ranar hutu"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Wannan bayani na iya sanya ka cikin hadari."
             },
             {
               "question": "Idan ka share sako, shin an tabbata babu wanda ya gani?",
               "options": [
-                "E, koyaushe",
                 "A'a, wani na iya daukar hoton allo kafin",
+                "E, koyaushe",
                 "Ba a taba iya gani ba",
                 "Babu ma'ana"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Wani na iya riga ya dauki hoton allo."
             },
             {
@@ -568,17 +568,17 @@
           "order": 3,
           "title": "Zamba ta Kan Layi (Online Scams)",
           "summary": "Sanin nau'ukan zamba na yau da kullum",
-          "content": "Zamba ta kan layi tana da nau'uka da yawa: SIM swap, zamba ta lottery, da zamba ta sayayya ta kan layi. Alamar gama-gari ita ce alkawarin samun riba mai yawa cikin lokaci kadan, ko bukatar biyan kuɗi tukuna kafin samun wani abu.",
+          "content": "GABATARWA\n\nZamba ta kan layi tana da nau'uka da yawa: SIM swap, zamba ta lottery, da zamba ta sayayya ta kan layi. Alamar gama-gari ita ce alkawarin samun riba mai yawa cikin lokaci kadan, ko bukatar biyan kuɗi tukuna kafin samun wani abu.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Zamba ta Kan Layi (Online Scams) a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka fara hada ra’ayoyi daban-daban. Ka kula da dalilin da ya sa ake zabar wata hanya, abin da zai iya lalacewa, da yadda za a gwada ko tsarin yana aiki yadda ake so.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Zamba ta Kan Layi (Online Scams)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Zamba ta Kan Layi (Online Scams) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nZamba ta Kan Layi (Online Scams) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene SIM swap?",
               "options": [
-                "Sauya waya sabuwa",
                 "Sace lambar wayarka ta hanyar yaudara",
+                "Sauya waya sabuwa",
                 "Sayen SIM sabuwa a shago",
                 "Kunna Wi-Fi"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "SIM swap dabara ce ta sace lambar wayarka."
             },
             {
@@ -595,23 +595,23 @@
             {
               "question": "Ya kamata ka aika kuɗi ga wanda ba ka sani ba don karban kyauta?",
               "options": [
-                "E, koyaushe",
                 "A'a, wannan galibi zamba ce",
+                "E, koyaushe",
                 "Kawai idan gaggawa",
                 "Kawai idan an rubuta a takarda"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Bukatar biyan kuɗi kafin karban kyauta alama ce ta zamba."
             },
             {
               "question": "Me ya kamata ka yi kafin shiga dama ta kasuwanci mai kama da gaskiya sosai?",
               "options": [
-                "Ka shiga nan take",
                 "Ka bincika don tabbatarwa kafin ka shiga",
+                "Ka shiga nan take",
                 "Ka gaya wa kowa",
                 "Ka biya kuɗi domin gudun kaso"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Ya kamata a rika bincike kafin shiga."
             },
             {
@@ -637,7 +637,7 @@
           "order": 4,
           "title": "Tsaro na Kuɗi da Ciniki ta Kan Layi",
           "summary": "Kariya yayin amfani da banki na dijital",
-          "content": "Kafin ka sayi wani abu ta yanar gizo, ka tabbatar shafin yana da aminci - ka duba idan adireshin yana farawa da https tare da alamar kulle. Kada ka bayar da bayanan katin banki ga kowa ta waya, koda wanda ya ce shi ma'aikacin banki ne.",
+          "content": "GABATARWA\n\nKafin ka sayi wani abu ta yanar gizo, ka tabbatar shafin yana da aminci - ka duba idan adireshin yana farawa da https tare da alamar kulle. Kada ka bayar da bayanan katin banki ga kowa ta waya, koda wanda ya ce shi ma'aikacin banki ne.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Tsaro na Kuɗi da Ciniki ta Kan Layi a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka fara hada ra’ayoyi daban-daban. Ka kula da dalilin da ya sa ake zabar wata hanya, abin da zai iya lalacewa, da yadda za a gwada ko tsarin yana aiki yadda ake so.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Tsaro na Kuɗi da Ciniki ta Kan Layi”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Tsaro na Kuɗi da Ciniki ta Kan Layi kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nTsaro na Kuɗi da Ciniki ta Kan Layi ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Wace alama ke nuna shafin sayayya yana da aminci?",
@@ -653,12 +653,12 @@
             {
               "question": "Ya kamata ka baiwa mai kira lambar CVV idan ya ce shi ma'aikacin banki ne?",
               "options": [
-                "E",
                 "A'a, bankuna na gaske ba sa bukatar hakan ta waya",
+                "E",
                 "Kawai idan murya ce mai kwarjini",
                 "E, don gudun matsala"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Bankuna na gaske ba sa neman CVV ko OTP ta waya."
             },
             {
@@ -675,23 +675,23 @@
             {
               "question": "Menene OTP?",
               "options": [
-                "Wani irin waya",
                 "Lambar tabbatarwa na wucin gadi",
+                "Wani irin waya",
                 "Sunan banki",
                 "Nau'in katin ATM"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "OTP lamba ce ta tabbatarwa da ake amfani da ita sau ɗaya."
             },
             {
               "question": "Me ya kamata ka yi idan ka ga ma'amala wadda ba ka yi ba?",
               "options": [
-                "Ka yi shiru",
                 "Ka sanar da bankinka nan take",
+                "Ka yi shiru",
                 "Ka share app din banki",
                 "Ka jira wata rana"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Sanar da bankinka nan take yana dakatar da zamba mai ci gaba."
             }
           ],
@@ -706,17 +706,17 @@
           "order": 5,
           "title": "Two-Factor Authentication (2FA)",
           "summary": "Karin matakin kariya ga asusunanka",
-          "content": "2FA wani karin matakin kariya ne wanda ke bukatar wani abu na biyu bayan kalmar sirri - misali lambar da aka aiko ta SMS ko app kamar Google Authenticator. Hatta idan mai kutse ya san kalmar sirrinka, ba zai iya shiga ba sai ya sami wannan lambar.",
+          "content": "GABATARWA\n\n2FA wani karin matakin kariya ne wanda ke bukatar wani abu na biyu bayan kalmar sirri - misali lambar da aka aiko ta SMS ko app kamar Google Authenticator. Hatta idan mai kutse ya san kalmar sirrinka, ba zai iya shiga ba sai ya sami wannan lambar.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\n2FA yana kara wani mataki na tabbatar da identity bayan password. Wannan yana rage hadarin amfani da password da aka sace, amma hanyoyin 2FA ba su da matakin kariya iri daya a kowane yanayi; ya dace a yi amfani da zabin da sabis din ya fi bada shawara.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka fara hada ra’ayoyi daban-daban. Ka kula da dalilin da ya sa ake zabar wata hanya, abin da zai iya lalacewa, da yadda za a gwada ko tsarin yana aiki yadda ake so.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Two-Factor Authentication (2FA)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Two-Factor Authentication (2FA) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nTwo-Factor Authentication (2FA) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene 2FA?",
               "options": [
-                "Amfani da kalmar sirri kadai",
                 "Karin matakin tabbatarwa bayan kalmar sirri",
+                "Amfani da kalmar sirri kadai",
                 "Nau'in wayar hannu",
                 "Sunan app na wasa"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "2FA yana bukatar wani abu na biyu bayan kalmar sirri."
             },
             {
@@ -755,12 +755,12 @@
             {
               "question": "Idan app yana bayar da zabin 2FA, me ya kamata ka yi?",
               "options": [
-                "Ka guje wa amfani da shi",
                 "Ka kunna shi koyaushe",
+                "Ka guje wa amfani da shi",
                 "Ka bayar da lambarka ga wani",
                 "Ka share asusunka"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Ana ba da shawarar kullum amfani da 2FA."
             }
           ],
@@ -775,28 +775,28 @@
           "order": 6,
           "title": "Security Habits",
           "summary": "Takaitaccen jerin halaye masu kyau don kare kanka koyaushe",
-          "content": "Ka rika sabunta wayarka da apps akai-akai, ka yi backup na muhimman bayanai, ka kunna 2FA a duk inda za a iya, kuma ka rika amfani da kalmomin sirri daban-daban masu ƙarfi. Kafin ka danna wata hanyar sadarwa, ka rika yin tunani na dan lokaci.",
+          "content": "GABATARWA\n\nKa rika sabunta wayarka da apps akai-akai, ka yi backup na muhimman bayanai, ka kunna 2FA a duk inda za a iya, kuma ka rika amfani da kalmomin sirri daban-daban masu ƙarfi. Kafin ka danna wata hanyar sadarwa, ka rika yin tunani na dan lokaci.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Security Habits a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka fara hada ra’ayoyi daban-daban. Ka kula da dalilin da ya sa ake zabar wata hanya, abin da zai iya lalacewa, da yadda za a gwada ko tsarin yana aiki yadda ake so.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Security Habits”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Security Habits kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nSecurity Habits ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Me yasa ake bukatar sabunta wayarka akai-akai?",
               "options": [
-                "Domin yana kara nauyin waya",
                 "Domin sabuntawa galibi suna gyara matsalolin tsaro",
+                "Domin yana kara nauyin waya",
                 "Babu wani dalili",
                 "Domin yana rage baturi"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Sabuntawar tsarin waya galibi tana dauke da gyare-gyaren tsaro."
             },
             {
               "question": "Wace dabi'a za ta iya kare ka daga hare-haren yanar gizo?",
               "options": [
-                "Yin gaggawar amsawa",
                 "Yin tunani na dan lokaci kafin danna hanyar sadarwa",
+                "Yin gaggawar amsawa",
                 "Kashe wayarka koyaushe",
                 "Kada ka taba amfani da intanet"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Yin tunani kafin aiki yana rage yiwuwar fadawa cikin zamba."
             },
             {
@@ -813,12 +813,12 @@
             {
               "question": "Wanne halin ne mai kyau na tsaro?",
               "options": [
-                "Amfani da kalma ɗaya a duk asusunanka",
                 "Kunna 2FA a duk inda za a iya",
+                "Amfani da kalma ɗaya a duk asusunanka",
                 "Danna duk hanyar sadarwa ba tare da tunani ba",
                 "Bayar da OTP ga duk wanda ya tambaya"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Kunna 2FA a duk inda za a iya na ɗaya daga cikin mafi kyawun halaye."
             },
             {
@@ -849,7 +849,7 @@
           "order": 1,
           "title": "Yadda Ake Kare Cibiyar Sadarwa (Network Security)",
           "summary": "Firewall, IDS, da rarraba hanyar sadarwa",
-          "content": "Firewall na'ura ce ko software da ke sarrafa zirga-zirgar bayanai tsakanin cibiyar sadarwarka da sauran duniya, tana toshe duk wata ma'amala mai hatsari. IDS (Intrusion Detection System) tana sanya ido kan cibiyar sadarwa domin gano duk wata alamar hari da wuri-wuri.\n\nRarraba cibiyar sadarwa (network segmentation) na nufin ƙasa cibiyar sadarwa zuwa kananan sassa, don idan mai kutse ya shiga sashi ɗaya, ba zai iya samun damar shiga sauran sassan ba nan take. Wannan yana rage illar da hari zai iya haifarwa.",
+          "content": "GABATARWA\n\nFirewall na'ura ce ko software da ke sarrafa zirga-zirgar bayanai tsakanin cibiyar sadarwarka da sauran duniya, tana toshe duk wata ma'amala mai hatsari. IDS (Intrusion Detection System) tana sanya ido kan cibiyar sadarwa domin gano duk wata alamar hari da wuri-wuri.\n\nRarraba cibiyar sadarwa (network segmentation) na nufin ƙasa cibiyar sadarwa zuwa kananan sassa, don idan mai kutse ya shiga sashi ɗaya, ba zai iya samun damar shiga sauran sassan ba nan take. Wannan yana rage illar da hari zai iya haifarwa.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Yadda Ake Kare Cibiyar Sadarwa (Network Security) a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka duba batun ta fuskar tsarin software, trade-offs, scalability, tsaro, aiki da kuma kula da tsarin. Ayyukan kwararre suna bukatar auna zabuka, ba kawai sanin ma’anar kalma ba.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Yadda Ake Kare Cibiyar Sadarwa (Network Security)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Yadda Ake Kare Cibiyar Sadarwa (Network Security) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nYadda Ake Kare Cibiyar Sadarwa (Network Security) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "diagram": {
             "type": "interactive",
             "key": "network_layers",
@@ -881,12 +881,12 @@
             {
               "question": "Menene amfanin rarraba cibiyar sadarwa (network segmentation)?",
               "options": [
-                "Yana kara saurin intanet kawai",
                 "Yana hana mai kutse yaduwa zuwa sauran sassan idan ya shiga ɗaya",
+                "Yana kara saurin intanet kawai",
                 "Babu wani amfani",
                 "Yana share bayanai"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Rarrabawa yana taƙaita illar hari zuwa sashi ɗaya kacal."
             },
             {
@@ -918,17 +918,17 @@
           "order": 2,
           "title": "Ka'idojin Ɓoye Bayanai (Encryption)",
           "summary": "Yadda ake ɓoye bayanai domin kariya",
-          "content": "Encryption (ɓoye bayanai) tsari ne na canza bayanai zuwa wani salo da ba za a iya karantawa ba sai da makulli na musamman (key). Idan mai kutse ya sace bayanan da aka ɓoye, ba zai iya fahimtar su ba tare da wannan makulli.\n\nAkwai nau'i biyu: Symmetric encryption (inda ake amfani da makulli ɗaya wajen boyewa da bude bayanai) da Asymmetric encryption (inda ake amfani da makulli biyu daban-daban). HTTPS, wanda ke kare shafukan intanet, yana amfani da wannan fasaha don tabbatar da bayanan da ka aika zuwa shafi suna cikin aminci.",
+          "content": "GABATARWA\n\nEncryption (ɓoye bayanai) tsari ne na canza bayanai zuwa wani salo da ba za a iya karantawa ba sai da makulli na musamman (key). Idan mai kutse ya sace bayanan da aka ɓoye, ba zai iya fahimtar su ba tare da wannan makulli.\n\nAkwai nau'i biyu: Symmetric encryption (inda ake amfani da makulli ɗaya wajen boyewa da bude bayanai) da Asymmetric encryption (inda ake amfani da makulli biyu daban-daban). HTTPS, wanda ke kare shafukan intanet, yana amfani da wannan fasaha don tabbatar da bayanan da ka aika zuwa shafi suna cikin aminci.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nEncryption yana canza bayanai zuwa wani tsari da ba a iya karantawa cikin sauki ba tare da key ko hanyar da ta dace ba. Ana amfani da shi wajen kare bayanai yayin aikawa da kuma a wasu lokuta yayin ajiya. Encryption ba ya maye gurbin authentication ko backups.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka duba batun ta fuskar tsarin software, trade-offs, scalability, tsaro, aiki da kuma kula da tsarin. Ayyukan kwararre suna bukatar auna zabuka, ba kawai sanin ma’anar kalma ba.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Ka'idojin Ɓoye Bayanai (Encryption)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Ka'idojin Ɓoye Bayanai (Encryption) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nKa'idojin Ɓoye Bayanai (Encryption) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene encryption?",
               "options": [
-                "Share bayanai gaba ɗaya",
                 "Canza bayanai zuwa salo mara karantuwa sai da makulli",
+                "Share bayanai gaba ɗaya",
                 "Kara saurin intanet",
                 "Nau'in wayar hannu"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Encryption yana ɓoye bayanai ta yadda sai da makulli za a iya karanta su."
             },
             {
@@ -945,23 +945,23 @@
             {
               "question": "Menene HTTPS ke yi?",
               "options": [
-                "Yana kara wa shafuka kayan ado",
                 "Yana ɓoye bayanan da ake tura tsakanin kai da shafin intanet",
+                "Yana kara wa shafuka kayan ado",
                 "Yana share tarihin bincike",
                 "Babu wani amfani"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "HTTPS yana amfani da encryption domin kare bayanan da ake tura zuwa shafi."
             },
             {
               "question": "Idan mai kutse ya sace bayanai da aka ɓoye ba tare da makulli ba, me zai iya yi?",
               "options": [
-                "Ya karanta su cikin sauki",
                 "Ba zai iya fahimtar su ba",
+                "Ya karanta su cikin sauki",
                 "Zai iya sayar da su nan take",
                 "Zai iya share su kawai"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Ba tare da makullin da ya dace ba, bayanan da aka ɓoye ba su da ma'ana ga mai kutse."
             },
             {
@@ -987,7 +987,7 @@
           "order": 3,
           "title": "Tsaron Cloud (Cloud Security Basics)",
           "summary": "Kalubalen tsaro na musamman ga cloud (cloud)",
-          "content": "Cloud (cloud computing) yana bawa kamfanoni damar adana bayanansu a sabar (server) na wani kamfani kamar Google ko Amazon maimakon a wurin su. Wannan yana kawo sauki, amma yana kuma kawo sabbin kalubalen tsaro.\n\nAkwai abin da ake kira 'shared responsibility model' - inda kamfanin cloud ke da alhakin tsaron kayan aikin, yayin da kamfanin da ke amfani da cloud ke da alhakin tsaron bayanansu da yadda suke saita su. Yawancin matsalolin tsaro na cloud suna faruwa ne saboda kuskuren saiti (misconfiguration).",
+          "content": "GABATARWA\n\nCloud (cloud computing) yana bawa kamfanoni damar adana bayanansu a sabar (server) na wani kamfani kamar Google ko Amazon maimakon a wurin su. Wannan yana kawo sauki, amma yana kuma kawo sabbin kalubalen tsaro.\n\nAkwai abin da ake kira 'shared responsibility model' - inda kamfanin cloud ke da alhakin tsaron kayan aikin, yayin da kamfanin da ke amfani da cloud ke da alhakin tsaron bayanansu da yadda suke saita su. Yawancin matsalolin tsaro na cloud suna faruwa ne saboda kuskuren saiti (misconfiguration).\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Tsaron Cloud (Cloud Security Basics) a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka duba batun ta fuskar tsarin software, trade-offs, scalability, tsaro, aiki da kuma kula da tsarin. Ayyukan kwararre suna bukatar auna zabuka, ba kawai sanin ma’anar kalma ba.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Tsaron Cloud (Cloud Security Basics)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Tsaron Cloud (Cloud Security Basics) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nTsaron Cloud (Cloud Security Basics) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene cloud computing?",
@@ -1025,12 +1025,12 @@
             {
               "question": "Wanene ke da alhakin tsaron bayanan da mai amfani ya sanya a cloud?",
               "options": [
-                "Kamfanin cloud kadai",
                 "Mai amfani bisa ga shared responsibility model",
+                "Kamfanin cloud kadai",
                 "Babu wanda ke da alhaki",
                 "Gwamnati"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Mai amfani na da alhakin yadda ya saita da kare bayanansa a cloud."
             },
             {
@@ -1056,28 +1056,28 @@
           "order": 4,
           "title": "Ethical Hacking",
           "summary": "Gabatarwa kan yadda ake gwajin tsaro bisa izini",
-          "content": "Ethical hacking shine aikin gwada tsaron wata cibiyar sadarwa ko app da izinin mai shi, domin gano rauni kafin mugayen masu kutse su same shi. Wanda ke yin wannan aiki ana kiransa 'penetration tester' ko 'white-hat hacker'.\n\nWannan ya bambanta da kutsen da ba bisa ƙa'ida ba domin ana yin shi bisa izini kuma manufar ita ce inganta tsaro. Kamfanoni na daukar irin wadannan kwararru don gwada tsaron su akai-akai, sannan a rubuta rahoto akan raunin da aka samu don a gyara su.",
+          "content": "GABATARWA\n\nEthical hacking shine aikin gwada tsaron wata cibiyar sadarwa ko app da izinin mai shi, domin gano rauni kafin mugayen masu kutse su same shi. Wanda ke yin wannan aiki ana kiransa 'penetration tester' ko 'white-hat hacker'.\n\nWannan ya bambanta da kutsen da ba bisa ƙa'ida ba domin ana yin shi bisa izini kuma manufar ita ce inganta tsaro. Kamfanoni na daukar irin wadannan kwararru don gwada tsaron su akai-akai, sannan a rubuta rahoto akan raunin da aka samu don a gyara su.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nEthical hacking ana yin sa ne da izini domin gano raunin tsaro kafin mahari ya yi amfani da shi. Aikin kwararre yana da scope, dokoki da rubutaccen izini; gwaji ba tare da izini ba na iya zama illa ko saba doka.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka duba batun ta fuskar tsarin software, trade-offs, scalability, tsaro, aiki da kuma kula da tsarin. Ayyukan kwararre suna bukatar auna zabuka, ba kawai sanin ma’anar kalma ba.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Ethical Hacking”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Ethical Hacking kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nEthical Hacking ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene ethical hacking?",
               "options": [
-                "Kutse ba bisa izini ba don sace bayanai",
                 "Gwajin tsaro bisa izini domin gano rauni",
+                "Kutse ba bisa izini ba don sace bayanai",
                 "Nau'in wasan kwamfuta",
                 "Sunan kamfani"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Ethical hacking gwaji ne na tsaro da ake yi bisa izinin mai shi."
             },
             {
               "question": "Wanene ake kira 'white-hat hacker'?",
               "options": [
-                "Wanda ke kutse ba bisa izini ba",
                 "Wanda ke gwada tsaro bisa izini don taimakawa",
+                "Wanda ke kutse ba bisa izini ba",
                 "Sunan kamfani na waya",
                 "Wani irin malware"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "White-hat hacker mutum ne da ke gwada tsaro bisa izini domin manufa mai kyau."
             },
             {
@@ -1094,12 +1094,12 @@
             {
               "question": "Me ake yi bayan an gano rauni a lokacin gwajin tsaro?",
               "options": [
-                "Ana ɓoye rauni din",
                 "Ana rubuta rahoto domin a gyara raunin",
+                "Ana ɓoye rauni din",
                 "Ana sayar da bayanin ga wasu",
                 "Ba a yin komai"
               ],
-              "answerIndex": 1,
+              "answerIndex": 0,
               "explanation": "Manufar gwajin ita ce gano rauni domin a gyara shi, don haka ana bayar da rahoto."
             },
             {
@@ -1125,7 +1125,7 @@
           "order": 5,
           "title": "Shirye-shiryen Kamuwa da Hari (Incident Response)",
           "summary": "Matakan da ake dauka lokacin da hari ya faru",
-          "content": "Ko da an dauki dukkan matakan kariya, wani lokaci hari na iya faruwa. Incident response shine tsarin da wata kungiya ke bi domin mayar da martani ga irin wannan hali cikin tsari, maimakon rudani.\n\nManyan matakai sun hada da: Ganowa, Killewa (containment - dakatar da yaduwar hari), Kawarwa (kawar da tushen matsalar), Dawowa (mayar da tsarin zuwa yadda yake kafin hari), da Koyo (nazarin abin da ya faru domin gyara don gaba). Kamfanoni masu kyau suna da shirin incident response a shirye tun kafin wani hari ya faru.",
+          "content": "GABATARWA\n\nKo da an dauki dukkan matakan kariya, wani lokaci hari na iya faruwa. Incident response shine tsarin da wata kungiya ke bi domin mayar da martani ga irin wannan hali cikin tsari, maimakon rudani.\n\nManyan matakai sun hada da: Ganowa, Killewa (containment - dakatar da yaduwar hari), Kawarwa (kawar da tushen matsalar), Dawowa (mayar da tsarin zuwa yadda yake kafin hari), da Koyo (nazarin abin da ya faru domin gyara don gaba). Kamfanoni masu kyau suna da shirin incident response a shirye tun kafin wani hari ya faru.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nIncident response yana tsara abin da kungiyar za ta yi idan an samu matsalar tsaro: gano abin da ya faru, takaita tasiri, kawar da tushen matsala, dawo da aiki da kuma koyon darasi daga lamarin. Rubuce-rubuce da roles da aka shirya tun kafin hari suna taimakawa sosai.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka duba batun ta fuskar tsarin software, trade-offs, scalability, tsaro, aiki da kuma kula da tsarin. Ayyukan kwararre suna bukatar auna zabuka, ba kawai sanin ma’anar kalma ba.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Shirye-shiryen Kamuwa da Hari (Incident Response)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Shirye-shiryen Kamuwa da Hari (Incident Response) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nShirye-shiryen Kamuwa da Hari (Incident Response) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Menene incident response?",
@@ -1194,7 +1194,7 @@
           "order": 6,
           "title": "Tsaron Yanar Gizo ga Kasuwanci Karami",
           "summary": "Matakan tsaro masu araha ga kanana da matsakaitan kasuwanci",
-          "content": "Kananan kasuwanci suna daga cikin manyan makasudan masu laifin yanar gizo, domin galibi ba su da isassun matakan kariya kamar manyan kamfanoni. Duk da haka, akwai matakai masu sauki da araha da za su iya dauka.\n\nWadannan sun hada da: horas da ma'aikata kan gane sakonnin yaudara, amfani da kalmomin sirri masu ƙarfi da 2FA a duk asusunan kasuwanci, yin backup na bayanai akai-akai, da kuma iyakance damar shiga bayanai masu muhimmanci ga ma'aikata kadan. Ba tare da irin wadannan matakai ba, hari ɗaya kadai zai iya durkusar da wani karamin kasuwanci gaba ɗaya.",
+          "content": "GABATARWA\n\nKananan kasuwanci suna daga cikin manyan makasudan masu laifin yanar gizo, domin galibi ba su da isassun matakan kariya kamar manyan kamfanoni. Duk da haka, akwai matakai masu sauki da araha da za su iya dauka.\n\nWadannan sun hada da: horas da ma'aikata kan gane sakonnin yaudara, amfani da kalmomin sirri masu ƙarfi da 2FA a duk asusunan kasuwanci, yin backup na bayanai akai-akai, da kuma iyakance damar shiga bayanai masu muhimmanci ga ma'aikata kadan. Ba tare da irin wadannan matakai ba, hari ɗaya kadai zai iya durkusar da wani karamin kasuwanci gaba ɗaya.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Tsaron Yanar Gizo ga Kasuwanci Karami a matsayin wani bangare na tsarin Cybersecurity. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, ka duba batun ta fuskar tsarin software, trade-offs, scalability, tsaro, aiki da kuma kula da tsarin. Ayyukan kwararre suna bukatar auna zabuka, ba kawai sanin ma’anar kalma ba.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Tsaron Yanar Gizo ga Kasuwanci Karami”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Tsaron Yanar Gizo ga Kasuwanci Karami kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nTsaron Yanar Gizo ga Kasuwanci Karami ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
           "quiz": [
             {
               "question": "Me yasa kananan kasuwanci ke zama makasudin masu laifi?",
