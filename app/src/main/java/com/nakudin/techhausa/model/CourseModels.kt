@@ -24,6 +24,7 @@ data class Lesson(
     val summary: String,        // Hausa
     val content: String,        // Hausa
     val diagram: Diagram? = null,
+    val supplementaryDiagrams: List<SupplementaryDiagram>? = null,
     val quiz: List<QuizQuestion>
 )
 
@@ -33,6 +34,23 @@ data class Diagram(
     val asset: String? = null,  // filename under assets/images/, when type == "image"
     val key: String? = null,    // maps to a composable in InteractiveDiagrams, when type == "interactive"
     val caption: String? = null // Hausa caption shown under the diagram
+)
+
+/** Lightweight diagrams rendered by Compose at runtime — no PNG assets needed. */
+@Serializable
+data class SupplementaryDiagram(
+    val type: String,           // "flow" | "compare" | "stack" | "hub"
+    val title: String,
+    val items: List<String>? = null,       // for flow, stack
+    val caption: String? = null,
+    // compare-specific
+    val leftTitle: String? = null,
+    val leftItems: List<String>? = null,
+    val rightTitle: String? = null,
+    val rightItems: List<String>? = null,
+    // hub-specific
+    val center: String? = null,
+    val satellites: List<String>? = null
 )
 
 @Serializable

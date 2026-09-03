@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "cloud_computing",
   "title": "Cloud Computing",
   "icon": "cloud",
@@ -12,25 +12,26 @@
           "title": "Menene Cloud Computing?",
           "summary": "Ma'anar cloud a sauki",
           "content": "GABATARWA\n\nCloud Computing na nufin amfani da kwamfutoci, ajiya, da software da ke a wani wuri mai nisa (data center na wani kamfani) ta hanyar intanet, maimakon a wurinka kai tsaye. Maimakon sayen babbar kwamfuta don gudanar da wani aiki, za ka iya 'yin haya' na kwamfutocin wani kamfani kamar Amazon, Google, ko Microsoft, ka biya kuɗi bisa yadda ka yi amfani.\n\nWannan yana kama da yadda ake amfani da wutar lantarki - ba ka bukatar ka gina janareto naka a gida, sai dai ka biya kamfanin wutar lantarki bisa yadda ka yi amfani. Cloud computing yana bawa mutane da kamfanoni damar samun karfin kwamfuta mai yawa ba tare da sayen kayan aiki masu tsada ba.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Menene Cloud Computing? a matsayin wani bangare na tsarin Cloud Computing. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nCloud yana da muhimmanci saboda yana ba mutane da kungiyoyi damar amfani da kwamfuta, ajiya, bayanai da wasu ayyuka ta hanyar intanet ba tare da mallakar dukkan kayan aikin da ke bayan sabis din ba. Wannan na iya rage aikin kula da kayan aiki kuma ya saukaka fadada sabis idan bukata ta karu.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Menene Cloud Computing?”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa dauki wani app ko website da kake amfani da shi kuma ka gano wane bangare zai iya amfani da cloud: ajiya, database, server, ko backups. Ka bayyana dalilin zabinka da abin da zai faru idan intanet ta samu matsala.\n\nMuhimman kalmomi: server, cloud, storage, virtual machine, container, scalability, API, deployment.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Menene Cloud Computing? kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nMenene Cloud Computing? ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"hub","title":"Yadda Cloud Ke Aiki","center":"Sabar Cloud (AWS/Azure/GCP)","satellites":["Wayar Hannu","Kwamfuta","Fakitin","Hotuna","Ayyuka"],"caption":"Duk abubuwan ka suna cikin sabar ka saannan kake samunsa ko'ina"}],
+"quiz": [
             {
               "question": "Menene Cloud Computing?",
               "options": [
-                "Amfani da kwamfutoci da ajiya na wani kamfani ta hanyar intanet",
                 "Sayen babbar kwamfuta don gida",
+                "Wani irin cuta",
                 "Nau'in wayar hannu",
-                "Wani irin cuta"
+                "Amfani da kwamfutoci da ajiya na wani kamfani ta hanyar intanet"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Cloud computing yana bada damar amfani da kayan aiki na wani kamfani ta intanet."
             },
             {
               "question": "Da me ake kwatanta yadda cloud computing ke aiki?",
               "options": [
                 "Yadda ake amfani da wutar lantarki - biyan kuɗi bisa amfani",
+                "Wanke tufafi",
                 "Sayen mota",
-                "Girki na abinci",
-                "Wanke tufafi"
+                "Girki na abinci"
               ],
               "answerIndex": 0,
               "explanation": "Kamar wutar lantarki, ana biyan kuɗin cloud bisa yadda aka yi amfani."
@@ -38,12 +39,12 @@
             {
               "question": "Wanne fa'ida ce cloud computing ke bayarwa?",
               "options": [
+                "Rage saurin kwamfuta",
                 "Samun karfin kwamfuta ba tare da sayen kayan aiki masu tsada ba",
                 "Rashin bukatar intanet",
-                "Rage saurin kwamfuta",
                 "Babu wata fa'ida"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Cloud yana bawa mutane damar amfani da manyan kwamfutoci ba tare da saye ba."
             },
             {
@@ -51,8 +52,8 @@
               "options": [
                 "Amazon (AWS)",
                 "Wani kantin abinci",
-                "Asibiti",
-                "Makarantar firamare"
+                "Makarantar firamare",
+                "Asibiti"
               ],
               "answerIndex": 0,
               "explanation": "Amazon Web Services (AWS) babban kamfani ne na sabis na cloud."
@@ -60,12 +61,12 @@
             {
               "question": "Ta ina ake samun damar shiga cloud?",
               "options": [
-                "Ta hanyar intanet",
-                "Ta hanyar rediyo",
                 "Ta hanyar wasika",
-                "Ta hanyar tafiya kai tsaye"
+                "Ta hanyar rediyo",
+                "Ta hanyar tafiya kai tsaye",
+                "Ta hanyar intanet"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Cloud yana aiki ta hanyar intanet, wanda ke bada damar shiga daga ko'ina."
             }
           ],
@@ -81,36 +82,37 @@
           "title": "Nau'ukan Sabis na Cloud (IaaS, PaaS, SaaS)",
           "summary": "Bambancin manyan nau'ukan cloud guda uku",
           "content": "GABATARWA\n\nIaaS (Infrastructure as a Service) yana bada kwamfutoci da ajiya kawai, kana bukatar ka shirya software da tsarin da kanka - misali Amazon EC2. PaaS (Platform as a Service) yana bada dandali da ke shirye don ka gina app dinka a kai ba tare da damuwa da kwamfutocin da ke bayansa ba - misali Google App Engine. SaaS (Software as a Service) yana bada software da ke shirye don amfani nan take, kamar Gmail ko Microsoft Office 365.\n\nWadannan nau'uka guda uku sun bambanta a nawa aiki ne mai amfani zai yi da kansa, da kuma nawa kamfanin cloud zai sarrafa.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nIaaS yana bada infrastructure kamar virtual machines da storage; PaaS yana kara managed environment don gina da gudanar da applications; SaaS yana bada software a matsayin service. Bambancin ya fi shafar abin da provider yake kula da shi da abin da customer yake da alhaki a kai.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nCloud yana da muhimmanci saboda yana ba mutane da kungiyoyi damar amfani da kwamfuta, ajiya, bayanai da wasu ayyuka ta hanyar intanet ba tare da mallakar dukkan kayan aikin da ke bayan sabis din ba. Wannan na iya rage aikin kula da kayan aiki kuma ya saukaka fadada sabis idan bukata ta karu.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Nau'ukan Sabis na Cloud (IaaS, PaaS, SaaS)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa dauki wani app ko website da kake amfani da shi kuma ka gano wane bangare zai iya amfani da cloud: ajiya, database, server, ko backups. Ka bayyana dalilin zabinka da abin da zai faru idan intanet ta samu matsala.\n\nMuhimman kalmomi: server, cloud, storage, virtual machine, container, scalability, API, deployment.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Nau'ukan Sabis na Cloud (IaaS, PaaS, SaaS) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nNau'ukan Sabis na Cloud (IaaS, PaaS, SaaS) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"stack","title":"IaaS / PaaS / SaaS","items":["SaaS - Shiryayyen Software (Gmail, Netflix)","PaaS - Dandali don Gina App (Heroku)","IaaS - Kwamfuta + Ajiya Kawai (AWS EC2)"],"caption":"IaaS yana ba ka more control, SaaS yana ba ka sauqi"}],
+"quiz": [
             {
               "question": "Menene IaaS?",
               "options": [
+                "Nau'in wayar hannu",
                 "Bada kwamfutoci da ajiya kawai, mai amfani ke shirya software",
                 "Software da ke shirye don amfani nan take",
-                "Dandali don gina app",
-                "Nau'in wayar hannu"
+                "Dandali don gina app"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "IaaS (Infrastructure as a Service) yana bada kayan aiki na asali kawai."
             },
             {
               "question": "Wanne misali ne na SaaS?",
               "options": [
-                "Gmail ko Microsoft Office 365",
                 "Amazon EC2",
+                "Babu misali",
                 "Google App Engine",
-                "Babu misali"
+                "Gmail ko Microsoft Office 365"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Gmail da Office 365 sabis ne na SaaS - shirye don amfani nan take."
             },
             {
               "question": "Menene PaaS?",
               "options": [
                 "Dandali da ke shirye don gina app ba tare da damuwa da kwamfutoci ba",
+                "Nau'in cuta",
                 "Software da ke shirye kawai",
-                "Kwamfuta mara amfani",
-                "Nau'in cuta"
+                "Kwamfuta mara amfani"
               ],
               "answerIndex": 0,
               "explanation": "PaaS (Platform as a Service) yana bada dandali ga masu gina app."
@@ -118,21 +120,21 @@
             {
               "question": "Wanne nau'i ne yake bukatar mai amfani ya sarrafa mafi yawan abu da kansa?",
               "options": [
+                "Babu wani bambanci",
                 "IaaS",
                 "SaaS",
-                "Babu wani bambanci",
                 "PaaS"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "IaaS yana bada kayan aiki na asali kawai, sauran aiki na mai amfani ne."
             },
             {
               "question": "Wace hanya ce mafi sauki ga wanda ba injiniya ba don amfani da software?",
               "options": [
                 "SaaS",
+                "Babu wani zabi mai sauki",
                 "IaaS",
-                "PaaS",
-                "Babu wani zabi mai sauki"
+                "PaaS"
               ],
               "answerIndex": 0,
               "explanation": "SaaS yana bada software da ke shirye don amfani nan take ba tare da fasaha ta musamman ba."
@@ -154,56 +156,56 @@
             {
               "question": "Wanne kamfani ne AWS?",
               "options": [
+                "Wani kantin sayarwa",
                 "Amazon Web Services",
                 "Apple Web Store",
-                "Airtel Wireless System",
-                "Wani kantin sayarwa"
+                "Airtel Wireless System"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "AWS shine gajeriyar hanyar kiran Amazon Web Services."
             },
             {
               "question": "Wanne kamfani ne ya mallaki Azure?",
               "options": [
-                "Microsoft",
                 "Google",
-                "Amazon",
-                "Apple"
+                "Apple",
+                "Microsoft",
+                "Amazon"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Azure sabis ne na cloud da Microsoft ke bayarwa."
             },
             {
               "question": "Me yasa wasu kamfanoni ke zaban Google Cloud?",
               "options": [
-                "Saboda karfinta a AI da nazarin bayanai",
-                "Saboda ba shi da wani amfani",
+                "Babu wani dalili",
                 "Saboda yana da tsada sosai",
-                "Babu wani dalili"
+                "Saboda karfinta a AI da nazarin bayanai",
+                "Saboda ba shi da wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Google Cloud yana da ƙarfi na musamman a fannin AI da nazarin bayanai."
             },
             {
               "question": "Me yasa kamfani zai zabi Azure maimakon wani?",
               "options": [
-                "Saboda alaka da sauran kayan aikin Microsoft",
-                "Saboda babu wani amfani",
                 "Saboda yana da tsada mafi girma",
-                "Babu wani dalili"
+                "Babu wani dalili",
+                "Saboda alaka da sauran kayan aikin Microsoft",
+                "Saboda babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Azure yana da alaka mai kyau da kayan aikin Microsoft kamar Office 365."
             },
             {
               "question": "Nawa manyan kamfanonin cloud da suka fi shahara?",
               "options": [
-                "Uku - AWS, Azure, GCP",
-                "Ɗaya kadai",
                 "Goma",
-                "Babu wanda ya shahara"
+                "Ɗaya kadai",
+                "Babu wanda ya shahara",
+                "Uku - AWS, Azure, GCP"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "AWS, Azure, da Google Cloud sun fi shahara a matsayin manyan kamfanonin cloud."
             }
           ],
@@ -223,12 +225,12 @@
             {
               "question": "Ta yaya cloud ke taimaka wa kasuwanci?",
               "options": [
-                "Yana rage kuɗin farawa da bada damar girma a hankali",
                 "Yana kara kuɗin farawa",
-                "Yana toshe damar aiki daga nesa",
-                "Babu wani amfani"
+                "Yana rage kuɗin farawa da bada damar girma a hankali",
+                "Babu wani amfani",
+                "Yana toshe damar aiki daga nesa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Cloud yana rage bukatar sayen kayan aiki masu tsada tun farko."
             },
             {
@@ -245,34 +247,34 @@
             {
               "question": "Ta yaya cloud ke taimaka wa daidaikun mutane?",
               "options": [
-                "Yana bada damar adana hotuna da takardu a wuri mai aminci",
                 "Yana share hotuna kai tsaye",
+                "Yana bada damar adana hotuna da takardu a wuri mai aminci",
                 "Yana kara nauyin waya",
                 "Babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Cloud yana kare bayanan mutum ko da wayarsa ta lalace."
             },
             {
               "question": "Idan ka rasa wayarka amma ka yi amfani da Google Photos, me zai faru da hotunanka?",
               "options": [
-                "Za su kasance a cloud, ba a wayar ba",
-                "Za su bace gaba ɗaya",
                 "Za a share su nan take",
+                "Za su bace gaba ɗaya",
+                "Za su kasance a cloud, ba a wayar ba",
                 "Babu abin da zai faru"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Google Photos yana adana hotuna a cloud, ba a wayar kadai ba."
             },
             {
               "question": "Wace fa'ida ce ta bunkasa girma ta samu daga cloud ga karamin kasuwanci?",
               "options": [
+                "Babu wata fa'ida",
                 "Zai iya farawa kadan sannan ya kara girma yayin da yake bunkasa",
-                "Dole ne ya saya babban kwamfuta tun farko",
                 "Ba zai iya girma ba",
-                "Babu wata fa'ida"
+                "Dole ne ya saya babban kwamfuta tun farko"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Cloud yana bada dama ga kasuwanci ya girma a hankali bisa bukata."
             }
           ],
@@ -304,9 +306,9 @@
               "question": "Wanne kayan aiki ne misali na cloud storage?",
               "options": [
                 "Google Drive",
-                "Firewall",
+                "Antivirus",
                 "Router",
-                "Antivirus"
+                "Firewall"
               ],
               "answerIndex": 0,
               "explanation": "Google Drive misali ne sanannen na cloud storage."
@@ -314,34 +316,34 @@
             {
               "question": "Wace fa'ida ce cloud storage ke bayarwa wajen aiki tare da wasu?",
               "options": [
-                "Yana sauƙaƙa raba fayiloli da wasu mutane",
                 "Yana toshe raba fayiloli",
+                "Yana sauƙaƙa raba fayiloli da wasu mutane",
                 "Babu wata fa'ida",
                 "Yana kara tsadar fayiloli"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Cloud storage yana bada damar raba fayiloli cikin sauki."
             },
             {
               "question": "Me zai faru da bayananka a cloud idan na'urarka ta lalace?",
               "options": [
+                "Babu abin da zai faru",
                 "Za su kasance lafiya a cloud",
-                "Za su bace gaba ɗaya",
                 "Za a share su kai tsaye",
-                "Babu abin da zai faru"
+                "Za su bace gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Bayanai a cloud suna cikin aminci ko da na'ura ta lalace."
             },
             {
               "question": "Yawanci, ta yaya wadannan sabis ke aiki dangane da farashi?",
               "options": [
-                "Suna bada karamin sarari kyauta, sannan a biya don karin sarari",
-                "Su duka biya ne tun farko",
                 "Suna kyauta koyaushe ba tare da wani biya ba",
-                "Babu wani zabi na kyauta"
+                "Suna bada karamin sarari kyauta, sannan a biya don karin sarari",
+                "Babu wani zabi na kyauta",
+                "Su duka biya ne tun farko"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Yawancin sabis na cloud storage suna da tsarin kyauta har zuwa wani iyaka, sannan biya don karin sarari."
             }
           ],
@@ -361,56 +363,56 @@
             {
               "question": "Me ake bukata don fara amfani da Google Drive?",
               "options": [
+                "Babu bukatar wani abu",
                 "Asusun Google",
                 "Katin banki kadai",
-                "Wayar hannu ta musamman",
-                "Babu bukatar wani abu"
+                "Wayar hannu ta musamman"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Ana bukatar asusun Google domin amfani da Google Drive."
             },
             {
               "question": "Ta yaya ake loda fayil zuwa cloud?",
               "options": [
-                "Ta hanyar danna maballin Upload",
-                "Ta hanyar aika sako na SMS",
+                "Babu wata hanya",
                 "Ta hanyar kiran waya",
-                "Babu wata hanya"
+                "Ta hanyar danna maballin Upload",
+                "Ta hanyar aika sako na SMS"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Maballin Upload yana bada damar loda fayiloli zuwa cloud."
             },
             {
               "question": "Ta yaya ake raba fayil da wasu mutane a cloud?",
               "options": [
-                "Ta hanyar aika hanyar sadarwa (link) ko izinin shiga",
                 "Ta hanyar aika fayil ta waya",
+                "Ta hanyar aika hanyar sadarwa (link) ko izinin shiga",
                 "Ba a iya raba fayil ba",
                 "Ta hanyar rufe fayil din"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Ana iya raba fayiloli ta hanyar aika link ko bada izinin shiga."
             },
             {
               "question": "Me yasa ake ba da shawarar kunna 2FA a asusun cloud?",
               "options": [
-                "Domin bayanai masu yawa suna adana a can kuma suna bukatar kariya",
-                "Domin yana kara sauri",
+                "Domin yana rage kuɗi",
                 "Babu wani dalili",
-                "Domin yana rage kuɗi"
+                "Domin yana kara sauri",
+                "Domin bayanai masu yawa suna adana a can kuma suna bukatar kariya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Kariya ta karin muhimmanci ce saboda yawan bayanan da ake ajiyewa a cloud."
             },
             {
               "question": "Wanne mataki ne na farko wajen amfani da wani sabis na cloud?",
               "options": [
-                "Bude asusu",
-                "Sayen na'ura sabuwa",
+                "Babu wani mataki",
                 "Kiran kamfanin",
-                "Babu wani mataki"
+                "Sayen na'ura sabuwa",
+                "Bude asusu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Bude asusu shine mataki na farko kafin amfani da cloud."
             }
           ],
@@ -435,56 +437,56 @@
             {
               "question": "Menene Virtualization?",
               "options": [
-                "Fasahar da ke bawa kwamfuta damar zama kamar kwamfutoci da yawa",
-                "Nau'in wayar hannu",
+                "Wani irin cuta",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Nau'in wayar hannu",
+                "Fasahar da ke bawa kwamfuta damar zama kamar kwamfutoci da yawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Virtualization tana kirkirar virtual machines masu zaman kansu daga kwamfuta guda."
             },
             {
               "question": "Menene Container (kamar Docker)?",
               "options": [
-                "Wata dabara ta rike app tare da abin da yake bukata, ba tare da kwaikwayon dukkan OS ba",
+                "Wani irin waya",
                 "Nau'in katin banki",
-                "Sunan wata cuta",
-                "Wani irin waya"
+                "Wata dabara ta rike app tare da abin da yake bukata, ba tare da kwaikwayon dukkan OS ba",
+                "Sunan wata cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Container yana rike da app kadai maimakon kwaikwayon dukkan tsarin aiki."
             },
             {
               "question": "Ta yaya containers suka bambanta da VMs?",
               "options": [
+                "Babu bambanci",
                 "Containers sun fi sauki da sauri, ba sa kwaikwayon dukkan OS",
-                "Su biyu iri ɗaya ne gaba ɗaya",
                 "VMs sun fi sauki",
-                "Babu bambanci"
+                "Su biyu iri ɗaya ne gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Containers ba sa dauke da dukkan tsarin aiki, don haka sun fi sauki da sauri."
             },
             {
               "question": "Wanne kamfani/kayan aiki ne misali sananne na container?",
               "options": [
+                "Chrome",
                 "Docker",
-                "Windows",
                 "Excel",
-                "Chrome"
+                "Windows"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Docker misali ne sananne na fasahar container."
             },
             {
               "question": "Me VM (Virtual Machine) ke dauke da shi wanda container ba ya dauke da shi?",
               "options": [
-                "Dukkan tsarin aiki (operating system) nasa",
+                "Hoto kadai",
                 "Bayanan mai amfani kadai",
                 "Babu bambanci",
-                "Hoto kadai"
+                "Dukkan tsarin aiki (operating system) nasa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "VM yana dauke da cikakken tsarin aiki, sabanin container mai sauki."
             }
           ],
@@ -504,45 +506,45 @@
             {
               "question": "Menene Scalability?",
               "options": [
+                "Wani irin cuta",
                 "Ikon wani tsari na girma domin dauki karin aiki",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Scalability tana nufin ikon tsari na girma bisa bukata."
             },
             {
               "question": "Menene Elasticity a cloud?",
               "options": [
+                "Nau'in software na wasa",
                 "Ikon kara ko rage ƙarfi kai tsaye bisa bukatar lokacin",
                 "Rashin canzawa kwata-kwata",
-                "Nau'in software na wasa",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Elasticity yana bada damar canza ƙarfi ta atomatik bisa bukata."
             },
             {
               "question": "Ta yaya elasticity ke amfani wa shafin sayayya lokacin Sallah?",
               "options": [
-                "Cloud zai kara karfin ta atomatik lokacin da masu ziyara suka karu",
+                "Cloud zai rage ƙarfi kadai",
                 "Cloud zai rufe shafin",
                 "Cloud ba zai yi komai ba",
-                "Cloud zai rage ƙarfi kadai"
+                "Cloud zai kara karfin ta atomatik lokacin da masu ziyara suka karu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Elasticity yana bada damar kara ƙarfi lokacin karin bukata."
             },
             {
               "question": "Me yasa ake bukatar rage ƙarfi bayan an gama lokacin karin bukata?",
               "options": [
-                "Domin a rage kuɗin da ake kashewa",
+                "Domin dole ne a rufe shafin",
                 "Domin yana kara kuɗi",
                 "Babu wani dalili",
-                "Domin dole ne a rufe shafin"
+                "Domin a rage kuɗin da ake kashewa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Rage ƙarfi bayan bukata ta ragu yana taimaka wajen rage kashe kuɗi."
             },
             {
@@ -573,23 +575,23 @@
             {
               "question": "Menene Cloud Migration?",
               "options": [
-                "Tsarin matsar da bayanai da tsarin aiki daga sabar gida zuwa cloud",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Tsarin matsar da bayanai da tsarin aiki daga sabar gida zuwa cloud",
+                "Wani irin cuta",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Cloud Migration shine tsarin canjawa daga tsarin gargajiya zuwa cloud."
             },
             {
               "question": "Menene 'lift and shift' a cloud migration?",
               "options": [
+                "A sake gina app din daga karce",
                 "Kawai a canja app din yadda take ba tare da canzawa ba",
                 "A share app din gaba ɗaya",
-                "A sake gina app din daga karce",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Lift and shift yana nufin matsar da app din yadda yake ba tare da sauya tsarinta ba."
             },
             {
@@ -597,8 +599,8 @@
               "options": [
                 "A sake tsara app din domin ta yi amfani da damar cloud yadda ya kamata",
                 "A share app din",
-                "A canja app din ba tare da wani gyara ba",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "A canja app din ba tare da wani gyara ba"
               ],
               "answerIndex": 0,
               "explanation": "Refactoring yana kunshe da sake fasalin app din domin ta dace da cloud."
@@ -606,23 +608,23 @@
             {
               "question": "Me yasa ake bukatar shiri sosai kafin cloud migration?",
               "options": [
-                "Domin a guji dogon tsayawar aiki yayin canjawa",
-                "Domin babu wani dalili",
+                "Domin ba ya bukatar tsari",
                 "Domin yana da sauki koyaushe",
-                "Domin ba ya bukatar tsari"
+                "Domin a guji dogon tsayawar aiki yayin canjawa",
+                "Domin babu wani dalili"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Shiri yana taimaka wajen tabbatar da migration ba zai kawo matsala mai girma ba."
             },
             {
               "question": "Mene ne mataki na farko a cloud migration?",
               "options": [
-                "Tantance wace app za a fara matsarwa",
                 "Share dukkan bayanai",
-                "Rufe kamfanin",
-                "Babu wani mataki na farko"
+                "Tantance wace app za a fara matsarwa",
+                "Babu wani mataki na farko",
+                "Rufe kamfanin"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Tantance app da za a fara da ita muhimmin mataki ne na farko."
             }
           ],
@@ -643,9 +645,9 @@
               "question": "Menene 'cloud waste'?",
               "options": [
                 "Kashe kuɗi akan sabar da ba a amfani da su ba",
+                "Wani irin cuta",
                 "Nau'in software",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "Cloud waste yana faruwa idan ana biyan kuɗi akan sabobin da ba a amfani da su."
@@ -653,45 +655,45 @@
             {
               "question": "Me yasa farashin cloud zai iya karuwa da sauri?",
               "options": [
-                "Idan ba a kula da amfani da sabobi da kyau ba",
-                "Domin cloud yana da tsada koyaushe",
                 "Domin babu wani dalili",
-                "Domin ana biyan kuɗi sau ɗaya kacal"
+                "Idan ba a kula da amfani da sabobi da kyau ba",
+                "Domin ana biyan kuɗi sau ɗaya kacal",
+                "Domin cloud yana da tsada koyaushe"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Rashin kulawa da sabobin da ake gudanarwa na iya kara farashi ba tare da amfani ba."
             },
             {
               "question": "Wanne kayan aiki ne ke taimakawa wajen bin diddigin kashe kuɗin cloud?",
               "options": [
-                "Cost monitoring tools",
-                "Antivirus",
                 "VPN",
-                "Firewall"
+                "Cost monitoring tools",
+                "Firewall",
+                "Antivirus"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Cost monitoring tools suna taimaka wa kamfani ganin nawa suke kashewa a cloud."
             },
             {
               "question": "Me ya kamata a yi da sabar da ba a amfani da su ba?",
               "options": [
+                "A kara su",
                 "A kashe su domin rage kashe kuɗi",
                 "A ci gaba da bari suna gudana",
-                "A kara su",
                 "Babu wani abin yi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Kashe sabar da ba a amfani da su yana rage cloud waste."
             },
             {
               "question": "Me ya kamata kamfani ya samu idan ya sarrafa kuɗin cloud da kyau?",
               "options": [
-                "Amfana da sassaucin cloud ba tare da kashe kuɗi ba dalili ba",
                 "Kara kashe kuɗi ba dalili",
-                "Rufe kamfanin",
-                "Babu wata fa'ida"
+                "Babu wata fa'ida",
+                "Amfana da sassaucin cloud ba tare da kashe kuɗi ba dalili ba",
+                "Rufe kamfanin"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Sarrafa kuɗi mai kyau yana bawa kamfani damar amfana daga cloud yadda ya kamata."
             }
           ],
@@ -711,45 +713,45 @@
             {
               "question": "Menene API?",
               "options": [
-                "Hanyar da ke bada damar software daban-daban su yi magana da juna",
                 "Nau'in wayar hannu",
+                "Hanyar da ke bada damar software daban-daban su yi magana da juna",
                 "Sunan kamfani",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "API tana bada damar sadarwa tsakanin software daban-daban."
             },
             {
               "question": "Ta yaya APIs ke taimaka wa masu gina app?",
               "options": [
-                "Suna bada dama amfani da sabis na cloud ba tare da gina su daga karce ba",
                 "Suna toshe damar amfani da sabis",
-                "Babu wani amfani",
-                "Suna kara tsadar app"
+                "Suna bada dama amfani da sabis na cloud ba tare da gina su daga karce ba",
+                "Suna kara tsadar app",
+                "Babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "APIs suna bada damar amfani da ayyukan da aka riga aka gina."
             },
             {
               "question": "Wanne misali ne na amfani da API a app na hoto?",
               "options": [
-                "Amfani da API domin gane fuska a hoto",
-                "Rufe app din",
                 "Share hoto",
-                "Babu wani misali"
+                "Rufe app din",
+                "Babu wani misali",
+                "Amfani da API domin gane fuska a hoto"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "App na hoto na iya amfani da API na cloud domin gane fuska ba tare da gina wannan fasaha da kansa ba."
             },
             {
               "question": "Me yasa APIs ke sauƙaƙa gina sabbin app?",
               "options": [
-                "Domin ana iya amfani da sabis din da wasu suka riga suka gina",
-                "Domin dole ne a gina komai daga karce",
                 "Babu wani amfani",
-                "Domin yana kara tsada sosai"
+                "Domin ana iya amfani da sabis din da wasu suka riga suka gina",
+                "Domin yana kara tsada sosai",
+                "Domin dole ne a gina komai daga karce"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "APIs suna bada damar amfani da fasahar da wasu suka riga suka kirkira."
             },
             {
@@ -780,54 +782,54 @@
             {
               "question": "Menene Multi-cloud?",
               "options": [
-                "Amfani da kamfanonin cloud fiye da ɗaya",
-                "Amfani da kamfani ɗaya kadai",
                 "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Amfani da kamfanonin cloud fiye da ɗaya",
+                "Sunan kamfani",
+                "Amfani da kamfani ɗaya kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Multi-cloud yana amfani da kamfanoni cloud da dama a lokaci ɗaya."
             },
             {
               "question": "Menene Hybrid Cloud?",
               "options": [
-                "Hadewar cloud na jama'a da tsarin da kamfani ke da shi a gida",
                 "Amfani da kamfani ɗaya kadai",
-                "Rufe cloud gaba ɗaya",
-                "Nau'in wayar hannu"
+                "Nau'in wayar hannu",
+                "Hadewar cloud na jama'a da tsarin da kamfani ke da shi a gida",
+                "Rufe cloud gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Hybrid Cloud yana hada cloud na jama'a da tsarin na gida (on-premises)."
             },
             {
               "question": "Me yasa kamfani zai zabi Multi-cloud?",
               "options": [
-                "Domin guje wa dogaro da kamfani ɗaya kacal",
+                "Domin dole ne a yi haka",
                 "Domin yana da tsada mafi girma koyaushe",
-                "Babu wani dalili",
-                "Domin dole ne a yi haka"
+                "Domin guje wa dogaro da kamfani ɗaya kacal",
+                "Babu wani dalili"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Multi-cloud yana rage hadarin dogaro da kamfani ɗaya kacal."
             },
             {
               "question": "Me yasa banki zai iya amfani da Hybrid Cloud?",
               "options": [
-                "Domin ajiye bayanan muhimmanci a gida bisa dokokin tsaro, sauran a cloud",
-                "Domin ba shi da kuɗi",
                 "Domin dole ne",
-                "Babu wani dalili"
+                "Domin ajiye bayanan muhimmanci a gida bisa dokokin tsaro, sauran a cloud",
+                "Babu wani dalili",
+                "Domin ba shi da kuɗi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Dokokin tsaro na iya bukatar wasu bayanai su kasance a tsarin gida."
             },
             {
               "question": "Wace fa'ida ce Multi-cloud ke bayarwa?",
               "options": [
                 "Amfani da karfin da kowane kamfani ya fi kwarewa a kai",
-                "Rage duk wani zabi",
                 "Kara wahalar aiki kadai",
-                "Babu wata fa'ida"
+                "Babu wata fa'ida",
+                "Rage duk wani zabi"
               ],
               "answerIndex": 0,
               "explanation": "Multi-cloud yana bada damar zaban mafi kyawun sabis daga kowane kamfani."
@@ -854,53 +856,53 @@
             {
               "question": "Menene Kubernetes?",
               "options": [
-                "Kayan aikin da ke sarrafa containers da yawa a cloud",
                 "Nau'in wayar hannu",
                 "Sunan banki",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Kayan aikin da ke sarrafa containers da yawa a cloud"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Kubernetes kayan aiki ne na container orchestration da Google ta kirkira."
             },
             {
               "question": "Menene 'container orchestration'?",
               "options": [
-                "Sarrafa fara, tsayawa, da rarraba containers da yawa",
-                "Nau'in wasan kwaikwayo",
                 "Sayen containers",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Sarrafa fara, tsayawa, da rarraba containers da yawa",
+                "Nau'in wasan kwaikwayo"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Container orchestration yana sarrafa containers da yawa ta atomatik."
             },
             {
               "question": "Me Kubernetes ke yi idan wani sabar ya fadi?",
               "options": [
-                "Yana sake fara container a wani sabar dabam ta atomatik",
                 "Yana tsayar da dukkan app din",
+                "Yana share dukkan bayanai",
                 "Babu abin da yake yi",
-                "Yana share dukkan bayanai"
+                "Yana sake fara container a wani sabar dabam ta atomatik"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Kubernetes yana da ikon dawo da aiki ta hanyar sake fara containers a wani wuri."
             },
             {
               "question": "Wanne kamfani ne ya kirkiri Kubernetes?",
               "options": [
-                "Google",
-                "Microsoft",
                 "Amazon",
-                "Apple"
+                "Microsoft",
+                "Apple",
+                "Google"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Google ce ta kirkiri Kubernetes tun farko."
             },
             {
               "question": "Wace fa'ida ce Kubernetes ke bayarwa ga manyan kamfanoni?",
               "options": [
                 "Gudanar da miliyoyin masu amfani ba tare da tsangwama ba",
-                "Rage yawan masu amfani",
                 "Babu wata fa'ida",
+                "Rage yawan masu amfani",
                 "Rufe app din koyaushe"
               ],
               "answerIndex": 0,
@@ -923,12 +925,12 @@
             {
               "question": "Menene Serverless Computing?",
               "options": [
-                "Gudanar da code ba tare da sarrafa sabar da kanka ba",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Gudanar da code ba tare da sarrafa sabar da kanka ba",
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Serverless yana bada damar gudanar da code ba tare da sarrafa sabar ba."
             },
             {
@@ -947,8 +949,8 @@
               "options": [
                 "E, akwai, kawai mai haɓaka ba ya damuwa da su",
                 "A'a, babu sabar kwata-kwata",
-                "Babu wani sabar a duniya",
-                "Ba a sani ba"
+                "Ba a sani ba",
+                "Babu wani sabar a duniya"
               ],
               "answerIndex": 0,
               "explanation": "Sunan 'serverless' na nufin mai haɓaka ba ya sarrafa sabar, ba cewa babu sabar ba."
@@ -956,21 +958,21 @@
             {
               "question": "Wanne kayan aiki ne misali na serverless computing?",
               "options": [
-                "AWS Lambda",
                 "Docker",
                 "Kubernetes",
+                "AWS Lambda",
                 "Excel"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "AWS Lambda misali ne sananne na serverless computing."
             },
             {
               "question": "Wanne aiki ne ya dace da serverless computing?",
               "options": [
                 "Sarrafa hoto ta atomatik lokacin da aka loda shi",
-                "Gudanar da babban tsarin banki koyaushe",
                 "Girki na abinci",
-                "Tuki na mota"
+                "Tuki na mota",
+                "Gudanar da babban tsarin banki koyaushe"
               ],
               "answerIndex": 0,
               "explanation": "Ayyuka masu 'lokaci-lokaci' irin wannan sun dace da serverless."
@@ -992,54 +994,54 @@
             {
               "question": "Menene Microservices Architecture?",
               "options": [
+                "Sunan kamfani",
                 "Raba babban app zuwa kananan sassa masu zaman kansu",
-                "Hada dukkan app zuwa sashi ɗaya",
                 "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Hada dukkan app zuwa sashi ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Microservices yana raba app zuwa sassa kanana masu zaman kansu."
             },
             {
               "question": "Wace fa'ida ce Microservices Architecture ke bayarwa?",
               "options": [
-                "Sauƙaƙa gyara da sabunta kowane sashi ba tare da tsangwama sauran ba",
-                "Kara wahalar gyara app",
                 "Babu wata fa'ida",
-                "Rage saurin app din gaba ɗaya"
+                "Sauƙaƙa gyara da sabunta kowane sashi ba tare da tsangwama sauran ba",
+                "Rage saurin app din gaba ɗaya",
+                "Kara wahalar gyara app"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Kowane sashi na iya gyaru daban ba tare da tasiri sauran sassan app ba."
             },
             {
               "question": "Menene Load Balancing pattern?",
               "options": [
-                "Rarraba bukatun masu amfani a kan sabobi da yawa",
-                "Tara dukkan bukatu a sabar ɗaya",
+                "Rufe sabar gaba ɗaya",
                 "Babu wata ma'ana",
-                "Rufe sabar gaba ɗaya"
+                "Tara dukkan bukatu a sabar ɗaya",
+                "Rarraba bukatun masu amfani a kan sabobi da yawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Load Balancing yana rarraba nauyi domin babu sabar da za ta yi aiki fiye da kima."
             },
             {
               "question": "Me yasa ake amfani da tsare-tsaren da aka riga aka gwada (design patterns)?",
               "options": [
-                "Domin rage yiwuwar kuskure wajen gina sabon tsari",
                 "Domin dole ne bisa doka",
-                "Babu wani dalili",
-                "Domin yana kara tsada"
+                "Domin rage yiwuwar kuskure wajen gina sabon tsari",
+                "Domin yana kara tsada",
+                "Babu wani dalili"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Amfani da tsare-tsare da aka gwada yana rage hadarin kuskure."
             },
             {
               "question": "Wanne matsala ce Load Balancing ke gujewa?",
               "options": [
                 "Wani sabar guda ya yi aiki fiye da kima yayin da wasu ba su da aiki",
-                "Rashin masu amfani",
                 "Yawan kuɗin cloud",
-                "Babu wata matsala"
+                "Babu wata matsala",
+                "Rashin masu amfani"
               ],
               "answerIndex": 0,
               "explanation": "Load Balancing yana tabbatar da adalci a rarraba aiki tsakanin sabobi."
@@ -1063,8 +1065,8 @@
               "options": [
                 "Falsafar da ke hada aikin Development da Operations",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "DevOps yana hada aikin gina software da sarrafa tsarin domin sauri da aminci."
@@ -1072,12 +1074,12 @@
             {
               "question": "Menene CI/CD?",
               "options": [
-                "Tsarin atomatik gwada da sakin code duk lokacin da aka kara canji",
                 "Nau'in wayar hannu",
+                "Babu wata ma'ana",
                 "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Tsarin atomatik gwada da sakin code duk lokacin da aka kara canji"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "CI/CD yana atomatik gwadawa da sakin sabon code."
             },
             {
@@ -1094,23 +1096,23 @@
             {
               "question": "Me yake faruwa ta atomatik a CI/CD duk lokacin da injiniya ya kara canji?",
               "options": [
-                "Ana gwada code din ta atomatik kafin a saki",
                 "Ana share code din",
                 "Ana rufe app din",
-                "Babu abin da ke faruwa"
+                "Babu abin da ke faruwa",
+                "Ana gwada code din ta atomatik kafin a saki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "CI/CD yana gwada code ta atomatik domin tabbatar da inganci kafin saki."
             },
             {
               "question": "Wanne bangare biyu ne DevOps ke hadewa?",
               "options": [
-                "Development da Operations",
                 "Sales da Marketing",
-                "HR da Finance",
-                "Babu wani bangare"
+                "Development da Operations",
+                "Babu wani bangare",
+                "HR da Finance"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "DevOps yana hada bangaren gina software da bangaren sarrafa tsarin."
             }
           ],
@@ -1130,56 +1132,56 @@
             {
               "question": "Menene SQL database?",
               "options": [
-                "Database da ke adana bayanai a tsare-tsare masu tsari kamar teburori",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Database da ke adana bayanai a tsare-tsare masu tsari kamar teburori",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "SQL databases suna amfani da tsari mai tsayayye kamar teburori."
             },
             {
               "question": "Menene NoSQL database?",
               "options": [
-                "Database mai sassauci wajen adana bayanai marasa tsayayyen tsari",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Database mai sassauci wajen adana bayanai marasa tsayayyen tsari",
+                "Babu wata ma'ana",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "NoSQL yana bada sassauci fiye da SQL wajen tsarin bayanai."
             },
             {
               "question": "Wanne database ya fi dacewa da bayanan asusun banki?",
               "options": [
-                "SQL, saboda tsayayyen tsari",
                 "NoSQL, saboda sassauci",
                 "Babu wani bambanci",
-                "Dukkansu basu dace ba"
+                "Dukkansu basu dace ba",
+                "SQL, saboda tsayayyen tsari"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Bayanan banki suna bukatar tsari mai kwanciyar hankali, wanda SQL ke bayarwa."
             },
             {
               "question": "Wanne misali ne na NoSQL database?",
               "options": [
-                "MongoDB Atlas",
-                "Amazon RDS",
                 "Excel",
+                "Amazon RDS",
+                "MongoDB Atlas",
                 "Word"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "MongoDB Atlas misali ne sananne na NoSQL database a cloud."
             },
             {
               "question": "Me yasa NoSQL ya fi dacewa da sakonnin sada zumunta?",
               "options": [
-                "Domin bayanan suna canzawa akai-akai kuma sun bambanta a tsari",
                 "Domin sun fi tsada",
-                "Babu wani dalili",
-                "Domin dole ne bisa doka"
+                "Domin dole ne bisa doka",
+                "Domin bayanan suna canzawa akai-akai kuma sun bambanta a tsari",
+                "Babu wani dalili"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Sassaucin NoSQL yana dacewa da bayanai masu canzawa da rashin tsayayyen tsari."
             }
           ],
@@ -1199,56 +1201,56 @@
             {
               "question": "Menene aikin Cloud Engineer?",
               "options": [
-                "Gina da kula da tsarin cloud",
-                "Girki na abinci",
                 "Tuki na mota",
-                "Wanke tufafi"
+                "Wanke tufafi",
+                "Girki na abinci",
+                "Gina da kula da tsarin cloud"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Cloud Engineer yana gina da sarrafa tsarin cloud."
             },
             {
               "question": "Menene aikin Cloud Architect?",
               "options": [
-                "Tsara tsarin cloud mafi girma ga kamfani",
                 "Direban mota",
-                "Manomi",
-                "Makeri"
+                "Makeri",
+                "Tsara tsarin cloud mafi girma ga kamfani",
+                "Manomi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Cloud Architect yana tsara babban tsarin cloud ga kamfani."
             },
             {
               "question": "Wace takardar shaida (certification) ce misali mai kyau don farawa?",
               "options": [
+                "Babu wata takarda",
                 "AWS Certified Cloud Practitioner",
-                "Diploma na dafa abinci",
                 "Lasisin tuki",
-                "Babu wata takarda"
+                "Diploma na dafa abinci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "AWS Certified Cloud Practitioner takarda ce ta farko mai kyau ga masu son shiga fannin."
             },
             {
               "question": "Me ake ba da shawara a matsayin mataki na farko don shiga fannin cloud?",
               "options": [
-                "Koyon asalin wani kamfanin cloud guda ɗaya sosai",
-                "Koyon kowane kamfani a lokaci ɗaya",
                 "Jira har a gama koyon komai",
-                "Babu wani mataki"
+                "Koyon asalin wani kamfanin cloud guda ɗaya sosai",
+                "Babu wani mataki",
+                "Koyon kowane kamfani a lokaci ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Fara da kamfani ɗaya yana bada tushe mai ƙarfi kafin fadada zuwa wasu."
             },
             {
               "question": "Menene aikin DevOps Engineer?",
               "options": [
-                "Hada aikin gina software da sarrafa cloud",
+                "Sayar da kaya",
                 "Girki na abinci",
                 "Wasan kwallon kafa",
-                "Sayar da kaya"
+                "Hada aikin gina software da sarrafa cloud"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "DevOps Engineer yana hada development da operations a cloud."
             }
           ],

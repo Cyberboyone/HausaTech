@@ -47,6 +47,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
+import com.nakudin.techhausa.ads.AdFrequencyController
 import com.nakudin.techhausa.ads.InterstitialManager
 import com.nakudin.techhausa.ads.RewardedManager
 import com.nakudin.techhausa.data.CourseRepository
@@ -99,6 +100,7 @@ fun QuizScreen(
 
     val activity = context as? Activity
     val interstitialManager = remember { InterstitialManager(context) }
+    val adFrequencyController = remember { AdFrequencyController(context) }
     val rewardedManager = remember { RewardedManager(context) }
 
     fun resetQuiz() {
@@ -119,11 +121,20 @@ fun QuizScreen(
         rewardedManager.load()
     }
 
-    // Show the interstitial once when the results screen appears.
+    // Full-screen ads are deliberately occasional: only after every 4 completed
+    // quizzes and never more than once within a 10-minute window. If no ad is
+    // ready, the learner continues normally.
     LaunchedEffect(showResults) {
         if (showResults && !interstitialShown) {
             interstitialShown = true
-            activity?.let { interstitialManager.showIfReady(it) }
+            adFrequencyController.recordQuizCompletion()
+            if (adFrequencyController.shouldShowInterstitial()) {
+                activity?.let {
+                    if (interstitialManager.showIfReady(it)) {
+                        adFrequencyController.markInterstitialShown()
+                    }
+                }
+            }
         }
     }
 
@@ -171,7 +182,7 @@ fun QuizScreen(
         }
 
         // Shuffle the options once per question (and again on every retry)
-        // so the correct answer isn't always in the same position. Scoring,
+        // so the correct answer appears in a different/random position. Scoring,
         // selection, and correct/wrong states all read this normalized copy.
         val rawQuestion = lesson.quiz[currentIndex]
         val question = remember(rawQuestion, shuffleSeed) {

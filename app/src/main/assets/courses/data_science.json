@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "data_science",
   "title": "Data Science",
   "icon": "data",
@@ -12,25 +12,26 @@
           "title": "Menene Data Science?",
           "summary": "Ma'anar fannin nazarin bayanai a sauki",
           "content": "GABATARWA\n\nData Science fanni ne da ke hada lissafi, kididdiga (statistics), da fasahar kwamfuta domin gano bayani mai amfani daga cikin bayanai (data) masu yawa. Misali, wani babban kanti zai iya nazarin bayanan sayayyar kwastomominsa domin gano wanne kaya ne ake sayarwa mafi yawa a wani lokaci na shekara.\n\nData Scientist shine mutumin da ke gudanar da wannan aiki - yana tattara bayanai, ya tsarkake su, ya nazarce su, sannan ya bayyana abin da ya gano ta hanyar da mutane a kamfani za su iya fahimta kuma su yi amfani da su wajen yanke shawara.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Menene Data Science? a matsayin wani bangare na tsarin Data Science. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nData Science tana taimakawa wajen juya bayanai masu yawa zuwa fahimta da za a iya amfani da ita wajen yanke shawara. Muhimmin abu ba wai samun data kadai ba ne; dole ne a tsaftace ta, a fahimci inda ta fito, a zabi hanyar nazari mai dacewa, sannan a fassara sakamakon ba tare da yaudarar mai karatu ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Menene Data Science?”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa dauki karamin dataset kamar sakamakon dalibai ko tallace-tallace. Ka rubuta irin tambayar da kake son data ta amsa, wane ginshiki za ka duba, da wane irin jadawali ko kididdiga zai taimaka wajen bayyana sakamakon.\n\nMuhimman kalmomi: dataset, variable, cleaning, analysis, visualization, statistics, model, prediction, SQL.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Menene Data Science? kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nMenene Data Science? ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"hub","title":"Abin da Data Science Ke Me","center":"Data Science","satellites":["Kididdiga (Statistics)","Programming (Python/R)","Ilimin Kasuwanci"],"caption":"Data Science yana haɗa ilimin kididdiga da shirye-shirye"}],
+"quiz": [
             {
               "question": "Menene Data Science?",
               "options": [
-                "Fannin da ke hada lissafi da fasahar kwamfuta domin gano bayani mai amfani daga bayanai",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Fannin da ke hada lissafi da fasahar kwamfuta domin gano bayani mai amfani daga bayanai",
+                "Wani irin cuta",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Data Science yana amfani da lissafi da kwamfuta domin fahimtar bayanai."
             },
             {
               "question": "Menene Data Scientist ke yi?",
               "options": [
                 "Yana tattara, tsarkakewa, da nazarin bayanai domin taimakawa wajen yanke shawara",
-                "Yana gina wayar hannu kadai",
+                "Babu wani aiki na musamman",
                 "Yana sayar da kaya kadai",
-                "Babu wani aiki na musamman"
+                "Yana gina wayar hannu kadai"
               ],
               "answerIndex": 0,
               "explanation": "Data Scientist yana bincike bayanai domin fitar da fahimta mai amfani."
@@ -40,8 +41,8 @@
               "options": [
                 "Nazarin bayanan sayayya domin gano wanne kaya ake sayarwa mafi yawa",
                 "Sayen kaya kai tsaye ba tare da bincike ba",
-                "Rufe kantin sayarwa",
-                "Babu wani misali"
+                "Babu wani misali",
+                "Rufe kantin sayarwa"
               ],
               "answerIndex": 0,
               "explanation": "Nazarin bayanan sayayya yana taimaka wa kamfani fahimtar halayen kwastomomi."
@@ -49,23 +50,23 @@
             {
               "question": "Wanne fanni uku ne Data Science ke hadewa?",
               "options": [
-                "Lissafi, kididdiga, da fasahar kwamfuta",
                 "Girki, wasa, da waka",
                 "Tuki, dinki, da noma",
-                "Babu wani fanni na musamman"
+                "Babu wani fanni na musamman",
+                "Lissafi, kididdiga, da fasahar kwamfuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Wadannan fannoni guda uku sune tushen Data Science."
             },
             {
               "question": "Me yasa Data Scientist ke bukatar bayyana abin da ya gano a sauki?",
               "options": [
-                "Domin mutane a kamfani su fahimta su yi amfani da bincikensa wajen yanke shawara",
-                "Domin dole ne bisa doka",
                 "Babu wani dalili",
-                "Domin yana kara kuɗinsa"
+                "Domin mutane a kamfani su fahimta su yi amfani da bincikensa wajen yanke shawara",
+                "Domin yana kara kuɗinsa",
+                "Domin dole ne bisa doka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Sanin abin da aka gano ba shi da amfani sai an bayyana shi a hanyar da za a iya amfani da ita."
             }
           ],
@@ -85,21 +86,21 @@
             {
               "question": "Menene Structured Data?",
               "options": [
-                "Bayanai masu tsari mai kwanciyar hankali kamar tebur na Excel",
-                "Bayanai marasa wani tsari",
                 "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Sunan kamfani",
+                "Bayanai marasa wani tsari",
+                "Bayanai masu tsari mai kwanciyar hankali kamar tebur na Excel"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Structured data yana da tsari mai kwanciyar hankali kamar layuka da ginshiƙai."
             },
             {
               "question": "Menene Unstructured Data?",
               "options": [
                 "Bayanai marasa tsari kamar rubutun sakon WhatsApp ko hoto",
-                "Bayanai masu tsari mai kwanciyar hankali",
+                "Babu wata ma'ana",
                 "Nau'in database kadai",
-                "Babu wata ma'ana"
+                "Bayanai masu tsari mai kwanciyar hankali"
               ],
               "answerIndex": 0,
               "explanation": "Unstructured data ba shi da tsari na tebur kamar structured data."
@@ -107,34 +108,34 @@
             {
               "question": "Wanne misali ne na tushen bayanai?",
               "options": [
-                "Bayanan sayayya daga kantuna",
                 "Babu wani tushe",
-                "Kalanda kadai",
-                "Launi na waya"
+                "Bayanan sayayya daga kantuna",
+                "Launi na waya",
+                "Kalanda kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Bayanan sayayya misali ne na tushen data da kamfani zai iya tattarawa."
             },
             {
               "question": "Wanne kayan aiki ne ya fi dacewa da structured data?",
               "options": [
-                "SQL",
+                "Camera",
                 "Natural Language Processing kadai",
-                "Babu wani kayan aiki mai dacewa",
-                "Camera"
+                "SQL",
+                "Babu wani kayan aiki mai dacewa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "SQL ya dace da nazarin bayanai masu tsari kamar teburori."
             },
             {
               "question": "Wace fasaha ce ake amfani da ita wajen nazarin unstructured data kamar rubutu?",
               "options": [
-                "Natural Language Processing (wani bangare na AI)",
-                "SQL kadai",
                 "Excel kadai",
-                "Babu wata fasaha"
+                "Natural Language Processing (wani bangare na AI)",
+                "Babu wata fasaha",
+                "SQL kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "NLP tana taimakawa wajen fahimtar bayanan rubutu marasa tsari."
             }
           ],
@@ -156,8 +157,8 @@
               "options": [
                 "Saboda saukin amfani da yawan mutanen da suka riga sun sani",
                 "Domin ba shi da wani amfani",
-                "Domin dole ne bisa doka",
-                "Domin yana da tsada mai yawa"
+                "Domin yana da tsada mai yawa",
+                "Domin dole ne bisa doka"
               ],
               "answerIndex": 0,
               "explanation": "Excel yana da saukin amfani, don haka ya dace da farawa."
@@ -166,8 +167,8 @@
               "question": "Menene 'Pivot Table' ke yi?",
               "options": [
                 "Takaita bayanai masu yawa zuwa wani babban bayani mai sauki fahimta",
-                "Share bayanai gaba ɗaya",
                 "Nau'in database",
+                "Share bayanai gaba ɗaya",
                 "Babu wata ma'ana"
               ],
               "answerIndex": 0,
@@ -176,21 +177,21 @@
             {
               "question": "Wanne misali ne na abin da Pivot Table zai iya yi?",
               "options": [
-                "Gano jimlar sayarwa a kowane wata daga bayanan shekara",
-                "Kunna wayar hannu",
                 "Girki na abinci",
-                "Babu wani misali"
+                "Babu wani misali",
+                "Gano jimlar sayarwa a kowane wata daga bayanan shekara",
+                "Kunna wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wannan misali ne mai sauki na yadda Pivot Table ke taimaka wa nazarin bayanai."
             },
             {
               "question": "Menene 'Sort' da 'Filter' ke yi a Excel?",
               "options": [
                 "Suna taimaka wa tsara bayanai",
-                "Suna share dukkan bayanai",
                 "Suna kirkirar sabon file",
-                "Babu wani aiki"
+                "Babu wani aiki",
+                "Suna share dukkan bayanai"
               ],
               "answerIndex": 0,
               "explanation": "Sort da Filter suna taimaka wa mai amfani tsarawa da nazarin bayanai cikin sauki."
@@ -219,14 +220,15 @@
           "title": "Gani na Bayanai (Data Visualization)",
           "summary": "Yadda ake nuna bayanai a hoto maimakon lambobi",
           "content": "GABATARWA\n\nData Visualization yana canza lambobi da bayanai zuwa hoto - kamar chart ko graph - wanda ke sauƙaƙa fahimtar sifofi da alaka a cikin bayanan, wanda zai iya zama da wahalar gani idan ana kallon lambobi kawai. Misali, 'bar chart' yana da amfani wajen kwatanta adadi tsakanin kungiyoyi daban-daban, yayin da 'line chart' ya fi dacewa wajen nuna canji na wani abu akan lokaci.\n\n'Pie chart' kuma yana da amfani wajen nuna kaso na wani babban jimla - misali, kaso na kowane bangare na kuɗin shiga na kamfani. Zaben irin chart daidai yana da matukar muhimmanci; amfani da chart mara dacewa na iya rikita ma'anar bayanan maimakon ya bayyana su.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Gani na Bayanai (Data Visualization) a matsayin wani bangare na tsarin Data Science. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nData Science tana taimakawa wajen juya bayanai masu yawa zuwa fahimta da za a iya amfani da ita wajen yanke shawara. Muhimmin abu ba wai samun data kadai ba ne; dole ne a tsaftace ta, a fahimci inda ta fito, a zabi hanyar nazari mai dacewa, sannan a fassara sakamakon ba tare da yaudarar mai karatu ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Gani na Bayanai (Data Visualization)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa dauki karamin dataset kamar sakamakon dalibai ko tallace-tallace. Ka rubuta irin tambayar da kake son data ta amsa, wane ginshiki za ka duba, da wane irin jadawali ko kididdiga zai taimaka wajen bayyana sakamakon.\n\nMuhimman kalmomi: dataset, variable, cleaning, analysis, visualization, statistics, model, prediction, SQL.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Gani na Bayanai (Data Visualization) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nGani na Bayanai (Data Visualization) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"flow","title":"Matakai na Data Visualization","items":["Shirya Bayanai","Zaɓi nau'in hoto (bar, line, pie)","Sanya sunaye da launi","Nuna Sakamako ga jama'a"],"caption":"Hotuna suna sa bayanai su zama mai sauƙin fahimta"}],
+"quiz": [
             {
               "question": "Menene Data Visualization?",
               "options": [
                 "Canza lambobi da bayanai zuwa hoto kamar chart",
+                "Babu wata ma'ana",
                 "Share bayanai gaba ɗaya",
-                "Nau'in database",
-                "Babu wata ma'ana"
+                "Nau'in database"
               ],
               "answerIndex": 0,
               "explanation": "Data Visualization yana sauƙaƙa fahimtar bayanai ta hanyar hoto."
@@ -234,21 +236,21 @@
             {
               "question": "A wanne aiki ne 'bar chart' ya fi dacewa?",
               "options": [
-                "Kwatanta adadi tsakanin kungiyoyi daban-daban",
                 "Nuna kaso na jimla guda ɗaya",
+                "Kwatanta adadi tsakanin kungiyoyi daban-daban",
                 "Rubuta rahoto na rubutu",
                 "Babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Bar chart yana da amfani wajen kwatanta adadi tsakanin abubuwa daban-daban."
             },
             {
               "question": "A wanne aiki ne 'line chart' ya fi dacewa?",
               "options": [
                 "Nuna canji na wani abu akan lokaci",
+                "Babu wani amfani",
                 "Nuna kaso na wani jimla guda ɗaya",
-                "Kwatanta launi",
-                "Babu wani amfani"
+                "Kwatanta launi"
               ],
               "answerIndex": 0,
               "explanation": "Line chart ya dace da nuna yanayin canji akan lokaci."
@@ -256,23 +258,23 @@
             {
               "question": "A wanne aiki ne 'pie chart' ya fi dacewa?",
               "options": [
-                "Nuna kaso na wani babban jimla",
                 "Nuna canji akan lokaci",
                 "Kwatanta adadi tsakanin kungiyoyi da yawa sosai",
-                "Babu wani amfani"
+                "Babu wani amfani",
+                "Nuna kaso na wani babban jimla"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Pie chart ya dace da nuna yadda wani jimla ya rarrabu zuwa kaso-kaso."
             },
             {
               "question": "Me zai iya faruwa idan aka zabi chart mara dacewa?",
               "options": [
+                "Zai kara saurin nazari",
                 "Zai iya rikita ma'anar bayanan maimakon ya bayyana su",
                 "Zai bayyana bayanan a sauki koyaushe",
-                "Babu wata matsala",
-                "Zai kara saurin nazari"
+                "Babu wata matsala"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Zaben chart mara dacewa na iya kawo rudani maimakon fahimta."
             }
           ],
@@ -292,56 +294,56 @@
             {
               "question": "Menene Mean (matsakaici)?",
               "options": [
-                "Jimlar dukkan lambobi a rabu da adadinsu",
                 "Lambar da ke tsakiya idan aka jera lambobi",
+                "Babu wata ma'ana",
                 "Nau'in database",
-                "Babu wata ma'ana"
+                "Jimlar dukkan lambobi a rabu da adadinsu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Mean shine sanannen matsakaici da ake samu ta rabon jimla akan adadi."
             },
             {
               "question": "Menene Median?",
               "options": [
-                "Lambar da ke tsakiya idan aka jera dukkan lambobi",
                 "Jimlar dukkan lambobi",
                 "Nau'in wayar hannu",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Lambar da ke tsakiya idan aka jera dukkan lambobi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Median shine lambar da ke tsakiyar jerin bayanan da aka tsara daga karama zuwa babba."
             },
             {
               "question": "Menene 'outlier'?",
               "options": [
-                "Wata lamba mai girman gaske ko karami sosai idan aka kwatanta da sauran",
-                "Matsakaicin dukkan lambobi",
                 "Nau'in database",
-                "Babu wata ma'ana"
+                "Wata lamba mai girman gaske ko karami sosai idan aka kwatanta da sauran",
+                "Babu wata ma'ana",
+                "Matsakaicin dukkan lambobi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Outlier lamba ce da ta sha bamban sosai da sauran bayanan."
             },
             {
               "question": "Menene Standard Deviation ke auna?",
               "options": [
-                "Nawa lambobi suke yaduwa daga matsakaici",
                 "Jimlar dukkan lambobi",
+                "Babu wata ma'ana",
                 "Adadin lambobi kawai",
-                "Babu wata ma'ana"
+                "Nawa lambobi suke yaduwa daga matsakaici"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Standard Deviation yana nuna yaduwar bayanai daga matsakaicinsu."
             },
             {
               "question": "Me yasa ake bukatar sanin wadannan ka'idojin kididdiga?",
               "options": [
-                "Suna taimaka wa Data Scientist fahimtar yanayin bayanai kafin nazari mai zurfi",
                 "Babu wani dalili",
                 "Domin dole ne bisa doka",
-                "Domin yana kara kuɗi"
+                "Domin yana kara kuɗi",
+                "Suna taimaka wa Data Scientist fahimtar yanayin bayanai kafin nazari mai zurfi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Fahimtar yanayin bayanai na asali muhimmin mataki ne kafin ci gaba zuwa nazari mai zurfi."
             }
           ],
@@ -363,8 +365,8 @@
               "options": [
                 "Python",
                 "HTML",
-                "CSS",
-                "Babu wani yare na musamman"
+                "Babu wani yare na musamman",
+                "CSS"
               ],
               "answerIndex": 0,
               "explanation": "Python yare ne da aka fi amfani dashi saboda sauki da yawan kayan aikin da aka gina masa."
@@ -374,8 +376,8 @@
               "options": [
                 "Library ta Python da ke bada damar sarrafa bayanai masu tsari",
                 "Nau'in dabba",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "Pandas kayan aiki ne (library) na Python don sarrafa bayanai masu tsari."
@@ -384,9 +386,9 @@
               "question": "Wanne fayil ne za a iya karantawa ta amfani da Pandas?",
               "options": [
                 "Excel ko CSV",
-                "Hoto kadai",
+                "Babu wani fayil",
                 "Bidiyo kadai",
-                "Babu wani fayil"
+                "Hoto kadai"
               ],
               "answerIndex": 0,
               "explanation": "Pandas na iya karanta fayilolin data kamar CSV da Excel."
@@ -395,9 +397,9 @@
               "question": "Wace fa'ida ce Pandas ke bayarwa idan aka kwatanta da Excel na hannu?",
               "options": [
                 "Yana sauƙaƙa nazarin bayanai masu yawa cikin sauri",
-                "Yana rage saurin nazari",
+                "Yana kara wahalar aiki",
                 "Babu wata fa'ida",
-                "Yana kara wahalar aiki"
+                "Yana rage saurin nazari"
               ],
               "answerIndex": 0,
               "explanation": "Pandas na iya aiwatar da ayyuka masu sauri fiye da yin komai da hannu a Excel."
@@ -406,8 +408,8 @@
               "question": "Me yasa Python ke da yawan kayan aiki (libraries) don Data Science?",
               "options": [
                 "Domin yawan masu shirye-shirye da suka kirkiri kayan aiki masu amfani a wannan fanni",
-                "Domin dole ne bisa doka",
                 "Babu wani dalili",
+                "Domin dole ne bisa doka",
                 "Domin yana da tsada"
               ],
               "answerIndex": 0,
@@ -435,56 +437,56 @@
             {
               "question": "Menene Data Cleaning?",
               "options": [
-                "Tsarin gyara matsaloli a bayanai kafin fara nazari",
                 "Nau'in database",
                 "Sunan kamfani",
+                "Tsarin gyara matsaloli a bayanai kafin fara nazari",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Data Cleaning yana tabbatar da bayanai sun kasance masu tsabta kafin nazari."
             },
             {
               "question": "Wanne misali ne na matsalar da ake gyarawa a Data Cleaning?",
               "options": [
+                "Bayanai masu launi mai kyau",
                 "Wurare babu bayani (missing values) ko kwafi (duplicates)",
-                "Bayanai masu kyau sosai",
                 "Babu wata matsala",
-                "Bayanai masu launi mai kyau"
+                "Bayanai masu kyau sosai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Missing values da duplicates misalai ne na matsalolin da ake bukatar gyarawa."
             },
             {
               "question": "Da me ake bayyana 'garbage in, garbage out'?",
               "options": [
-                "Idan bayanan da aka shigar ba su da kyau, sakamakon ma ba zai yi kyau ba",
-                "Idan bayanai suna da kyau, sakamakon zai yi rauni",
                 "Babu wata alaka tsakanin bayanai da sakamako",
-                "Kuɗin da ake kashewa a bayanai"
+                "Kuɗin da ake kashewa a bayanai",
+                "Idan bayanai suna da kyau, sakamakon zai yi rauni",
+                "Idan bayanan da aka shigar ba su da kyau, sakamakon ma ba zai yi kyau ba"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Wannan magana tana nuna muhimmancin ingancin bayanai ga ingancin sakamako."
             },
             {
               "question": "Nawa lokaci Data Scientists galibi ke kashewa wajen tsarkake bayanai?",
               "options": [
-                "Fiye da rabin lokacinsu",
+                "Kwana ɗaya kacal a shekara",
                 "Babu wani lokaci",
                 "Ƙasa da minti ɗaya",
-                "Kwana ɗaya kacal a shekara"
+                "Fiye da rabin lokacinsu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Tsarkake bayanai galibi yana dauke fiye da rabin lokacin aikin Data Scientist."
             },
             {
               "question": "Wanne misali ne na kuskuren rubutu da ake gyarawa a Data Cleaning?",
               "options": [
-                "'Kano' da 'kano' a matsayin sunaye biyu daban maimakon ɗaya",
-                "Sunan mutum guda ɗaya koyaushe",
+                "Babu wani misali",
                 "Adadin lambobi masu kyau",
-                "Babu wani misali"
+                "'Kano' da 'kano' a matsayin sunaye biyu daban maimakon ɗaya",
+                "Sunan mutum guda ɗaya koyaushe"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Rashin daidaito a rubutu na iya sanya kwamfuta ta dauki suna guda ɗaya a matsayin sunaye daban-daban."
             }
           ],
@@ -505,9 +507,9 @@
               "question": "Menene SQL?",
               "options": [
                 "Yare na musamman da ake amfani da shi wajen tambayar database",
+                "Wani irin cuta",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "SQL yare ne na neman bayanai daga databases."
@@ -515,21 +517,21 @@
             {
               "question": "Menene umarnin 'SELECT' ke yi a SQL?",
               "options": [
-                "Yana samo bayanai daga database",
                 "Yana share bayanai",
                 "Yana sabunta bayanai",
+                "Yana samo bayanai daga database",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "SELECT ana amfani da shi wajen samo bayanai daga database."
             },
             {
               "question": "A misalin 'SELECT name FROM customers WHERE city = \"Kano\"', me ake nema?",
               "options": [
                 "Sunayen kwastomomin da ke birnin Kano",
-                "Dukkan sunayen kwastomomi ba tare da la'akari da birni ba",
                 "Adadin kwastomomi",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Dukkan sunayen kwastomomi ba tare da la'akari da birni ba"
               ],
               "answerIndex": 0,
               "explanation": "WHERE clause tana takaita sakamako zuwa kwastomomin Kano kadai."
@@ -538,9 +540,9 @@
               "question": "Me yasa SQL ke da muhimmanci ga Data Scientist?",
               "options": [
                 "Domin yawancin bayanan kamfanoni suna ajiye ne a SQL databases",
+                "Domin yana kara sauri kadai",
                 "Domin dole ne bisa doka",
-                "Babu wani dalili",
-                "Domin yana kara sauri kadai"
+                "Babu wani dalili"
               ],
               "answerIndex": 0,
               "explanation": "Sanin SQL yana bada damar samun bayanai daga inda galibi ake ajiye su."
@@ -548,12 +550,12 @@
             {
               "question": "Wanne aiki ne SQL za ta iya yi ban da samo bayanai?",
               "options": [
-                "Sabuntawa ko share bayanai",
-                "Kunna wayar hannu",
                 "Girki na abinci",
+                "Kunna wayar hannu",
+                "Sabuntawa ko share bayanai",
                 "Babu wani aiki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "SQL na iya sabunta (UPDATE) ko share (DELETE) bayanai a database, ban da samowa kadai."
             }
           ],
@@ -573,32 +575,32 @@
             {
               "question": "Me Data Scientists ke amfani da Machine Learning don yi?",
               "options": [
+                "Kunna wayar hannu",
                 "Gina samfura da za su iya yin hasashe kan sabbin bayanai",
                 "Share dukkan bayanai",
-                "Kunna wayar hannu",
                 "Babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "ML yana bada damar hasashen sakamako bisa alakar da aka gano a bayanai."
             },
             {
               "question": "Wanne misali ne na amfani da ML a Data Science?",
               "options": [
-                "Hasashen ko mai neman lamuni zai iya biyan kuɗinsa",
-                "Buga hoto na wasa",
                 "Girki na abinci",
-                "Babu wani misali"
+                "Babu wani misali",
+                "Hasashen ko mai neman lamuni zai iya biyan kuɗinsa",
+                "Buga hoto na wasa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Bankunan na iya amfani da ML domin hasashen hadarin lamuni."
             },
             {
               "question": "Menene 'training data'?",
               "options": [
                 "Bayanan da ake amfani da su wajen koya wa samfurin",
-                "Bayanan da ake gwada samfurin dasu",
                 "Nau'in database",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Bayanan da ake gwada samfurin dasu"
               ],
               "answerIndex": 0,
               "explanation": "Training data shine bayanan da samfurin ke koya daga gare su."
@@ -606,21 +608,21 @@
             {
               "question": "Menene 'testing data'?",
               "options": [
-                "Bayanan da ake amfani da su domin gwada ko samfurin yana hasashen daidai",
                 "Bayanan da ake koya wa samfurin",
+                "Bayanan da ake amfani da su domin gwada ko samfurin yana hasashen daidai",
                 "Nau'in database",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Testing data yana gwada iyawar samfurin akan bayanan da bai taba gani ba."
             },
             {
               "question": "Me yasa ake raba bayanai zuwa training da testing?",
               "options": [
                 "Domin tabbatar da samfurin yana iya hasashen daidai a kan sabbin bayanai",
-                "Domin dole ne bisa doka",
                 "Babu wani dalili",
-                "Domin yana kara adadin bayanai"
+                "Domin yana kara adadin bayanai",
+                "Domin dole ne bisa doka"
               ],
               "answerIndex": 0,
               "explanation": "Rabon bayanai yana taimaka wajen gwada ingancin samfurin da gaskiya."
@@ -642,56 +644,56 @@
             {
               "question": "Menene A/B Testing?",
               "options": [
-                "Gwajin da ake yi domin gano wanne salo biyu ya fi tasiri",
                 "Nau'in database",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Gwajin da ake yi domin gano wanne salo biyu ya fi tasiri",
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "A/B Testing yana kwatanta salo biyu domin gano wanne ya fi kyau."
             },
             {
               "question": "Wanne misali ne na A/B Test?",
               "options": [
-                "Gwada launin maballi biyu domin gano wanne ya samu karin dannawa",
                 "Share dukkan bayanai",
+                "Gwada launin maballi biyu domin gano wanne ya samu karin dannawa",
                 "Kunna wayar hannu",
                 "Babu wani misali"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Kwatanta launi biyu na maballi misali ne mai sauki na A/B test."
             },
             {
               "question": "Wace fa'ida ce A/B Testing ke bayarwa ga kamfani?",
               "options": [
-                "Yanke shawara bisa gaskiyar bayanai maimakon zato kawai",
                 "Rage bayanan da ake tattarawa",
+                "Yanke shawara bisa gaskiyar bayanai maimakon zato kawai",
                 "Babu wata fa'ida",
                 "Kara adadin masu amfani ba tare da gwaji ba"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "A/B Testing yana bada damar yanke shawara ta hanyar tabbatacciyar hujja."
             },
             {
               "question": "Menene ake auna a A/B Test?",
               "options": [
+                "Sunan mai amfani",
                 "Wanne salo ya samu karin danna maballi ko sayayya",
                 "Launi na wayar mai amfani",
-                "Sunan mai amfani",
                 "Babu abin da ake aunawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "A/B testing yana auna sakamakon da ke da alaka da manufar kasuwanci, kamar dannawa ko sayayya."
             },
             {
               "question": "Bayan an sami sakamakon A/B Test, me kamfani zai yi?",
               "options": [
+                "Babu abin da yake yi",
                 "Yana amfani da sakamakon domin inganta shafinsa ga dukkan masu amfani",
                 "Yana watsi da sakamakon",
-                "Yana share dukkan shafin",
-                "Babu abin da yake yi"
+                "Yana share dukkan shafin"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Sakamakon A/B test yana taimaka wa kamfani inganta samfurinsa ga kowa."
             }
           ],
@@ -711,56 +713,56 @@
             {
               "question": "Menene Dashboard?",
               "options": [
-                "Na'urar dijital da ke nuna manyan alkaluma da charts a wuri guda",
                 "Nau'in wayar hannu",
+                "Na'urar dijital da ke nuna manyan alkaluma da charts a wuri guda",
                 "Sunan kamfani",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Dashboard yana takaita bayanai masu muhimmanci a wuri guda mai sauki gani."
             },
             {
               "question": "Me yasa ake bukatar dashboards a kasuwanci?",
               "options": [
-                "Domin mutane ba su da tushen fasaha su iya ganin sakamakon nazari cikin sauki",
                 "Domin dole ne bisa doka",
                 "Babu wani dalili",
+                "Domin mutane ba su da tushen fasaha su iya ganin sakamakon nazari cikin sauki",
                 "Domin yana kara kuɗin kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Dashboards suna sauƙaƙa fahimtar bayanai ga wadanda ba kwararru bane a fasaha."
             },
             {
               "question": "Wanne kayan aiki ne misali na gina dashboards?",
               "options": [
-                "Tableau ko Power BI",
                 "Firewall",
                 "Router",
-                "Antivirus"
+                "Antivirus",
+                "Tableau ko Power BI"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Tableau da Power BI kayan aiki ne sananne wajen gina dashboards."
             },
             {
               "question": "Wace fa'ida ce dashboard ke bayarwa ga manaja?",
               "options": [
-                "Ganin bayanai nan take ba tare da tambayar Data Scientist kowane lokaci ba",
                 "Bukatar tambayar Data Scientist koyaushe",
+                "Ganin bayanai nan take ba tare da tambayar Data Scientist kowane lokaci ba",
                 "Babu wata fa'ida",
                 "Rage saurin yanke shawara"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Dashboard yana bada damar manaja ya ga bayanan da kansa ba tare da jira ba."
             },
             {
               "question": "Menene aikin dashboard idan sabbin bayanai suka zo?",
               "options": [
+                "Babu abin da yake yi",
                 "Yana sabuntawa kai tsaye",
                 "Yana tsayawa har abada",
-                "Yana share dukkan tsohuwar bayani",
-                "Babu abin da yake yi"
+                "Yana share dukkan tsohuwar bayani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Dashboards suna sabuntawa domin nuna sabbin bayanai ba tare da bukatar sake ginawa ba."
             }
           ],
@@ -780,23 +782,23 @@
             {
               "question": "Wace tambaya ce ta da'a game da tattara bayanan mutane?",
               "options": [
-                "Shin an samu izinin mutane kafin a tattara bayanansu?",
                 "Wane launi ne bayanan suke dashi?",
-                "Nawa bayanan suke da tsawo?",
-                "Babu wata tambaya"
+                "Babu wata tambaya",
+                "Shin an samu izinin mutane kafin a tattara bayanansu?",
+                "Nawa bayanan suke da tsawo?"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Izini shine muhimmin tambaya ta da'a kafin tattara bayanan mutane."
             },
             {
               "question": "Menene 'anonymization'?",
               "options": [
+                "Babu wata ma'ana",
                 "Ɓoye ainihin bayanan mutum kamar suna da adireshi daga bayanan da ake nazarce",
-                "Kara bayanan mutum a bayyane",
                 "Nau'in database",
-                "Babu wata ma'ana"
+                "Kara bayanan mutum a bayyane"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Anonymization yana kare sirrin mutum ta hanyar ɓoye bayanan da za su iya bayyana ko wanene shi."
             },
             {
@@ -813,23 +815,23 @@
             {
               "question": "Wace alhaki ce Data Scientist ke dashi kafin amfani da sakamakon nazari wajen yanke shawara masu tasiri?",
               "options": [
+                "Sayar da bayanan ga wasu",
                 "Bincika sakamakon domin tabbatar da bai nuna son zuciya ba",
                 "Yin watsi da bincike gaba ɗaya",
-                "Babu wata alhaki",
-                "Sayar da bayanan ga wasu"
+                "Babu wata alhaki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Data Scientists suna da alhakin tabbatar da adalci a sakamakon da za a yi amfani dasu."
             },
             {
               "question": "Me yasa ake bukatar tantance izinin mutane kafin tattara bayanansu?",
               "options": [
-                "Domin girmama sirrin mutum da hakkinsu",
                 "Domin dole ne kawai bisa al'ada",
                 "Babu wani dalili",
-                "Domin yana kara sauri"
+                "Domin yana kara sauri",
+                "Domin girmama sirrin mutum da hakkinsu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Girmama sirri da hakkin mutane muhimmin bangare ne na da'a a nazarin bayanai."
             }
           ],
@@ -854,32 +856,32 @@
             {
               "question": "Menene Big Data?",
               "options": [
+                "Sunan kamfani",
                 "Adadin bayanai masu girman gaske sosai wanda kayan aiki na yau da kullum ba za su iya sarrafa su ba",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Big Data yana bayyana bayanai masu girma fiye da yadda Excel ko kayan aiki na yau da kullum za su iya sarrafa su."
             },
             {
               "question": "Menene 'the 3 Vs' na Big Data?",
               "options": [
-                "Volume, Velocity, da Variety",
                 "Video, Voice, da Vision",
-                "Value, Vendor, da Version",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Volume, Velocity, da Variety",
+                "Value, Vendor, da Version"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "3 Vs sune manyan sifofin da ake amfani da su wajen bayyana Big Data."
             },
             {
               "question": "Menene 'Velocity' a 3 Vs na Big Data?",
               "options": [
                 "Saurin da bayanan ke zuwa",
-                "Girman adadin bayanai",
                 "Nau'ukan bayanai daban-daban",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Girman adadin bayanai"
               ],
               "answerIndex": 0,
               "explanation": "Velocity tana nufin saurin da sabbin bayanai ke zuwa."
@@ -887,23 +889,23 @@
             {
               "question": "Wanne kayan aiki ne ake amfani dashi wajen sarrafa Big Data?",
               "options": [
-                "Apache Spark",
                 "Microsoft Word",
                 "Photoshop",
-                "Babu wani kayan aiki na musamman"
+                "Babu wani kayan aiki na musamman",
+                "Apache Spark"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Apache Spark kayan aiki ne sananne wajen sarrafa manyan bayanai ta hanyar rarraba aiki."
             },
             {
               "question": "Ta yaya Apache Spark ke sarrafa bayanai masu yawa?",
               "options": [
-                "Ta hanyar rarraba aikin nazari a kan kwamfutoci da yawa lokaci guda",
-                "Ta hanyar amfani da kwamfuta guda ɗaya kadai",
                 "Ta hanyar share bayanan da yawa",
+                "Ta hanyar amfani da kwamfuta guda ɗaya kadai",
+                "Ta hanyar rarraba aikin nazari a kan kwamfutoci da yawa lokaci guda",
                 "Babu wata hanya ta musamman"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Distributed computing yana bada damar sauri da inganci wajen sarrafa Big Data."
             }
           ],
@@ -923,45 +925,45 @@
             {
               "question": "Menene Predictive Modeling?",
               "options": [
-                "Gina samfurin lissafi da ke amfani da bayanan da suka gabata domin hasashen makoma",
-                "Nau'in database",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Nau'in database",
+                "Gina samfurin lissafi da ke amfani da bayanan da suka gabata domin hasashen makoma"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Predictive Modeling yana amfani da bayanan da suka gabata don hasashen makoma."
             },
             {
               "question": "Wanne misali ne na amfani da predictive modeling?",
               "options": [
-                "Hasashen yiwuwar direba ya yi hatsari bisa tarihinsa",
                 "Nazarin tarihin duniya kawai",
-                "Girki na abinci",
-                "Babu wani misali"
+                "Hasashen yiwuwar direba ya yi hatsari bisa tarihinsa",
+                "Babu wani misali",
+                "Girki na abinci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Kamfanonin inshora suna amfani da predictive models domin hasashen hadari."
             },
             {
               "question": "Menene 'linear regression' ke hasashewa?",
               "options": [
-                "Wata lamba, misali farashi",
-                "Rukuni, misali spam ko a'a",
                 "Sunan mutum",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Wata lamba, misali farashi",
+                "Rukuni, misali spam ko a'a"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Linear regression tana amfani da hasashen lambobi masu ci gaba kamar farashi."
             },
             {
               "question": "Menene 'classification' ke hasashewa?",
               "options": [
-                "Wani rukuni, misali ko sako imel ne mai kyau ko spam",
-                "Lambobi masu ci gaba kamar farashi",
+                "Babu wata ma'ana",
                 "Nau'in database",
-                "Babu wata ma'ana"
+                "Lambobi masu ci gaba kamar farashi",
+                "Wani rukuni, misali ko sako imel ne mai kyau ko spam"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Classification tana hasashen wane rukuni wani bayani ya kasance a ciki."
             },
             {
@@ -969,8 +971,8 @@
               "options": [
                 "Irin tambayar da ake son amsawa",
                 "Launi na bayanai",
-                "Sunan Data Scientist",
-                "Babu wani abin la'akari"
+                "Babu wani abin la'akari",
+                "Sunan Data Scientist"
               ],
               "answerIndex": 0,
               "explanation": "Zaben dabara ya dogara ne akan ko ana son hasashen lamba ko rukuni."
@@ -992,43 +994,43 @@
             {
               "question": "Menene Deep Learning?",
               "options": [
-                "Bangare na Machine Learning wanda ke amfani da Neural Networks masu zurfi",
                 "Nau'in database",
+                "Bangare na Machine Learning wanda ke amfani da Neural Networks masu zurfi",
                 "Sunan kamfani",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Deep Learning yana amfani da manyan neural networks masu matakai da yawa."
             },
             {
               "question": "A wanne irin bayanai ne Deep Learning ta fi dacewa?",
               "options": [
-                "Hotuna, sauti, ko dogayen jimloli na rubutu",
-                "Lambobi masu sauki kadai",
                 "Bayanan Excel kadai",
-                "Babu wani bayani na musamman"
+                "Hotuna, sauti, ko dogayen jimloli na rubutu",
+                "Babu wani bayani na musamman",
+                "Lambobi masu sauki kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Deep Learning ta fi ƙarfi wajen sarrafa bayanai masu sarkakiya kamar hoto da sauti."
             },
             {
               "question": "Me Deep Learning ke bukata domin horaswa yadda ya kamata?",
               "options": [
-                "Adadin bayanai masu yawan gaske da karfin kwamfuta mai yawa",
-                "Karamin adadin bayanai kadai",
                 "Babu wata bukata ta musamman",
-                "Kwamfuta mai rauni"
+                "Kwamfuta mai rauni",
+                "Karamin adadin bayanai kadai",
+                "Adadin bayanai masu yawan gaske da karfin kwamfuta mai yawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Deep Learning yana bukatar manyan bayanai da karfin kwamfuta don ingantacciyar horaswa."
             },
             {
               "question": "Wanne na'ura ake amfani da ita galibi domin horas da Deep Learning models?",
               "options": [
                 "GPUs",
-                "Printer",
+                "Babu wata na'ura ta musamman",
                 "Modem kadai",
-                "Babu wata na'ura ta musamman"
+                "Printer"
               ],
               "answerIndex": 0,
               "explanation": "GPUs suna bada saurin lissafi da ake bukata don horas da manyan neural networks."
@@ -1036,12 +1038,12 @@
             {
               "question": "Wanne aiki ne misali na amfani da Deep Learning?",
               "options": [
-                "Gane fuska a hoto",
                 "Rarraba bayanai a tebur mai sauki",
                 "Kirga jimlar kuɗi kai tsaye",
-                "Babu wani misali"
+                "Babu wani misali",
+                "Gane fuska a hoto"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Gane fuska aiki ne mai sarkakiya wanda Deep Learning ta fi kware a kai."
             }
           ],
@@ -1062,8 +1064,8 @@
               "question": "Menene Data Engineering ke mayar da hankali a kai?",
               "options": [
                 "Gina pipelines da ke tattara, tsarkakewa, da shirya bayanai",
-                "Nazarin bayanai kadai",
                 "Gina UI na app",
+                "Nazarin bayanai kadai",
                 "Babu wani abu na musamman"
               ],
               "answerIndex": 0,
@@ -1072,45 +1074,45 @@
             {
               "question": "Menene 'pipeline' a Data Engineering?",
               "options": [
-                "Tsarin da ke tattara bayanai daga wurare daban-daban ya tsarkake su ta atomatik",
-                "Nau'in database kadai",
+                "Babu wata ma'ana",
                 "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Nau'in database kadai",
+                "Tsarin da ke tattara bayanai daga wurare daban-daban ya tsarkake su ta atomatik"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Pipeline yana atomatik motsawa da shirya bayanai daga tushen su zuwa wurin nazari."
             },
             {
               "question": "Menene aikin Data Engineer?",
               "options": [
-                "Gina da kula da pipelines na bayanai",
                 "Nazarin bayanai kadai ba tare da gina tsari ba",
+                "Babu wani aiki na musamman",
                 "Girki na abinci",
-                "Babu wani aiki na musamman"
+                "Gina da kula da pipelines na bayanai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Data Engineer yana da alhakin tsarin da ke isar da bayanai daidai."
             },
             {
               "question": "Me zai faru ba tare da Data Engineers ba?",
               "options": [
+                "Bayanai za su zo ta atomatik ba tare da tsari ba",
                 "Data Scientists za su kashe mafi yawan lokaci wajen tattara bayanai da hannu",
                 "Babu wata matsala",
-                "Bayanai za su zo ta atomatik ba tare da tsari ba",
                 "Nazari zai yi sauri fiye da kima"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Ba tare da pipelines ba, tattara bayanai zai dauke lokaci mai yawa daga Data Scientists."
             },
             {
               "question": "Wanne misali ne na tushen bayanai da pipeline zai iya hadewa?",
               "options": [
-                "App na wayar hannu, shafin yanar gizo, da kantin zahiri",
                 "Launi na waya kadai",
+                "Babu wani tushe",
                 "Sunan mutum kadai",
-                "Babu wani tushe"
+                "App na wayar hannu, shafin yanar gizo, da kantin zahiri"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Pipeline na iya hada bayanai daga tushe da yawa a wuri guda."
             }
           ],
@@ -1130,32 +1132,32 @@
             {
               "question": "Menene Business Analytics?",
               "options": [
-                "Hada Data Science da fahimtar kasuwanci domin taimaka wa kamfanoni yanke shawara",
-                "Nau'in database kadai",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Nau'in database kadai",
+                "Hada Data Science da fahimtar kasuwanci domin taimaka wa kamfanoni yanke shawara"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Business Analytics yana fassara bayanai zuwa shawarwarin kasuwanci masu amfani."
             },
             {
               "question": "Wanne misali ne na fassara bayanai zuwa shawarar kasuwanci?",
               "options": [
+                "Rufe kamfanin",
                 "Aika tayin rangwame bayan wata biyu domin hana kwastomomi daina saye",
                 "Share dukkan bayanan kwastomomi",
-                "Rufe kamfanin",
                 "Babu wani misali"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Wannan misali ne na fassara wani sakamakon nazari zuwa aiki mai amfani."
             },
             {
               "question": "Wace iyawa ce Business Analytics ke bukata banda fasahar bayanai?",
               "options": [
                 "Iyawar sadarwa mai kyau",
-                "Iyawar tuki na mota",
                 "Iyawar girki na abinci",
-                "Babu wata iyawa ta musamman"
+                "Babu wata iyawa ta musamman",
+                "Iyawar tuki na mota"
               ],
               "answerIndex": 0,
               "explanation": "Sadarwa mai kyau tana taimaka wa bayyana bincike ga wadanda ba kwararru ba a fasaha."
@@ -1163,23 +1165,23 @@
             {
               "question": "Wanene ke bukatar fahimta da yarda da shawarwarin da aka bayar bisa bincike?",
               "options": [
-                "Manyan jami'an kamfani",
+                "Kwastomomi kadai",
                 "Injiniyoyin kwamfuta kadai",
                 "Babu wanda ke bukata",
-                "Kwastomomi kadai"
+                "Manyan jami'an kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Manyan jami'ai sune ke yanke shawara a kamfani, don haka suna bukatar fahimtar bincike."
             },
             {
               "question": "Me ke bambanta Data Scientist da Business Analyst a wannan misali?",
               "options": [
-                "Data Scientist yana gano bayanai, Business Analyst yana fassara zuwa shawara",
-                "Su biyu iri ɗaya ne gaba ɗaya",
+                "Babu wani bambanci",
                 "Business Analyst yana gina samfuran ML kadai",
-                "Babu wani bambanci"
+                "Su biyu iri ɗaya ne gaba ɗaya",
+                "Data Scientist yana gano bayanai, Business Analyst yana fassara zuwa shawara"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ko da yake ayyukansu na iya hadewa, galibi Business Analyst yana kula da fassara bincike zuwa aiki."
             }
           ],
@@ -1199,12 +1201,12 @@
             {
               "question": "Menene aikin Data Analyst?",
               "options": [
-                "Nazari da bayar da rahoto na bayanai da suka rigaya",
                 "Gina samfuran hasashe masu sarkakiya kadai",
                 "Gina pipelines kadai",
-                "Babu wani aiki na musamman"
+                "Babu wani aiki na musamman",
+                "Nazari da bayar da rahoto na bayanai da suka rigaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Data Analyst yana mai da hankali kan bayar da rahoton bayanai na yanzu."
             },
             {
@@ -1212,8 +1214,8 @@
               "options": [
                 "Gina pipelines da tsarin bayanai",
                 "Nazari da hasashe kadai",
-                "Girki na abinci",
-                "Babu wani aiki na musamman"
+                "Babu wani aiki na musamman",
+                "Girki na abinci"
               ],
               "answerIndex": 0,
               "explanation": "Data Engineer yana kula da tsarin da ke motsa bayanai."
@@ -1221,21 +1223,21 @@
             {
               "question": "Me ake ba da shawara koya farko a Data Science?",
               "options": [
-                "SQL da Excel",
                 "Deep Learning kai tsaye",
+                "SQL da Excel",
                 "Kubernetes",
                 "Babu wani abin da ake bada shawara"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "SQL da Excel sune tushen basirar nazarin bayanai kafin ci gaba zuwa abubuwa masu zurfi."
             },
             {
               "question": "Wanne shafi ne ake ambata a matsayin tushen bayanai na gaske don gina ayyuka?",
               "options": [
                 "Kaggle",
+                "Babu wani shafi na musamman",
                 "Facebook",
-                "Instagram",
-                "Babu wani shafi na musamman"
+                "Instagram"
               ],
               "answerIndex": 0,
               "explanation": "Kaggle sananniyar dandali ce mai bayanai na gaske da gasa na Data Science."
@@ -1243,12 +1245,12 @@
             {
               "question": "Me ya kamata ka koya bayan SQL da Excel idan kana son zama Data Scientist na cikakke?",
               "options": [
-                "Python, kididdiga, sannan Machine Learning",
+                "Babu wani mataki na gaba",
                 "Kai tsaye zuwa gina apps na wayar hannu",
-                "Girki na abinci",
-                "Babu wani mataki na gaba"
+                "Python, kididdiga, sannan Machine Learning",
+                "Girki na abinci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wannan tsari yana bunkasa basira a hankali daga tushe zuwa zurfi."
             }
           ],

@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "programming",
   "title": "Programming",
   "icon": "code",
@@ -12,14 +12,15 @@
           "title": "Menene Shirye-shirye (Programming)?",
           "summary": "Ma'anar rubuta umarni ga kwamfuta",
           "content": "GABATARWA\n\nProgramming (shirye-shirye) shine aikin rubuta umarni (code) da ke gaya wa kwamfuta abin da za ta yi, mataki-mataki. Kwamfuta ba ta da hankalin kanta - tana bin dai-dai abin da aka rubuta mata, don haka mai shirye-shirye (programmer) yana bukatar tunani a fili kuma cikin tsari.\n\nAkwai yaruka (languages) da yawa da ake amfani da su wajen shirye-shirye - kamar Python, JavaScript, da Java - kowanne yana da nasa dokoki (syntax), amma dukkansu suna raba manyan ka'idoji iri ɗaya kamar masu canji, sharadi, da madaukai.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Menene Shirye-shirye (Programming)? a matsayin wani bangare na tsarin Programming / Software Engineering. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nProgramming yana koyar da yadda ake rarraba matsala zuwa matakai da za a iya aiwatarwa da kwamfuta. Kwarewa ba ta tsaya ga rubuta code ba; tana hada fahimtar data, algorithms, kuskure, testing, version control da rubuta code mai saukin kulawa.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Menene Shirye-shirye (Programming)?”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa zabi karamin aiki kamar lissafin maki. Ka rubuta input, matakan da program zai bi, da output da ake so kafin ka fara code. Wannan yana taimaka wajen rage rikicewa da kuskure.\n\nMuhimman kalmomi: variable, data type, condition, loop, function, object, algorithm, bug, test, version control.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Menene Shirye-shirye (Programming)? kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nMenene Shirye-shirye (Programming)? ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"flow","title":"Yadda Shirye-shirye Ke Aiki","items":["Mai shirye-shirye ya rubuta code","Kwamfuta ta karɓi umarni","Ta aiwatar da su","Ta nuna sakamako"],"caption":"Programing shine hanyar yaƙarƙashi da muke yi wa kwamfuta"}],
+"quiz": [
             {
               "question": "Menene Programming?",
               "options": [
                 "Rubuta umarni da ke gaya wa kwamfuta abin da za ta yi",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "Programming shine rubuta code domin gaya wa kwamfuta abin da za ta aikata."
@@ -27,20 +28,20 @@
             {
               "question": "Shin kwamfuta tana da hankalin kanta wajen fahimtar umarni?",
               "options": [
-                "A'a, tana bin dai-dai abin da aka rubuta mata",
                 "E, tana da hankali kamar mutum",
+                "Babu wata alaka",
                 "Ba ta iya fahimtar komai",
-                "Babu wata alaka"
+                "A'a, tana bin dai-dai abin da aka rubuta mata"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Kwamfuta tana bin umarnin da aka bata dai-dai, ba tare da hankalinta ba."
             },
             {
               "question": "Wanne misali ne na yaren shirye-shirye?",
               "options": [
                 "Python",
-                "HTML kadai",
                 "Firewall",
+                "HTML kadai",
                 "Router"
               ],
               "answerIndex": 0,
@@ -49,23 +50,23 @@
             {
               "question": "Me ke hade dukkan yarukan shirye-shirye?",
               "options": [
-                "Manyan ka'idoji kamar masu canji, sharadi, da madaukai",
+                "Launi na code",
                 "Babu wani abin da ke hade su",
-                "Su duka iri ɗaya ne gaba ɗaya",
-                "Launi na code"
+                "Manyan ka'idoji kamar masu canji, sharadi, da madaukai",
+                "Su duka iri ɗaya ne gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Ko da yake syntax ya bambanta, manyan ka'idoji na programming iri ɗaya ne a mafi yawan yaruka."
             },
             {
               "question": "Me yasa ake bukatar tunani a fili wajen shirye-shirye?",
               "options": [
-                "Domin kwamfuta tana bin umarni dai-dai kamar yadda aka rubuta",
-                "Domin dole ne bisa doka",
+                "Domin yana kara kuɗi",
                 "Babu wani dalili",
-                "Domin yana kara kuɗi"
+                "Domin dole ne bisa doka",
+                "Domin kwamfuta tana bin umarni dai-dai kamar yadda aka rubuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Rashin tsari a tunani na iya kawo kuskure a code domin kwamfuta ba za ta iya fahimtar niyya ba."
             }
           ],
@@ -81,57 +82,58 @@
           "title": "Masu Canji da Nau'ukan Bayanai",
           "summary": "Yadda ake ajiye bayanai a cikin code",
           "content": "GABATARWA\n\nVariable (mai canji) wani wuri ne a cikin memory na kwamfuta wanda ake bashi suna domin ajiye wani bayani, kamar suna, lamba, ko gaskiya/karya. Misali, za a iya rubuta 'age = 25' domin ajiye lambar 25 a wani wuri mai suna 'age'.\n\nAkwai nau'ukan bayanai (data types) daban-daban: Integer (lambobi cikakku kamar 25), String (rubutu kamar \"Sannu\"), Boolean (gaskiya ko karya - true/false), da Float (lambobi masu tsit kamar 3.14). Sanin wanne nau'i ake amfani da shi yana taimaka wa kwamfuta sarrafa bayanan daidai.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nA code, variable yana ba ka suna ga darajar da program zai yi amfani da ita. Data type yana bayyana irin bayanan da darajar take dauke da su, kamar lamba, rubutu ko Boolean. Bambance wadannan yana taimaka wa program ya yi aiki da bayanai yadda ya kamata.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nProgramming yana koyar da yadda ake rarraba matsala zuwa matakai da za a iya aiwatarwa da kwamfuta. Kwarewa ba ta tsaya ga rubuta code ba; tana hada fahimtar data, algorithms, kuskure, testing, version control da rubuta code mai saukin kulawa.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Masu Canji da Nau'ukan Bayanai”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa zabi karamin aiki kamar lissafin maki. Ka rubuta input, matakan da program zai bi, da output da ake so kafin ka fara code. Wannan yana taimaka wajen rage rikicewa da kuskure.\n\nMuhimman kalmomi: variable, data type, condition, loop, function, object, algorithm, bug, test, version control.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Masu Canji da Nau'ukan Bayanai kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nMasu Canji da Nau'ukan Bayanai ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"compare","title":"Nau'ukan Bayanai","leftTitle":"Ƙididdiga (Numbers)","leftItems":["Integer: 25, -10","Float: 3.14, -0.5","Buƙata: ƙididdiga"],"rightTitle":"Rubutu (Text)","rightItems":["String: \"Sannu\"","Boolean: True/False","Buƙata: rubutu / halin"],"caption":"Zaɓin nau'in bayanai yana dogara da abin da kake aiki da shi"}],
+"quiz": [
             {
               "question": "Menene Variable?",
               "options": [
+                "Sunan kamfani",
                 "Wuri a memory da ake bashi suna domin ajiye bayani",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Variable yana ajiye bayani a memory tare da suna da za a iya amfani da shi."
             },
             {
               "question": "Wanne nau'in bayani ne 'Sannu' (rubutu)?",
               "options": [
-                "String",
-                "Integer",
                 "Boolean",
-                "Float"
+                "String",
+                "Float",
+                "Integer"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "String shine nau'in bayani da ke wakiltar rubutu."
             },
             {
               "question": "Wanne nau'in bayani ne 'true' ko 'false'?",
               "options": [
-                "Boolean",
-                "String",
                 "Integer",
-                "Float"
+                "Boolean",
+                "Float",
+                "String"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Boolean yana wakiltar gaskiya (true) ko karya (false) kawai."
             },
             {
               "question": "Wanne nau'in bayani ne lamba 25?",
               "options": [
-                "Integer",
                 "String",
+                "Babu wani nau'i",
                 "Boolean",
-                "Babu wani nau'i"
+                "Integer"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Integer shine nau'in bayani na lambobi cikakku ba tare da tsit ba."
             },
             {
               "question": "Me yasa ake bukatar sanin nau'ukan bayanai daban-daban?",
               "options": [
                 "Domin kwamfuta ta sarrafa bayanan daidai",
-                "Babu wani dalili",
                 "Domin dole ne bisa doka",
+                "Babu wani dalili",
                 "Domin yana kara saurin kwamfuta"
               ],
               "answerIndex": 0,
@@ -154,23 +156,23 @@
             {
               "question": "Menene aikin 'if' a code?",
               "options": [
-                "Yana bawa code damar yanke shawara bisa wani hali",
                 "Yana share code",
-                "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Sunan kamfani",
+                "Yana bawa code damar yanke shawara bisa wani hali",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "If yana bincika hali sannan ya aiwatar da wani sashi na code bisa sakamakon."
             },
             {
               "question": "Menene 'else' ke yi a code?",
               "options": [
-                "Yana aiwatar da wani sashi idan sharadin 'if' bai cika ba",
                 "Yana share dukkan code",
                 "Yana kirkirar sabon variable",
+                "Yana aiwatar da wani sashi idan sharadin 'if' bai cika ba",
                 "Babu wani aiki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Else yana bada madadin abin da za a yi idan sharadin farko bai cika ba."
             },
             {
@@ -178,8 +180,8 @@
               "options": [
                 "if age >= 18",
                 "if age == cat",
-                "if age + name",
-                "Babu wani sharadi"
+                "Babu wani sharadi",
+                "if age + name"
               ],
               "answerIndex": 0,
               "explanation": "if age >= 18 yana bincika ko shekaru sun kai 18 ko sama."
@@ -187,21 +189,21 @@
             {
               "question": "Me yasa conditionals ke da amfani a programming?",
               "options": [
-                "Suna bada damar code ya bada amsa daban-daban bisa yanayi",
                 "Suna sa code ya yi abu ɗaya kacal koyaushe",
+                "Suna bada damar code ya bada amsa daban-daban bisa yanayi",
                 "Babu wani amfani",
                 "Suna rage saurin code"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Ba tare da conditionals ba, code ba zai iya daidaita bisa yanayi daban-daban ba."
             },
             {
               "question": "Wanne kalma ne ake amfani da ita don bincika hali a mafi yawan yaruka?",
               "options": [
                 "if",
-                "loop",
                 "variable",
-                "function"
+                "function",
+                "loop"
               ],
               "answerIndex": 0,
               "explanation": "'if' ita ce kalmar da aka fi amfani da ita don bincika sharadi a programming."
@@ -223,20 +225,20 @@
             {
               "question": "Menene Loop?",
               "options": [
-                "Wani abu da ke maimaita aiki sau da yawa",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Wani abu da ke maimaita aiki sau da yawa",
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Loop yana maimaita wani aiki sau da yawa ba tare da rubuta shi kowace lokaci ba."
             },
             {
               "question": "Menene 'for loop'?",
               "options": [
                 "Loop wanda ke gudana wani adadin sau da aka sani tun farko",
-                "Loop wanda ba ya kare koyaushe",
                 "Nau'in variable",
+                "Loop wanda ba ya kare koyaushe",
                 "Babu wata ma'ana"
               ],
               "answerIndex": 0,
@@ -245,34 +247,34 @@
             {
               "question": "Menene 'while loop'?",
               "options": [
-                "Loop wanda ke ci gaba matukar wani sharadi yana gaskiya",
-                "Loop wanda ke gudana sau ɗaya kadai",
+                "Babu wata ma'ana",
                 "Nau'in bayani",
-                "Babu wata ma'ana"
+                "Loop wanda ke ci gaba matukar wani sharadi yana gaskiya",
+                "Loop wanda ke gudana sau ɗaya kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "While loop yana ci gaba da gudana har sai sharadin ya zama karya."
             },
             {
               "question": "Wanne aiki loop zai iya sauƙaƙa?",
               "options": [
+                "Aika sako na WhatsApp",
                 "Buga lambobi daga 1 zuwa 100",
                 "Kunna wayar hannu",
-                "Aika sako na WhatsApp",
                 "Babu wani aiki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Loop yana sauƙaƙa maimaita aiki mai yawa kamar buga lambobi da yawa."
             },
             {
               "question": "Me yasa loops ke da muhimmanci a programming?",
               "options": [
-                "Suna rage maimaita rubutun code",
+                "Suna rage saurin kwamfuta",
                 "Suna kara rikitar da code ba dalili",
-                "Babu wani amfani",
-                "Suna rage saurin kwamfuta"
+                "Suna rage maimaita rubutun code",
+                "Babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Loops suna bada damar rubuta karamin code wanda zai iya yin aiki mai yawa."
             }
           ],
@@ -292,23 +294,23 @@
             {
               "question": "Menene Function?",
               "options": [
+                "Sunan kamfani",
                 "Tsarin code da aka bashi suna wanda za a sake amfani dashi",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Function yana bada damar sake amfani da wani code sau da yawa."
             },
             {
               "question": "Wace fa'ida ce Functions ke bayarwa?",
               "options": [
-                "Suna sa code ya zama mai tsari, sauki wajen karantawa da gyarawa",
+                "Suna rage saurin kwamfuta",
                 "Suna kara rikitar da code",
                 "Babu wata fa'ida",
-                "Suna rage saurin kwamfuta"
+                "Suna sa code ya zama mai tsari, sauki wajen karantawa da gyarawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Functions suna inganta tsari da sauki na code."
             },
             {
@@ -316,8 +318,8 @@
               "options": [
                 "A wuri ɗaya kacal, a cikin function din",
                 "A duk wurin da aka rubuta wannan code",
-                "Ba za a iya gyara ba",
-                "Babu wani wuri na musamman"
+                "Babu wani wuri na musamman",
+                "Ba za a iya gyara ba"
               ],
               "answerIndex": 0,
               "explanation": "Domin function tana da wuri ɗaya, gyara can yana warware matsalar a ko'ina ake amfani da ita."
@@ -326,8 +328,8 @@
               "question": "Wanne misali ne na abin da function zata iya yi?",
               "options": [
                 "Karban lambobi biyu ta mayar da jimlarsu",
-                "Kunna wayar hannu kai tsaye",
                 "Sauya launi na waya",
+                "Kunna wayar hannu kai tsaye",
                 "Babu wani misali"
               ],
               "answerIndex": 0,
@@ -336,12 +338,12 @@
             {
               "question": "Me ya sa aka bawa function suna?",
               "options": [
-                "Domin a iya kiran ta daga ko'ina a cikin code",
-                "Domin dole ne bisa doka",
                 "Babu wani dalili",
-                "Domin yana kara tsada"
+                "Domin yana kara tsada",
+                "Domin dole ne bisa doka",
+                "Domin a iya kiran ta daga ko'ina a cikin code"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Suna yana bada damar kiran function din daga wurare daban-daban a code din."
             }
           ],
@@ -361,21 +363,21 @@
             {
               "question": "Wanne yare ne ake ba da shawarar sosai ga masu farawa?",
               "options": [
+                "Babu wani zabi",
                 "Python",
-                "Assembly",
                 "COBOL kadai",
-                "Babu wani zabi"
+                "Assembly"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Python yana da syntax mai sauki, don haka ya dace da masu farawa."
             },
             {
               "question": "Me yasa Python ke da sauki ga masu farawa?",
               "options": [
                 "Domin syntax dinsa yana kusa da yaren Turanci na yau da kullum",
-                "Domin ba shi da wani amfani",
                 "Domin ba ya bukatar tunani",
-                "Babu wani dalili"
+                "Babu wani dalili",
+                "Domin ba shi da wani amfani"
               ],
               "answerIndex": 0,
               "explanation": "Syntax mai sauki yana taimaka wa masu farawa fahimtar ka'idojin programming da sauri."
@@ -385,8 +387,8 @@
               "options": [
                 "JavaScript",
                 "Python",
-                "Java",
-                "C++"
+                "C++",
+                "Java"
               ],
               "answerIndex": 0,
               "explanation": "JavaScript shine yaren da browsers ke iya gudanar dashi kai tsaye ba tare da wani kayan aiki na musamman ba."
@@ -394,23 +396,23 @@
             {
               "question": "A wanne fanni ake amfani da Python?",
               "options": [
-                "Nazarin bayanai, AI, da gina shafukan yanar gizo",
                 "Girki na abinci kadai",
+                "Nazarin bayanai, AI, da gina shafukan yanar gizo",
                 "Tuki na mota",
                 "Babu wani fanni"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Python yare ne mai amfani sosai wajen fannoni daban-daban."
             },
             {
               "question": "Shin akwai yare 'daidai' guda ɗaya wanda kowa ya kamata ya koya?",
               "options": [
-                "A'a, zabi ya dogara ne akan abin da kake son ginawa",
-                "E, Python ne kadai daidai koyaushe",
                 "JavaScript shine kadai daidai",
-                "Babu wani yare mai amfani"
+                "A'a, zabi ya dogara ne akan abin da kake son ginawa",
+                "Babu wani yare mai amfani",
+                "E, Python ne kadai daidai koyaushe"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Zaben yare ya dogara ne da bukatar aikin da ake son yi a nan gaba."
             }
           ],
@@ -446,20 +448,20 @@
             {
               "question": "Menene 'index' a array?",
               "options": [
+                "Babu wata ma'ana",
                 "Matsayin abu a cikin array",
-                "Sunan array din",
                 "Adadin array",
-                "Babu wata ma'ana"
+                "Sunan array din"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Index yana nuna matsayin kowane abu a cikin array din."
             },
             {
               "question": "A yawancin yaruka, wanne lamba ake farawa da ita wajen index?",
               "options": [
                 "0",
-                "1",
                 "10",
+                "1",
                 "100"
               ],
               "answerIndex": 0,
@@ -468,23 +470,23 @@
             {
               "question": "A misalin ['Amina', 'Bello', 'Aisha'], wace index ce 'Bello' take da ita?",
               "options": [
-                "1",
                 "0",
                 "2",
-                "3"
+                "3",
+                "1"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Bello yana matsayi na biyu, wanda index dinsa shine 1 (domin farawa daga 0)."
             },
             {
               "question": "Ta yaya loop ke amfani da array?",
               "options": [
-                "Domin duba kowane abu a cikin array ɗaya bayan ɗaya",
+                "Domin kirkirar sabon variable kadai",
                 "Domin share array din gaba ɗaya",
-                "Babu wata alaka",
-                "Domin kirkirar sabon variable kadai"
+                "Domin duba kowane abu a cikin array ɗaya bayan ɗaya",
+                "Babu wata alaka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Loop yana bada damar zagayawa cikin dukkan abubuwan da ke cikin array cikin sauki."
             }
           ],
@@ -505,8 +507,8 @@
               "question": "Menene Object-Oriented Programming?",
               "options": [
                 "Dabarar tsara code inda ake wakiltar abubuwa a matsayin objects",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
+                "Nau'in wayar hannu",
                 "Wani irin cuta"
               ],
               "answerIndex": 0,
@@ -516,9 +518,9 @@
               "question": "Menene 'class' a OOP?",
               "options": [
                 "Tsari (template) da ake amfani da shi wajen bayyana objects",
+                "Babu wata ma'ana",
                 "Nau'in variable kadai",
-                "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "Class shine tsarin da ake gina objects a kai."
@@ -526,34 +528,34 @@
             {
               "question": "Wanne misali ne na 'property' na Car object?",
               "options": [
+                "Class",
                 "color",
                 "accelerate()",
-                "brake()",
-                "Class"
+                "brake()"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Color kaddara ce (property), yayin da accelerate() da brake() ayyuka ne (methods)."
             },
             {
               "question": "Wanne misali ne na 'method' na Car object?",
               "options": [
-                "accelerate()",
-                "color",
+                "Babu misali",
                 "speed",
-                "Babu misali"
+                "color",
+                "accelerate()"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "accelerate() aiki ne (method) da Car object zai iya yi."
             },
             {
               "question": "Wace fa'ida ce OOP ke bayarwa ga manyan ayyukan software?",
               "options": [
-                "Sauki wajen fadadawa da tsari mai kyau",
+                "Rage saurin code",
                 "Kara rikitarwa ba dalili",
-                "Babu wata fa'ida",
-                "Rage saurin code"
+                "Sauki wajen fadadawa da tsari mai kyau",
+                "Babu wata fa'ida"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "OOP yana taimaka wa manyan ayyuka su zama masu tsari da sauki wajen kulawa."
             }
           ],
@@ -573,56 +575,56 @@
             {
               "question": "Menene Git?",
               "options": [
-                "Kayan aiki na version control da ke bin diddigin canje-canje a code",
-                "Nau'in wayar hannu",
+                "Wani irin cuta",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Kayan aiki na version control da ke bin diddigin canje-canje a code",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Git yana bin diddigin tarihin canje-canjen da aka yi wa code."
             },
             {
               "question": "Me yasa ake bukatar version control?",
               "options": [
-                "Domin za a iya komawa zuwa tsohon sigar idan wani sabon canji ya haifar da matsala",
                 "Domin dole ne bisa doka",
                 "Babu wani dalili",
+                "Domin za a iya komawa zuwa tsohon sigar idan wani sabon canji ya haifar da matsala",
                 "Domin yana kara sauri"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Version control yana bada damar dawowa idan sabon canji ya kawo matsala."
             },
             {
               "question": "Menene GitHub?",
               "options": [
+                "Babu wata ma'ana",
                 "Dandali na intanet da ke amfani da Git domin adanawa da raba code",
-                "Nau'in yaren programming",
                 "Sunan wayar hannu",
-                "Babu wata ma'ana"
+                "Nau'in yaren programming"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "GitHub yana bada dandali don adana da raba code ta amfani da Git."
             },
             {
               "question": "Menene 'commit' a Git?",
               "options": [
+                "Babu wata ma'ana",
                 "Kowane canji da injiniya ya yi wa code",
-                "Sunan kamfani",
                 "Nau'in wayar hannu",
-                "Babu wata ma'ana"
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Commit yana wakiltar wani canji da aka yi kuma aka adana a tarihin Git."
             },
             {
               "question": "Me yasa Git ke da muhimmanci lokacin da injiniyoyi da yawa ke aiki tare?",
               "options": [
-                "Yana taimaka wa kowa ya san canje-canjen da wasu suka yi",
-                "Yana toshe injiniyoyi daga aiki tare",
                 "Babu wani amfani",
-                "Yana rage saurin aiki"
+                "Yana taimaka wa kowa ya san canje-canjen da wasu suka yi",
+                "Yana rage saurin aiki",
+                "Yana toshe injiniyoyi daga aiki tare"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Git yana sauƙaƙa hadin gwiwa ta hanyar bin diddigin canje-canje daban-daban."
             }
           ],
@@ -642,21 +644,21 @@
             {
               "question": "Menene Debugging?",
               "options": [
-                "Tsarin gano da gyara kurakurai a code",
                 "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Tsarin gano da gyara kurakurai a code"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Debugging shine aikin gano da gyara matsaloli a cikin code."
             },
             {
               "question": "Shin dukkan kurakurai suna sa code ta daina aiki gaba ɗaya?",
               "options": [
                 "A'a, wasu suna sa sakamako mara daidai ba tare da sanarwa ba",
+                "Kuskure ba ya faruwa a code",
                 "E, koyaushe kuskure yana sa code ya tsaya",
-                "Babu wata kuskure a code",
-                "Kuskure ba ya faruwa a code"
+                "Babu wata kuskure a code"
               ],
               "answerIndex": 0,
               "explanation": "Wasu kurakurai suna kawo sakamako mara daidai maimakon dakatar da code gaba ɗaya."
@@ -664,34 +666,34 @@
             {
               "question": "Menene 'print statement' wajen debugging?",
               "options": [
-                "Buga bayani a lokacin gudanar da code domin duba yadda take tafiya",
                 "Share code din gaba ɗaya",
+                "Buga bayani a lokacin gudanar da code domin duba yadda take tafiya",
                 "Kirkirar sabon file",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Print statements suna bada damar ganin abin da ke faruwa a lokacin code din yana gudana."
             },
             {
               "question": "Menene 'debugger' a matsayin kayan aiki?",
               "options": [
-                "Kayan aiki wanda ke tsayar da code a wani mataki domin duba bayanai",
-                "Nau'in yaren programming",
                 "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Nau'in yaren programming",
+                "Babu wata ma'ana",
+                "Kayan aiki wanda ke tsayar da code a wani mataki domin duba bayanai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Debugger yana bada damar dakatar da code a wani mataki domin duba dukkan bayanan da ke ciki."
             },
             {
               "question": "Me yasa wasu kurakurai ke wahala ga gani?",
               "options": [
-                "Domin ba sa sa code ya tsaya ko a bada sanarwa",
-                "Domin ba a sanya su a code ba",
+                "Domin dole ne bisa doka",
                 "Babu wani dalili",
-                "Domin dole ne bisa doka"
+                "Domin ba sa sa code ya tsaya ko a bada sanarwa",
+                "Domin ba a sanya su a code ba"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Kurakuran da ba sa dakatar da code ko bayar da sanarwa suna wahalar gani."
             }
           ],
@@ -711,21 +713,21 @@
             {
               "question": "Menene API a programming?",
               "options": [
+                "Sunan kamfani",
                 "Hanyar da ke bada damar code ya yi amfani da ayyukan wata software dabam",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "API tana bada damar sadarwa tsakanin ayyukan software daban-daban."
             },
             {
               "question": "Wanne misali ne na amfani da API?",
               "options": [
                 "Amfani da weather API domin nuna zafin jiki",
-                "Rufe app din kai tsaye",
                 "Share dukkan code",
-                "Babu wani misali"
+                "Babu wani misali",
+                "Rufe app din kai tsaye"
               ],
               "answerIndex": 0,
               "explanation": "Weather API misali ne na bada bayanin yanayi ba tare da app din ya gina wannan fasaha da kansa ba."
@@ -733,32 +735,32 @@
             {
               "question": "Menene REST a mahallin APIs?",
               "options": [
-                "Tsarin da ake amfani da shi wajen aika bukata da karban amsa ta intanet",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Tsarin da ake amfani da shi wajen aika bukata da karban amsa ta intanet",
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "REST tsari ne sananne na gina APIs wanda ke amfani da HTTP requests."
             },
             {
               "question": "Wanne tsari ake amfani da shi galibi wajen amsar API?",
               "options": [
-                "JSON",
                 "MP3",
+                "JSON",
                 "PDF kadai",
                 "Babu wani tsari"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "JSON tsari ne mai sauki karantawa da ake amfani da shi wajen musayar bayanai ta API."
             },
             {
               "question": "Me ake bukata domin amfani da API?",
               "options": [
                 "San yadda ake tambayarta da irin amsar da za ta bayar",
+                "San duk code din da ke bayanta",
                 "San yadda aka gina ta a ciki",
-                "Babu bukatar sanin komai",
-                "San duk code din da ke bayanta"
+                "Babu bukatar sanin komai"
               ],
               "answerIndex": 0,
               "explanation": "Ba a bukatar sanin ciki-cikin API, sai kawai yadda ake tambaya da karban amsa."
@@ -780,56 +782,56 @@
             {
               "question": "Menene Algorithm?",
               "options": [
-                "Jerin matakan da aka tsara don warware wata matsala",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Nau'in wayar hannu",
+                "Jerin matakan da aka tsara don warware wata matsala"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Algorithm shine tsarin matakai da ake bi domin warware matsala."
             },
             {
               "question": "Da me ake kwatanta Algorithm?",
               "options": [
-                "Girke-girke na dafa abinci, amma don kwamfuta",
-                "Kalanda na shekara",
                 "Nau'in kalmar sirri",
-                "Babu kwatanci"
+                "Kalanda na shekara",
+                "Babu kwatanci",
+                "Girke-girke na dafa abinci, amma don kwamfuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Kamar girke-girke, algorithm yana bayar da matakan da za a bi domin cimma sakamako."
             },
             {
               "question": "Menene 'complexity' na algorithm?",
               "options": [
-                "Auna saurin da algorithm ke warware matsala",
                 "Sunan kamfani",
                 "Nau'in wayar hannu",
+                "Auna saurin da algorithm ke warware matsala",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Complexity yana auna nawa lokaci ko albarkatu algorithm ke bukata domin gama aiki."
             },
             {
               "question": "Wanne misali ne na abin da algorithm zai iya yi?",
               "options": [
-                "Tantance mafi girman lamba a cikin jerin lambobi",
-                "Kunna wayar hannu",
                 "Sayen kaya",
-                "Babu wani misali"
+                "Babu wani misali",
+                "Tantance mafi girman lamba a cikin jerin lambobi",
+                "Kunna wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Neman mafi girman lamba misali ne mai sauki na aikin algorithm."
             },
             {
               "question": "Shin dukkan algorithms na warware matsala guda ɗaya suna da sauri iri ɗaya?",
               "options": [
-                "A'a, wasu sun fi sauri fiye da wasu",
-                "E, dukkansu iri ɗaya ne",
                 "Babu wani bambanci a saurin su",
-                "Ba a auna saurin algorithm ba"
+                "Ba a auna saurin algorithm ba",
+                "E, dukkansu iri ɗaya ne",
+                "A'a, wasu sun fi sauri fiye da wasu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Algorithms daban-daban na iya bambanta sosai a saurin da suke warware matsala ɗaya."
             }
           ],
@@ -854,32 +856,32 @@
             {
               "question": "Menene Tree a matsayin data structure?",
               "options": [
+                "Nau'in wayar hannu",
                 "Tsari mai saiwa da ya rarrabu zuwa reshe da yawa",
                 "Sunan kamfani",
-                "Nau'in wayar hannu",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Tree yana da saiwa da reshe iri-iri, kama da tsarin fayiloli."
             },
             {
               "question": "Wanne misali ne na amfani da Tree?",
               "options": [
+                "Kunna waya",
                 "Tsarin fayiloli a kwamfuta",
                 "Aika sako na SMS",
-                "Kunna waya",
                 "Babu wani misali"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Tsarin fayiloli (folders da subfolders) misali ne na tree structure."
             },
             {
               "question": "Menene Graph a matsayin data structure?",
               "options": [
                 "Tsari inda nodes ke hade da juna ta hanyar edges ba tare da tsayayyen tsari ba",
+                "Babu wata ma'ana",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "Graph yana da sassauci fiye da Tree, ba tare da tsayayyen tsarin saiwa ba."
@@ -888,9 +890,9 @@
               "question": "Wanne misali ne na amfani da Graph?",
               "options": [
                 "Taswirar hanyoyi ko alakar abota a shafukan sada zumunta",
-                "Tsarin fayiloli kadai",
                 "Girki na abinci",
-                "Babu wani misali"
+                "Babu wani misali",
+                "Tsarin fayiloli kadai"
               ],
               "answerIndex": 0,
               "explanation": "Graphs suna dacewa da wakiltar hanyoyin sadarwa ko alaka masu sarkakiya."
@@ -898,12 +900,12 @@
             {
               "question": "Menene bambanci tsakanin Tree da Graph?",
               "options": [
-                "Tree yana da tsayayyen tsarin saiwa da reshe, Graph ya fi sassauci",
-                "Su biyu iri ɗaya ne",
+                "Graph ba shi da edges",
                 "Tree ba shi da nodes",
-                "Graph ba shi da edges"
+                "Su biyu iri ɗaya ne",
+                "Tree yana da tsayayyen tsarin saiwa da reshe, Graph ya fi sassauci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Tree yana da tsari mai hirarchical, yayin da Graph ya fi sassauci a alakar nodes."
             }
           ],
@@ -923,21 +925,21 @@
             {
               "question": "Menene Design Patterns?",
               "options": [
-                "Tsare-tsare da aka gwada suka yi nasara wajen warware matsalolin software",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Nau'in wayar hannu",
+                "Wani irin cuta",
+                "Tsare-tsare da aka gwada suka yi nasara wajen warware matsalolin software"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Design patterns sune hanyoyin da aka tabbatar suna aiki wajen warware matsaloli."
             },
             {
               "question": "Menene Singleton pattern?",
               "options": [
                 "Yana tabbatar da abu ɗaya kacal na wani nau'i a dukkan app din",
-                "Yana kirkirar kwafi da yawa na wani abu",
+                "Babu wata ma'ana",
                 "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Yana kirkirar kwafi da yawa na wani abu"
               ],
               "answerIndex": 0,
               "explanation": "Singleton yana hana kirkirar kwafi da yawa masu saba wa juna."
@@ -945,12 +947,12 @@
             {
               "question": "Menene Observer pattern?",
               "options": [
-                "Yana bada damar sassan code su sa ido su sami sanarwa idan wani canji ya faru",
-                "Yana share dukkan bayanai",
                 "Nau'in wayar hannu",
+                "Yana share dukkan bayanai",
+                "Yana bada damar sassan code su sa ido su sami sanarwa idan wani canji ya faru",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Observer pattern yana bada damar sanarwa ta atomatik idan wani abu ya canza."
             },
             {
@@ -958,8 +960,8 @@
               "options": [
                 "Sabuntar allon app nan take idan bayanai suka canza",
                 "Kunna wayar hannu",
-                "Girki na abinci",
-                "Babu wani misali"
+                "Babu wani misali",
+                "Girki na abinci"
               ],
               "answerIndex": 0,
               "explanation": "Sabuntar allo ta atomatik misali ne mai sauki na yadda Observer pattern ke aiki."
@@ -967,12 +969,12 @@
             {
               "question": "Wace fa'ida ce Design Patterns ke bayarwa?",
               "options": [
-                "Warware matsaloli ta hanyar da aka riga aka tabbatar tana aiki",
-                "Kara rikitar da tsarin software",
                 "Babu wata fa'ida",
-                "Rage saurin software"
+                "Kara rikitar da tsarin software",
+                "Rage saurin software",
+                "Warware matsaloli ta hanyar da aka riga aka tabbatar tana aiki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Amfani da patterns da aka gwada yana rage hadarin kuskure a tsarin software."
             }
           ],
@@ -992,32 +994,32 @@
             {
               "question": "Menene Unit Test?",
               "options": [
-                "Karamin code da aka rubuta domin gwada wani sashi kadan na babban code",
                 "Nau'in wayar hannu",
+                "Wani irin cuta",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Karamin code da aka rubuta domin gwada wani sashi kadan na babban code"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Unit test yana tabbatar da wani sashi na code yana aiki daidai."
             },
             {
               "question": "Wace fa'ida ce Unit Tests ke bayarwa idan aka canza code a nan gaba?",
               "options": [
+                "Babu wata fa'ida",
                 "Za su gano idan canjin ya karya wani abu",
                 "Za su share code din",
-                "Babu wata fa'ida",
                 "Za su rage saurin code"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Unit tests suna gudana ta atomatik domin tabbatar da sabon canji bai karya wani abu ba."
             },
             {
               "question": "Menene Test Automation?",
               "options": [
                 "Sanya gwaje-gwajen code su gudana ta atomatik",
-                "Gwada code da hannu koyaushe",
+                "Babu wata ma'ana",
                 "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Gwada code da hannu koyaushe"
               ],
               "answerIndex": 0,
               "explanation": "Test automation yana bada damar gwaji ba tare da bukatar hannun mutum kowane lokaci ba."
@@ -1025,23 +1027,23 @@
             {
               "question": "Me yasa gwaji da hannu koyaushe bai fi kyau ba?",
               "options": [
+                "Yana da tsada mai rahusa",
                 "Yana dauke lokaci mai yawa kuma ya fi saurin samun kuskure",
-                "Ya fi sauri fiye da automation",
                 "Babu wani bambanci",
-                "Yana da tsada mai rahusa"
+                "Ya fi sauri fiye da automation"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Gwaji da hannu yana da yiwuwar kuskuren mutum da kuma dauke lokaci mai yawa."
             },
             {
               "question": "A wanne tsari ake amfani da test automation, kamar yadda aka koya a darasin DevOps?",
               "options": [
-                "CI/CD",
-                "Router setup",
                 "Wi-Fi configuration",
-                "Babu wata alaka"
+                "Babu wata alaka",
+                "Router setup",
+                "CI/CD"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "CI/CD yana amfani da automated tests kafin sakin sabon code."
             }
           ],
@@ -1062,9 +1064,9 @@
               "question": "Menene Concurrency?",
               "options": [
                 "Gudanar da ayyuka da yawa ta hanyar sauya tsakaninsu cikin sauri",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Nau'in wayar hannu"
               ],
               "answerIndex": 0,
               "explanation": "Concurrency yana kwaikwayon aiwatar da ayyuka da yawa lokaci ɗaya ta hanyar sauyawa cikin sauri."
@@ -1072,23 +1074,23 @@
             {
               "question": "Menene Parallel Programming?",
               "options": [
-                "Ainihin gudanar da ayyuka biyu ko sama a lokaci guda ɗaya",
                 "Sauya tsakanin ayyuka daban-daban",
+                "Babu wata ma'ana",
                 "Nau'in wayar hannu",
-                "Babu wata ma'ana"
+                "Ainihin gudanar da ayyuka biyu ko sama a lokaci guda ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Parallel Programming yana amfani da fiye da core guda ɗaya domin gudanar da ayyuka a lokaci ɗaya na ainihi."
             },
             {
               "question": "Wanne misali ne na concurrency a app?",
               "options": [
-                "Loda hoto a bango yayin da mai amfani ke ci gaba da amfani da app",
-                "Kashe app din gaba ɗaya",
                 "Share dukkan bayanai",
+                "Kashe app din gaba ɗaya",
+                "Loda hoto a bango yayin da mai amfani ke ci gaba da amfani da app",
                 "Babu wani misali"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wannan misali ne na ayyuka da yawa da ke gudana kusan lokaci guda a app."
             },
             {
@@ -1096,8 +1098,8 @@
               "options": [
                 "Matsala inda sakamako zai iya bambanta bisa yadda ayyukan suka gudana",
                 "Nau'in wasa",
-                "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "Race condition kalubale ne na concurrency inda tsarin gudanar ayyuka ke shafar sakamako."
@@ -1105,12 +1107,12 @@
             {
               "question": "Me ake bukata don Parallel Programming na ainihi?",
               "options": [
-                "Kwamfuta mai fiye da core guda ɗaya",
                 "Kwamfuta mai core ɗaya kadai",
                 "Babu wani bukata na musamman",
-                "Intanet mai sauri kadai"
+                "Intanet mai sauri kadai",
+                "Kwamfuta mai fiye da core guda ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ainihin gudanar ayyuka lokaci ɗaya yana bukatar fiye da core guda ɗaya."
             }
           ],
@@ -1130,21 +1132,21 @@
             {
               "question": "Menene Secure Coding?",
               "options": [
-                "Rubuta code ta hanyar da za ta guji barin hanyoyin hari",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
+                "Nau'in wayar hannu",
+                "Rubuta code ta hanyar da za ta guji barin hanyoyin hari",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Secure coding yana rage yiwuwar masu kutse su sami hanyar kai hari ta code din."
             },
             {
               "question": "Menene SQL Injection?",
               "options": [
                 "Dabarar shigar da umarni marasa kyau a filin shigarwa domin samun damar database ba bisa ƙa'ida ba",
-                "Nau'in wayar hannu",
+                "Babu wata ma'ana",
                 "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Nau'in wayar hannu"
               ],
               "answerIndex": 0,
               "explanation": "SQL Injection wata hanya ce da masu kutse ke amfani da ita wajen kai hari ta filin shigarwa."
@@ -1152,34 +1154,34 @@
             {
               "question": "Menene 'input validation'?",
               "options": [
-                "Bincika duk wani abu da mai amfani ya shigar kafin a yi amfani da shi",
+                "Babu wata ma'ana",
                 "Share dukkan bayanan mai amfani",
-                "Nau'in wayar hannu",
-                "Babu wata ma'ana"
+                "Bincika duk wani abu da mai amfani ya shigar kafin a yi amfani da shi",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Input validation yana tabbatar da cewa bayanan da aka shigar ba su da hatsari kafin a sarrafa su."
             },
             {
               "question": "Menene 'parameterized queries' ke yi?",
               "options": [
-                "Suna hana masu kutse shigar da nasu umarni a cikin bukatar database",
                 "Suna share database gaba ɗaya",
                 "Suna kara wa masu kutse damar shiga",
-                "Babu wani amfani"
+                "Babu wani amfani",
+                "Suna hana masu kutse shigar da nasu umarni a cikin bukatar database"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Parameterized queries suna kare database daga umarni na masu kutse."
             },
             {
               "question": "Me yasa secure coding ke da muhimmanci?",
               "options": [
+                "Domin yana kara saurin app",
                 "Domin yana kare app da bayanan mai amfani daga hare-hare",
                 "Domin dole ne bisa doka kadai",
-                "Babu wani dalili",
-                "Domin yana kara saurin app"
+                "Babu wani dalili"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Rashin secure coding na iya barin app da bayanan mai amfani cikin hadari."
             }
           ],
@@ -1199,56 +1201,56 @@
             {
               "question": "Menene aikin Frontend Developer?",
               "options": [
-                "Gina bangaren da mai amfani ke gani da hulda dashi kai tsaye",
-                "Gina databases kadai",
                 "Girki na abinci",
-                "Tuki na mota"
+                "Gina databases kadai",
+                "Tuki na mota",
+                "Gina bangaren da mai amfani ke gani da hulda dashi kai tsaye"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Frontend Developer yana mai da hankali kan bangaren da mai amfani ke gani."
             },
             {
               "question": "Menene aikin Backend Developer?",
               "options": [
-                "Gina tsarin da ke bayan fage kamar databases da servers",
-                "Gina hoto na app kadai",
                 "Sayar da kaya",
-                "Manomi"
+                "Manomi",
+                "Gina tsarin da ke bayan fage kamar databases da servers",
+                "Gina hoto na app kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Backend Developer yana kula da tsarin da ke bayan fage na app."
             },
             {
               "question": "Menene Full-Stack Developer?",
               "options": [
-                "Wanda ke iya yin duka Frontend da Backend",
                 "Wanda ke yin Frontend kadai",
-                "Wanda ke yin Backend kadai",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Wanda ke iya yin duka Frontend da Backend",
+                "Wanda ke yin Backend kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Full-Stack Developer yana iya aiki a bangarorin biyu."
             },
             {
               "question": "Me ake ba da shawara a matsayin mataki na farko don shiga fannin software?",
               "options": [
-                "Zaɓan yare guda ɗaya a koya sosai",
+                "Babu wani mataki na farko",
                 "Koyon dukkan yaruka a lokaci ɗaya",
-                "Jira har a gama koyon komai",
-                "Babu wani mataki na farko"
+                "Zaɓan yare guda ɗaya a koya sosai",
+                "Jira har a gama koyon komai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Zaɓan yare ɗaya yana bada tushe mai ƙarfi kafin fadada zuwa wasu."
             },
             {
               "question": "Me yasa gina ayyuka na ainihi (projects) ke da amfani?",
               "options": [
-                "Yana koya wa mutum abubuwa da yawa fiye da karatun ka'idoji kadai",
                 "Babu wani amfani",
                 "Yana rage ilimin mutum",
+                "Yana koya wa mutum abubuwa da yawa fiye da karatun ka'idoji kadai",
                 "Domin dole ne bisa doka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Gina abubuwa na ainihi yana bunkasa gogewa mai amfani sosai."
             }
           ],

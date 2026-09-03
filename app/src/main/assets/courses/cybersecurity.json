@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "cybersecurity",
   "title": "Cybersecurity",
   "icon": "shield",
@@ -21,43 +21,43 @@
             {
               "question": "Menene ma'anar Tsaron Yanar Gizo?",
               "options": [
-                "Kariyar na'urori da bayanai daga masu kutse",
                 "Sayen wayar hannu mai tsada",
-                "Amfani da intanet don wasanni kawai",
-                "Rufe wayarka koyaushe"
+                "Kariyar na'urori da bayanai daga masu kutse",
+                "Rufe wayarka koyaushe",
+                "Amfani da intanet don wasanni kawai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Tsaron Yanar Gizo shine kariyar kwamfutoci, wayoyi, da bayanai daga masu kutse."
             },
             {
               "question": "Me yasa tsaron yanar gizo ke da muhimmanci a yau?",
               "options": [
-                "Domin kowa yana amfani da wayar hannu don banki da sadarwa",
-                "Domin ba wanda ke amfani da intanet",
                 "Domin wayoyi ba su da amfani",
-                "Domin intanet baya aiki ba tare da shi ba"
+                "Domin ba wanda ke amfani da intanet",
+                "Domin intanet baya aiki ba tare da shi ba",
+                "Domin kowa yana amfani da wayar hannu don banki da sadarwa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Yawancin mutane suna amfani da intanet don ayyuka masu muhimmanci, wanda ke sanya su cikin hadari idan ba a kula ba."
             },
             {
               "question": "Wanne hanya ce masu kutse kan yi amfani da ita?",
               "options": [
-                "Sakon imel na yaudara",
+                "Wasan kwallon kafa",
                 "Karanta littafi",
                 "Sayen fulawa",
-                "Wasan kwallon kafa"
+                "Sakon imel na yaudara"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Masu kutse suna amfani da imel na yaudara don sace bayanan mutane."
             },
             {
               "question": "Menene malware?",
               "options": [
                 "Cuta ta musamman da ke shiga na'ura ba tare da izini ba",
+                "Nau'in kuɗin lantarki",
                 "Wani irin abinci",
-                "Sunan wayar hannu",
-                "Nau'in kuɗin lantarki"
+                "Sunan wayar hannu"
               ],
               "answerIndex": 0,
               "explanation": "Malware wata cuta ce ta musamman da ke shiga na'urarka ba tare da saninka ba."
@@ -65,12 +65,12 @@
             {
               "question": "Wanene ke bukatar sanin tsaron yanar gizo?",
               "options": [
+                "Malamai kadai",
                 "Duk wanda ke amfani da wayar hannu ko intanet",
                 "Injiniyoyin kwamfuta kadai",
-                "Malamai kadai",
                 "Ba wanda ke bukata"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Domin kusan kowa yana amfani da intanet, kowa yana bukatar sanin yadda za a kare kansa."
             }
           ]
@@ -96,43 +96,43 @@
             {
               "question": "Me yasa kada a yi amfani da kalma ɗaya a duk asusunanka?",
               "options": [
-                "Idan aka sace kalma ɗaya, duk asusunanka na iya fadawa hadari",
                 "Domin yana da wahalar tunawa",
-                "Domin apps ba sa yarda",
-                "Babu wani dalili"
+                "Babu wani dalili",
+                "Idan aka sace kalma ɗaya, duk asusunanka na iya fadawa hadari",
+                "Domin apps ba sa yarda"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Idan kalma ɗaya ta bayyana, mai kutse zai iya amfani da ita a duk sauran asusunanka."
             },
             {
               "question": "Wanne bai kamata a yi amfani da shi a matsayin kalmar sirri ba?",
               "options": [
-                "Ranar haihuwarka",
-                "Hade-haden haruffa da lambobi na musamman",
                 "Alamar musamman",
-                "Doguwar jimla mai wuyar tunowa"
+                "Doguwar jimla mai wuyar tunowa",
+                "Ranar haihuwarka",
+                "Hade-haden haruffa da lambobi na musamman"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Bayanai kamar ranar haihuwa ana iya samunsu cikin sauki."
             },
             {
               "question": "Menene aikin password manager?",
               "options": [
-                "Yana taimaka maka ajiyewa da tunawa da kalmomi masu ƙarfi",
-                "Yana sace kalmomin sirri",
                 "Yana share asusunka",
-                "Babu wani amfani"
+                "Babu wani amfani",
+                "Yana taimaka maka ajiyewa da tunawa da kalmomi masu ƙarfi",
+                "Yana sace kalmomin sirri"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Password manager yana taimaka maka adana kalmomi masu ƙarfi daban-daban."
             },
             {
               "question": "Tsawon haruffa nawa akalla ya kamata kalmar sirri mai ƙarfi ta kunsa?",
               "options": [
                 "10 ko sama",
-                "3",
+                "1",
                 "5",
-                "1"
+                "3"
               ],
               "answerIndex": 0,
               "explanation": "Ana ba da shawarar akalla haruffa 10 zuwa sama."
@@ -159,56 +159,56 @@
             {
               "question": "Menene phishing?",
               "options": [
-                "Dabarar yaudara ta imel ko sako don sace bayananka",
+                "Sunan banki",
                 "Wasan bidiyo",
                 "Wani irin kwamfuta",
-                "Sunan banki"
+                "Dabarar yaudara ta imel ko sako don sace bayananka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Phishing dabara ce ta aika sakon yaudara domin sace bayanan mutum."
             },
             {
               "question": "Wace alama ce ta sakon yaudara?",
               "options": [
+                "Sako daga abokinka",
                 "Sako mai gaggawa yana bukatar ka danna link nan take",
                 "Sako mai natsuwa ba tare da bukatar bayani ba",
-                "Sako daga abokinka",
                 "Sako mara hanyar sadarwa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Sakonnin yaudara galibi suna kirkirar jin gaggawa."
             },
             {
               "question": "Me ya kamata ka yi idan sako ya ce asusunka zai rufe sai ka danna link?",
               "options": [
+                "Ka aika sako ga abokanka",
                 "Ka je shafin banki kai tsaye ba tare da amfani da link din ba",
-                "Ka danna link din nan take",
                 "Ka bayar da kalmar sirrinka",
-                "Ka aika sako ga abokanka"
+                "Ka danna link din nan take"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Ya fi kyau a je shafin hukuma kai tsaye maimakon danna hanyoyi marasa tabbaci."
             },
             {
               "question": "Ya kamata ka baiwa wani lambar OTP idan ya bukace ka?",
               "options": [
+                "Kawai idan ya ce dan banki ne",
                 "A'a, kada ka bayar da OTP ga kowa",
                 "E, koyaushe",
-                "Kawai idan ya ce dan banki ne",
                 "Kawai idan gaggawa ne"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Kada ka taba baiwa kowa lambar OTP."
             },
             {
               "question": "Wace alama ce mai nuna sako karya ne?",
               "options": [
+                "Sako mai natsuwa",
                 "Adireshin imel wanda bai dace da na kamfani na gaske ba",
                 "Sako mai kwanan wata daidai",
-                "Sako daga lambar da ka sani",
-                "Sako mai natsuwa"
+                "Sako daga lambar da ka sani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Adireshin da ba ya dace da tushen hukuma babbar alama ce ta yaudara."
             }
           ]
@@ -219,60 +219,61 @@
           "title": "Cutar Kwamfuta da Kutse (Malware)",
           "summary": "Nau'ukan cuta na dijital da yadda ake kare kai",
           "content": "GABATARWA\n\nMalware wani software ne da aka kirkira domin cutar da na'urarka ba tare da izininka ba. Akwai nau'uka daban-daban: Virus, Trojan (yana kama da app na gaske amma yana da illa a ɓoye), da Ransomware (yana kulle bayananka har sai ka biya kuɗi).\n\nDon kariya, ka sauke apps daga Google Play Store kadai, ka rika sabunta tsarin wayarka akai-akai, kuma ka yi amfani da app na antivirus mai kyau.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nMalware kalma ce ga software mai mugun nufi ko amfani. Ire-irensa sun hada da ransomware, spyware da wasu shirye-shiryen da ke lalata ko satar bayanai. Sabunta software, rage permissions da yin backups na daga cikin matakan kariya.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Cutar Kwamfuta da Kutse (Malware)”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Cutar Kwamfuta da Kutse (Malware) kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nCutar Kwamfuta da Kutse (Malware) ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"flow","title":"Yadda Malware Ke Shiga Wayarka","items":["Ka Danna Link / Sauke Fayil","Malware Ya Shiga Na'urar Ka","Ya Rufe Bayananka","Ya Rarraba Ta ko Ya Rufe AsusunKa"],"caption":"Guje wa danna ba da izini link din ko sauke fayil din"}],
+"quiz": [
             {
               "question": "Menene ransomware?",
               "options": [
-                "Cuta da ke kulle bayananka har sai ka biya kuɗi",
                 "App na wasa",
+                "Software na banki",
                 "Sunan kamfanin waya",
-                "Software na banki"
+                "Cuta da ke kulle bayananka har sai ka biya kuɗi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ransomware yana kulle bayanan wayarka har sai an biya kuɗi."
             },
             {
               "question": "Ta ina malware ke iya shiga wayarka?",
               "options": [
-                "Sauke apps daga wajen Play Store na hukuma",
-                "Sabunta tsarin wayar akai-akai",
                 "Amfani da password mai ƙarfi",
-                "Kashe wayar da dare"
+                "Kashe wayar da dare",
+                "Sauke apps daga wajen Play Store na hukuma",
+                "Sabunta tsarin wayar akai-akai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Sauke apps daga wajen shagunan hukuma na ɗaya daga cikin hanyoyin da malware ke shiga."
             },
             {
               "question": "Menene Trojan?",
               "options": [
+                "Sunan wani kamfani",
                 "App wanda ke kama da na gaske amma yana da illa a ɓoye",
                 "App na gaske ba shi da illa",
-                "Sunan wani kamfani",
                 "Nau'in kalmar sirri"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Trojan yana kama da app na gaske amma yana ɓoye niyyar cutarwa."
             },
             {
               "question": "Wace alama za ta iya nuna wayarka na dauke da cuta?",
               "options": [
-                "Wayar tana aiki a hankali ba tare da dalili ba",
                 "Wayar tana aiki cikin sauri",
                 "Wayar tana da baturi mai kyau",
+                "Wayar tana aiki a hankali ba tare da dalili ba",
                 "Babu wata alama"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Aiki a hankali ba tare da dalili ba na iya nuna kasancewar cuta."
             },
             {
               "question": "Wace hanya ce mafi aminci wajen sauke apps?",
               "options": [
-                "Google Play Store na hukuma",
-                "Ta hanyar link daga WhatsApp",
                 "Shafukan intanet marasa suna",
+                "Ta hanyar link daga WhatsApp",
+                "Google Play Store na hukuma",
                 "Ta hanyar Bluetooth daga baƙo"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Google Play Store yana bincika apps kafin buga su."
             }
           ],
@@ -288,60 +289,61 @@
           "title": "Social Engineering",
           "summary": "Dabarun yaudarar mutane don samun bayanai",
           "content": "GABATARWA\n\nSocial engineering hanya ce da masu laifi ke amfani da ita domin yaudarar mutane su bayar da bayanansu na sirri, ta amfani da tsoro, gaggawa, ko sha'awa maimakon fasahar kwamfuta.\n\nHanya mafi kyau ta kariya ita ce ka rika tambaya kanka ko wannan tuntuɓar tana da ma'ana, sannan ka tabbatar ta hanyar lambar hukuma idan kana da shakka.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nSocial engineering yana amfani da halayyar mutum maimakon fasaha kawai. Maharin na iya amfani da amincewa, tsoro, gaggawa ko son taimako wajen sa wanda aka hari ya karya dokar tsaro. Horar da masu amfani yana da muhimmanci kamar kayan kariya na fasaha.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nTsaron yanar gizo yana da muhimmanci saboda wayoyi da kwamfutoci suna rike da bayanai masu daraja kamar asusun shiga, hotuna, sakonni da bayanan kudi. Kyakkyawan tsaro yana rage yiwuwar sata, lalata bayanai ko amfani da asusu ba tare da izini ba.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Social Engineering”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa yi nazarin wata naura ko asusu da kake amfani da shi. Rubuta matakai uku da za ka iya dauka domin kara tsaro, sannan ka bayyana wane irin barazana kowane mataki yake ragewa.\n\nMuhimman kalmomi: threat, vulnerability, attack, authentication, encryption, malware, phishing, firewall, backup.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Social Engineering kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nSocial Engineering ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"flow","title":"Yadda Social Engineering Ke Aiki","items":["Mai laifi Ya Kira / Ya Aika Sako","Ya Kirkiri Tsoro ko Gaggawa","Ka Amince Ba Tare da Tunani ba","Ka Bayar da Bayani / Ka Biya Kuɗi"],"caption":"Mai laifi yana amfani da salon mutumCi don samun bayananka"}],
+"quiz": [
             {
               "question": "Menene social engineering?",
               "options": [
+                "Aikin gwamnati",
                 "Yaudarar mutane ta hanyar fasahar zamantakewa don samun bayanansu",
-                "Gina gine-gine",
                 "Nau'in kwamfuta",
-                "Aikin gwamnati"
+                "Gina gine-gine"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Social engineering yana amfani da dabarun zamantakewa maimakon fasahar kwamfuta."
             },
             {
               "question": "Menene vishing?",
               "options": [
-                "Kiran waya na yaudara don sace bayanai",
-                "Kamun kifi",
+                "Sunan wata cuta",
                 "Nau'in app",
-                "Sunan wata cuta"
+                "Kiran waya na yaudara don sace bayanai",
+                "Kamun kifi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Vishing shine yaudara ta hanyar kiran waya."
             },
             {
               "question": "Wace dabara ce masu laifi ke amfani da ita don rufe hankalinka?",
               "options": [
-                "Tsoro da gaggawa",
-                "Nutsuwa da lokaci",
                 "Bayar da lokaci mai yawa",
-                "Bada shawara su jira"
+                "Tsoro da gaggawa",
+                "Bada shawara su jira",
+                "Nutsuwa da lokaci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Suna amfani da tsoro da gaggawa domin ka aikata ba tare da tunani ba."
             },
             {
               "question": "Me ya kamata ka yi idan wani ya kira ka yana neman kalmar sirrinka?",
               "options": [
-                "Ka rufe waya ka kira lambar hukuma ta banki",
-                "Ka baiwa nan take",
                 "Ka aika masa kuɗi",
-                "Ka yi masa magana na dogon lokaci"
+                "Ka yi masa magana na dogon lokaci",
+                "Ka baiwa nan take",
+                "Ka rufe waya ka kira lambar hukuma ta banki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Bankuna na gaske ba sa neman kalmar sirrinka ta waya."
             },
             {
               "question": "Me ya kamata ka yi idan kana da shakku game da tuntuɓa?",
               "options": [
+                "Ka aika bayananka nan take",
                 "Ka tabbatar kafin ka amsa",
                 "Ka amince nan take",
-                "Ka yi watsi da shakkarka",
-                "Ka aika bayananka nan take"
+                "Ka yi watsi da shakkarka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "A koyaushe ya kamata a tabbatar kafin bayar da bayani."
             }
           ],
@@ -362,9 +364,9 @@
               "question": "Me yasa Wi-Fi na jama'a ke da hatsari?",
               "options": [
                 "Masu kutse na iya sa ido kan bayanan da kake aikawa",
+                "Babu wani hatsari",
                 "Domin ba shi da sauri",
-                "Domin yana da tsada",
-                "Babu wani hatsari"
+                "Domin yana da tsada"
               ],
               "answerIndex": 0,
               "explanation": "Wi-Fi na jama'a na iya bada dama ga masu kutse su ga bayanan da ake aikawa."
@@ -372,21 +374,21 @@
             {
               "question": "Menene VPN ke yi?",
               "options": [
+                "Yana share hoto",
                 "Yana ɓoye bayananka daga masu leken asiri",
                 "Yana kara saurin intanet kawai",
-                "Yana share hoto",
                 "Yana kunna wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "VPN yana ɓoye bayanan da kake tura ta intanet."
             },
             {
               "question": "Ya kamata ka yi amfani da Wi-Fi na jama'a wajen biyan kuɗin banki?",
               "options": [
                 "A'a, ya kamata a guji hakan",
-                "E, koyaushe amintacce",
                 "Ba ruwansa da tsaro",
-                "Kawai da dare"
+                "Kawai da dare",
+                "E, koyaushe amintacce"
               ],
               "answerIndex": 0,
               "explanation": "Ya kamata a guji amfani da Wi-Fi na jama'a don ayyukan banki."
@@ -396,8 +398,8 @@
               "options": [
                 "Domin masu kutse na iya sanin kalmomin asali",
                 "Domin kyakkyawa",
-                "Babu amfani",
-                "Domin yana kara saurin intanet"
+                "Domin yana kara saurin intanet",
+                "Babu amfani"
               ],
               "answerIndex": 0,
               "explanation": "Kalmomin sirri na asali galibi sanannu ne."
@@ -405,12 +407,12 @@
             {
               "question": "Menene mataki mafi kyau kafin shiga Wi-Fi na jama'a?",
               "options": [
-                "Ka tabbatar sunan hanyar sadarwar na hukuma",
                 "Ka shiga kai tsaye",
+                "Ka tabbatar sunan hanyar sadarwar na hukuma",
                 "Ka bayar da bayanan bankinka",
                 "Ka kashe wayarka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Tabbatar da sunan hanyar sadarwar yana rage hadarin shiga Wi-Fi na karya."
             }
           ],
@@ -435,23 +437,23 @@
             {
               "question": "Wace hanya ce ta kulle wayar hannu?",
               "options": [
-                "PIN, fingerprint, ko fuska",
-                "Rubuta sunanka a fuskar waya",
                 "Kashe wayar koyaushe",
+                "Rubuta sunanka a fuskar waya",
+                "PIN, fingerprint, ko fuska",
                 "Babu bukatar kulle waya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "PIN, fingerprint, da fuska hanyoyi ne na kare wayar hannu."
             },
             {
               "question": "Menene amfanin Find My Device?",
               "options": [
-                "Yana taimaka wajen bin diddigi idan wayarka ta bata",
                 "Yana kunna kide-kide",
+                "Babu wani amfani",
                 "Yana kara baturi",
-                "Babu wani amfani"
+                "Yana taimaka wajen bin diddigi idan wayarka ta bata"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Find My Device yana taimaka maka gano wayarka idan ta bata."
             },
             {
@@ -459,8 +461,8 @@
               "options": [
                 "Ka yi shakku kuma ka tantance dalilin bukatar",
                 "Ka amince nan take",
-                "Ka share wayarka",
-                "Ba ruwanka"
+                "Ba ruwanka",
+                "Ka share wayarka"
               ],
               "answerIndex": 0,
               "explanation": "Idan izinin bai dace da aikin app ba, ya kamata a yi shakku."
@@ -468,23 +470,23 @@
             {
               "question": "Me yasa ake bukatar yin backup na bayanai?",
               "options": [
-                "Domin kada a rasa su idan waya ta bata",
-                "Domin yana kara saurin waya",
+                "Babu wani dalili",
                 "Domin yana da kyau kawai",
-                "Babu wani dalili"
+                "Domin yana kara saurin waya",
+                "Domin kada a rasa su idan waya ta bata"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Backup yana tabbatar da bayananka na cikin aminci."
             },
             {
               "question": "Wanne bayani wayar hannu ke dauke da shi wanda ke bukatar kariya?",
               "options": [
-                "Hotuna, sakonni, da bayanan banki",
+                "Babu wani bayani mai muhimmanci",
                 "Yanayin sararin samaniya",
                 "Labaran duniya kawai",
-                "Babu wani bayani mai muhimmanci"
+                "Hotuna, sakonni, da bayanan banki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Wayoyi na dauke da bayanai masu yawan sirri."
             }
           ],
@@ -504,56 +506,56 @@
             {
               "question": "Me yasa a duba saitunan sirri na kafofin sada zumunta?",
               "options": [
-                "Domin a tabbata kawai mutanen da ka amince ke ganin bayananka",
-                "Domin yana kara likes",
+                "Domin yana kara baturi",
                 "Babu amfani",
-                "Domin yana kara baturi"
+                "Domin a tabbata kawai mutanen da ka amince ke ganin bayananka",
+                "Domin yana kara likes"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Saitunan sirri suna sarrafa wanda zai iya ganin bayananka."
             },
             {
               "question": "Ya kamata ka amince da bukatar abota daga wanda ba ka sani ba?",
               "options": [
-                "A'a, sai an tabbatar wanene shi",
-                "E, koyaushe",
                 "Kawai idan hoto ne mai kyau",
-                "Kawai da dare"
+                "A'a, sai an tabbatar wanene shi",
+                "Kawai da dare",
+                "E, koyaushe"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Masu laifi na iya kirkirar asusu na karya."
             },
             {
               "question": "Me ya kamata a guji bugawa a bainar jama'a?",
               "options": [
-                "Adireshin gida ko jadawalin tafiye-tafiye",
                 "Labaran wasanni",
+                "Adireshin gida ko jadawalin tafiye-tafiye",
                 "Hoton abinci",
                 "Ranar hutu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Wannan bayani na iya sanya ka cikin hadari."
             },
             {
               "question": "Idan ka share sako, shin an tabbata babu wanda ya gani?",
               "options": [
-                "A'a, wani na iya daukar hoton allo kafin",
                 "E, koyaushe",
+                "A'a, wani na iya daukar hoton allo kafin",
                 "Ba a taba iya gani ba",
                 "Babu ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Wani na iya riga ya dauki hoton allo."
             },
             {
               "question": "Wanne app ne misalin kafar sada zumunta?",
               "options": [
-                "Facebook",
-                "Google Maps",
                 "Calculator",
+                "Google Maps",
+                "Facebook",
                 "Alarm Clock"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Facebook misali ne na kafar sada zumunta."
             }
           ],
@@ -573,20 +575,20 @@
             {
               "question": "Menene SIM swap?",
               "options": [
-                "Sace lambar wayarka ta hanyar yaudara",
-                "Sauya waya sabuwa",
+                "Kunna Wi-Fi",
                 "Sayen SIM sabuwa a shago",
-                "Kunna Wi-Fi"
+                "Sace lambar wayarka ta hanyar yaudara",
+                "Sauya waya sabuwa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "SIM swap dabara ce ta sace lambar wayarka."
             },
             {
               "question": "Wace alama ce ta gama-gari ta zamba?",
               "options": [
                 "Alkawarin samun riba mai yawa cikin lokaci kadan",
-                "Bayani mai natsuwa game da samfur",
                 "Sako daga aboki",
+                "Bayani mai natsuwa game da samfur",
                 "Rasit na sayayya na gaske"
               ],
               "answerIndex": 0,
@@ -595,34 +597,34 @@
             {
               "question": "Ya kamata ka aika kuɗi ga wanda ba ka sani ba don karban kyauta?",
               "options": [
-                "A'a, wannan galibi zamba ce",
                 "E, koyaushe",
-                "Kawai idan gaggawa",
-                "Kawai idan an rubuta a takarda"
+                "A'a, wannan galibi zamba ce",
+                "Kawai idan an rubuta a takarda",
+                "Kawai idan gaggawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Bukatar biyan kuɗi kafin karban kyauta alama ce ta zamba."
             },
             {
               "question": "Me ya kamata ka yi kafin shiga dama ta kasuwanci mai kama da gaskiya sosai?",
               "options": [
-                "Ka bincika don tabbatarwa kafin ka shiga",
                 "Ka shiga nan take",
                 "Ka gaya wa kowa",
-                "Ka biya kuɗi domin gudun kaso"
+                "Ka biya kuɗi domin gudun kaso",
+                "Ka bincika don tabbatarwa kafin ka shiga"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ya kamata a rika bincike kafin shiga."
             },
             {
               "question": "Wace hikima za ta taimaka wajen gujewa zamba?",
               "options": [
-                "Idan abu yana da kyau fiye da yadda ya kamata, ka yi shakku",
-                "Ka amince da kowa nan take",
                 "Ka bayar da lambar bankinka ga kowa",
-                "Ka watsar da tunani"
+                "Ka watsar da tunani",
+                "Idan abu yana da kyau fiye da yadda ya kamata, ka yi shakku",
+                "Ka amince da kowa nan take"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Idan wani abu yana da kyau sosai da bai zama gaskiya ba, wataƙila zamba ne."
             }
           ],
@@ -642,56 +644,56 @@
             {
               "question": "Wace alama ke nuna shafin sayayya yana da aminci?",
               "options": [
-                "Adireshi mai farawa da https tare da alamar kulle",
-                "Launi mai kyau",
                 "Yawan tallace-tallace",
+                "Launi mai kyau",
+                "Adireshi mai farawa da https tare da alamar kulle",
                 "Rubutu mai girma"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "https da alamar kulle suna nuna hanyar sadarwa mai tsaro."
             },
             {
               "question": "Ya kamata ka baiwa mai kira lambar CVV idan ya ce shi ma'aikacin banki ne?",
               "options": [
-                "A'a, bankuna na gaske ba sa bukatar hakan ta waya",
-                "E",
+                "E, don gudun matsala",
                 "Kawai idan murya ce mai kwarjini",
-                "E, don gudun matsala"
+                "E",
+                "A'a, bankuna na gaske ba sa bukatar hakan ta waya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Bankuna na gaske ba sa neman CVV ko OTP ta waya."
             },
             {
               "question": "Me yasa ake bukatar duba tarihin ma'amalar banki akai-akai?",
               "options": [
-                "Domin a gano ma'amaloli marasa izini da wuri",
-                "Domin yana da dadi a duba",
                 "Babu wani dalili",
-                "Domin yana kara kuɗi"
+                "Domin yana da dadi a duba",
+                "Domin yana kara kuɗi",
+                "Domin a gano ma'amaloli marasa izini da wuri"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Duba tarihi yana taimaka gano zamba da wuri."
             },
             {
               "question": "Menene OTP?",
               "options": [
-                "Lambar tabbatarwa na wucin gadi",
-                "Wani irin waya",
                 "Sunan banki",
-                "Nau'in katin ATM"
+                "Nau'in katin ATM",
+                "Lambar tabbatarwa na wucin gadi",
+                "Wani irin waya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "OTP lamba ce ta tabbatarwa da ake amfani da ita sau ɗaya."
             },
             {
               "question": "Me ya kamata ka yi idan ka ga ma'amala wadda ba ka yi ba?",
               "options": [
-                "Ka sanar da bankinka nan take",
                 "Ka yi shiru",
                 "Ka share app din banki",
-                "Ka jira wata rana"
+                "Ka jira wata rana",
+                "Ka sanar da bankinka nan take"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Sanar da bankinka nan take yana dakatar da zamba mai ci gaba."
             }
           ],
@@ -733,20 +735,20 @@
             {
               "question": "Wanne asusu ya kamata a kunna 2FA a kai?",
               "options": [
+                "App na kalanda kadai",
                 "Imel, banki, da kafofin sada zumunta",
                 "Asusun wasa kadai",
-                "Babu bukata",
-                "App na kalanda kadai"
+                "Babu bukata"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "2FA ya kamata a kunna a duk asusunanka masu muhimmanci."
             },
             {
               "question": "Ta ina ake samun lambar tabbatarwa ta 2FA?",
               "options": [
                 "Ta SMS ko app kamar Google Authenticator",
-                "Ta tambayar aboki",
                 "Ta rediyo",
+                "Ta tambayar aboki",
                 "Ta jarida"
               ],
               "answerIndex": 0,
@@ -755,12 +757,12 @@
             {
               "question": "Idan app yana bayar da zabin 2FA, me ya kamata ka yi?",
               "options": [
-                "Ka kunna shi koyaushe",
                 "Ka guje wa amfani da shi",
                 "Ka bayar da lambarka ga wani",
-                "Ka share asusunka"
+                "Ka share asusunka",
+                "Ka kunna shi koyaushe"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ana ba da shawarar kullum amfani da 2FA."
             }
           ],
@@ -780,56 +782,56 @@
             {
               "question": "Me yasa ake bukatar sabunta wayarka akai-akai?",
               "options": [
-                "Domin sabuntawa galibi suna gyara matsalolin tsaro",
                 "Domin yana kara nauyin waya",
+                "Domin yana rage baturi",
                 "Babu wani dalili",
-                "Domin yana rage baturi"
+                "Domin sabuntawa galibi suna gyara matsalolin tsaro"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Sabuntawar tsarin waya galibi tana dauke da gyare-gyaren tsaro."
             },
             {
               "question": "Wace dabi'a za ta iya kare ka daga hare-haren yanar gizo?",
               "options": [
+                "Kada ka taba amfani da intanet",
                 "Yin tunani na dan lokaci kafin danna hanyar sadarwa",
                 "Yin gaggawar amsawa",
-                "Kashe wayarka koyaushe",
-                "Kada ka taba amfani da intanet"
+                "Kashe wayarka koyaushe"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Yin tunani kafin aiki yana rage yiwuwar fadawa cikin zamba."
             },
             {
               "question": "Me yasa ya kamata ka koyar da iyalanka game da tsaron yanar gizo?",
               "options": [
-                "Domin tsaron yanar gizo aiki ne na hadin gwiwa",
                 "Babu wani dalili",
-                "Domin dokar gwamnati ce",
-                "Domin yana kara kuɗin waya"
+                "Domin tsaron yanar gizo aiki ne na hadin gwiwa",
+                "Domin yana kara kuɗin waya",
+                "Domin dokar gwamnati ce"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Idan mutum ɗaya a iyali ya fada cikin zamba, zai iya shafar kowa."
             },
             {
               "question": "Wanne halin ne mai kyau na tsaro?",
               "options": [
-                "Kunna 2FA a duk inda za a iya",
-                "Amfani da kalma ɗaya a duk asusunanka",
                 "Danna duk hanyar sadarwa ba tare da tunani ba",
-                "Bayar da OTP ga duk wanda ya tambaya"
+                "Amfani da kalma ɗaya a duk asusunanka",
+                "Bayar da OTP ga duk wanda ya tambaya",
+                "Kunna 2FA a duk inda za a iya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Kunna 2FA a duk inda za a iya na ɗaya daga cikin mafi kyawun halaye."
             },
             {
               "question": "Menene babban darasin daga wadannan darussa?",
               "options": [
-                "Tsaron yanar gizo aiki ne na yau da kullum wanda ke bukatar hankali",
                 "Tsaron yanar gizo ba shi da muhimmanci",
                 "Kwararru kadai ke bukatar shi",
+                "Tsaron yanar gizo aiki ne na yau da kullum wanda ke bukatar hankali",
                 "Bayan koyo sau ɗaya, ba a bukatar kula kuma"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Tsaron yanar gizo aiki ne mai gudana wanda ke bukatar hankali koyaushe."
             }
           ],
@@ -859,21 +861,21 @@
             {
               "question": "Menene aikin firewall?",
               "options": [
-                "Yana sarrafa zirga-zirgar bayanai yana toshe abin da ke da hatsari",
-                "Yana kunna wayar hannu",
                 "Yana kara saurin intanet",
-                "Yana share fayiloli"
+                "Yana kunna wayar hannu",
+                "Yana share fayiloli",
+                "Yana sarrafa zirga-zirgar bayanai yana toshe abin da ke da hatsari"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Firewall yana sarrafawa da toshe zirga-zirgar bayanai mara aminci."
             },
             {
               "question": "Menene IDS?",
               "options": [
                 "Tsarin sanya ido kan cibiyar sadarwa domin gano hari",
-                "Nau'in kwamfuta",
                 "Sunan kamfani",
-                "App na wasa"
+                "App na wasa",
+                "Nau'in kwamfuta"
               ],
               "answerIndex": 0,
               "explanation": "IDS (Intrusion Detection System) yana gano alamun hari a cibiyar sadarwa."
@@ -882,8 +884,8 @@
               "question": "Menene amfanin rarraba cibiyar sadarwa (network segmentation)?",
               "options": [
                 "Yana hana mai kutse yaduwa zuwa sauran sassan idan ya shiga ɗaya",
-                "Yana kara saurin intanet kawai",
                 "Babu wani amfani",
+                "Yana kara saurin intanet kawai",
                 "Yana share bayanai"
               ],
               "answerIndex": 0,
@@ -892,23 +894,23 @@
             {
               "question": "Ta yaya firewall da IDS suke bambanta?",
               "options": [
-                "Firewall yana toshewa, IDS yana sa ido da bayar da rahoto",
+                "Babu bambanci",
                 "Su biyu iri ɗaya ne",
                 "IDS yana toshewa kadai",
-                "Babu bambanci"
+                "Firewall yana toshewa, IDS yana sa ido da bayar da rahoto"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Firewall yana toshe zirga-zirga mai hatsari, IDS yana gano da sanar da alamun hari."
             },
             {
               "question": "Wanne kamfani/cibiya ce ta fi bukatar tsaron cibiyar sadarwa mai zurfi?",
               "options": [
-                "Kowace cibiya da ke da bayanai masu yawa ko muhimmanci",
-                "Babu wata cibiya da ke bukata",
                 "Gidajen wasan kwaikwayo kadai",
-                "Makarantun firamare kadai"
+                "Babu wata cibiya da ke bukata",
+                "Makarantun firamare kadai",
+                "Kowace cibiya da ke da bayanai masu yawa ko muhimmanci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Duk wata cibiya mai bayanai masu muhimmanci na bukatar tsaron cibiyar sadarwa mai kyau."
             }
           ]
@@ -923,43 +925,43 @@
             {
               "question": "Menene encryption?",
               "options": [
-                "Canza bayanai zuwa salo mara karantuwa sai da makulli",
+                "Nau'in wayar hannu",
                 "Share bayanai gaba ɗaya",
                 "Kara saurin intanet",
-                "Nau'in wayar hannu"
+                "Canza bayanai zuwa salo mara karantuwa sai da makulli"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Encryption yana ɓoye bayanai ta yadda sai da makulli za a iya karanta su."
             },
             {
               "question": "Menene bambanci tsakanin symmetric da asymmetric encryption?",
               "options": [
+                "Symmetric ba shi da amfani",
                 "Symmetric yana amfani da makulli ɗaya, asymmetric yana amfani da makulli biyu",
                 "Babu bambanci",
-                "Symmetric ba shi da amfani",
                 "Asymmetric ba ya aiki a yanar gizo"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Symmetric yana amfani da makulli guda, asymmetric yana amfani da na jama'a da na sirri."
             },
             {
               "question": "Menene HTTPS ke yi?",
               "options": [
-                "Yana ɓoye bayanan da ake tura tsakanin kai da shafin intanet",
                 "Yana kara wa shafuka kayan ado",
+                "Babu wani amfani",
                 "Yana share tarihin bincike",
-                "Babu wani amfani"
+                "Yana ɓoye bayanan da ake tura tsakanin kai da shafin intanet"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "HTTPS yana amfani da encryption domin kare bayanan da ake tura zuwa shafi."
             },
             {
               "question": "Idan mai kutse ya sace bayanai da aka ɓoye ba tare da makulli ba, me zai iya yi?",
               "options": [
                 "Ba zai iya fahimtar su ba",
-                "Ya karanta su cikin sauki",
+                "Zai iya share su kawai",
                 "Zai iya sayar da su nan take",
-                "Zai iya share su kawai"
+                "Ya karanta su cikin sauki"
               ],
               "answerIndex": 0,
               "explanation": "Ba tare da makullin da ya dace ba, bayanan da aka ɓoye ba su da ma'ana ga mai kutse."
@@ -967,12 +969,12 @@
             {
               "question": "Wanne alama ke nuna shafi yana amfani da encryption (HTTPS)?",
               "options": [
-                "Alamar kulle a bar din binciken",
                 "Launi mai ban sha'awa",
                 "Yawan hotuna a shafi",
+                "Alamar kulle a bar din binciken",
                 "Sunan shafi mai tsawo"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Alamar kulle (padlock) tana nuna shafin yana amfani da HTTPS/encryption."
             }
           ],
@@ -992,42 +994,42 @@
             {
               "question": "Menene cloud computing?",
               "options": [
-                "Adana bayanai a sabar wani kamfani maimakon a wurinka",
                 "Nau'in wayar hannu",
+                "Adana bayanai a sabar wani kamfani maimakon a wurinka",
                 "Wani irin malware",
                 "Kalmar sirri"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Cloud computing yana bada damar adana bayanai a sabar wani kamfani kamar Google ko AWS."
             },
             {
               "question": "Menene 'shared responsibility model'?",
               "options": [
-                "Kamfanin cloud da mai amfani duk suna da rabon alhakin tsaro",
-                "Kamfanin cloud ke da alhakin komai",
                 "Mai amfani ke da alhakin komai",
-                "Babu wani alhaki"
+                "Babu wani alhaki",
+                "Kamfanin cloud da mai amfani duk suna da rabon alhakin tsaro",
+                "Kamfanin cloud ke da alhakin komai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "A wannan tsari, kamfanin cloud da mai amfani duk suna da nasu rabon alhaki."
             },
             {
               "question": "Menene babban dalilin matsalolin tsaro na cloud?",
               "options": [
-                "Kuskuren saiti (misconfiguration)",
                 "Cutar sanyi",
+                "Kuskuren saiti (misconfiguration)",
                 "Rashin wutar lantarki",
                 "Yawan amfani da cloud"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Yawancin matsalolin tsaro na cloud suna faruwa ne saboda kuskuren saiti."
             },
             {
               "question": "Wanene ke da alhakin tsaron bayanan da mai amfani ya sanya a cloud?",
               "options": [
                 "Mai amfani bisa ga shared responsibility model",
-                "Kamfanin cloud kadai",
                 "Babu wanda ke da alhaki",
+                "Kamfanin cloud kadai",
                 "Gwamnati"
               ],
               "answerIndex": 0,
@@ -1036,12 +1038,12 @@
             {
               "question": "Wanne kamfani misali ne na mai bada cloud?",
               "options": [
+                "Asibiti",
                 "Amazon (AWS)",
                 "Wani kantin abinci",
-                "Asibiti",
                 "Makarantar firamare"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Amazon Web Services (AWS) misali ne na kamfanin da ke bada sabis na cloud."
             }
           ],
@@ -1061,32 +1063,32 @@
             {
               "question": "Menene ethical hacking?",
               "options": [
-                "Gwajin tsaro bisa izini domin gano rauni",
+                "Sunan kamfani",
                 "Kutse ba bisa izini ba don sace bayanai",
-                "Nau'in wasan kwamfuta",
-                "Sunan kamfani"
+                "Gwajin tsaro bisa izini domin gano rauni",
+                "Nau'in wasan kwamfuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Ethical hacking gwaji ne na tsaro da ake yi bisa izinin mai shi."
             },
             {
               "question": "Wanene ake kira 'white-hat hacker'?",
               "options": [
+                "Wani irin malware",
                 "Wanda ke gwada tsaro bisa izini don taimakawa",
-                "Wanda ke kutse ba bisa izini ba",
                 "Sunan kamfani na waya",
-                "Wani irin malware"
+                "Wanda ke kutse ba bisa izini ba"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "White-hat hacker mutum ne da ke gwada tsaro bisa izini domin manufa mai kyau."
             },
             {
               "question": "Ta yaya ethical hacking ya bambanta da black-hat hacking?",
               "options": [
                 "Ethical hacking bisa izini ne kuma domin kyautatawa",
+                "Su biyu iri ɗaya ne",
                 "Babu bambanci",
-                "Black-hat hacking shine mafi kyau",
-                "Su biyu iri ɗaya ne"
+                "Black-hat hacking shine mafi kyau"
               ],
               "answerIndex": 0,
               "explanation": "Bambanci shine izini da manufa - ethical hacking na inganta tsaro ne."
@@ -1095,9 +1097,9 @@
               "question": "Me ake yi bayan an gano rauni a lokacin gwajin tsaro?",
               "options": [
                 "Ana rubuta rahoto domin a gyara raunin",
+                "Ba a yin komai",
                 "Ana ɓoye rauni din",
-                "Ana sayar da bayanin ga wasu",
-                "Ba a yin komai"
+                "Ana sayar da bayanin ga wasu"
               ],
               "answerIndex": 0,
               "explanation": "Manufar gwajin ita ce gano rauni domin a gyara shi, don haka ana bayar da rahoto."
@@ -1105,12 +1107,12 @@
             {
               "question": "Wanene ke daukar penetration testers?",
               "options": [
-                "Kamfanoni da ke son gwada tsaron su",
+                "Makarantun firamare kadai",
                 "Mutanen da ke son cutar da wasu",
-                "Babu wanda ke daukar su",
-                "Makarantun firamare kadai"
+                "Kamfanoni da ke son gwada tsaron su",
+                "Babu wanda ke daukar su"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Kamfanoni na daukar penetration testers domin gwada tsaron su akai-akai."
             }
           ],
@@ -1130,56 +1132,56 @@
             {
               "question": "Menene incident response?",
               "options": [
-                "Tsarin mayar da martani ga hari cikin tsari",
-                "Nau'in malware",
                 "Sunan kamfani",
-                "Wata app ta wasa"
+                "Wata app ta wasa",
+                "Tsarin mayar da martani ga hari cikin tsari",
+                "Nau'in malware"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Incident response tsari ne na mayar da martani ga hari yanar gizo cikin tsari."
             },
             {
               "question": "Menene matakin 'containment' (killewa) a incident response?",
               "options": [
-                "Dakatar da yaduwar hari",
-                "Share dukkan bayanai",
                 "Kira 'yan sanda kadai",
-                "Yin watsi da hari"
+                "Yin watsi da hari",
+                "Dakatar da yaduwar hari",
+                "Share dukkan bayanai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Containment yana nufin dakatar da yaduwar illar hari."
             },
             {
               "question": "Me yasa kamfani ke bukatar shirin incident response tun kafin hari?",
               "options": [
-                "Domin martani mai sauri da tsari yana rage illar hari",
-                "Babu wani amfani",
                 "Domin dokar gwamnati ce kawai",
-                "Domin yana kara kuɗi"
+                "Domin yana kara kuɗi",
+                "Babu wani amfani",
+                "Domin martani mai sauri da tsari yana rage illar hari"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Shiri tun da wuri yana taimaka wa kamfani mayar da martani da sauri kuma yadda ya kamata."
             },
             {
               "question": "Menene matakin karshe na incident response wanda ya kunshi nazari?",
               "options": [
-                "Koyo daga abin da ya faru domin gyara don gaba",
                 "Share komai",
+                "Koyo daga abin da ya faru domin gyara don gaba",
                 "Yin watsi da lamarin",
                 "Sayar da kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Bayan an magance hari, ana nazarin abin da ya faru domin inganta tsaro na gaba."
             },
             {
               "question": "Wanne mataki ne na farko a incident response?",
               "options": [
+                "Koyo",
                 "Ganowa cewa hari ya faru",
                 "Dawowa",
-                "Koyo",
                 "Kawarwa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Kafin a iya mayar da martani, dole ne a fara gano cewa hari ya faru."
             }
           ],
@@ -1199,23 +1201,23 @@
             {
               "question": "Me yasa kananan kasuwanci ke zama makasudin masu laifi?",
               "options": [
+                "Babu wani dalili",
                 "Domin galibi ba su da isassun matakan kariya",
                 "Domin ba su da kuɗi",
-                "Domin ba su amfani da intanet",
-                "Babu wani dalili"
+                "Domin ba su amfani da intanet"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Kananan kasuwanci galibi ba su da isassun matakan tsaro kamar manyan kamfanoni."
             },
             {
               "question": "Wanne mataki ne mai sauki da araha ga karamin kasuwanci?",
               "options": [
+                "Yin watsi da tsaro gaba ɗaya",
                 "Horas da ma'aikata kan gane sakonnin yaudara",
                 "Sayen manyan na'urori masu tsada kadai",
-                "Rufe kasuwancin",
-                "Yin watsi da tsaro gaba ɗaya"
+                "Rufe kasuwancin"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Horas da ma'aikata hanya ce mai araha amma mai matukar amfani."
             },
             {
@@ -1223,8 +1225,8 @@
               "options": [
                 "Domin kada kowa ya sami damar shiga duk bayanai masu muhimmanci ba dalili",
                 "Domin ba wani dalili",
-                "Domin ma'aikata ba za su iya aiki ba",
-                "Domin yana da tsada"
+                "Domin yana da tsada",
+                "Domin ma'aikata ba za su iya aiki ba"
               ],
               "answerIndex": 0,
               "explanation": "Iyakance damar shiga yana rage illar da za a iya samu idan asusun wani ma'aikaci ya fadi hannun mai laifi."
@@ -1232,23 +1234,23 @@
             {
               "question": "Menene zai iya faruwa ga karamin kasuwanci ba tare da matakan tsaro ba?",
               "options": [
+                "Zai kara girma nan take",
                 "Hari ɗaya zai iya durkusar da shi gaba ɗaya",
                 "Babu wani sakamako",
-                "Zai kara girma nan take",
                 "Zai sami karin kwastomomi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Rashin matakan tsaro yana sanya karamin kasuwanci cikin babban hadari daga hari guda."
             },
             {
               "question": "Wanne daga cikin wadannan mataki ne na tsaro ga kasuwanci?",
               "options": [
-                "Yin backup na bayanai akai-akai",
+                "Bayar da dama ga kowa ya shiga duk bayanai",
                 "Yin watsi da sabuntawar software",
                 "Amfani da kalma ɗaya a dukkan asusuna",
-                "Bayar da dama ga kowa ya shiga duk bayanai"
+                "Yin backup na bayanai akai-akai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Yin backup akai-akai yana kare kasuwanci daga asarar bayanai."
             }
           ],

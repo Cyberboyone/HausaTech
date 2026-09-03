@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "ai",
   "title": "Artificial Intelligence",
   "icon": "smart_toy",
@@ -12,25 +12,26 @@
           "title": "Menene AI (Artificial Intelligence)?",
           "summary": "Ma'anar hankalin wucin gadi a sauki",
           "content": "GABATARWA\n\nArtificial Intelligence (AI), ko hankalin wucin gadi, shine fasahar da ke bawa kwamfuta damar yin abubuwan da a da mutum kadai ke iya yi - kamar fahimtar magana, gane hoto, ko amsa tambayoyi. AI ba yana nufin kwamfuta tana da hankali kamar mutum ba; a maimakon haka, tana amfani da bayanai masu yawa da alkaluma (algorithms) domin gane sifa (pattern) da kuma bada amsa mai kama da wadda mutum zai bayar.\n\nA yau, AI tana ko'ina: a wayoyinmu, a manhajojin sadarwa, har ma a bankunanmu. Sanin asalin abin da AI take shi ne matakin farko na fahimtar yadda za a yi amfani da ita cikin hikima.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Menene AI (Artificial Intelligence)? a matsayin wani bangare na tsarin Artificial Intelligence (AI). Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nAI na da muhimmanci saboda tana taimaka wa mutane da kungiyoyi su sarrafa bayanai, su gano alamu, su yi hasashe, ko su taimaka wajen yanke shawara. Amma sakamakon AI ya dogara da bayanan da aka yi amfani da su da yadda aka tsara tsarin; saboda haka fahimtar iyakokinta yana da muhimmanci.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Menene AI (Artificial Intelligence)?”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa zabi wani aiki na yau da kullum da kake yi da waya ko kwamfuta, sannan ka rubuta yadda AI za ta iya taimakawa wajen wannan aikin. Ka kuma rubuta abu daya da mutum zai iya dubawa kafin ya amince da sakamakon AI.\n\nMuhimman kalmomi: AI, data, model, training, prediction, automation, prompt, output.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Menene AI (Artificial Intelligence)? kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nMenene AI (Artificial Intelligence)? ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"hub","title":"AI a Kayan Aikin Yau da kullum","center":"Hankalin Wucin Gadi","satellites":["Google Maps","Netflix","Face Unlock","Siri","ChatGPT"],"caption":"AI tana cikin kayan aikin da muke amfani da su kowace rana"}],
+"quiz": [
             {
               "question": "Menene AI (Artificial Intelligence)?",
               "options": [
+                "Sunan wani kamfani",
                 "Fasahar da ke bawa kwamfuta damar yin abubuwan da mutum kadai ke iya yi",
                 "Wata na'ura ta musamman",
-                "Sunan wani kamfani",
                 "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "AI fasaha ce da ke kwaikwayon iyawar mutum kamar fahimta da amsawa."
             },
             {
               "question": "Shin AI tana da hankali daidai da na mutum?",
               "options": [
                 "A'a, tana amfani da bayanai da alkaluma domin gane sifa",
+                "Babu bambanci",
                 "E, daidai take",
-                "AI ba ta da wani iyawa",
-                "Babu bambanci"
+                "AI ba ta da wani iyawa"
               ],
               "answerIndex": 0,
               "explanation": "AI ba ta da hankali kamar na mutum; tana amfani da bayanai da algorithms."
@@ -39,9 +40,9 @@
               "question": "Ta ina AI ke koyon yadda za ta amsa?",
               "options": [
                 "Ta hanyar bayanai masu yawa da take koya daga su",
-                "Ta hanyar mafarki",
                 "Ta hanyar sihiri",
-                "Ba ta koyo, an riga an tsara mata komai"
+                "Ba ta koyo, an riga an tsara mata komai",
+                "Ta hanyar mafarki"
               ],
               "answerIndex": 0,
               "explanation": "AI tana koyo daga bayanai masu yawa domin gane sifofi da bada amsa."
@@ -49,23 +50,23 @@
             {
               "question": "Wanne misali ne na amfani da AI a rayuwar yau da kullum?",
               "options": [
-                "Fahimtar magana a waya",
+                "Karanta littafi na takarda",
                 "Rubuta wasika da hannu",
-                "Tuki na keke",
-                "Karanta littafi na takarda"
+                "Fahimtar magana a waya",
+                "Tuki na keke"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Fahimtar magana (voice assistant) misali ne na yadda AI ke aiki a rayuwarmu."
             },
             {
               "question": "Me yasa ake bukatar fahimtar asalin AI?",
               "options": [
-                "Domin a yi amfani da ita cikin hikima",
-                "Domin babu wani amfani",
+                "Babu wani dalili",
                 "Domin dole ne kowa ya zama injiniya",
-                "Babu wani dalili"
+                "Domin a yi amfani da ita cikin hikima",
+                "Domin babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Fahimtar asali yana taimaka wa mutum yin amfani da AI cikin hikima da kariya."
             }
           ],
@@ -81,25 +82,26 @@
           "title": "Yadda AI Ke Aiki - Bayanai da Koyo",
           "summary": "Fahimtar yadda AI ke koyo daga bayanai",
           "content": "GABATARWA\n\nAI tana aiki ta hanyar nazarin adadin bayanai (data) masu yawan gaske domin gane sifofi da alaka a tsakaninsu. Misali, idan aka nuna wa AI hotuna dubu na kyanwa da karnuka, sannu a hankali za ta iya koyon bambanci tsakanin su ta hanyar gane sifofi kamar siffar kunne ko fatar jiki.\n\nWannan tsari ana kiransa 'training' (horaswa). Bayan an horas da AI da isassun bayanai, za ta iya amfani da abin da ta koya domin yin hasashe ko amsa kan sabbin bayanai da ba ta taba gani ba a baya.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Yadda AI Ke Aiki - Bayanai da Koyo a matsayin wani bangare na tsarin Artificial Intelligence (AI). Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nAI na da muhimmanci saboda tana taimaka wa mutane da kungiyoyi su sarrafa bayanai, su gano alamu, su yi hasashe, ko su taimaka wajen yanke shawara. Amma sakamakon AI ya dogara da bayanan da aka yi amfani da su da yadda aka tsara tsarin; saboda haka fahimtar iyakokinta yana da muhimmanci.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Yadda AI Ke Aiki - Bayanai da Koyo”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa zabi wani aiki na yau da kullum da kake yi da waya ko kwamfuta, sannan ka rubuta yadda AI za ta iya taimakawa wajen wannan aikin. Ka kuma rubuta abu daya da mutum zai iya dubawa kafin ya amince da sakamakon AI.\n\nMuhimman kalmomi: AI, data, model, training, prediction, automation, prompt, output.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Yadda AI Ke Aiki - Bayanai da Koyo kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nYadda AI Ke Aiki - Bayanai da Koyo ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"flow","title":"Yadda AI Ke Koyo","items":["Tattara Bayanai Masu Yawa","Nuna Misalai da Amsoshi","AI Ta Gano Sifofi","AI ta fi kyau a Fuskantar Sabbin Abubuwa"],"caption":"AI tana koyo daga bayanai kamar yadda mutum ke koyo"}],
+"quiz": [
             {
               "question": "Ta yaya AI ke koyo?",
               "options": [
+                "Ta hanyar zaman shiru",
                 "Ta hanyar nazarin adadin bayanai masu yawa",
                 "Ta hanyar karatun boko kadai",
-                "Ta hanyar zaman shiru",
                 "Ba ta koyo kwata-kwata"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "AI tana koyo ta hanyar nazarin bayanai masu yawa domin gane sifofi."
             },
             {
               "question": "Menene ake kira tsarin horas da AI da bayanai?",
               "options": [
                 "Training (horaswa)",
-                "Sleeping",
                 "Deleting",
-                "Charging"
+                "Charging",
+                "Sleeping"
               ],
               "answerIndex": 0,
               "explanation": "Training shine tsarin da ake amfani da bayanai domin koyar da AI."
@@ -107,34 +109,34 @@
             {
               "question": "Bayan an horas da AI, me za ta iya yi?",
               "options": [
+                "Ta zama mutum na gaske",
                 "Ta yi hasashe ko amsa kan sabbin bayanai",
                 "Ta manta da komai",
-                "Ta daina aiki gaba ɗaya",
-                "Ta zama mutum na gaske"
+                "Ta daina aiki gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Bayan training, AI za ta iya amfani da abin da ta koya kan sabbin bayanai."
             },
             {
               "question": "Wanne misali ne na 'data' da za a iya horas da AI da shi?",
               "options": [
-                "Hotuna dubu na kyanwa da karnuka",
-                "Iska mai wucewa",
                 "Hasken rana kadai",
-                "Sauti na shiru"
+                "Iska mai wucewa",
+                "Sauti na shiru",
+                "Hotuna dubu na kyanwa da karnuka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Hotuna masu lamba (misali kyanwa/kare) misali ne na bayanan horaswa."
             },
             {
               "question": "Menene AI ke gani a bayanai domin koyo?",
               "options": [
-                "Sifofi da alaka a tsakanin bayanan",
                 "Launi kadai",
+                "Sunan mai daukar hoto",
                 "Nauyin fayil",
-                "Sunan mai daukar hoto"
+                "Sifofi da alaka a tsakanin bayanan"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "AI tana gane sifofi da alaka domin fahimtar bayanai."
             }
           ],
@@ -154,56 +156,56 @@
             {
               "question": "Ta yaya Google Maps ke amfani da AI?",
               "options": [
-                "Domin ba da shawarar hanya mafi kyau",
                 "Domin sayar da kayayyaki",
+                "Domin ba da shawarar hanya mafi kyau",
                 "Domin daukar hoto",
                 "Babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Google Maps tana amfani da AI domin nazarin zirga-zirga da ba da shawarar hanya."
             },
             {
               "question": "Ta yaya Netflix/YouTube ke amfani da AI?",
               "options": [
+                "Babu wani amfani",
                 "Domin ba da shawarar abin kallo bisa abin da ka saba",
-                "Domin gyara wayarka",
                 "Domin tsara kuɗinka",
-                "Babu wani amfani"
+                "Domin gyara wayarka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Suna amfani da AI domin ba da shawarwarin da suka dace da dandanon mai kallo."
             },
             {
               "question": "Ta yaya bankuna ke amfani da AI?",
               "options": [
-                "Domin gano zamba a ma'amaloli",
-                "Domin sayar da fulawa",
                 "Domin daukar hoto",
-                "Babu amfani"
+                "Babu amfani",
+                "Domin sayar da fulawa",
+                "Domin gano zamba a ma'amaloli"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "AI tana taimaka wa bankuna gano ma'amaloli masu shakku ko zamba."
             },
             {
               "question": "Menene misali na AI a wayar hannu?",
               "options": [
+                "Sauyin kalanda",
                 "Fasalin gane fuska don bude waya",
                 "Sauyin batir",
-                "Sauyin launi na waya",
-                "Sauyin kalanda"
+                "Sauyin launi na waya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Gane fuska (face unlock) misali ne na AI a wayar hannu."
             },
             {
               "question": "Me darasin nan ke koya mana game da AI?",
               "options": [
-                "Tana ko'ina a rayuwarmu ta yau da kullum",
-                "Ba ta wanzu a rayuwarmu",
+                "Tana da tsada sosai wajen amfani",
                 "Kwararru kadai ke amfani da ita",
-                "Tana da tsada sosai wajen amfani"
+                "Ba ta wanzu a rayuwarmu",
+                "Tana ko'ina a rayuwarmu ta yau da kullum"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "AI tana cikin ayyuka da yawa da muke yi kullum ba tare da mu sani ba."
             }
           ],
@@ -224,9 +226,9 @@
               "question": "Menene ChatGPT ko Claude?",
               "options": [
                 "Chatbot na AI da ke amsa tambayoyi ta rubutu",
+                "Wasan bidiyo",
                 "Nau'in wayar hannu",
-                "Sunan banki",
-                "Wasan bidiyo"
+                "Sunan banki"
               ],
               "answerIndex": 0,
               "explanation": "ChatGPT da Claude misalai ne na AI chatbots (language models)."
@@ -234,20 +236,20 @@
             {
               "question": "Ta yaya ake kira wadannan kayan aiki na AI?",
               "options": [
-                "Language Models (samfuran harshe)",
-                "Calculator",
                 "Camera",
-                "Speaker"
+                "Calculator",
+                "Speaker",
+                "Language Models (samfuran harshe)"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ana kiransu Language Models domin an horas da su akan rubutu mai yawa."
             },
             {
               "question": "Wanne amfani ne za a iya samu daga AI chatbot?",
               "options": [
                 "Taimako wajen rubutu da neman bayani",
-                "Girki na abinci na gaske",
                 "Tuki na mota",
+                "Girki na abinci na gaske",
                 "Wanke tufafi"
               ],
               "answerIndex": 0,
@@ -256,23 +258,23 @@
             {
               "question": "Shin bayanin da AI chatbot ke bayarwa gaskiya ne 100%?",
               "options": [
-                "A'a, wani lokaci na iya zama kuskure, don haka ana bukatar tantancewa",
-                "E, koyaushe gaskiya ne",
+                "Babu wani iyaka",
                 "Ba ya bada wani bayani",
-                "Babu wani iyaka"
+                "A'a, wani lokaci na iya zama kuskure, don haka ana bukatar tantancewa",
+                "E, koyaushe gaskiya ne"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "AI chatbots na iya kuskure wani lokaci, don haka tantance bayani yana da muhimmanci."
             },
             {
               "question": "A kan me aka horas da AI language models?",
               "options": [
-                "Adadin rubutu mai yawa daga intanet da littattafai",
-                "Hotuna kadai",
                 "Sauti kadai",
+                "Hotuna kadai",
+                "Adadin rubutu mai yawa daga intanet da littattafai",
                 "Babu wani horaswa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Language models suna koyo daga rubutu mai yawan gaske."
             }
           ],
@@ -293,9 +295,9 @@
               "question": "Menene prompting?",
               "options": [
                 "Fasahar rubuta tambaya ga AI don samun amsa mai kyau",
+                "Wani irin waya",
                 "Nau'in wasan kwamfuta",
-                "Sunan kamfani na AI",
-                "Wani irin waya"
+                "Sunan kamfani na AI"
               ],
               "answerIndex": 0,
               "explanation": "Prompting shine yadda ake tsara tambaya ga AI don samun amsa mai amfani."
@@ -303,21 +305,21 @@
             {
               "question": "Me yasa ya fi kyau a bayar da cikakken bayani a tambayar AI?",
               "options": [
-                "Domin AI za ta ba da amsa mafi kyau da ta dace da bukatarka",
-                "Domin AI ba za ta fahimta ba tare da haka",
+                "Domin yana kara tsada",
                 "Babu wani bambanci",
-                "Domin yana kara tsada"
+                "Domin AI za ta ba da amsa mafi kyau da ta dace da bukatarka",
+                "Domin AI ba za ta fahimta ba tare da haka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Cikakken bayani yana taimaka wa AI fahimtar ainihin abin da kake bukata."
             },
             {
               "question": "Wanne tambaya ce mafi kyau ga AI?",
               "options": [
                 "Ka koya mani menene AI a takaice, kamar ina bayani ga wanda bai taba ji ba",
+                "Bayani",
                 "Ka koya mani AI",
-                "AI",
-                "Bayani"
+                "AI"
               ],
               "answerIndex": 0,
               "explanation": "Cikakkiyar tambaya mai bayani na musamman takan bada amsa mafi dacewa."
@@ -326,9 +328,9 @@
               "question": "Me ke da tasiri kan ingancin amsar AI?",
               "options": [
                 "Yadda ka bayyana ko tsara tambayarka",
-                "Launi na wayarka",
+                "Sunan wayarka",
                 "Lokacin da ka tambaya",
-                "Sunan wayarka"
+                "Launi na wayarka"
               ],
               "answerIndex": 0,
               "explanation": "Tsari da bayanin da ke cikin tambayarka yana shafar ingancin amsar."
@@ -336,12 +338,12 @@
             {
               "question": "Wanne bayani ne zai taimaka wa AI ta rubuta wasika mai kyau a madadinka?",
               "options": [
-                "Wanene za a rubuta wa da manufar wasikar",
+                "Babu bukatar kara bayani",
                 "Ranar haihuwarka",
-                "Sunan wayarka",
-                "Babu bukatar kara bayani"
+                "Wanene za a rubuta wa da manufar wasikar",
+                "Sunan wayarka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Bayani kan mai karba da manufa yana taimaka wa AI bada sakamako mai dacewa."
             }
           ],
@@ -362,9 +364,9 @@
               "question": "Menene 'hallucination' a AI?",
               "options": [
                 "Lokacin da AI ta bada amsa kama da gaskiya amma ba gaskiya ba",
-                "Wani irin waya",
+                "Nau'in wasa",
                 "Sunan kamfani",
-                "Nau'in wasa"
+                "Wani irin waya"
               ],
               "answerIndex": 0,
               "explanation": "Hallucination shine lokacin da AI ke bada amsa marar gaskiya amma mai kama da gaskiya."
@@ -372,45 +374,45 @@
             {
               "question": "Me yasa bai kamata a amince da AI 100% akan muhimman al'amura ba?",
               "options": [
-                "Domin tana iya yin kuskure ko hallucination",
                 "Domin ba ta da wani amfani",
-                "Domin tana da tsada",
-                "Babu wani dalili"
+                "Babu wani dalili",
+                "Domin tana iya yin kuskure ko hallucination",
+                "Domin tana da tsada"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "AI na iya yin kuskure, don haka ana bukatar tabbatarwa daga kwararre kan muhimman al'amura."
             },
             {
               "question": "Menene 'bias' a AI?",
               "options": [
-                "Son zuciya da AI ke nunawa saboda bayanan da aka horas da ita",
                 "Nau'in software",
-                "Wani irin wasa",
-                "Sunan kamfani"
+                "Son zuciya da AI ke nunawa saboda bayanan da aka horas da ita",
+                "Sunan kamfani",
+                "Wani irin wasa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Bias yana faruwa idan bayanan horaswa suna dauke da son zuciya."
             },
             {
               "question": "Wanne fanni ne ya kamata a tabbatar da AI ta hanyar kwararre kafin aiki da amsarta?",
               "options": [
-                "Likita ko shari'a",
-                "Wasan bidiyo",
                 "Zabin fim",
-                "Zabin waka"
+                "Wasan bidiyo",
+                "Zabin waka",
+                "Likita ko shari'a"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Fannonin da suka shafi rayuwa ko doka na bukatar tabbaci daga kwararru."
             },
             {
               "question": "Me ya kamata mu yi da sanin iyakokin AI?",
               "options": [
-                "Mu yi amfani da ita cikin hikima ba tare da dogaro gaba ɗaya ba",
                 "Mu daina amfani da ita gaba ɗaya",
                 "Mu amince da ita 100% koyaushe",
-                "Babu wani abin yi"
+                "Babu wani abin yi",
+                "Mu yi amfani da ita cikin hikima ba tare da dogaro gaba ɗaya ba"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Fahimtar iyakoki yana taimaka mana amfani da AI cikin hikima."
             }
           ],
@@ -435,23 +437,23 @@
             {
               "question": "Menene Narrow AI?",
               "options": [
+                "Sunan kamfani",
                 "AI mai iyakantaccen hankali wanda ke iya yin aiki ɗaya kacal da kyau",
-                "AI mai hankali kamar mutum a kowane fanni",
                 "Wani irin waya",
-                "Sunan kamfani"
+                "AI mai hankali kamar mutum a kowane fanni"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Narrow AI tana kware a aiki ɗaya kacal, kamar fassara ko gane hoto."
             },
             {
               "question": "Menene AGI (General AI)?",
               "options": [
-                "AI mai hasashe wanda zai iya tunani a kowane fanni kamar mutum",
-                "Nau'in wayar hannu",
+                "Wani irin cuta",
                 "Sunan kamfani na waya",
-                "Wani irin cuta"
+                "AI mai hasashe wanda zai iya tunani a kowane fanni kamar mutum",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "AGI shine ra'ayin AI mai iya tunani a kowane fanni kamar mutum."
             },
             {
@@ -459,8 +461,8 @@
               "options": [
                 "A'a, har yanzu ba a kai wannan matakin ba",
                 "E, an rigaya",
-                "Ba a sani ba",
-                "Ba shi da wani bambanci da Narrow AI"
+                "Ba shi da wani bambanci da Narrow AI",
+                "Ba a sani ba"
               ],
               "answerIndex": 0,
               "explanation": "Har yanzu AGI ra'ayi ne kawai, ba a kai wannan matakin ba a fili."
@@ -469,9 +471,9 @@
               "question": "Wanne misali ne na Narrow AI?",
               "options": [
                 "App na fassara harshe",
-                "Mutum mai tunani a fannoni da yawa",
+                "Dabbar daji",
                 "Babu misali",
-                "Dabbar daji"
+                "Mutum mai tunani a fannoni da yawa"
               ],
               "answerIndex": 0,
               "explanation": "App na fassara harshe misali ne na Narrow AI - kware a aiki ɗaya."
@@ -506,8 +508,8 @@
               "options": [
                 "Bangare na AI da ke koyo daga bayanai",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "Machine Learning yana bawa kwamfuta damar koyo daga bayanai."
@@ -515,34 +517,34 @@
             {
               "question": "Menene Supervised Learning?",
               "options": [
-                "Koyo ta amfani da bayanai tare da amsoshin da suka dace",
-                "Koyo ba tare da wani bayani ba",
                 "Rashin koyo gaba ɗaya",
-                "Nau'in wasa"
+                "Koyo ba tare da wani bayani ba",
+                "Nau'in wasa",
+                "Koyo ta amfani da bayanai tare da amsoshin da suka dace"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Supervised Learning yana amfani da bayanai masu lamba (amsoshi) domin koyarwa."
             },
             {
               "question": "Menene Unsupervised Learning?",
               "options": [
-                "Koyo ta amfani da bayanai ba tare da amsa ba, AI ta gano sifofi da kanta",
+                "Nau'in wayar hannu",
                 "Koyo tare da amsoshin da suka dace kawai",
                 "Babu koyo kwata-kwata",
-                "Nau'in wayar hannu"
+                "Koyo ta amfani da bayanai ba tare da amsa ba, AI ta gano sifofi da kanta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "A Unsupervised Learning, AI take gano sifofi da kanta ba tare da an bayar da amsa ba."
             },
             {
               "question": "Wanne misali ne na Supervised Learning?",
               "options": [
-                "Bayar da hotunan kyanwa da karnuka tare da sunayensu",
                 "Barin AI ta yi tunani ba tare da wani bayani ba",
-                "Rufe kwamfuta",
-                "Share bayanai"
+                "Bayar da hotunan kyanwa da karnuka tare da sunayensu",
+                "Share bayanai",
+                "Rufe kwamfuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Wannan misali ne na koyo tare da amsoshin da suka dace (labeled data)."
             },
             {
@@ -550,8 +552,8 @@
               "options": [
                 "Gaskiya ne - ML shine tushen yawancin fasahar AI ta yau",
                 "Karya ne, ML ba shi da alaka da AI",
-                "ML da AI iri ɗaya ne gaba ɗaya",
-                "Babu wata alaka"
+                "Babu wata alaka",
+                "ML da AI iri ɗaya ne gaba ɗaya"
               ],
               "answerIndex": 0,
               "explanation": "Machine Learning shine tushen da yawancin fasahar AI ta yau ke ginu a kai."
@@ -573,32 +575,32 @@
             {
               "question": "Wanne kayan aiki ne ake amfani da shi don kirkirar hotuna daga rubutu?",
               "options": [
-                "Midjourney ko DALL-E",
                 "Grammarly",
+                "Excel",
                 "Otter.ai",
-                "Excel"
+                "Midjourney ko DALL-E"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Midjourney da DALL-E kayan aiki ne na AI da ke kirkirar hotuna daga rubutu."
             },
             {
               "question": "Wanne kayan aiki ne ake amfani da shi don gyara nahawun rubutu?",
               "options": [
-                "Grammarly",
                 "Midjourney",
-                "Otter.ai",
-                "Google Maps"
+                "Grammarly",
+                "Google Maps",
+                "Otter.ai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Grammarly AI ne da ke taimakawa wajen gyara nahawu da rubutu."
             },
             {
               "question": "Menene Otter.ai ke yi?",
               "options": [
                 "Yana rubuta abin da aka fada a taro",
+                "Yana kunna waka",
                 "Yana kirkirar hoto",
-                "Yana daukar hoto",
-                "Yana kunna waka"
+                "Yana daukar hoto"
               ],
               "answerIndex": 0,
               "explanation": "Otter.ai yana amfani da AI domin sauya magana zuwa rubutu."
@@ -606,23 +608,23 @@
             {
               "question": "Ta yaya Excel ke amfani da AI?",
               "options": [
+                "Domin kiran waya",
                 "Domin nazarin bayanai da ba da shawarwari",
-                "Domin daukar hoto",
                 "Domin kunna waka",
-                "Domin kiran waya"
+                "Domin daukar hoto"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Excel na amfani da AI wajen nazarin bayanai da bada shawarwarin gani (visualization)."
             },
             {
               "question": "Me yasa ake bukatar sanin wadannan kayan aiki?",
               "options": [
-                "Domin su bude kofa ga hanyoyin inganta aiki da karatu",
                 "Babu wani amfani",
-                "Domin dole ne a zama injiniya",
-                "Domin yana kara kuɗin waya"
+                "Domin yana kara kuɗin waya",
+                "Domin su bude kofa ga hanyoyin inganta aiki da karatu",
+                "Domin dole ne a zama injiniya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Sanin kayan aiki daban-daban yana bunkasa yadda mutum ke aiki da karatu."
             }
           ],
@@ -642,56 +644,56 @@
             {
               "question": "Wanne aiki ne AI za ta iya taimaka a kai?",
               "options": [
-                "Takaita dogon rubutu zuwa gajeren bayani",
-                "Girki na abinci na gaske",
                 "Tuki na mota",
+                "Girki na abinci na gaske",
+                "Takaita dogon rubutu zuwa gajeren bayani",
                 "Wanke tufafi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Takaitawa (summarization) na ɗaya daga cikin amfanin AI mai muhimmanci."
             },
             {
               "question": "Menene mafi kyawun hanyar amfani da AI?",
               "options": [
-                "A matsayin mataimaki, ba wanda zai maye gurbin tunaninka gaba ɗaya",
                 "A matsayin madadin tunani gaba ɗaya",
-                "Kada a taba amfani da ita",
-                "A amince da ita 100% koyaushe"
+                "A matsayin mataimaki, ba wanda zai maye gurbin tunaninka gaba ɗaya",
+                "A amince da ita 100% koyaushe",
+                "Kada a taba amfani da ita"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "AI ta fi amfani a matsayin mataimaki maimakon a dogara mata gaba ɗaya."
             },
             {
               "question": "Ta yaya dalibi zai iya amfani da AI?",
               "options": [
-                "Domin samar da tambayoyin gyara don shirya jarabawa",
                 "Domin tuki na mota",
+                "Domin samar da tambayoyin gyara don shirya jarabawa",
                 "Domin dafa abinci",
                 "Babu wata hanya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Dalibai na iya amfani da AI wajen shirya jarabawa ta hanyar samar da tambayoyin gyara."
             },
             {
               "question": "Ta yaya dan kasuwa zai iya amfani da AI?",
               "options": [
-                "Domin tsara jadawalin kasuwanci",
                 "Domin sayar da gida",
+                "Babu wata hanya",
                 "Domin wanke mota",
-                "Babu wata hanya"
+                "Domin tsara jadawalin kasuwanci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "'Yan kasuwa na iya amfani da AI don tsara jadawali ko rubuta bayanan kasuwanci."
             },
             {
               "question": "Me ya kamata a yi kafin amincewa da amsar AI gaba ɗaya?",
               "options": [
+                "Babu bukatar duba",
                 "A duba amsar da kyau don tabbatarwa",
                 "A amince nan take ba tare da bincike ba",
-                "A share amsar nan take",
-                "Babu bukatar duba"
+                "A share amsar nan take"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Ana bukatar tantance amsar AI kafin amfani da ita don muhimman abubuwa."
             }
           ],
@@ -711,32 +713,32 @@
             {
               "question": "Menene deepfake?",
               "options": [
-                "Hoto ko bidiyo na karya da AI ta kirkira",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Hoto ko bidiyo na karya da AI ta kirkira",
+                "Wani irin cuta",
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Deepfake shine hoto/bidiyo na karya da aka kirkira ta amfani da AI."
             },
             {
               "question": "Me yasa AI za ta iya nuna son zuciya (bias)?",
               "options": [
-                "Saboda bayanan da aka horas da ita na iya kunshe da son zuciya",
                 "Domin AI tana da hankali kamar mutum",
                 "Babu wani dalili",
-                "Domin AI mai kyauta ce koyaushe"
+                "Domin AI mai kyauta ce koyaushe",
+                "Saboda bayanan da aka horas da ita na iya kunshe da son zuciya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Idan bayanan horaswa suna da son zuciya, AI ma za ta nuna irin wannan son zuciya."
             },
             {
               "question": "Wace tambaya ce ta da'a game da bayanan mutane da AI?",
               "options": [
                 "Shin ana amfani da bayanan mutane ba tare da izininsu ba?",
-                "Wane launi ne AI take so?",
                 "Nawa AI take ci abinci?",
-                "Babu wata tambaya"
+                "Babu wata tambaya",
+                "Wane launi ne AI take so?"
               ],
               "answerIndex": 0,
               "explanation": "Amfani da bayanan mutane ba tare da izini ba babbar tambaya ce ta da'a."
@@ -744,20 +746,20 @@
             {
               "question": "Me ya kamata mu yi idan mun ga hoto ko bidiyo mai ban mamaki akan layi?",
               "options": [
-                "Mu tantance shi kafin mu yi imani da shi",
-                "Mu yada shi nan take",
+                "Babu bukatar tantancewa",
                 "Mu yi imani da shi ba tare da tunani ba",
-                "Babu bukatar tantancewa"
+                "Mu yada shi nan take",
+                "Mu tantance shi kafin mu yi imani da shi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Tantance abin da muke gani na iya hana yaduwar bayanan karya (deepfakes)."
             },
             {
               "question": "Me ya kamata mu kula da shi yayin amfani da kayan aikin AI?",
               "options": [
                 "Yadda muke bayar da bayananmu ga AI",
-                "Launi na wayarmu",
                 "Sunan mai kirkirar AI",
+                "Launi na wayarmu",
                 "Babu bukatar kula da komai"
               ],
               "answerIndex": 0,
@@ -780,12 +782,12 @@
             {
               "question": "Ta yaya AI ke shafar ayyukan yi?",
               "options": [
-                "Tana rage ayyuka masu maimaici amma tana kirkirar sabbin ayyuka",
-                "Tana kawar da dukkan ayyuka",
                 "Ba ta shafar ayyuka kwata-kwata",
-                "Tana kara ayyuka masu maimaici kadai"
+                "Tana rage ayyuka masu maimaici amma tana kirkirar sabbin ayyuka",
+                "Tana kara ayyuka masu maimaici kadai",
+                "Tana kawar da dukkan ayyuka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "AI na iya rage bukatar wasu ayyuka amma tana kuma kirkirar sabbin ire-iren ayyuka."
             },
             {
@@ -802,34 +804,34 @@
             {
               "question": "Wace hikima ce ta fi kyau game da AI da ayyukan yi?",
               "options": [
-                "Koyon amfani da AI a matsayin kayan aiki",
-                "Tsoron AI gaba ɗaya",
                 "Yin watsi da AI gaba ɗaya",
-                "Rufe dukkan kamfanoni"
+                "Tsoron AI gaba ɗaya",
+                "Rufe dukkan kamfanoni",
+                "Koyon amfani da AI a matsayin kayan aiki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Koyon amfani da AI yana bunkasa damar samun kyakkyawan aiki."
             },
             {
               "question": "Wace fa'ida ce mutanen da suka koyi amfani da AI ke samu?",
               "options": [
-                "Fa'ida a kasuwar aiki fiye da wadanda ba su koya ba",
                 "Babu wata fa'ida",
-                "Suna rasa ayyukansu koyaushe",
-                "Suna samun cuta"
+                "Fa'ida a kasuwar aiki fiye da wadanda ba su koya ba",
+                "Suna samun cuta",
+                "Suna rasa ayyukansu koyaushe"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Sanin amfani da AI yana kara wa mutum darajarsa a kasuwar aiki."
             },
             {
               "question": "Me ake nufi da 'koyon AI saka hannun jari ne ga makomarka'?",
               "options": [
-                "Cewa lokacin da aka kashe wajen koyo yana da amfani na dogon lokaci",
+                "Cewa AI za ta maye gurbin ka gaba ɗaya",
                 "Cewa AI za ta biya ka kuɗi kai tsaye",
                 "Babu wata ma'ana",
-                "Cewa AI za ta maye gurbin ka gaba ɗaya"
+                "Cewa lokacin da aka kashe wajen koyo yana da amfani na dogon lokaci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Kamar saka hannun jari, koyon fasaha yana bada fa'ida a nan gaba."
             }
           ],
@@ -859,21 +861,21 @@
             {
               "question": "Menene Neural Network?",
               "options": [
-                "Tsarin AI da aka gina domin kwaikwayon ƙwaƙwalwar dan Adam",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Nau'in wayar hannu",
+                "Wani irin cuta",
+                "Tsarin AI da aka gina domin kwaikwayon ƙwaƙwalwar dan Adam"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Neural Network yana kwaikwayon yadda jijiyoyin ƙwaƙwalwa ke sadarwa da juna."
             },
             {
               "question": "Wanne matakai uku ne suka hada Neural Network?",
               "options": [
                 "Input, Hidden, da Output layers",
+                "Layer ɗaya kacal",
                 "Farko, Tsakiya, Karshe kadai",
-                "Babu wani mataki",
-                "Layer ɗaya kacal"
+                "Babu wani mataki"
               ],
               "answerIndex": 0,
               "explanation": "Neural Networks suna da Input layer, Hidden layers, da Output layer."
@@ -881,34 +883,34 @@
             {
               "question": "Menene 'weight' a Neural Network?",
               "options": [
-                "Nauyin da ke tsakanin nodes wanda ke canzawa yayin training",
-                "Nauyin na'urar kwamfuta",
                 "Nauyin bayanan da aka adana",
-                "Babu wani ma'ana"
+                "Nauyin da ke tsakanin nodes wanda ke canzawa yayin training",
+                "Babu wani ma'ana",
+                "Nauyin na'urar kwamfuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Weight yana nuna karfin hadin gwiwa tsakanin nodes, wanda training ke gyarawa."
             },
             {
               "question": "Wanne fasaha ce ke ginu akan Neural Networks?",
               "options": [
-                "Deep Learning",
+                "Cloud Storage",
                 "Networking na yau da kullum",
                 "Encryption",
-                "Cloud Storage"
+                "Deep Learning"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Deep Learning yana amfani da manyan Neural Networks masu matakai da yawa."
             },
             {
               "question": "A ina bayanai ke shiga Neural Network?",
               "options": [
+                "Weight",
                 "Input layer",
                 "Output layer",
-                "Weight",
                 "Node guda ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Input layer shine inda bayanai ke shiga kafin a sarrafa su."
             }
           ]
@@ -924,8 +926,8 @@
               "question": "Menene LLM (Large Language Model)?",
               "options": [
                 "AI da aka horas da ita akan adadin rubutu mai yawa",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
+                "Nau'in wayar hannu",
                 "Wani irin waya"
               ],
               "answerIndex": 0,
@@ -934,12 +936,12 @@
             {
               "question": "Wanne tsari ne LLMs suka ginu a kai?",
               "options": [
-                "Transformer",
                 "Firewall",
+                "Router",
                 "VPN",
-                "Router"
+                "Transformer"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Transformer shine tsarin da ke bawa LLMs damar duba mahallin jimla."
             },
             {
@@ -947,8 +949,8 @@
               "options": [
                 "Ta hanyar hasashen kalma mafi dacewa bisa abin da ta koya",
                 "Ta hanyar zabar kalma bazuwar",
-                "Ta hanyar kiran mutum ya taimaka",
-                "Babu wani tsari"
+                "Babu wani tsari",
+                "Ta hanyar kiran mutum ya taimaka"
               ],
               "answerIndex": 0,
               "explanation": "LLM tana hasashen kalma ta gaba bisa alaka da ta koya daga bayanai masu yawa."
@@ -957,9 +959,9 @@
               "question": "Me yasa LLM za ta iya 'hallucinate'?",
               "options": [
                 "Domin tana zaben kalmomi masu ma'ana amma ba koyaushe daidai da gaskiya ba",
-                "Domin tana da hankali kamar mutum",
                 "Domin ba ta da wani tsari",
-                "Babu wani dalili"
+                "Babu wani dalili",
+                "Domin tana da hankali kamar mutum"
               ],
               "answerIndex": 0,
               "explanation": "LLM na iya samar da amsa mai ma'ana amma marar gaskiya idan ba ta da tabbataccen bayani."
@@ -967,12 +969,12 @@
             {
               "question": "A kan me aka horas da LLMs?",
               "options": [
-                "Adadin rubutu mai yawa daga intanet da littattafai",
-                "Hotuna kadai",
+                "Babu wani horaswa",
                 "Sauti kadai",
-                "Babu wani horaswa"
+                "Adadin rubutu mai yawa daga intanet da littattafai",
+                "Hotuna kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "LLMs suna koyo daga rubutu mai yawan gaske."
             }
           ],
@@ -1003,34 +1005,34 @@
             {
               "question": "Wanne kayan aiki ne misali na kirkirar hoto daga rubutu?",
               "options": [
-                "DALL-E ko Midjourney",
-                "Grammarly",
                 "Otter.ai",
-                "Excel"
+                "DALL-E ko Midjourney",
+                "Excel",
+                "Grammarly"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "DALL-E da Midjourney sanannun kayan aikin kirkirar hoto ne ta amfani da AI."
             },
             {
               "question": "Wanne tsari ne ake amfani da shi wajen kirkirar hoto a Generative AI?",
               "options": [
-                "Diffusion",
-                "Firewall",
                 "Encryption",
-                "VPN"
+                "VPN",
+                "Firewall",
+                "Diffusion"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Diffusion tsari ne da ake amfani da shi domin kirkirar hoto daga karce."
             },
             {
               "question": "Wace tambaya ce Generative AI ke dagulawa?",
               "options": [
-                "Mallakar fasaha (copyright) da amincin abin da ake gani",
                 "Nawa kuɗin waya",
+                "Babu wata tambaya",
                 "Yanayin sararin samaniya",
-                "Babu wata tambaya"
+                "Mallakar fasaha (copyright) da amincin abin da ake gani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Kirkirar sabon abu ta AI na kawo tambayoyi kan mallaka da gaskiyar abin da ake gani."
             },
             {
@@ -1038,8 +1040,8 @@
               "options": [
                 "ChatGPT ko Claude",
                 "Firewall",
-                "Router",
-                "Antivirus"
+                "Antivirus",
+                "Router"
               ],
               "answerIndex": 0,
               "explanation": "ChatGPT da Claude misalai ne na Generative AI da ke kirkirar rubutu."
@@ -1061,43 +1063,43 @@
             {
               "question": "Menene fine-tuning?",
               "options": [
-                "Kara horas da samfurin AI akan bayanai na musamman domin ya kware a wani fanni",
                 "Share dukkan bayanan AI",
+                "Kara horas da samfurin AI akan bayanai na musamman domin ya kware a wani fanni",
                 "Nau'in wayar hannu",
                 "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Fine-tuning yana kara horas da AI akan bayanai na musamman."
             },
             {
               "question": "Menene RAG (Retrieval-Augmented Generation)?",
               "options": [
-                "Bawa AI damar neman bayanai daga database kafin amsa tambaya",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Bawa AI damar neman bayanai daga database kafin amsa tambaya",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "RAG yana bawa AI damar amfani da bayanai na waje maimakon dogaro da abin da ta koya kawai."
             },
             {
               "question": "Ta yaya RAG ke taimaka wa AI?",
               "options": [
-                "Tana bada amsoshi masu tushe da sabo daga bayanan da aka nema",
                 "Tana share bayanan AI",
+                "Tana bada amsoshi masu tushe da sabo daga bayanan da aka nema",
                 "Babu wani amfani",
                 "Tana kara kuɗin waya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "RAG tana taimaka wa AI samun bayanai na yanzu ko na musamman kafin bada amsa."
             },
             {
               "question": "Wanne kamfani zai iya amfana da fine-tuning?",
               "options": [
                 "Kamfanin banki da ke son AI ta fahimci kalmomin fasahar banki",
+                "Kamfanin sufuri kadai",
                 "Kowane mutum ba tare da wata bukata ba",
-                "Babu wani amfani",
-                "Kamfanin sufuri kadai"
+                "Babu wani amfani"
               ],
               "answerIndex": 0,
               "explanation": "Fine-tuning yana da amfani ga kamfanoni masu bukatar AI mai kware a wani fanni na musamman."
@@ -1105,12 +1107,12 @@
             {
               "question": "Menene bambanci tsakanin fine-tuning da RAG?",
               "options": [
-                "Fine-tuning yana canza AI din kanta, RAG yana kara mata bayanai na waje",
                 "Su biyu iri ɗaya ne",
                 "Fine-tuning ba shi da amfani",
+                "Fine-tuning yana canza AI din kanta, RAG yana kara mata bayanai na waje",
                 "RAG kadai ke aiki"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Fine-tuning yana canza AI din, yayin da RAG ke kara mata damar neman bayanai a lokacin amsawa."
             }
           ],
@@ -1130,21 +1132,21 @@
             {
               "question": "Menene AI Agent?",
               "options": [
-                "AI da ke iya daukar matakai da kanta domin cimma manufa",
                 "Chatbot na yau da kullum kawai",
-                "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Sunan kamfani",
+                "AI da ke iya daukar matakai da kanta domin cimma manufa",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "AI Agent yana daukar matakai da kansa, ba kawai amsa tambaya ba."
             },
             {
               "question": "Ta yaya AI Agent ya sha bamban da chatbot na yau da kullum?",
               "options": [
                 "Yana iya tsarawa da aiwatar da matakai da kansa",
-                "Babu bambanci",
                 "Chatbot yana da ƙarfi fiye da Agent",
-                "AI Agent ba ya iya yin komai"
+                "AI Agent ba ya iya yin komai",
+                "Babu bambanci"
               ],
               "answerIndex": 0,
               "explanation": "AI Agent na iya daukar matakai da kansa maimakon jira tambaya kadai."
@@ -1152,34 +1154,34 @@
             {
               "question": "Wanne aiki ne AI Agent za ta iya yi da kanta?",
               "options": [
-                "Neman bayani a intanet ko rubuta lambar kwamfuta",
                 "Girki na abinci na gaske",
+                "Wanke tufafi",
                 "Tuki na mota",
-                "Wanke tufafi"
+                "Neman bayani a intanet ko rubuta lambar kwamfuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "AI Agent na iya aiwatar da ayyuka kamar bincike ko rubuta code ba tare da umarni a kowane mataki ba."
             },
             {
               "question": "Me AI Agent ke yi bayan ya aiwatar da wani mataki?",
               "options": [
-                "Yana duba sakamakon domin ganin ko ya cimma manufa",
                 "Yana tsayawa nan take ba tare da bincike ba",
                 "Yana share komai",
+                "Yana duba sakamakon domin ganin ko ya cimma manufa",
                 "Babu wani abin yi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "AI Agent yana bincika sakamakon domin tantance ko ya cimma manufa ko yana bukatar gyara."
             },
             {
               "question": "Wanne mataki ne AI Agent zai iya yi da kansa idan matakin farko bai yi nasara ba?",
               "options": [
-                "Ya gyara hanyar da yake bi ya sake gwadawa",
-                "Ya daina aiki gaba ɗaya",
                 "Ya share dukkan bayanai",
-                "Babu wani abin yi"
+                "Ya gyara hanyar da yake bi ya sake gwadawa",
+                "Babu wani abin yi",
+                "Ya daina aiki gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "AI Agent na iya sake tsarawa da gyara hanyarsa idan mataki na farko bai yi nasara ba."
             }
           ],
@@ -1199,23 +1201,23 @@
             {
               "question": "Wace sana'a ce ke bukatar fahimtar yadda ake tsara tambayoyi masu kyau ga AI?",
               "options": [
-                "Prompt Engineer",
-                "Manomi",
                 "Direban keke",
-                "Makeri"
+                "Prompt Engineer",
+                "Makeri",
+                "Manomi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Prompt Engineer sana'a ce da ke bukatar fasahar tsara tambayoyi ga AI."
             },
             {
               "question": "Shin dole ne ka zama injiniya kafin ka shiga fannin AI?",
               "options": [
-                "A'a, akwai hanyoyi da yawa ko da ba ka da tushen injiniya",
                 "E, dole ne",
                 "Ba za a iya shiga fannin ba kwata-kwata",
+                "A'a, akwai hanyoyi da yawa ko da ba ka da tushen injiniya",
                 "Babu wani fanni na AI"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Akwai sana'o'i kamar AI Product Manager wadanda ba sa bukatar zama injiniya."
             },
             {
@@ -1223,8 +1225,8 @@
               "options": [
                 "Machine Learning Engineer ko Data Scientist",
                 "Prompt Engineer kadai",
-                "Direban mota",
-                "Manomi"
+                "Manomi",
+                "Direban mota"
               ],
               "answerIndex": 0,
               "explanation": "ML Engineer da Data Scientist na bukatar zurfin ilimin lissafi da programming."
@@ -1232,23 +1234,23 @@
             {
               "question": "Menene mafarin da ya fi kyau don shiga fannin AI?",
               "options": [
-                "Koyon amfani da kayan aikin AI da ke akwai a yau",
                 "Sayen na'urori masu tsada kadai",
                 "Jira har a gama koyon komai kafin a fara",
+                "Koyon amfani da kayan aikin AI da ke akwai a yau",
                 "Babu wani mafari mai kyau"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Fara da amfani da kayan aikin AI da ke akwai yana bude fahimta mai zurfi a hankali."
             },
             {
               "question": "Wanne abu biyu ne za su taimaka wajen zaban wani fanni na musamman a AI?",
               "options": [
-                "Sha'awa da fasahar da kake da ita",
-                "Sunan wayarka",
+                "Launi da kake so",
                 "Ranar haihuwarka",
-                "Launi da kake so"
+                "Sunan wayarka",
+                "Sha'awa da fasahar da kake da ita"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Zaban fanni na musamman ya kamata ya dogara da sha'awa da fasahar da mutum ke da ita."
             }
           ],

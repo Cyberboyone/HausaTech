@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "mobile_development",
   "title": "Mobile Development",
   "icon": "mobile",
@@ -12,27 +12,28 @@
           "title": "Menene Mobile App Development?",
           "summary": "Ma'anar gina apps na wayar hannu",
           "content": "GABATARWA\n\nMobile App Development shine aikin gina software da ke gudana a wayar hannu ko tablet, kamar apps na WhatsApp, Facebook, ko bankin dijital. Wadannan apps sun bambanta da shafukan yanar gizo na yau da kullum domin galibi ana sauke su daga shago kamar Google Play Store ko Apple App Store, sannan su gudana kai tsaye a na'urar mai amfani.\n\nApps na wayar hannu suna da damar amfani da fasalolin na'urar kai tsaye - kamar kyamara, GPS, ko sanarwa (notifications) - wanda ke sa su iya bayar da gogewa mafi kyau ga mai amfani fiye da shafin yanar gizo na yau da kullum a wasu lokuta.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Menene Mobile App Development? a matsayin wani bangare na tsarin Mobile Development. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nMobile development yana da muhimmanci saboda yawancin masu amfani suna samun ayyukan dijital ne ta waya. Kyakkyawan app yana bukatar ba kawai kyakkyawan interface ba, har da aiki mai sauri, kula da bayanai, tsaro, amfani da batir da dacewa da girman allo daban-daban.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Menene Mobile App Development?”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa zabi karamin app kamar notes, calculator ko todo app. Rubuta abubuwan da mai amfani zai yi daga bude app zuwa kammala babban aiki, sannan ka raba su zuwa screens, data da actions.\n\nMuhimman kalmomi: UI, UX, screen, state, API, local storage, debugging, release, performance.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Menene Mobile App Development? kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nMenene Mobile App Development? ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"flow","title":"Gina App na Mobile","items":["Zaɓi Yare (Kotlin/Swift/Dart)","Gina UI (Maballi da Fom)","Haɗa Backend/API","Gwaji da Buga App"],"caption":"Gina app yana buƙatar shirye-shirye da fasaha da yawa"}],
+"quiz": [
             {
               "question": "Menene Mobile App Development?",
               "options": [
-                "Aikin gina software da ke gudana a wayar hannu ko tablet",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
+                "Nau'in wayar hannu",
+                "Aikin gina software da ke gudana a wayar hannu ko tablet",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Mobile App Development yana mai da hankali kan gina apps don wayoyi da tablets."
             },
             {
               "question": "Ta ina ake sauke apps na wayar hannu galibi?",
               "options": [
-                "Google Play Store ko Apple App Store",
-                "Ta hanyar wasika",
                 "Ta hanyar rediyo",
-                "Babu wata hanya"
+                "Google Play Store ko Apple App Store",
+                "Babu wata hanya",
+                "Ta hanyar wasika"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Wadannan shagunan biyu sune manyan hanyoyin sauke apps na wayar hannu."
             },
             {
@@ -40,8 +41,8 @@
               "options": [
                 "Kyamara, GPS, ko sanarwa (notifications)",
                 "Kawai rubutu",
-                "Babu wani fasali na musamman",
-                "Kalanda kadai"
+                "Kalanda kadai",
+                "Babu wani fasali na musamman"
               ],
               "answerIndex": 0,
               "explanation": "Apps na wayar hannu suna da damar amfani da kayan aikin na'urar kai tsaye."
@@ -50,9 +51,9 @@
               "question": "Wanne misali ne na app na wayar hannu?",
               "options": [
                 "WhatsApp",
-                "Microsoft Word don kwamfuta kadai",
+                "Fayil na PDF",
                 "Babu wani misali",
-                "Fayil na PDF"
+                "Microsoft Word don kwamfuta kadai"
               ],
               "answerIndex": 0,
               "explanation": "WhatsApp misali ne sananne na mobile app."
@@ -61,9 +62,9 @@
               "question": "Me ke sa apps na wayar hannu su bambanta da shafukan yanar gizo na yau da kullum?",
               "options": [
                 "Ana sauke su daga shago kuma suna amfani da fasalolin na'urar kai tsaye",
+                "Ba sa amfani da intanet kwata-kwata",
                 "Babu wani bambanci",
-                "Suna aiki ne kawai a kwamfuta",
-                "Ba sa amfani da intanet kwata-kwata"
+                "Suna aiki ne kawai a kwamfuta"
               ],
               "answerIndex": 0,
               "explanation": "Wannan shine babban bambancin da ke tsakanin apps na wayar hannu da shafukan yanar gizo."
@@ -81,16 +82,17 @@
           "title": "Android vs iOS",
           "summary": "Bambancin manyan tsarurrukan wayar hannu guda biyu",
           "content": "GABATARWA\n\nAndroid da iOS su ne manyan tsarurrukan aiki (operating systems) guda biyu na wayar hannu a duniya. Android, wanda Google ta kirkira, yana gudana akan wayoyi daga kamfanoni da yawa (Samsung, Tecno, Infinix), yayin da iOS, wanda Apple ta kirkira, yana gudana ne kawai akan wayoyin iPhone.\n\nGina app don Android galibi ana amfani da Kotlin ko Java, yayin da don iOS ake amfani da Swift. Kowanne tsari yana da nasa shago (Play Store da App Store) da kuma ka'idojinsa na musamman wajen bugawa da amincewa da apps.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nAndroid da iOS suna da different ecosystems, development tools da distribution rules. Zabin platform ya kamata ya yi la’akari da masu amfani da ake nufi, skills na team, budget da bukatar device features.\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nMobile development yana da muhimmanci saboda yawancin masu amfani suna samun ayyukan dijital ne ta waya. Kyakkyawan app yana bukatar ba kawai kyakkyawan interface ba, har da aiki mai sauri, kula da bayanai, tsaro, amfani da batir da dacewa da girman allo daban-daban.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Android vs iOS”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa zabi karamin app kamar notes, calculator ko todo app. Rubuta abubuwan da mai amfani zai yi daga bude app zuwa kammala babban aiki, sannan ka raba su zuwa screens, data da actions.\n\nMuhimman kalmomi: UI, UX, screen, state, API, local storage, debugging, release, performance.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Android vs iOS kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nAndroid vs iOS ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"compare","title":"Android vs iOS","leftTitle":"Android","leftItems":["Google ce ta kirkira","Kotlin/Java","Samsung, Tecno, Infinix","Yana da yawa sosai"],"rightTitle":"iOS","rightItems":["Apple ce ta kirkira","Swift","iPhone Kadai","Mafi aminci"],"caption":"Zaɓen yare yana dogara da manufar app ɗinka"}],
+"quiz": [
             {
               "question": "Wanne kamfani ne ya kirkiri Android?",
               "options": [
-                "Google",
-                "Apple",
                 "Microsoft",
-                "Samsung"
+                "Google",
+                "Samsung",
+                "Apple"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Google ce ta kirkiri tsarin Android."
             },
             {
@@ -98,8 +100,8 @@
               "options": [
                 "Apple",
                 "Google",
-                "Samsung",
-                "Microsoft"
+                "Microsoft",
+                "Samsung"
               ],
               "answerIndex": 0,
               "explanation": "Apple ce ta kirkiri tsarin iOS."
@@ -107,34 +109,34 @@
             {
               "question": "A wanne wayoyi ne iOS ke gudana?",
               "options": [
-                "iPhone kadai",
                 "Duk wayoyi",
                 "Samsung kadai",
-                "Tecno kadai"
+                "Tecno kadai",
+                "iPhone kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "iOS na Apple ne kadai, don haka yana gudana akan iPhone kadai."
             },
             {
               "question": "Wanne yare ne ake amfani da shi wajen gina apps na Android?",
               "options": [
+                "HTML kadai",
                 "Kotlin ko Java",
-                "Swift kadai",
                 "Babu wani yare",
-                "HTML kadai"
+                "Swift kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Kotlin da Java sune manyan yarukan da ake amfani dasu don Android."
             },
             {
               "question": "Wanne yare ne ake amfani da shi wajen gina apps na iOS?",
               "options": [
+                "Babu wani yare",
                 "Swift",
-                "Kotlin",
                 "Java kadai",
-                "Babu wani yare"
+                "Kotlin"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Swift shine yaren da Apple ta gina musamman don iOS."
             }
           ],
@@ -166,8 +168,8 @@
               "question": "Menene Cross-Platform Development?",
               "options": [
                 "Rubuta code guda ɗaya wanda zai iya gudana a Android da iOS duka",
-                "Gina app don Android kadai",
                 "Nau'in wayar hannu",
+                "Gina app don Android kadai",
                 "Babu wata ma'ana"
               ],
               "answerIndex": 0,
@@ -176,31 +178,31 @@
             {
               "question": "Wace fa'ida ce Native Development ke bayarwa?",
               "options": [
-                "Mafi kyawun aiki (performance) domin amfani da kayan aikin na'ura kai tsaye",
-                "Karancin kuɗi koyaushe",
                 "Babu wata fa'ida",
-                "Rage lokacin haɓaka koyaushe"
+                "Karancin kuɗi koyaushe",
+                "Rage lokacin haɓaka koyaushe",
+                "Mafi kyawun aiki (performance) domin amfani da kayan aikin na'ura kai tsaye"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Native apps galibi suna da sauri da inganci fiye da cross-platform saboda kusanci da na'ura."
             },
             {
               "question": "Wanne fasaha ne misali na Cross-Platform Development?",
               "options": [
-                "Flutter ko React Native",
-                "Kotlin kadai",
                 "Swift kadai",
-                "Babu wata fasaha"
+                "Babu wata fasaha",
+                "Kotlin kadai",
+                "Flutter ko React Native"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Flutter da React Native sanannun fasahohi ne na cross-platform."
             },
             {
               "question": "Wace fa'ida ce Cross-Platform ke bayarwa ga kamfani?",
               "options": [
                 "Rage lokaci da kuɗin haɓaka domin ba a bukatar apps guda biyu daban",
-                "Kara kuɗin haɓaka",
                 "Babu wata fa'ida",
+                "Kara kuɗin haɓaka",
                 "Rage saurin app"
               ],
               "answerIndex": 0,
@@ -225,8 +227,8 @@
               "options": [
                 "Kamannin app - launi, maballi, da tsarin abubuwa",
                 "Yadda mai amfani ke ji gaba ɗaya",
-                "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Sunan kamfani",
+                "Nau'in wayar hannu"
               ],
               "answerIndex": 0,
               "explanation": "UI tana mai da hankali kan kamannin gani na app."
@@ -234,43 +236,43 @@
             {
               "question": "Menene UX (User Experience)?",
               "options": [
-                "Yadda mai amfani ke ji da sauki wajen amfani da app gaba ɗaya",
-                "Kawai launi na app",
                 "Nau'in wayar hannu",
-                "Babu wata ma'ana"
+                "Kawai launi na app",
+                "Babu wata ma'ana",
+                "Yadda mai amfani ke ji da sauki wajen amfani da app gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "UX tana mai da hankali kan gamsuwar mai amfani gaba ɗaya."
             },
             {
               "question": "Me yasa maballi ya kamata ya kasance babba a app na wayar hannu?",
               "options": [
-                "Domin a iya taɓawa cikin sauki da yatsa akan karamin allo",
-                "Domin yana da kyan gani kawai",
+                "Domin dole ne bisa doka",
                 "Babu wani dalili",
-                "Domin dole ne bisa doka"
+                "Domin a iya taɓawa cikin sauki da yatsa akan karamin allo",
+                "Domin yana da kyan gani kawai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Girman allo karami na wayar hannu yana bukatar maballi masu isasshen girma don taɓawa."
             },
             {
               "question": "Me ya kamata a guji yi da sarari mai iyaka na wayar hannu?",
               "options": [
-                "Cika shi da abubuwa da yawa",
-                "Amfani da shi yadda ya kamata",
                 "Bar shi babu komai gaba ɗaya",
-                "Babu abin da za a guji"
+                "Babu abin da za a guji",
+                "Cika shi da abubuwa da yawa",
+                "Amfani da shi yadda ya kamata"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Cika sarari da abubuwa da yawa na iya rikita mai amfani a karamin allo."
             },
             {
               "question": "Wace tambaya ce UX ke amsawa?",
               "options": [
                 "Shin sauki ne a same abin da ake nema ba tare da rudani ba?",
-                "Wane launi ne ya fi kyau kawai?",
+                "Babu wata tambaya",
                 "Nawa app din take da tsada?",
-                "Babu wata tambaya"
+                "Wane launi ne ya fi kyau kawai?"
               ],
               "answerIndex": 0,
               "explanation": "UX tana mai da hankali kan sauki da gogewar mai amfani gaba ɗaya."
@@ -292,21 +294,21 @@
             {
               "question": "Menene Android Studio?",
               "options": [
+                "Wani irin cuta",
                 "Kayan aiki na hukuma da Google ta kirkira domin gina apps na Android",
-                "Nau'in wayar hannu",
                 "Sunan kamfani na Apple",
-                "Wani irin cuta"
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Android Studio kayan aiki ne na asali na gina apps na Android."
             },
             {
               "question": "Menene Xcode?",
               "options": [
                 "Kayan aiki na hukuma da Apple ta kirkira domin gina apps na iOS",
-                "Kayan aiki na Android",
                 "Sunan wayar hannu",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Kayan aiki na Android"
               ],
               "answerIndex": 0,
               "explanation": "Xcode kayan aiki ne na asali na gina apps na iOS."
@@ -315,9 +317,9 @@
               "question": "A wanne kwamfuta ne Xcode ke gudana?",
               "options": [
                 "Mac kadai",
-                "Windows kadai",
+                "Babu wani takamaiman kwamfuta",
                 "Kowace kwamfuta",
-                "Babu wani takamaiman kwamfuta"
+                "Windows kadai"
               ],
               "answerIndex": 0,
               "explanation": "Xcode na Apple ne, don haka yana gudana ne kawai akan Mac."
@@ -325,23 +327,23 @@
             {
               "question": "Menene emulator a Android Studio ke bayarwa?",
               "options": [
-                "Na'ura mai kwaikwayon waya domin gwada app ba tare da waya ta ainihi ba",
-                "Kayan aiki na daukar hoto",
                 "Sunan kamfani",
-                "Babu wani amfani"
+                "Babu wani amfani",
+                "Na'ura mai kwaikwayon waya domin gwada app ba tare da waya ta ainihi ba",
+                "Kayan aiki na daukar hoto"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Emulator yana bada damar gwada app a kwamfuta kafin amfani da waya ta gaske."
             },
             {
               "question": "Shin Android Studio da Xcode suna da tsada wajen sauke su?",
               "options": [
-                "A'a, su duka kyauta ne",
+                "Babu wani zabi na kyauta",
                 "E, suna da tsada sosai",
-                "Kawai ɗaya ne kyauta",
-                "Babu wani zabi na kyauta"
+                "A'a, su duka kyauta ne",
+                "Kawai ɗaya ne kyauta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Duka Android Studio da Xcode kyauta ne, wanda ke sauƙaƙa fara koyo."
             }
           ],
@@ -361,21 +363,21 @@
             {
               "question": "Menene aikin farko da ake ba da shawara ga sabon dan koyon mobile development?",
               "options": [
-                "App na 'Sannu Duniya' (Hello World)",
-                "App mai sarkakiya sosai kai tsaye",
                 "Babu wani aiki mai sauki",
-                "App na banki nan take"
+                "App na banki nan take",
+                "App na 'Sannu Duniya' (Hello World)",
+                "App mai sarkakiya sosai kai tsaye"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Hello World app ce mai sauki wadda ake amfani da ita wajen koyon asali."
             },
             {
               "question": "Me ake bukata don fara aiki a Android Studio ko Xcode?",
               "options": [
                 "Kirkirar sabon 'project'",
-                "Sayen sabon waya",
                 "Sayen sabuwar kwamfuta",
-                "Babu bukatar wani abu"
+                "Babu bukatar wani abu",
+                "Sayen sabon waya"
               ],
               "answerIndex": 0,
               "explanation": "Kowane app yana farawa da kirkirar sabon project a kayan aikin da aka zaba."
@@ -383,21 +385,21 @@
             {
               "question": "Wace fa'ida ce aikin 'Hello World' ke bayarwa?",
               "options": [
-                "Bada damar fahimtar tsarin gaba ɗaya kafin a kara sarkakiya",
-                "Bada kuɗi kai tsaye",
                 "Babu wata fa'ida",
-                "Yana kara wahalar koyo"
+                "Yana kara wahalar koyo",
+                "Bada kuɗi kai tsaye",
+                "Bada damar fahimtar tsarin gaba ɗaya kafin a kara sarkakiya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Hello World yana taimaka wa sabon dan koyo fahimtar asalin tsari ba tare da rudani ba."
             },
             {
               "question": "Wanne mataki ne bayan Hello World?",
               "options": [
                 "Koyon amfani da maballi da fom",
-                "Buga app din nan take",
                 "Kammala aiki gaba ɗaya",
-                "Babu wani mataki na gaba"
+                "Babu wani mataki na gaba",
+                "Buga app din nan take"
               ],
               "answerIndex": 0,
               "explanation": "Bayan asali, ana koyon fasalolin mu'amala kamar maballi da fom."
@@ -405,12 +407,12 @@
             {
               "question": "Wace hikima ce mafi kyau ga sabon dan koyo?",
               "options": [
+                "Babu wata hikima ta musamman",
                 "Fara da sauki sannan a kara sarkakiya a hankali",
                 "Fara da mafi wahala kai tsaye",
-                "Tsallake asalin ilimi",
-                "Babu wata hikima ta musamman"
+                "Tsallake asalin ilimi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Wannan tafarki yana taimaka wa sabon dan koyo gina tushe mai ƙarfi."
             }
           ],
@@ -435,56 +437,56 @@
             {
               "question": "Wanne yare ne Flutter ke amfani da shi?",
               "options": [
+                "Swift",
                 "Dart",
-                "JavaScript",
                 "Kotlin",
-                "Swift"
+                "JavaScript"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Flutter yana amfani da yaren Dart wanda Google ta gina."
             },
             {
               "question": "Wanne yare ne React Native ke amfani da shi?",
               "options": [
-                "JavaScript",
                 "Dart",
-                "Swift",
-                "Kotlin"
+                "Kotlin",
+                "JavaScript",
+                "Swift"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "React Native yana amfani da JavaScript."
             },
             {
               "question": "Wanne kamfani ne ya kirkiri Flutter?",
               "options": [
-                "Google",
                 "Facebook",
+                "Google",
                 "Apple",
                 "Microsoft"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Google ce ta kirkiri Flutter."
             },
             {
               "question": "Wanne kamfani ne ya kirkiri React Native?",
               "options": [
-                "Facebook (Meta)",
                 "Google",
-                "Apple",
-                "Amazon"
+                "Facebook (Meta)",
+                "Amazon",
+                "Apple"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Facebook (yanzu Meta) ta kirkiri React Native."
             },
             {
               "question": "Yaushe React Native ta fi dacewa a matsayin zabi?",
               "options": [
-                "Idan timin ka na da gogewa a JavaScript tuni",
-                "Idan kake son kyan gani na musamman kadai",
                 "Babu wani lokaci mai dacewa",
-                "Koyaushe Flutter ta fi kyau"
+                "Idan timin ka na da gogewa a JavaScript tuni",
+                "Koyaushe Flutter ta fi kyau",
+                "Idan kake son kyan gani na musamman kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "React Native tana da amfani musamman idan timin ka ya riga ya san JavaScript."
             }
           ],
@@ -506,8 +508,8 @@
               "options": [
                 "Karamin bayani kamar saitunan mai amfani",
                 "Manyan bayanai masu tsari",
-                "Hotuna kadai",
-                "Babu wata ma'ana"
+                "Babu wata ma'ana",
+                "Hotuna kadai"
               ],
               "answerIndex": 0,
               "explanation": "SharedPreferences ta dace da karamin bayani, ba manyan bayanai masu tsari ba."
@@ -515,20 +517,20 @@
             {
               "question": "Wanne database ne ake amfani dashi wajen ajiya na cikin gida mai tsari?",
               "options": [
-                "SQLite ko Room",
+                "Babu wani database",
                 "MySQL kai tsaye ta intanet",
-                "Excel",
-                "Babu wani database"
+                "SQLite ko Room",
+                "Excel"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "SQLite/Room sune manyan zabuka don ajiyar bayanai masu tsari a cikin app."
             },
             {
               "question": "Me ake kira ajiyar bayanai a wayar UserDefaults a iOS?",
               "options": [
                 "UserDefaults",
-                "SharedPreferences",
                 "Room",
+                "SharedPreferences",
                 "Babu wata ma'ana"
               ],
               "answerIndex": 0,
@@ -537,21 +539,21 @@
             {
               "question": "Menene 'offline-first' design?",
               "options": [
-                "Tsara app ya yi aiki koda babu intanet sannan ya sabunta lokacin da intanet ya dawo",
+                "Babu wata ma'ana",
                 "Tsara app wanda ke bukatar intanet koyaushe",
-                "Nau'in wayar hannu",
-                "Babu wata ma'ana"
+                "Tsara app ya yi aiki koda babu intanet sannan ya sabunta lokacin da intanet ya dawo",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Offline-first yana tabbatar da app na aiki ko da babu intanet."
             },
             {
               "question": "Me yasa ajiyar bayanai a cikin gida ke da amfani?",
               "options": [
                 "Domin app din ya iya aiki koda babu intanet",
-                "Domin dole ne bisa doka",
                 "Babu wani amfani",
-                "Domin yana kara farashin waya"
+                "Domin yana kara farashin waya",
+                "Domin dole ne bisa doka"
               ],
               "answerIndex": 0,
               "explanation": "Local storage yana tabbatar da app na iya aiki hatta ba tare da intanet ba."
@@ -573,12 +575,12 @@
             {
               "question": "Ta yaya app na sayarwa ke samun jerin kayayyaki?",
               "options": [
-                "Ta hanyar aika bukata zuwa backend server ta amfani da REST API",
-                "Ta hanyar rediyo",
                 "Ta hanyar kiran waya",
-                "Babu wata hanya"
+                "Babu wata hanya",
+                "Ta hanyar rediyo",
+                "Ta hanyar aika bukata zuwa backend server ta amfani da REST API"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Apps na amfani da APIs domin samun bayanai daga backend."
             },
             {
@@ -586,8 +588,8 @@
               "options": [
                 "JSON",
                 "MP3",
-                "PDF",
-                "Babu wani tsari"
+                "Babu wani tsari",
+                "PDF"
               ],
               "answerIndex": 0,
               "explanation": "JSON tsari ne mai sauki karantawa da ake amfani da shi wajen musayar bayanai."
@@ -596,9 +598,9 @@
               "question": "Me ake bukatar sarrafawa yayin da app ke jira amsa daga server?",
               "options": [
                 "Loading states",
-                "Ranar haihuwar mai amfani",
+                "Babu bukatar sarrafa komai",
                 "Launi na wayar hannu",
-                "Babu bukatar sarrafa komai"
+                "Ranar haihuwar mai amfani"
               ],
               "answerIndex": 0,
               "explanation": "Loading states suna nuna wa mai amfani cewa app din yana aiki a bango."
@@ -606,21 +608,21 @@
             {
               "question": "Me ya kamata a yi idan intanet bai yi aiki ba lokacin da app ke bukatar bayanai?",
               "options": [
-                "Nuna kuskure ga mai amfani cikin sauki gani",
-                "Rufe app din ba tare da bayani ba",
                 "Babu wani abin yi",
-                "Share dukkan bayanan mai amfani"
+                "Share dukkan bayanan mai amfani",
+                "Rufe app din ba tare da bayani ba",
+                "Nuna kuskure ga mai amfani cikin sauki gani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Sanar da mai amfani game da matsalar intanet yana bada gogewa mafi kyau."
             },
             {
               "question": "Me yasa sarrafa kuskure yayin bukatar API ke da muhimmanci?",
               "options": [
                 "Yana bada gogewa mai kyau ga mai amfani ko da wata matsala ta faru",
+                "Domin yana kara saurin app",
                 "Babu wani muhimmanci",
-                "Domin dole ne bisa doka",
-                "Domin yana kara saurin app"
+                "Domin dole ne bisa doka"
               ],
               "answerIndex": 0,
               "explanation": "Sarrafa kuskure yadda ya kamata yana tabbatar mai amfani baya rudewa idan wata matsala ta taso."
@@ -643,9 +645,9 @@
               "question": "Me yasa gwajin mobile apps ke da wasu kalubale na musamman?",
               "options": [
                 "Domin akwai wayoyi masu girma da tsarin aiki daban-daban",
-                "Domin babu wata kalubale",
+                "Domin dole ne bisa doka",
                 "Domin apps na wayar hannu basu bukatar gwaji",
-                "Domin dole ne bisa doka"
+                "Domin babu wata kalubale"
               ],
               "answerIndex": 0,
               "explanation": "Bambancin na'urori da sigogi na tsarin aiki yana kawo kalubale na musamman."
@@ -653,34 +655,34 @@
             {
               "question": "Me yasa ake bukatar gwada app a na'urori na ainihi baya ga emulators?",
               "options": [
-                "Domin wasu matsaloli suna bayyana ne kawai a wayar ta ainihi",
-                "Domin emulators sun fi kyau koyaushe",
                 "Babu bukatar gwada wayar ta ainihi",
+                "Domin emulators sun fi kyau koyaushe",
+                "Domin wasu matsaloli suna bayyana ne kawai a wayar ta ainihi",
                 "Domin dole ne bisa doka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wasu matsaloli (kamar na baturi ko sensor) basa bayyana a emulator."
             },
             {
               "question": "Menene Firebase Test Lab ke bayarwa?",
               "options": [
+                "Sunan kamfani na hosting",
                 "Gwada app akan wayoyi da yawa daban-daban ta atomatik",
                 "Gina app daga karce",
-                "Sunan kamfani na hosting",
                 "Babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Firebase Test Lab yana sauƙaƙa gwada app akan na'urori masu bambanci."
             },
             {
               "question": "Wanne bambanci ne ke kawo kalubale ga gwajin mobile apps?",
               "options": [
-                "Girman wayoyi da sigogin tsarin aiki daban-daban",
                 "Launi na app kadai",
-                "Sunan kamfani kadai",
-                "Babu wani bambanci mai kalubale"
+                "Babu wani bambanci mai kalubale",
+                "Girman wayoyi da sigogin tsarin aiki daban-daban",
+                "Sunan kamfani kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wadannan bambance-bambance suna kara wahalar tabbatar da app na aiki daidai a ko'ina."
             },
             {
@@ -712,9 +714,9 @@
               "question": "Me ake bukata kafin buga app a Google Play Store?",
               "options": [
                 "Kirkirar asusun developer da biyan karamin kuɗi sau ɗaya",
-                "Babu wani bukata na musamman",
+                "Kirkirar sabon kamfani",
                 "Sayen sabuwar waya",
-                "Kirkirar sabon kamfani"
+                "Babu wani bukata na musamman"
               ],
               "answerIndex": 0,
               "explanation": "Asusun developer da karamin kuɗi na dole kafin buga app a Play Store."
@@ -722,45 +724,45 @@
             {
               "question": "Wanne shago ne ya fi tsauri wajen bincike (review)?",
               "options": [
+                "Babu wani bincike da ake yi",
                 "Apple App Store",
-                "Google Play Store",
                 "Su biyu daidai suke",
-                "Babu wani bincike da ake yi"
+                "Google Play Store"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Apple na da tsari mai tsauri na bincike wanda zai iya dauke kwanaki."
             },
             {
               "question": "Wanne bayani ne ake bukata a shirya kafin buga app?",
               "options": [
-                "Bayanin app, hotuna, da manufofin sirri",
-                "Kawai sunan app kadai",
                 "Babu wani bayani da ake bukata",
-                "Adireshin gidan mai gina app"
+                "Adireshin gidan mai gina app",
+                "Bayanin app, hotuna, da manufofin sirri",
+                "Kawai sunan app kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wadannan bayanai suna bada damar masu amfani su fahimci app din kafin sauke shi."
             },
             {
               "question": "Me zai iya faruwa idan app bai bi ka'idojin Apple ba?",
               "options": [
-                "Apple na iya kin amincewa da app",
-                "Za a buga app din nan take",
+                "Google zai magance shi",
                 "Babu wata sanarwa",
-                "Google zai magance shi"
+                "Za a buga app din nan take",
+                "Apple na iya kin amincewa da app"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Apple na iya ki amincewa idan app bai bi ka'idojinsu ba."
             },
             {
               "question": "Me yasa ya kamata a fahimci bambancin lokutan bincike na shagunan biyu?",
               "options": [
-                "Domin tsara lokacin da ake tsammani don kaddamar da app",
                 "Babu wani dalili",
+                "Domin tsara lokacin da ake tsammani don kaddamar da app",
                 "Domin dole ne bisa doka",
                 "Domin yana kara kuɗin app"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Sanin wannan bambanci yana taimaka wa mai gina app shirya jadawalin kaddamarwa."
             }
           ],
@@ -791,45 +793,45 @@
             {
               "question": "Menene Subscription a matsayin hanyar samun kuɗi?",
               "options": [
-                "Biyan kuɗi na wata-wata don ci gaba da amfani da wasu fasaloli",
                 "Biya sau ɗaya kadai",
                 "Babu biya kwata-kwata",
+                "Biyan kuɗi na wata-wata don ci gaba da amfani da wasu fasaloli",
                 "Sayen app din kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Subscription yana bukatar biya akai-akai (misali kowace wata) don ci gaba da fasaloli."
             },
             {
               "question": "Wace fa'ida ce talla (ads) ke bayarwa ga masu amfani?",
               "options": [
-                "App din ya zama kyauta ga masu amfani",
                 "Suna biyan kuɗi mai yawa",
                 "Babu wata fa'ida",
-                "Suna rasa dama amfani da app"
+                "Suna rasa dama amfani da app",
+                "App din ya zama kyauta ga masu amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Talla yana bada damar app ya zama kyauta ga mai amfani, yayin da kamfanoni ke biyan kuɗi don talla."
             },
             {
               "question": "Wanne app ne ya fi dacewa da subscription?",
               "options": [
-                "App na kayan aiki na yau da kullum wanda ake amfani da shi na dogon lokaci",
                 "App mai sauki mai amfani sau ɗaya kadai",
+                "App na kayan aiki na yau da kullum wanda ake amfani da shi na dogon lokaci",
                 "Babu wani app da ya dace",
                 "App na wasa mai sauki kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Subscription ta fi dacewa da apps da ake amfani dasu akai-akai na dogon lokaci."
             },
             {
               "question": "Wace hanyar samun kuɗi za ta iya dacewa da app na wasa mai sauki?",
               "options": [
-                "Talla da in-app purchases",
                 "Subscription kadai",
+                "Biyan kuɗi mai tsada sau ɗaya kadai",
                 "Babu wata hanya mai dacewa",
-                "Biyan kuɗi mai tsada sau ɗaya kadai"
+                "Talla da in-app purchases"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Apps na wasa masu sauki galibi suna amfana da talla da siyayya na cikin app."
             }
           ],
@@ -854,56 +856,56 @@
             {
               "question": "Menene Push Notifications ke bada damar yi?",
               "options": [
+                "Nau'in wayar hannu",
                 "Server ya aika sako zuwa wayar mai amfani ko da app ba a bude yake ba",
                 "App din ya rufe kansa",
-                "Nau'in wayar hannu",
                 "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Push notifications suna aiki ko da app din ba a bude yake ba a wancan lokaci."
             },
             {
               "question": "Wanne tsari ne ake amfani da shi don push notifications a Android?",
               "options": [
-                "Firebase Cloud Messaging (FCM)",
-                "Apple Push Notification service",
                 "Babu wata hanya",
-                "SharedPreferences"
+                "Firebase Cloud Messaging (FCM)",
+                "SharedPreferences",
+                "Apple Push Notification service"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "FCM shine tsari da ake amfani dashi don push notifications a Android."
             },
             {
               "question": "Wanne tsari ne ake amfani da shi don push notifications a iOS?",
               "options": [
-                "Apple Push Notification service (APNs)",
                 "Firebase Cloud Messaging",
+                "Babu wata hanya",
                 "SQLite",
-                "Babu wata hanya"
+                "Apple Push Notification service (APNs)"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "APNs shine tsari na Apple don push notifications a iOS."
             },
             {
               "question": "Wanne misali ne na Background Service?",
               "options": [
-                "Sabunta wurin da mai amfani yake don app na taxi",
-                "Kunna app din kai tsaye",
+                "Babu wani misali",
                 "Share dukkan bayanan mai amfani",
-                "Babu wani misali"
+                "Sabunta wurin da mai amfani yake don app na taxi",
+                "Kunna app din kai tsaye"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wannan misali ne na app da ke aiki a bango koda ba a bude shi kai tsaye ba."
             },
             {
               "question": "Me yasa ake bukatar sarrafa background services da hankali?",
               "options": [
-                "Domin kada su cinye baturin waya da yawa",
+                "Domin yana kara saurin waya",
                 "Domin dole ne bisa doka kadai",
                 "Babu wani dalili",
-                "Domin yana kara saurin waya"
+                "Domin kada su cinye baturin waya da yawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Yawan amfani da background services ba tare da kula ba na iya cinye baturi da yawa."
             }
           ],
@@ -923,34 +925,34 @@
             {
               "question": "Me yasa ake bukatar ɓoye API keys a cikin app?",
               "options": [
-                "Domin kada masu kutse su same su ta hanyar duba code na app",
+                "Domin yana kara girman app",
                 "Domin dole ne bisa doka kadai",
                 "Babu wani dalili",
-                "Domin yana kara girman app"
+                "Domin kada masu kutse su same su ta hanyar duba code na app"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "API keys da ba a ɓoye su ba na iya bayyana ga masu kutse."
             },
             {
               "question": "Me yasa ake bukatar amfani da HTTPS koyaushe a mobile apps?",
               "options": [
-                "Domin kare bayanan da ake tura tsakanin app da server daga leken asiri",
-                "Domin yana kara saurin app",
+                "Domin dole ne bisa doka kadai",
                 "Babu wani dalili",
-                "Domin dole ne bisa doka kadai"
+                "Domin kare bayanan da ake tura tsakanin app da server daga leken asiri",
+                "Domin yana kara saurin app"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "HTTPS yana kare bayanan da ke tafiya tsakanin app da server."
             },
             {
               "question": "Menene 'certificate pinning'?",
               "options": [
-                "Tabbatar da app yana magana ne kai tsaye da ainihin server din da ya kamata",
                 "Share dukkan bayanan app",
+                "Tabbatar da app yana magana ne kai tsaye da ainihin server din da ya kamata",
                 "Nau'in wayar hannu",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Certificate pinning yana kariya daga hare-haren man-in-the-middle."
             },
             {
@@ -967,12 +969,12 @@
             {
               "question": "Wanne app ne ya fi bukatar matakan tsaro masu zurfi kamar certificate pinning?",
               "options": [
-                "Apps na banki ko wadanda ke rike da bayanan sirri",
-                "App na wasa mai sauki kadai",
                 "Babu wani app da ya bukaci wannan",
-                "App na kalanda kadai"
+                "Apps na banki ko wadanda ke rike da bayanan sirri",
+                "App na kalanda kadai",
+                "App na wasa mai sauki kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Apps masu bayanan sirri masu muhimmanci suna bukatar mafi tsauri matakan tsaro."
             }
           ],
@@ -993,9 +995,9 @@
               "question": "Wace dabara ce za ta iya sa app ya yi sauri?",
               "options": [
                 "Rage girman hotuna kafin sanya su a app",
-                "Kara girman hotuna",
                 "Babu wata dabara",
-                "Kara bukatun network ba dalili"
+                "Kara bukatun network ba dalili",
+                "Kara girman hotuna"
               ],
               "answerIndex": 0,
               "explanation": "Hotuna masu karancin girma suna loda cikin sauri."
@@ -1014,34 +1016,34 @@
             {
               "question": "Me ya kamata a guji yi domin kada a cinye baturi da yawa?",
               "options": [
-                "Amfani da GPS ko sensor koyaushe ba dalili",
-                "Rufe app din gaba ɗaya",
+                "Babu abin da za a guji",
                 "Amfani da app din sau ɗaya kadai",
-                "Babu abin da za a guji"
+                "Amfani da GPS ko sensor koyaushe ba dalili",
+                "Rufe app din gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "GPS da sensors na iya cinye baturi da yawa idan ana amfani dasu ba dalili."
             },
             {
               "question": "Menene Android Profiler ke bayarwa?",
               "options": [
-                "Taimaka wa masu haɓaka gano wadanne bangarori ne ke cinye albarkatu da yawa",
+                "Babu wani amfani",
                 "Gina app daga karce",
-                "Sunan kamfani",
-                "Babu wani amfani"
+                "Taimaka wa masu haɓaka gano wadanne bangarori ne ke cinye albarkatu da yawa",
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Android Profiler kayan aiki ne na bincika aikin app da amfaninsa na albarkatu."
             },
             {
               "question": "Wace fa'ida ce rage bukatun network ke bayarwa?",
               "options": [
+                "Rage saurin app",
                 "Sa app ya yi sauri kuma ya rage cinye bayanan intanet na mai amfani",
                 "Kara cinye bayanan intanet",
-                "Babu wata fa'ida",
-                "Rage saurin app"
+                "Babu wata fa'ida"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Rage bukatun network yana rage yawan bayanan intanet da mai amfani ke kashewa."
             }
           ],
@@ -1061,54 +1063,54 @@
             {
               "question": "Me CI/CD ke yi duk lokacin da injiniya ya kara canji a mobile app?",
               "options": [
-                "Yana atomatik gina da gwada code din",
-                "Yana share code din",
                 "Yana kunna wayar hannu",
-                "Babu abin da yake yi"
+                "Babu abin da yake yi",
+                "Yana share code din",
+                "Yana atomatik gina da gwada code din"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "CI/CD yana atomatik gina da gwada sabon canji da aka kara."
             },
             {
               "question": "Me yasa CI/CD ke da amfani sosai a mobile development?",
               "options": [
-                "Domin gina app na iya dauke lokaci kuma ana bukatar gwadawa akan na'urori daban-daban",
-                "Babu wani amfani",
+                "Domin yana kara farashin app",
                 "Domin dole ne bisa doka",
-                "Domin yana kara farashin app"
+                "Domin gina app na iya dauke lokaci kuma ana bukatar gwadawa akan na'urori daban-daban",
+                "Babu wani amfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Mobile apps na bukatar gina da gwaji akan na'urori masu bambanci, wanda CI/CD ke sauƙaƙawa."
             },
             {
               "question": "Wanne kayan aiki ne aka gina musamman don CI/CD na mobile?",
               "options": [
-                "Fastlane",
-                "Excel",
+                "Babu wani kayan aiki na musamman",
                 "Photoshop",
-                "Babu wani kayan aiki na musamman"
+                "Fastlane",
+                "Excel"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Fastlane kayan aiki ne sananne na CI/CD na musamman ga mobile apps."
             },
             {
               "question": "Me Fastlane zai iya yi ta atomatik?",
               "options": [
-                "Gina app, gudanar da tests, da sanya app zuwa Play Store/App Store",
                 "Share dukkan code din",
-                "Kirkirar sabon app daga karce",
-                "Babu abin da yake iya yi ta atomatik"
+                "Babu abin da yake iya yi ta atomatik",
+                "Gina app, gudanar da tests, da sanya app zuwa Play Store/App Store",
+                "Kirkirar sabon app daga karce"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Fastlane yana atomatik dukkan wadannan matakai na deployment."
             },
             {
               "question": "Wace fa'ida ce CI/CD ke bayarwa ga injiniyoyin mobile?",
               "options": [
                 "Rage aikin da ake bukatar yi da hannu kafin kowace sabuntawa",
+                "Rage saurin sabuntawa",
                 "Kara aikin da ake yi da hannu",
-                "Babu wata fa'ida",
-                "Rage saurin sabuntawa"
+                "Babu wata fa'ida"
               ],
               "answerIndex": 0,
               "explanation": "Automation yana sauƙaƙa aikin injiniyoyi wajen sakin sabbin sigogi."
@@ -1132,8 +1134,8 @@
               "options": [
                 "Na'urori kamar Apple Watch ko Wear OS da za a sanya a jiki",
                 "Nau'in wayar hannu kadai",
-                "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "Wearables na'urori ne masu sawa a jiki kamar agogon hannu."
@@ -1142,9 +1144,9 @@
               "question": "Menene IoT (Internet of Things)?",
               "options": [
                 "Na'urori kamar firji mai wayo da ke hade da intanet",
+                "Babu wata ma'ana",
                 "Nau'in wayar hannu",
-                "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Sunan kamfani"
               ],
               "answerIndex": 0,
               "explanation": "IoT yana bayyana na'urori masu hade da intanet baya ga kwamfuta da waya."
@@ -1152,21 +1154,21 @@
             {
               "question": "Wanne misali ne na amfani da wearables a app?",
               "options": [
-                "App na motsa jiki yana karban bugun zuciya daga agogon hannu",
                 "App na kalanda kadai",
                 "Babu wani misali",
-                "App na jarabawa kadai"
+                "App na jarabawa kadai",
+                "App na motsa jiki yana karban bugun zuciya daga agogon hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Wannan misali ne mai sauki na yadda apps ke hade da wearables."
             },
             {
               "question": "Wace fasaha ce ake amfani da ita don sadarwa da na'urori masu karancin baturi?",
               "options": [
                 "Bluetooth Low Energy (BLE)",
-                "5G kadai",
                 "Fiber optic",
-                "Babu wata fasaha ta musamman"
+                "Babu wata fasaha ta musamman",
+                "5G kadai"
               ],
               "answerIndex": 0,
               "explanation": "BLE tana bada damar sadarwa ba tare da cinye baturi da yawa ba."
@@ -1174,12 +1176,12 @@
             {
               "question": "Me yasa BLE ke da amfani ga na'urorin IoT/wearables?",
               "options": [
+                "Babu wani amfani",
                 "Domin ba ta cinye baturi da yawa yayin sadarwa",
                 "Domin tana cinye baturi da yawa",
-                "Babu wani amfani",
                 "Domin dole ne bisa doka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Karancin cinyewar baturi yana da muhimmanci ga karamin na'urorin da ke da baturi kadan."
             }
           ],
@@ -1199,32 +1201,32 @@
             {
               "question": "Menene aikin Android Developer?",
               "options": [
-                "Mai da hankali kan gina apps na Android",
+                "Tuki na mota",
                 "Mai da hankali kan iOS kadai",
-                "Girki na abinci",
-                "Tuki na mota"
+                "Mai da hankali kan gina apps na Android",
+                "Girki na abinci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Android Developer yana mai da hankali kan gina apps don tsarin Android."
             },
             {
               "question": "Menene aikin iOS Developer?",
               "options": [
-                "Mai da hankali kan gina apps na iOS",
                 "Mai da hankali kan Android kadai",
+                "Mai da hankali kan gina apps na iOS",
                 "Sayar da kaya",
                 "Manomi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "iOS Developer yana mai da hankali kan gina apps don na'urorin Apple."
             },
             {
               "question": "Menene ake nufi da Mobile Engineer wanda ke amfani da cross-platform?",
               "options": [
                 "Yana gina apps ga dukkan tsarurruka biyu ta amfani da code guda ɗaya",
-                "Yana gina Android kadai",
+                "Babu wata ma'ana",
                 "Yana gina iOS kadai",
-                "Babu wata ma'ana"
+                "Yana gina Android kadai"
               ],
               "answerIndex": 0,
               "explanation": "Wannan rawar tana amfani da fasahohi kamar Flutter/React Native don dukkan tsarurruka."
@@ -1243,12 +1245,12 @@
             {
               "question": "Wace fa'ida ce buga wani app na kansa ke bayarwa ga mai koyo?",
               "options": [
+                "Domin yana kara farashin waya",
                 "Samun gogewa ta ainihi daga rubuta code zuwa buga app ga jama'a",
                 "Babu wata fa'ida",
-                "Domin dole ne bisa doka",
-                "Domin yana kara farashin waya"
+                "Domin dole ne bisa doka"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Wannan gogewa tana koya wa mutum dukkan matakan aiki, ba kawai rubuta code ba."
             }
           ],

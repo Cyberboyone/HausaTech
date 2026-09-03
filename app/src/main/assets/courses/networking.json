@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "networking",
   "title": "Networking",
   "icon": "router",
@@ -12,60 +12,61 @@
           "title": "Menene Cibiyar Sadarwa (Network)?",
           "summary": "Ma'anar cibiyar sadarwa a sauki",
           "content": "GABATARWA\n\nCibiyar Sadarwa (Network) tsari ne na na'urori biyu ko sama da haka - kwamfutoci, wayoyi, printer, da sauransu - da aka hada tare domin su iya raba bayanai da juna. Misalin mafi sauki shine gidajenmu, inda wayoyinmu da kwamfutoci ke hade da Wi-Fi guda ɗaya domin duka su iya amfani da intanet.\n\nHatta manyan cibiyoyin sadarwa kamar intanet kanta babbar cibiyar sadarwa ce da ta hada miliyoyin na'urori a duk fadin duniya. Sanin yadda cibiyoyin sadarwa ke aiki shine tushen fahimtar yadda duniyar dijital take gudana.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Menene Cibiyar Sadarwa (Network)? a matsayin wani bangare na tsarin Networking. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nNetworking shi ne tushen sadarwar na’urorin dijital. Fahimtar yadda packets, addresses, protocols da na’urorin network ke aiki yana taimaka wa mai koyo wajen kafa network, gano matsala da kuma kara tsaro.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Menene Cibiyar Sadarwa (Network)?”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa zana karamin network na gida mai router, waya, kwamfuta da printer. Ka nuna yadda na’urorin ke sadarwa, sannan ka rubuta abin da za ka bincika idan daya daga cikinsu ya kasa shiga intanet.\n\nMuhimman kalmomi: IP address, router, switch, packet, protocol, DNS, TCP, UDP, latency, bandwidth.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Menene Cibiyar Sadarwa (Network)? kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nMenene Cibiyar Sadarwa (Network)? ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"hub","title":"Abubuwan da suka shafi Cibiyar Sadarwa","center":"Wi-Fi Router","satellites":["Wayar Hannu","Kwamfuta","Printer","Smart TV"],"caption":"Na'urori da yawa suna haɗuwa ta hanyar cibiyar sadarwa"}],
+"quiz": [
             {
               "question": "Menene Cibiyar Sadarwa (Network)?",
               "options": [
-                "Tsari na na'urori da aka hada domin raba bayanai",
-                "Wani irin waya kadai",
                 "Sunan kamfani",
-                "Nau'in software na wasa"
+                "Nau'in software na wasa",
+                "Wani irin waya kadai",
+                "Tsari na na'urori da aka hada domin raba bayanai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Network yana hada na'urori domin su iya raba bayanai da juna."
             },
             {
               "question": "Wanne misali ne na cibiyar sadarwa mai sauki?",
               "options": [
-                "Gidan da wayoyi da kwamfutoci suka hade da Wi-Fi guda",
-                "Littafi na karatu",
+                "Talifon gargajiya",
                 "Keken hawa",
-                "Talifon gargajiya"
+                "Gidan da wayoyi da kwamfutoci suka hade da Wi-Fi guda",
+                "Littafi na karatu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wi-Fi na gida yana hada na'urori da yawa a matsayin cibiyar sadarwa."
             },
             {
               "question": "Menene intanet?",
               "options": [
-                "Babbar cibiyar sadarwa da ta hada miliyoyin na'urori a duniya",
                 "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Babbar cibiyar sadarwa da ta hada miliyoyin na'urori a duniya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Intanet ita ce mafi girman cibiyar sadarwa a duniya."
             },
             {
               "question": "Me yasa ake bukatar sanin yadda cibiyoyin sadarwa ke aiki?",
               "options": [
-                "Domin fahimtar yadda duniyar dijital take gudana",
-                "Babu wani dalili",
+                "Domin yana kara kuɗin waya",
                 "Domin dole ne a zama injiniya",
-                "Domin yana kara kuɗin waya"
+                "Domin fahimtar yadda duniyar dijital take gudana",
+                "Babu wani dalili"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Wannan fahimta ce ta asali domin duk fasahar dijital ta dogara ne akan cibiyoyin sadarwa."
             },
             {
               "question": "Wanne na'ura ce za a iya hadawa a cibiyar sadarwa?",
               "options": [
-                "Kwamfuta, waya, ko printer",
-                "Kwano na abinci",
                 "Littafi",
+                "Kwano na abinci",
+                "Kwamfuta, waya, ko printer",
                 "Tufafi"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Duk wata na'ura mai iya sadarwa ta dijital za a iya hadawa a network."
             }
           ],
@@ -85,32 +86,32 @@
             {
               "question": "Menene IP Address?",
               "options": [
-                "Lambar musamman da ake bawa kowace na'ura a cibiyar sadarwa",
-                "Sunan wayar hannu",
                 "Nau'in kalmar sirri",
-                "Sunan kamfani"
+                "Sunan kamfani",
+                "Lambar musamman da ake bawa kowace na'ura a cibiyar sadarwa",
+                "Sunan wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "IP address kamar adireshin gida ne ga na'ura a cibiyar sadarwa."
             },
             {
               "question": "Da me ake kwatanta IP address?",
               "options": [
-                "Adireshin gida da ke bada damar wasika ta isa daidai",
-                "Sunan mutum",
                 "Ranar haihuwa",
-                "Launi na waya"
+                "Launi na waya",
+                "Sunan mutum",
+                "Adireshin gida da ke bada damar wasika ta isa daidai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "IP address yana taimaka wa bayanai isa daidai wurin da aka nufa, kamar adireshin gida."
             },
             {
               "question": "Wanne nau'i biyu na IP address ne suka fi shahara?",
               "options": [
                 "IPv4 da IPv6",
+                "Babu wani nau'i",
                 "IPv1 da IPv2",
-                "IPX da IPY",
-                "Babu wani nau'i"
+                "IPX da IPY"
               ],
               "answerIndex": 0,
               "explanation": "IPv4 da IPv6 sune nau'ukan IP address na gama-gari a yau."
@@ -129,12 +130,12 @@
             {
               "question": "Idan babu IP address, me zai iya faruwa?",
               "options": [
+                "Intanet zai yi sauri fiye da kima",
                 "Na'urori ba za su iya sanin ina za a aika bayanai ba",
                 "Babu wata matsala",
-                "Intanet zai yi sauri fiye da kima",
                 "Wayoyi za su yi aiki daidai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "IP address yana muhimmanci wajen tantance inda bayanai ya kamata su tafi."
             }
           ],
@@ -155,9 +156,9 @@
               "question": "Menene aikin Modem?",
               "options": [
                 "Canza siginar intanet zuwa siginar da kwamfuta za ta fahimta",
-                "Rarraba Wi-Fi ga wayoyi",
                 "Hada na'urori ta waya kadai",
-                "Babu wani aiki"
+                "Babu wani aiki",
+                "Rarraba Wi-Fi ga wayoyi"
               ],
               "answerIndex": 0,
               "explanation": "Modem yana canza siginar da ke zuwa daga kamfanin intanet zuwa wani salo da za a iya amfani da shi."
@@ -166,9 +167,9 @@
               "question": "Menene aikin Router?",
               "options": [
                 "Rarraba intanet ga na'urori da yawa a gida",
-                "Canza siginar analog zuwa dijital kawai",
+                "Babu wani aiki",
                 "Kunna wutar lantarki",
-                "Babu wani aiki"
+                "Canza siginar analog zuwa dijital kawai"
               ],
               "answerIndex": 0,
               "explanation": "Router yana rarraba intanet zuwa na'urori masu yawa ta Wi-Fi ko waya."
@@ -176,20 +177,20 @@
             {
               "question": "A ina ake amfani da Switch akai-akai?",
               "options": [
+                "Babu wani wuri",
                 "A manyan cibiyoyin sadarwa kamar ofisoshi",
                 "A gida kadai",
-                "A wayar hannu",
-                "Babu wani wuri"
+                "A wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Switch yana hada na'urori da yawa ta waya a manyan cibiyoyin sadarwa."
             },
             {
               "question": "Me Router ke bayarwa ga kowace na'ura a gida?",
               "options": [
                 "IP address na cikin gida",
-                "Kuɗin intanet kyauta",
                 "Babu abin da yake bayarwa",
+                "Kuɗin intanet kyauta",
                 "Kalmar sirri ta musamman"
               ],
               "answerIndex": 0,
@@ -198,12 +199,12 @@
             {
               "question": "Wanne na'ura ce ke canza siginar da ke zuwa daga kamfanin intanet?",
               "options": [
-                "Modem",
                 "Switch",
                 "Printer",
+                "Modem",
                 "Kyamara"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Modem shine na'urar da ke canza siginar intanet da ke shigowa gida."
             }
           ],
@@ -223,53 +224,53 @@
             {
               "question": "Menene Wi-Fi?",
               "options": [
+                "Wani irin cuta",
                 "Hanyar hada na'urori zuwa cibiyar sadarwa ba tare da waya ba",
-                "Nau'in waya kawai",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Nau'in waya kawai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Wi-Fi yana amfani da raƙuman rediyo domin hada na'urori ba tare da waya ba."
             },
             {
               "question": "Menene Ethernet?",
               "options": [
-                "Hanyar hada na'ura zuwa cibiyar sadarwa ta amfani da kebul",
                 "Sunan kamfanin intanet",
+                "Babu wata ma'ana",
                 "Nau'in wayar hannu",
-                "Babu wata ma'ana"
+                "Hanyar hada na'ura zuwa cibiyar sadarwa ta amfani da kebul"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ethernet yana amfani da kebul domin hada na'urori zuwa network."
             },
             {
               "question": "Wanne hanya ce galibi ta fi sauri da tabbaci?",
               "options": [
-                "Ethernet",
-                "Wi-Fi koyaushe",
+                "Babu wani bambanci",
                 "Su biyu iri ɗaya ne",
-                "Babu wani bambanci"
+                "Wi-Fi koyaushe",
+                "Ethernet"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ethernet yawanci ya fi sauri kuma tabbatacce fiye da Wi-Fi."
             },
             {
               "question": "Me yasa Wi-Fi zai iya yin a hankali wani lokaci?",
               "options": [
-                "Idan akwai cikas ko na'urori da yawa suna amfani da shi lokaci ɗaya",
                 "Domin Wi-Fi ba ya aiki kwata-kwata",
                 "Domin dole ne ya yi a hankali koyaushe",
-                "Babu wani dalili"
+                "Babu wani dalili",
+                "Idan akwai cikas ko na'urori da yawa suna amfani da shi lokaci ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Cikas da yawan na'urori na iya rage saurin Wi-Fi."
             },
             {
               "question": "A wanne aiki ake bukatar amfani da Ethernet maimakon Wi-Fi?",
               "options": [
                 "Wasannin bidiyo ta yanar gizo ko manyan ofisoshi masu bukatar sauri",
-                "Karanta littafi",
                 "Sauraren rediyo",
+                "Karanta littafi",
                 "Babu wani aiki na musamman"
               ],
               "answerIndex": 0,
@@ -288,25 +289,26 @@
           "title": "Yadda Intanet Yake Aiki a Duniya",
           "summary": "Bayani mai sauki kan tafiyar bayanai a intanet",
           "content": "GABATARWA\n\nIntanet ba wata cibiyar sadarwa ɗaya ce ba, a maimakon haka, ta kunshi cibiyoyin sadarwa da dama a duniya da suka hade tare. Lokacin da ka bude wani shafi, bukatarka tana tafiya ta hanyar kebul, wasu daga cikinsu manyan kebul ne na karkashin teku da ke hada nahiyoyi, har sai ta isa sabar da ke rike da bayanan shafin.\n\nDaga nan, sabar zai aiko maka amsa a takaice cikin dakika kadan, ko da yake shafin yana da nisa da yawa ta hanyar kilomita. Wannan saurin gudu shine sakamakon shekaru na inganta fasahar sadarwa a duniya.\n\nMA’ANAR DA ABIN DA YA KUNSA\n\nKa duba Yadda Intanet Yake Aiki a Duniya a matsayin wani bangare na tsarin Networking. Tambaya mafi muhimmanci ita ce: wace matsala wannan fasaha take warwarewa, wane irin bayanai ko resources take bukata, kuma wane sakamako ake tsammani?\n\nME YA SA WANNAN YAKE DA MUHIMMANCIN?\n\nNetworking shi ne tushen sadarwar na’urorin dijital. Fahimtar yadda packets, addresses, protocols da na’urorin network ke aiki yana taimaka wa mai koyo wajen kafa network, gano matsala da kuma kara tsaro.\n\nYADDA ZA KA FAHIMCE SHI\n\nA wannan matakin, manufar ita ce ka fahimci ginshikin batun cikin sauki. Kada ka haddace kalmomi kawai; ka fahimci abin da suke nufi, inda ake amfani da su, da yadda suke hade da abin da ka riga ka sani.\n\nMISALI NA AIKI\n\nMisali, ka dauki wani yanayi na gaske da ya shafi “Yadda Intanet Yake Aiki a Duniya”. Fara da bayyana matsalar, sannan ka gano input, matakan aiki da output. Bayan haka, ka tambayi kanka abin da zai faru idan input din ya canza, wani bangare ya gaza, ko adadin masu amfani ya karu. Wannan hanya tana sa ka fahimci batun fiye da haddace ma’anarsa kawai.\n\nABUBUWAN DA ZA KA KULA DA SU\n\nA aikace, kada ka duba fasahar a ware. Ka lura da bayanan da take karba, sakamakon da take samarwa, bukatun tsaro, kuskuren da zai iya faruwa da kuma yadda za a gwada cewa komai yana aiki. Idan akwai zabi tsakanin hanyoyi biyu, ka rubuta fa’idar kowanne, abin da zai iya zama matsala, da yanayin da zai sa ka zabi daya daga cikinsu.\n\nA AIKACE\n\nKa zana karamin network na gida mai router, waya, kwamfuta da printer. Ka nuna yadda na’urorin ke sadarwa, sannan ka rubuta abin da za ka bincika idan daya daga cikinsu ya kasa shiga intanet.\n\nMuhimman kalmomi: IP address, router, switch, packet, protocol, DNS, TCP, UDP, latency, bandwidth.\n\nABUBUWAN DA YA KAMATA KA TUNA\n\n• Ka fahimci ma’anar Yadda Intanet Yake Aiki a Duniya kafin ka haddace kalmomi.\n• Ka san wace matsala yake warwarewa da inda ake amfani da shi.\n• Ka kula da iyakoki, kuskure da bukatun tsaro.\n• Ka yi karamin gwaji ko misali domin tabbatar da fahimta.\n\nTAKAITAWA\n\nYadda Intanet Yake Aiki a Duniya ba kalma ce da za a haddace kawai ba. Ka yi kokarin bayyana shi da kalmominka, ka ba da misali, sannan ka nuna yadda za ka yi amfani da shi wajen warware wata matsala. Idan za ka iya yin wadannan abubuwa ba tare da duba rubutu ba, fahimtarka ta fara zama mai karfi.",
-          "quiz": [
+                      "supplementaryDiagrams": [{"type":"flow","title":"Yadda Intanet Ke Aiki","items":["Ka Bude Shafi (google.com)","Bukata ta Bi Kebul zuwa Server","Server ta Duba Bayanai","Amsa ta(return) zuwa Wayarka"],"caption":"Intanet tana aiki ta hanyar sauyon bayanai tsakanin na'urori"}],
+"quiz": [
             {
               "question": "Ta yaya bukatarka na iya isa wani shafi mai nisa?",
               "options": [
-                "Ta hanyar kebul da ke hada cibiyoyin sadarwa daban-daban a duniya",
-                "Ta hanyar tafiya kai tsaye",
                 "Ta hanyar wasika",
+                "Ta hanyar tafiya kai tsaye",
+                "Ta hanyar kebul da ke hada cibiyoyin sadarwa daban-daban a duniya",
                 "Ta hanyar rediyo kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Bukatarka tana bi ta hanyoyin sadarwa masu yawa har sai ta isa sabar da ke da bayanan."
             },
             {
               "question": "Wanne kebul ne ke hada nahiyoyi da juna?",
               "options": [
                 "Manyan kebul na karkashin teku",
-                "Kebul na waya ta gida kadai",
+                "Kebul na wutar lantarki",
                 "Babu wani kebul",
-                "Kebul na wutar lantarki"
+                "Kebul na waya ta gida kadai"
               ],
               "answerIndex": 0,
               "explanation": "Kebul na karkashin teku suna hada nahiyoyi daban-daban ta intanet."
@@ -314,34 +316,34 @@
             {
               "question": "Menene sabar (server) ke yi bayan ya karbi bukatarka?",
               "options": [
-                "Yana aiko maka amsa a takaice cikin dakika kadan",
-                "Yana share bukatarka",
                 "Yana kira ka ta waya",
-                "Babu abin da yake yi"
+                "Yana share bukatarka",
+                "Babu abin da yake yi",
+                "Yana aiko maka amsa a takaice cikin dakika kadan"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Sabar yana amsa bukatarka cikin sauri ta hanyar cibiyoyin sadarwa."
             },
             {
               "question": "Menene intanet a hakika?",
               "options": [
-                "Cibiyoyin sadarwa da dama a duniya da suka hade tare",
                 "Cibiyar sadarwa guda ɗaya kacal",
-                "Kamfani ɗaya",
-                "Wayar hannu"
+                "Cibiyoyin sadarwa da dama a duniya da suka hade tare",
+                "Wayar hannu",
+                "Kamfani ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Intanet kunshin cibiyoyin sadarwa da dama ne da suka hade tare a duniya."
             },
             {
               "question": "Me ya sa amsar shafi ke zuwa cikin dakika kadan duk da nisa?",
               "options": [
-                "Sakamakon shekaru na inganta fasahar sadarwa",
                 "Domin bayanan ba su tafi ko'ina ba",
                 "Domin intanet baya aiki da gaske",
-                "Babu wani dalili"
+                "Babu wani dalili",
+                "Sakamakon shekaru na inganta fasahar sadarwa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ci gaban fasahar sadarwa a duniya ya kawo saurin da muke morewa a yau."
             }
           ],
@@ -361,54 +363,54 @@
             {
               "question": "Menene ɗaya daga cikin dalilan Wi-Fi mai jinkiri?",
               "options": [
-                "Nisa daga router ko cikas kamar bango",
-                "Yawan haske a dakin",
                 "Launi na router",
-                "Babu wani dalili"
+                "Nisa daga router ko cikas kamar bango",
+                "Babu wani dalili",
+                "Yawan haske a dakin"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Nisa da cikas kamar bango na iya raunana siginar Wi-Fi."
             },
             {
               "question": "Wace hanya ce mai sauki don warware matsalar Wi-Fi mai jinkiri?",
               "options": [
+                "Kira 'yan sanda",
                 "Sake kunna router (restart)",
-                "Sayen sabuwar waya",
                 "Share dukkan bayanai",
-                "Kira 'yan sanda"
+                "Sayen sabuwar waya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Restart na router na iya warware matsaloli da yawa na hanyar sadarwa."
             },
             {
               "question": "Me ya kamata a fara duba idan babu intanet gaba ɗaya?",
               "options": [
-                "Idan kebul din modem ya cire ko kamfanin intanet na da matsala",
-                "Sunan wayar hannu",
                 "Ranar haihuwarka",
-                "Launi na router"
+                "Launi na router",
+                "Sunan wayar hannu",
+                "Idan kebul din modem ya cire ko kamfanin intanet na da matsala"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Wadannan dalilai ne na gama-gari na rashin hadewa da intanet."
             },
             {
               "question": "Me yasa yawan na'urori a hanyar sadarwa guda zai iya sa ta yi jinkiri?",
               "options": [
-                "Domin duk na'urorin suna raba karfin bandwidth guda",
-                "Babu wani dalili",
+                "Domin yawan na'urori yana kara sauri",
                 "Domin router yana bukatar sabuntawa koyaushe",
-                "Domin yawan na'urori yana kara sauri"
+                "Domin duk na'urorin suna raba karfin bandwidth guda",
+                "Babu wani dalili"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Karfin hanyar sadarwa ana raba shi tsakanin dukkan na'urorin da ke amfani da ita."
             },
             {
               "question": "Me yasa ake bukatar sanin matsalolin gama-gari na cibiyar sadarwa?",
               "options": [
                 "Domin a iya warware su ba tare da kiran kwararre a kowane lokaci ba",
+                "Domin yana kara kuɗin waya",
                 "Babu wani dalili",
-                "Domin dole ne a zama injiniya",
-                "Domin yana kara kuɗin waya"
+                "Domin dole ne a zama injiniya"
               ],
               "answerIndex": 0,
               "explanation": "Sanin wadannan matsaloli yana taimaka wa mutum warware su cikin sauki."
@@ -435,23 +437,23 @@
             {
               "question": "Nawa matakan OSI Model?",
               "options": [
-                "Bakwai",
-                "Uku",
                 "Biyar",
-                "Goma"
+                "Goma",
+                "Bakwai",
+                "Uku"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "OSI Model yana da matakai bakwai."
             },
             {
               "question": "A wanne mataki ne IP addressing ke faruwa?",
               "options": [
-                "Network layer",
-                "Physical layer",
+                "Session layer",
                 "Application layer",
-                "Session layer"
+                "Network layer",
+                "Physical layer"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Network layer shine mataki na uku wanda ke sarrafa IP addressing."
             },
             {
@@ -459,8 +461,8 @@
               "options": [
                 "Inda apps kamar browser ke aiki",
                 "Waya da siginar zahiri",
-                "Babu wata ma'ana",
-                "Mataki na farko"
+                "Mataki na farko",
+                "Babu wata ma'ana"
               ],
               "answerIndex": 0,
               "explanation": "Application layer shine mataki na karshe inda apps ke hulda da mai amfani."
@@ -468,23 +470,23 @@
             {
               "question": "Me yasa OSI Model ke da amfani ga injiniyoyi?",
               "options": [
-                "Yana taimaka wa magance matsalolin sadarwa ta hanyar tantance mataki",
-                "Babu wani amfani",
                 "Domin dole ne bisa doka",
+                "Babu wani amfani",
+                "Yana taimaka wa magance matsalolin sadarwa ta hanyar tantance mataki",
                 "Domin yana kara sauri"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Sanin matakan yana taimaka wa gano inda matsala take faruwa."
             },
             {
               "question": "Wanne mataki ne farko a OSI Model?",
               "options": [
-                "Physical layer",
-                "Application layer",
                 "Session layer",
-                "Transport layer"
+                "Physical layer",
+                "Transport layer",
+                "Application layer"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Physical layer shine mataki na farko wanda ke da alaka da waya da siginar zahiri."
             }
           ],
@@ -505,9 +507,9 @@
               "question": "Menene IP a TCP/IP?",
               "options": [
                 "Yana tantance adireshin na'urori da hanyar da bayanai za su bi",
-                "Yana tabbatar da isarwar bayanai kadai",
+                "Sunan kamfani",
                 "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Yana tabbatar da isarwar bayanai kadai"
               ],
               "answerIndex": 0,
               "explanation": "IP (Internet Protocol) yana sarrafa adireshi da hanyar bayanai."
@@ -515,45 +517,45 @@
             {
               "question": "Menene TCP a TCP/IP?",
               "options": [
-                "Yana tabbatar da cewa bayanai sun isa daidai kuma cikakku",
+                "Nau'in cuta",
                 "Yana tantance adireshi kadai",
-                "Sunan kamfani",
-                "Nau'in cuta"
+                "Yana tabbatar da cewa bayanai sun isa daidai kuma cikakku",
+                "Sunan kamfani"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "TCP yana tabbatar da isarwar bayanai daidai, yana sake aikawa idan wani bangare ya bata."
             },
             {
               "question": "Menene UDP?",
               "options": [
+                "Sunan kamfani",
                 "Ƙa'ida mai sauri amma bai da tabbacin isarwar bayanai",
                 "Iri ɗaya da TCP gaba ɗaya",
-                "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "UDP ya fi sauri amma bai bincika ko bayanai sun isa daidai ba kamar TCP."
             },
             {
               "question": "A wanne aiki ne UDP ta fi dacewa?",
               "options": [
+                "Babu wani aiki mai dacewa",
                 "Bidiyo ta kai tsaye (live streaming)",
                 "Aika kuɗi ta banki",
-                "Aika muhimman takardu na shari'a",
-                "Babu wani aiki mai dacewa"
+                "Aika muhimman takardu na shari'a"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Domin saurin da take bayarwa, UDP ta dace da streaming inda kadan asarar bayanai ba babbar matsala ba ce."
             },
             {
               "question": "Menene TCP/IP a takaice?",
               "options": [
-                "Tsarin ka'idoji da ke tafiyar da sadarwa a intanet",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
+                "Nau'in wayar hannu",
+                "Tsarin ka'idoji da ke tafiyar da sadarwa a intanet",
                 "Wani irin cuta"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "TCP/IP shine tushen ka'idojin da intanet ke aiki a kai."
             }
           ],
@@ -574,9 +576,9 @@
               "question": "Menene DNS?",
               "options": [
                 "Tsarin da ke canza sunayen shafuka zuwa adireshin IP",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Nau'in wayar hannu"
               ],
               "answerIndex": 0,
               "explanation": "DNS yana fassara sunaye masu sauki zuwa adireshin IP na dijital."
@@ -584,45 +586,45 @@
             {
               "question": "Da me ake kwatanta DNS?",
               "options": [
-                "Littafin waya na intanet",
                 "Kalanda na shekara",
                 "Nau'in kalmar sirri",
+                "Littafin waya na intanet",
                 "Babu kwatanci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Kamar littafin waya, DNS yana taimaka wa mutum samun adireshi daga suna."
             },
             {
               "question": "Me zai faru ba tare da DNS ba?",
               "options": [
+                "Za a iya amfani da intanet daidai",
                 "Za mu bukaci tuna dogayen lambobin IP na kowane shafi",
-                "Intanet zai yi sauri fiye da kima",
                 "Babu wata matsala",
-                "Za a iya amfani da intanet daidai"
+                "Intanet zai yi sauri fiye da kima"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Ba tare da DNS ba, tunawa da adireshin dijital na kowane shafi zai zama da wahala."
             },
             {
               "question": "Me ke faruwa lokacin da ka rubuta adireshin shafi a browser?",
               "options": [
-                "Kwamfutarka takan tambayi DNS domin gano adireshin IP",
-                "Babu abin da ke faruwa",
+                "Ana kai kai tsaye zuwa wani shafi dabam",
                 "Ana share tarihin bincikenka",
-                "Ana kai kai tsaye zuwa wani shafi dabam"
+                "Kwamfutarka takan tambayi DNS domin gano adireshin IP",
+                "Babu abin da ke faruwa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Browser yana tambayar DNS domin samun IP address kafin ya hade da sabar."
             },
             {
               "question": "Wanne misali ne na adireshin IP?",
               "options": [
-                "142.250.190.78",
                 "google.com",
-                "www.facebook",
-                "Sunan mutum"
+                "Sunan mutum",
+                "142.250.190.78",
+                "www.facebook"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "142.250.190.78 misali ne na adireshin IP, yayin da google.com sunan shafi ne."
             }
           ],
@@ -642,56 +644,56 @@
             {
               "question": "Menene Bandwidth?",
               "options": [
-                "Nawa bayanai za a iya aikawa ta hanyar sadarwa a lokaci guda",
-                "Tsawon lokacin da bayanai ke dauka su isa",
+                "Sunan kamfani",
                 "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Tsawon lokacin da bayanai ke dauka su isa",
+                "Nawa bayanai za a iya aikawa ta hanyar sadarwa a lokaci guda"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Bandwidth yana auna adadin bayanan da za a iya tura a lokaci guda."
             },
             {
               "question": "Menene Latency?",
               "options": [
-                "Tsawon lokacin da bayanai ke dauka kafin su isa",
+                "Sunan kamfani",
                 "Adadin bayanan da za a tura",
                 "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Tsawon lokacin da bayanai ke dauka kafin su isa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Latency yana auna jinkirin da bayanai ke dauka wajen tafiya."
             },
             {
               "question": "Da me ake kwatanta Bandwidth?",
               "options": [
-                "Fadin hanya - mai fadi yana daukar motoci da yawa lokaci ɗaya",
                 "Tsawon hanya",
+                "Babu kwatanci",
                 "Launi na hanya",
-                "Babu kwatanci"
+                "Fadin hanya - mai fadi yana daukar motoci da yawa lokaci ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Bandwidth kamar fadin hanya ne wajen daukar bayanai da yawa lokaci guda."
             },
             {
               "question": "A wanne aiki ne Latency ke da matukar muhimmanci?",
               "options": [
-                "Wasannin bidiyo ta kai tsaye (online gaming)",
-                "Sauke fayil ɗaya babba",
                 "Karanta labari",
-                "Babu wani aiki na musamman"
+                "Sauke fayil ɗaya babba",
+                "Babu wani aiki na musamman",
+                "Wasannin bidiyo ta kai tsaye (online gaming)"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "A online gaming, saurin mayar da martani (low latency) yana da matukar muhimmanci."
             },
             {
               "question": "Idan wata hanyar sadarwa tana da babban bandwidth amma babban latency, me zai iya faruwa?",
               "options": [
-                "Za a iya loda bidiyo cikin sauri amma jinkiri a gaming",
-                "Babu wata matsala kwata-kwata",
+                "Bandwidth ba shi da wani amfani",
                 "Bayanai ba za su iya tafiya ba",
-                "Bandwidth ba shi da wani amfani"
+                "Babu wata matsala kwata-kwata",
+                "Za a iya loda bidiyo cikin sauri amma jinkiri a gaming"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Babban bandwidth yana taimakawa loda fayiloli, amma babban latency yana kawo jinkiri a ayyuka masu bukatar sauri."
             }
           ],
@@ -711,56 +713,56 @@
             {
               "question": "Menene VPN ke yi?",
               "options": [
-                "Yana ɓoye bayananka ta hanyar ramin sirri (encrypted tunnel)",
                 "Yana kara saurin intanet kadai",
-                "Yana share bayanai",
-                "Babu wani amfani"
+                "Yana ɓoye bayananka ta hanyar ramin sirri (encrypted tunnel)",
+                "Babu wani amfani",
+                "Yana share bayanai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "VPN yana kirkiro tunnel mai ɓoye domin kare bayanan da ka aika."
             },
             {
               "question": "Me VPN ke boyewa daga masu leken asiri?",
               "options": [
-                "Ainihin adireshin IP da bayanan da kake aikawa",
-                "Sunan wayarka kadai",
                 "Baturi na wayarka",
-                "Babu abin da take boyewa"
+                "Ainihin adireshin IP da bayanan da kake aikawa",
+                "Babu abin da take boyewa",
+                "Sunan wayarka kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "VPN yana kare bayanan da kake aikawa da ainihin wurin da kake."
             },
             {
               "question": "Ta yaya VPN zai iya sa ya zama kamar kana wani wuri dabam?",
               "options": [
-                "Adireshin IP dinka zai zama na kasar da sabar VPN take",
                 "Ta hanyar canza wayarka",
                 "Ta hanyar canza sunanka",
+                "Adireshin IP dinka zai zama na kasar da sabar VPN take",
                 "Babu wata hanya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "VPN yana sanya IP address na sabar VPN maimakon na ainihin wurinka."
             },
             {
               "question": "Wace fa'ida ce VPN ke bayarwa wajen shiga shafuka?",
               "options": [
-                "Samun damar shiga wasu shafuka da aka killace a wasu kasashe",
                 "Toshe dukkan shafuka",
-                "Rage saurin intanet koyaushe",
-                "Babu wata fa'ida"
+                "Babu wata fa'ida",
+                "Samun damar shiga wasu shafuka da aka killace a wasu kasashe",
+                "Rage saurin intanet koyaushe"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "VPN na iya bada damar shiga shafukan da aka takaita a wasu yankuna."
             },
             {
               "question": "Me ya kamata a tabbatar kafin amfani da VPN don shiga wasu shafuka?",
               "options": [
-                "Halascin amfani da hakan a shari'ance",
+                "Babu bukatar tabbatarwa",
                 "Launi na VPN",
-                "Sunan kamfanin VPN kadai",
-                "Babu bukatar tabbatarwa"
+                "Halascin amfani da hakan a shari'ance",
+                "Sunan kamfanin VPN kadai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Ana bukatar tabbatar da doka kafin amfani da VPN wajen shiga abubuwan da aka killace."
             }
           ],
@@ -780,56 +782,56 @@
             {
               "question": "Me ya kamata a fara yi don kare cibiyar sadarwar gida?",
               "options": [
-                "Canza kalmar sirrin router daga wadda kamfani ya baka tun asali",
-                "Rufe intanet gaba ɗaya",
+                "Babu wani abin yi",
                 "Sayen sabon router kowace shekara",
-                "Babu wani abin yi"
+                "Canza kalmar sirrin router daga wadda kamfani ya baka tun asali",
+                "Rufe intanet gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Kalmomin sirri na asali sanannu ne ga masu kutse, don haka ana bukatar canza su."
             },
             {
               "question": "Wanne tsarin ɓoye Wi-Fi ne mafi ƙarfi tsakanin wadannan?",
               "options": [
-                "WPA3",
                 "WEP",
-                "Babu tsari",
-                "Su duka iri ɗaya ne"
+                "WPA3",
+                "Su duka iri ɗaya ne",
+                "Babu tsari"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "WPA3 shine mafi ƙarfi a cikin tsarurrukan ɓoye Wi-Fi na yanzu."
             },
             {
               "question": "Me yasa ake bada shawarar ɓoye sunan Wi-Fi (SSID)?",
               "options": [
+                "Domin dole ne bisa doka",
                 "Domin rage yawan hanyoyin da masu kutse za su iya gani da amfani da su",
                 "Domin yana kara saurin intanet",
-                "Babu wani dalili",
-                "Domin dole ne bisa doka"
+                "Babu wani dalili"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Ɓoye SSID yana ɗaya daga cikin matakan rage bayyanar cibiyar sadarwarka ga jama'a."
             },
             {
               "question": "Menene 'guest network'?",
               "options": [
-                "Wata hanyar sadarwa ta musamman ga baki daban da babbar network",
                 "Sunan wani kamfani",
+                "Wata hanyar sadarwa ta musamman ga baki daban da babbar network",
                 "Nau'in wayar hannu",
                 "Babu wata ma'ana"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Guest network yana bada damar baki su yi amfani da intanet ba tare da shiga babbar cibiyar sadarwarka ba."
             },
             {
               "question": "Me yasa tsofaffin tsarurruka kamar WEP ba su da kyau a yau?",
               "options": [
-                "Domin ba su da ƙarfi kuma masu kutse na iya karya su cikin sauki",
+                "Babu wani dalili",
                 "Domin sun fi sauri",
-                "Domin sun fi tsada",
-                "Babu wani dalili"
+                "Domin ba su da ƙarfi kuma masu kutse na iya karya su cikin sauki",
+                "Domin sun fi tsada"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "WEP tsari ne tsoho wanda ba shi da karfin tsaro isasshe a yau."
             }
           ],
@@ -859,21 +861,21 @@
             {
               "question": "Menene Subnetting?",
               "options": [
-                "Raba babbar cibiyar sadarwa zuwa kananan sassa",
-                "Hada cibiyoyin sadarwa da yawa zuwa ɗaya",
+                "Sunan kamfani",
                 "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Hada cibiyoyin sadarwa da yawa zuwa ɗaya",
+                "Raba babbar cibiyar sadarwa zuwa kananan sassa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Subnetting yana raba network zuwa sassa domin sauƙaƙa sarrafawa da tsaro."
             },
             {
               "question": "Me yasa kamfani zai yi subnetting?",
               "options": [
                 "Domin sauƙaƙa sarrafawa da inganta tsaro ta hanyar rabon sassa",
+                "Babu wani dalili",
                 "Domin dole ne bisa doka",
-                "Domin yana rage kuɗin intanet",
-                "Babu wani dalili"
+                "Domin yana rage kuɗin intanet"
               ],
               "answerIndex": 0,
               "explanation": "Subnetting yana bada damar sarrafa sassa daban-daban na kamfani daban."
@@ -881,34 +883,34 @@
             {
               "question": "Menene CIDR?",
               "options": [
-                "Hanyar rubuta girman subnet a takaice",
-                "Nau'in wayar hannu",
+                "Wani irin cuta",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Hanyar rubuta girman subnet a takaice",
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "CIDR (misali /24) yana nuna girman subnet a takaice."
             },
             {
               "question": "A misalin 192.168.1.0/24, menene ma'anar '/24'?",
               "options": [
-                "Yana nuna nawa daga cikin adireshin IP aka kebe don network din",
-                "Sunan kamfani",
                 "Adadin na'urori a network",
-                "Babu ma'ana"
+                "Babu ma'ana",
+                "Sunan kamfani",
+                "Yana nuna nawa daga cikin adireshin IP aka kebe don network din"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Lambar bayan '/' tana nuna tsawon bangaren network a cikin adireshin IP."
             },
             {
               "question": "Wanne fa'ida ce subnetting ke bayarwa dangane da tsaro?",
               "options": [
-                "Idan wani sashi ya fadi hannun mai kutse, ba zai shafi sauran sassan nan take ba",
                 "Yana share dukkan bayanai idan hari ya faru",
-                "Babu wata fa'ida ta tsaro",
-                "Yana kara hadarin hari"
+                "Idan wani sashi ya fadi hannun mai kutse, ba zai shafi sauran sassan nan take ba",
+                "Yana kara hadarin hari",
+                "Babu wata fa'ida ta tsaro"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Rabon sassa yana taƙaita illar hari zuwa sashi ɗaya kacal, kama da network segmentation."
             }
           ]
@@ -923,42 +925,42 @@
             {
               "question": "Menene Load Balancer ke yi?",
               "options": [
-                "Yana rarraba bukatun masu amfani tsakanin sabobi da yawa",
                 "Yana share bayanan sabar",
                 "Yana kunna wayar hannu",
-                "Babu wani aiki"
+                "Babu wani aiki",
+                "Yana rarraba bukatun masu amfani tsakanin sabobi da yawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Load Balancer yana tabbatar da adalci a rarraba nauyi tsakanin sabobi."
             },
             {
               "question": "Me zai faru idan babu Load Balancer kuma sabar guda ɗaya ya samu nauyi mai yawa?",
               "options": [
-                "Zai yi jinkiri sosai ko ya daina aiki gaba ɗaya",
-                "Zai yi sauri fiye da kima",
                 "Babu wata matsala",
-                "Zai kara ƙarfi da kansa"
+                "Zai yi sauri fiye da kima",
+                "Zai kara ƙarfi da kansa",
+                "Zai yi jinkiri sosai ko ya daina aiki gaba ɗaya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Ba tare da rarraba nauyi ba, wani sabar zai iya cika har ya ƙasa jurewa."
             },
             {
               "question": "Wace fa'ida ce manyan shafuka kamar Facebook ke samu daga Load Balancing?",
               "options": [
-                "Dauki miliyoyin masu ziyara ba tare da tsayawa ba",
                 "Rage yawan masu ziyara",
-                "Babu wata fa'ida",
-                "Rufe shafin da wuri"
+                "Rufe shafin da wuri",
+                "Dauki miliyoyin masu ziyara ba tare da tsayawa ba",
+                "Babu wata fa'ida"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Load Balancing yana bada damar manyan shafuka su dauki bukatu masu yawa a lokaci guda."
             },
             {
               "question": "Me Load Balancer ke yi idan wani sabar ya fadi?",
               "options": [
                 "Yana daina tura bukatu zuwa gareshi ta atomatik",
-                "Yana ci gaba da tura bukatu ba tare da bincike ba",
                 "Yana rufe dukkan sabobi",
+                "Yana ci gaba da tura bukatu ba tare da bincike ba",
                 "Babu abin da yake yi"
               ],
               "answerIndex": 0,
@@ -968,9 +970,9 @@
               "question": "Wace fa'ida ce masu amfani ke samu daga Load Balancing?",
               "options": [
                 "Ba za su lura da wata matsala ba ko da wani sabar ya fadi",
+                "Za su rasa bayanansu",
                 "Za su lura da tsayawa koyaushe",
-                "Babu wata fa'ida",
-                "Za su rasa bayanansu"
+                "Babu wata fa'ida"
               ],
               "answerIndex": 0,
               "explanation": "Load Balancing yana tabbatar da cewa aiki ya ci gaba yadda ya kamata ga masu amfani."
@@ -992,21 +994,21 @@
             {
               "question": "Menene HTTP/3?",
               "options": [
-                "Sabon salon ƙa'idar sadarwa tsakanin browser da sabar shafukan intanet",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Nau'in wayar hannu",
+                "Wani irin cuta",
+                "Sabon salon ƙa'idar sadarwa tsakanin browser da sabar shafukan intanet"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "HTTP/3 shine sabuwar ƙa'idar da ta maye gurbin HTTP/1.1 da HTTP/2."
             },
             {
               "question": "Wanne ƙa'ida ce HTTP/3 ke ginu a kai?",
               "options": [
                 "QUIC",
-                "TCP kadai",
+                "Babu wata ƙa'ida",
                 "UDP na gargajiya",
-                "Babu wata ƙa'ida"
+                "TCP kadai"
               ],
               "answerIndex": 0,
               "explanation": "HTTP/3 yana amfani da QUIC maimakon TCP na gargajiya."
@@ -1014,34 +1016,34 @@
             {
               "question": "Wanne kamfani ne ya kirkiri QUIC?",
               "options": [
-                "Google",
                 "Microsoft",
                 "Amazon",
+                "Google",
                 "Apple"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Google ce ta kirkiri QUIC protocol."
             },
             {
               "question": "Wace fa'ida ce QUIC ke bayarwa wajen sauya hanyar sadarwa?",
               "options": [
-                "Yana jimre da sauya daga Wi-Fi zuwa data ba tare da katse hadin ba",
                 "Yana katse hadin nan take",
                 "Babu wata fa'ida",
+                "Yana jimre da sauya daga Wi-Fi zuwa data ba tare da katse hadin ba",
                 "Yana rage saurin intanet"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "QUIC yana da karfin jurewa idan hanyar sadarwa ta canza, misali daga Wi-Fi zuwa data ta waya."
             },
             {
               "question": "Me yasa HTTP/3 ke da amfani musamman a wayoyin hannu?",
               "options": [
-                "Domin yana rage jinkiri kuma yana jimre da sauya hanyar sadarwa",
                 "Domin yana kara nauyin waya",
                 "Babu wani amfani",
-                "Domin yana rage baturi kadai"
+                "Domin yana rage baturi kadai",
+                "Domin yana rage jinkiri kuma yana jimre da sauya hanyar sadarwa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Wayoyin hannu suna canza hanyar sadarwa akai-akai, don haka fasalin QUIC yana da amfani sosai."
             }
           ],
@@ -1061,53 +1063,53 @@
             {
               "question": "Menene Software-Defined Networking (SDN)?",
               "options": [
-                "Sarrafa cibiyar sadarwa ta hanyar software maimakon kayan aiki daban-daban",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Wani irin cuta",
+                "Nau'in wayar hannu",
+                "Sarrafa cibiyar sadarwa ta hanyar software maimakon kayan aiki daban-daban"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "SDN yana raba sarrafa network zuwa software, ba na'urorin kansu ba."
             },
             {
               "question": "Menene 'control plane' a SDN?",
               "options": [
+                "Sunan kamfani",
                 "Bangaren da ke sarrafa hanyar da bayanai za su bi",
-                "Bangaren da ke aikatawa kawai",
                 "Nau'in wayar hannu",
-                "Sunan kamfani"
+                "Bangaren da ke aikatawa kawai"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Control plane shine bangaren da ke yanke shawara akan hanyar bayanai."
             },
             {
               "question": "Wace fa'ida ce SDN ke bayarwa ga manaja?",
               "options": [
-                "Sarrafa dukkan cibiyar sadarwa daga wuri ɗaya ta software",
                 "Bukatar je kowace na'ura daban",
                 "Babu wata fa'ida",
+                "Sarrafa dukkan cibiyar sadarwa daga wuri ɗaya ta software",
                 "Kara wahalar sarrafawa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "SDN yana sauƙaƙa sarrafa network gaba ɗaya daga wuri guda."
             },
             {
               "question": "A ina SDN ke da amfani musamman?",
               "options": [
-                "Manyan cibiyoyin sadarwa na kamfanoni da data centers",
-                "Gidajen mutum ɗaya kadai",
                 "Wayar hannu ɗaya",
-                "Babu wani wuri na musamman"
+                "Gidajen mutum ɗaya kadai",
+                "Babu wani wuri na musamman",
+                "Manyan cibiyoyin sadarwa na kamfanoni da data centers"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "SDN yana da amfani a manyan cibiyoyin sadarwa masu sarkakiya."
             },
             {
               "question": "Menene 'data plane' a SDN?",
               "options": [
                 "Bangaren na'urorin da ke aikatawa bisa umarnin da suka samu",
-                "Bangaren da ke yanke dukkan shawara",
                 "Sunan kamfani",
+                "Bangaren da ke yanke dukkan shawara",
                 "Babu wata ma'ana"
               ],
               "answerIndex": 0,
@@ -1130,56 +1132,56 @@
             {
               "question": "Menene 5G?",
               "options": [
+                "Wani irin cuta",
                 "Tsara na biyar na fasahar sadarwar wayar hannu",
-                "Nau'in wayar hannu",
                 "Sunan kamfani",
-                "Wani irin cuta"
+                "Nau'in wayar hannu"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "5G shine sabuwar tsara ta fasahar sadarwar wayar hannu bayan 4G."
             },
             {
               "question": "Wace fa'ida ce 5G ke bayarwa fiye da 4G?",
               "options": [
-                "Saurin intanet mai yawa da rage latency",
-                "Rage saurin intanet",
+                "Babu wata fa'ida",
                 "Kara farashin waya",
-                "Babu wata fa'ida"
+                "Rage saurin intanet",
+                "Saurin intanet mai yawa da rage latency"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "5G yana bada babban sauri da karancin jinkiri fiye da 4G."
             },
             {
               "question": "Wanne fasaha ce 5G ke bude wa kofa saboda saurinta?",
               "options": [
-                "Tuki na motoci ba tare da direba ba da tiyata ta nesa",
-                "Karatun littafi na gargajiya",
+                "Babu wata fasaha",
                 "Wasan ludo",
-                "Babu wata fasaha"
+                "Tuki na motoci ba tare da direba ba da tiyata ta nesa",
+                "Karatun littafi na gargajiya"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Saurin 5G da karancin latency yana bude kofa ga fasahohi masu bukatar sauri sosai."
             },
             {
               "question": "Menene 'network slicing' a 5G?",
               "options": [
-                "Kirkirar yanki na musamman a cikin babbar cibiyar sadarwar 5G don wani aiki",
-                "Raba wayar hannu zuwa sassa",
+                "Babu wata ma'ana",
                 "Sunan kamfani",
-                "Babu wata ma'ana"
+                "Kirkirar yanki na musamman a cikin babbar cibiyar sadarwar 5G don wani aiki",
+                "Raba wayar hannu zuwa sassa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "Network slicing yana bada damar kirkirar 'yanki' na musamman ga wani bukata ta musamman."
             },
             {
               "question": "Wanne bangare ne zai iya amfana da yanki na musamman a 5G saboda bukatar tabbaci?",
               "options": [
-                "Asibitoci",
-                "Kantin sayarwa na yau da kullum",
                 "Gonar noma",
-                "Babu wani bangare na musamman"
+                "Asibitoci",
+                "Babu wani bangare na musamman",
+                "Kantin sayarwa na yau da kullum"
               ],
-              "answerIndex": 0,
+              "answerIndex": 1,
               "explanation": "Asibitoci suna bukatar tabbaci da sauri fiye da yadda ake amfani da network na yau da kullum."
             }
           ],
@@ -1211,9 +1213,9 @@
               "question": "Menene aikin Network Security Specialist?",
               "options": [
                 "Mai da hankali kan kare cibiyar sadarwa daga hare-hare",
-                "Sayar da kaya",
                 "Direban mota",
-                "Manomi"
+                "Manomi",
+                "Sayar da kaya"
               ],
               "answerIndex": 0,
               "explanation": "Network Security Specialist yana kare cibiyar sadarwa daga hare-hare ta yanar gizo."
@@ -1221,34 +1223,34 @@
             {
               "question": "Wace takardar shaida ce misali mai kyau don shiga fannin networking?",
               "options": [
-                "CompTIA Network+ ko Cisco CCNA",
                 "Diploma na dafa abinci",
                 "Lasisin tuki",
+                "CompTIA Network+ ko Cisco CCNA",
                 "Babu wata takarda"
               ],
-              "answerIndex": 0,
+              "answerIndex": 2,
               "explanation": "CompTIA Network+ da Cisco CCNA sanannun takardun shaida ne a fannin networking."
             },
             {
               "question": "Menene aikin Network Engineer?",
               "options": [
-                "Tsarawa da gina sabbin cibiyoyin sadarwa",
+                "Sayar da fulawa",
                 "Kula da bayanan banki",
                 "Girki na abinci",
-                "Sayar da fulawa"
+                "Tsarawa da gina sabbin cibiyoyin sadarwa"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Network Engineer yana da alhakin tsarawa da gina sabbin tsarin sadarwa."
             },
             {
               "question": "Ta yaya za a samu gogewa a fannin networking bayan takardar shaida?",
               "options": [
-                "Ta hanyar aikin gyara ko sarrafa cibiyoyin sadarwa na gida ko karamin kasuwanci",
                 "Ta hanyar zama a gida ba tare da aiki ba",
                 "Babu wata hanya",
-                "Ta hanyar sayen na'urori kadai"
+                "Ta hanyar sayen na'urori kadai",
+                "Ta hanyar aikin gyara ko sarrafa cibiyoyin sadarwa na gida ko karamin kasuwanci"
               ],
-              "answerIndex": 0,
+              "answerIndex": 3,
               "explanation": "Gogewa ta hannu tana da matukar muhimmanci bayan samun ilimin asali."
             }
           ],

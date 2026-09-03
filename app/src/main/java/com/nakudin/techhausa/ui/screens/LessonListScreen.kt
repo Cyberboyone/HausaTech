@@ -11,7 +11,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -89,7 +89,6 @@ fun LessonListScreen(
                 )
             )
         },
-        bottomBar = { AdBanner() }
     ) { padding ->
         LazyColumn(
             modifier = Modifier
@@ -156,7 +155,7 @@ fun LessonListScreen(
                 }
             }
 
-            items(lessons, key = { it.id }) { lesson ->
+            itemsIndexed(lessons, key = { _, lesson -> lesson.id }) { index, lesson ->
                 val (done, score) = completedMap[lesson.id] ?: (false to -1)
                 LessonCard(
                     order = lesson.order,
@@ -167,6 +166,13 @@ fun LessonListScreen(
                     onClick = { onOpenLesson(lesson.id) },
                     modifier = Modifier.fillMaxWidth()
                 )
+
+                // A single banner after every 5 lessons keeps the list monetized
+                // without putting ads between every item or at the bottom as well.
+                if ((index + 1) % 5 == 0 && index != lessons.lastIndex) {
+                    Spacer(Modifier.height(HausaTechSpacing.Xs))
+                    AdBanner(modifier = Modifier.fillMaxWidth())
+                }
             }
         }
     }
