@@ -11,6 +11,7 @@
 *.dex
 *.jks
 *.keystore
+keystore.properties
 *.aab
 *.hprof
 .cxx/

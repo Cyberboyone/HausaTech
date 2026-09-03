@@ -1,8 +1,8 @@
 # Privacy Policy — Tech Hausa
 
-_Last updated: [DATE — fill in before publishing]_
+_Last updated: 3 September 2026_
 
-Tech Hausa ("the App") is developed by [YOUR NAME / COMPANY NAME]. This
+Tech Hausa ("the App") is developed by Cyberboyone. This
 policy explains what information the App collects and how it is used.
 
 ## Information We Collect
@@ -21,9 +21,11 @@ is never transmitted anywhere.
 
 ## Advertising
 
-The App displays banner advertisements through Google AdMob. AdMob may
-collect and use data (such as a device advertising ID) to show relevant
-ads, in accordance with Google's own privacy policy:
+The App displays advertisements through Google AdMob, including banner
+ads, interstitial (full-screen) ads shown after quizzes, and rewarded
+ads that you may optionally watch to retry a quiz. AdMob may collect
+and use data (such as a device advertising ID) to show relevant ads,
+in accordance with Google's own privacy policy:
 https://policies.google.com/privacy
 
 You can reset or limit your device's advertising ID in your device's
@@ -32,7 +34,8 @@ system settings (Settings → Privacy → Ads, on most Android versions).
 ## Third-Party Services
 
 The App uses the following third-party service:
-- **Google AdMob** — for displaying advertisements (see above)
+- **Google AdMob** — for displaying banner, interstitial, and rewarded
+  advertisements (see above)
 
 The App does **not** use analytics, crash reporting, or any other
 third-party SDK that collects usage data, as of this version.
@@ -54,7 +57,7 @@ this same location with an updated "Last updated" date.
 ## Contact
 
 Questions about this policy can be directed to:
-[YOUR CONTACT EMAIL]
+muhammadmusab372@gmail.com
 
 ---
 
@@ -63,16 +66,8 @@ Questions about this policy can be directed to:
 Tech Hausa ba ta bukatar asusu, kuma ba ta tattara bayananka na sirri
 (sunanka, imel, ko lambar waya). Ci gabanka na darussa da makinka na
 jarabawa ana adana su a wayarka kadai — ba a taɓa aika su zuwa wata
-sabar ba. Ana amfani da Google AdMob domin nuna talla; AdMob na iya
-amfani da lambar talla ta na'urarka bisa ka'idojin sirri na Google
-(policies.google.com/privacy). Za ka iya sarrafa wannan a saitunan
-wayarka.
-
----
-
-**Before publishing, you must:**
-1. Fill in your actual name/company, contact email, and the date.
-2. Host this file somewhere public (a GitHub Pages link, a simple
-   webpage, or a Google Doc set to "anyone with the link") — Google
-   Play requires a live URL to your privacy policy, not just a file.
-3. Paste that URL into your Play Console app listing.
+sabar ba. Ana amfani da Google AdMob domin nuna talla (banner,
+full-screen bayan jarabawa, da talla na son rai don sake gwadawa);
+AdMob na iya amfani da lambar talla ta na'urarka bisa ka'idojin sirri
+na Google (policies.google.com/privacy). Za ka iya sarrafa wannan a
+saitunan wayarka.

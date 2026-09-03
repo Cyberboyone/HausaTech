@@ -14,10 +14,10 @@
         android:theme="@style/Theme.TechHausa"
         android:usesCleartextTraffic="false">
 
-        <!-- Google's official AdMob sample app ID — replace with your own before release -->
+        <!-- AdMob app ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-9529770421530115~7380579338" />
 
         <activity
             android:name=".MainActivity"

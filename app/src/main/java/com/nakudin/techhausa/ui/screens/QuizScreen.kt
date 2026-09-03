@@ -1,5 +1,6 @@
 package com.nakudin.techhausa.ui.screens
 
+import android.app.Activity
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.selectable
@@ -11,6 +12,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import com.nakudin.techhausa.ads.InterstitialManager
+import com.nakudin.techhausa.ads.RewardedManager
 import com.nakudin.techhausa.data.CourseRepository
 import com.nakudin.techhausa.data.ProgressStore
 import com.nakudin.techhausa.ui.components.AdBanner
@@ -39,6 +42,37 @@ fun QuizScreen(
     var answered by remember { mutableStateOf(false) }
     val answers = remember { mutableStateListOf<Boolean>() }
     var showResults by remember { mutableStateOf(false) }
+
+    val activity = context as? Activity
+    val interstitialManager = remember { InterstitialManager(context) }
+    val rewardedManager = remember { RewardedManager(context) }
+
+    var interstitialShown by remember { mutableStateOf(false) }
+
+    fun resetQuiz() {
+        currentIndex = 0
+        selectedOption = null
+        answered = false
+        answers.clear()
+        showResults = false
+        interstitialShown = false
+        interstitialManager.load()
+        rewardedManager.load()
+    }
+
+    // Preload full-screen ads when the quiz opens.
+    LaunchedEffect(lesson.id) {
+        interstitialManager.load()
+        rewardedManager.load()
+    }
+
+    // Show the interstitial once when the results screen appears.
+    LaunchedEffect(showResults) {
+        if (showResults && !interstitialShown) {
+            interstitialShown = true
+            activity?.let { interstitialManager.showIfReady(it) }
+        }
+    }
 
     Scaffold(
         topBar = {
@@ -75,6 +109,20 @@ fun QuizScreen(
                 Spacer(Modifier.height(24.dp))
                 Button(onClick = onFinish) {
                     Text("Koma zuwa Darussa")
+                }
+                Spacer(Modifier.height(12.dp))
+                OutlinedButton(onClick = {
+                    val shown = activity?.let {
+                        rewardedManager.showIfReady(
+                            activity = it,
+                            onRewarded = { resetQuiz() }
+                        )
+                    } ?: false
+                    // Fall back to a free retry when the ad isn't ready
+                    // so learners are never blocked.
+                    if (!shown) resetQuiz()
+                }) {
+                    Text("Sake Gwadawa (Kalli Talla)")
                 }
             }
             return@Scaffold

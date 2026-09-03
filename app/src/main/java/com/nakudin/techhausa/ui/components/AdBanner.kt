@@ -7,12 +7,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
-
-/**
- * Google's official test banner ad unit ID — replace with your own AdMob
- * banner unit ID before publishing, or ads will not generate revenue.
- */
-private const val TEST_BANNER_UNIT_ID = "ca-app-pub-3940256099942544/9214589741"
+import com.nakudin.techhausa.ads.AdUnits
 
 @Composable
 fun AdBanner(modifier: Modifier = Modifier) {
@@ -21,7 +16,7 @@ fun AdBanner(modifier: Modifier = Modifier) {
         factory = { context ->
             AdView(context).apply {
                 setAdSize(AdSize.BANNER)
-                adUnitId = TEST_BANNER_UNIT_ID
+                adUnitId = AdUnits.BANNER
                 loadAd(AdRequest.Builder().build())
             }
         },
