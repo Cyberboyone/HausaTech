@@ -30,7 +30,7 @@ jobs:
 
       # Signs the release bundle when keystore secrets are configured.
       # Without them the release bundle is built unsigned and the debug
-      # APK still builds fine. Secrets needed (repo Settings → Secrets):
+      # APK still builds fine. Secrets needed (repo Settings > Secrets and variables > Actions):
       #   KEYSTORE_BASE64, KEYSTORE_PASSWORD, KEY_ALIAS, KEY_PASSWORD
       - name: Restore keystore (release signing)
         if: ${{ secrets.KEYSTORE_BASE64 != '' }}
