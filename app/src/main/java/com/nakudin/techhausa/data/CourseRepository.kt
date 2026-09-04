@@ -42,10 +42,18 @@ object CourseRepository {
             runCatching {
                 val text = context.assets.open("courses/$filename").bufferedReader(Charsets.UTF_8).use { it.readText() }
                 json.decodeFromString(CourseFile.serializer(), text)
-            }.onFailure { e ->
-                android.util.Log.e("CourseRepository", "Failed to load $filename", e)
-            }.getOrNull()
+            }.getOrElse { e1 ->
+                android.util.Log.e("CourseRepository", "Full parse failed for $filename, retrying without supplementaryDiagrams", e1)
+                runCatching {
+                    val text = context.assets.open("courses/$filename").bufferedReader(Charsets.UTF_8).use { it.readText() }
+                    val stripped = text.replace(Regex("\"supplementaryDiagrams\"\\s*:\\s*\\[.*?\\],\\s*\n"), "")
+                    json.decodeFromString(CourseFile.serializer(), stripped)
+                }.onFailure { e2 ->
+                    android.util.Log.e("CourseRepository", "Even fallback parse failed for $filename", e2)
+                }.getOrNull()
+            }
         }
+        android.util.Log.d("CourseRepository", "Loaded ${loaded.size}/${COURSE_FILES.size} courses")
         cachedCourses = loaded
         return loaded
     }
