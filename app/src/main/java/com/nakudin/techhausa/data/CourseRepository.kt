@@ -30,7 +30,11 @@ object CourseRepository {
     )
 
     private var cachedCourses: List<CourseFile>? = null
-    private val json = Json { ignoreUnknownKeys = true }
+    private val json = Json {
+        ignoreUnknownKeys = true
+        coerceInputValues = true
+        isLenient = true
+    }
 
     fun getCourses(context: Context): List<CourseFile> {
         cachedCourses?.let { return it }
