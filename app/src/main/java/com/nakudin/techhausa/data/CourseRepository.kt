@@ -40,7 +40,7 @@ object CourseRepository {
         cachedCourses?.let { return it }
         val loaded = COURSE_FILES.mapNotNull { filename ->
             runCatching {
-                val text = context.assets.open("courses/$filename").bufferedReader().use { it.readText() }
+                val text = context.assets.open("courses/$filename").bufferedReader(Charsets.UTF_8).use { it.readText() }
                 json.decodeFromString(CourseFile.serializer(), text)
             }.onFailure { e ->
                 android.util.Log.e("CourseRepository", "Failed to load $filename", e)
