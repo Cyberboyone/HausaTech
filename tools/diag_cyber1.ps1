@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 $targetDir = "C:\Users\LAB\Desktop\Hausa Tech\TechHausa\TechHausa\app\src\main\assets\courses"
 function Add-Diag {
     param($file, $id, $diag)

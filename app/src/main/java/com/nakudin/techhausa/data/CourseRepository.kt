@@ -40,12 +40,14 @@ object CourseRepository {
         cachedCourses?.let { return it }
         val loaded = COURSE_FILES.mapNotNull { filename ->
             runCatching {
-                val text = context.assets.open("courses/$filename").bufferedReader(Charsets.UTF_8).use { it.readText() }
+                var text = context.assets.open("courses/$filename").bufferedReader(Charsets.UTF_8).use { it.readText() }
+                if (text.isNotEmpty() && text[0] == '\uFEFF') text = text.substring(1)
                 json.decodeFromString(CourseFile.serializer(), text)
             }.getOrElse { e1 ->
                 android.util.Log.e("CourseRepository", "Full parse failed for $filename, retrying without supplementaryDiagrams", e1)
                 runCatching {
-                    val text = context.assets.open("courses/$filename").bufferedReader(Charsets.UTF_8).use { it.readText() }
+                    var text = context.assets.open("courses/$filename").bufferedReader(Charsets.UTF_8).use { it.readText() }
+                    if (text.isNotEmpty() && text[0] == '\uFEFF') text = text.substring(1)
                     val stripped = text.replace(Regex("\"supplementaryDiagrams\"\\s*:\\s*\\[.*?\\],\\s*\n"), "")
                     json.decodeFromString(CourseFile.serializer(), stripped)
                 }.onFailure { e2 ->
