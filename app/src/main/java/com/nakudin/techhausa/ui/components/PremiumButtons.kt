@@ -1,6 +1,8 @@
 package com.nakudin.techhausa.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -23,11 +25,8 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.ui.theme.HausaTechColors
 
-private val PillShape = RoundedCornerShape(20.dp)
+private val PillShape = RoundedCornerShape(14.dp)
 
-/**
- * Primary call-to-action: full-width gradient pill with optional leading icon.
- */
 @Composable
 fun PrimaryButton(
     text: String,
@@ -43,7 +42,7 @@ fun PrimaryButton(
             .clip(PillShape)
             .then(
                 if (enabled) Modifier.background(HausaTechColors.AccentGradient)
-                else Modifier.background(MaterialTheme.colorScheme.surfaceVariant)
+                else Modifier.background(HausaTechColors.SurfaceVariant)
             )
             .clickable(role = Role.Button, enabled = enabled, onClick = onClick)
             .padding(horizontal = 24.dp),
@@ -57,15 +56,12 @@ fun PrimaryButton(
             Text(
                 text,
                 style = MaterialTheme.typography.labelLarge,
-                color = if (enabled) Color.White else MaterialTheme.colorScheme.onSurfaceVariant
+                color = if (enabled) Color.White else HausaTechColors.Muted
             )
         }
     }
 }
 
-/**
- * Secondary action: dark translucent tonal pill with accent-colored content.
- */
 @Composable
 fun SecondaryButton(
     text: String,
@@ -78,20 +74,21 @@ fun SecondaryButton(
             .fillMaxWidth()
             .height(56.dp)
             .clip(PillShape)
-            .background(MaterialTheme.colorScheme.surfaceVariant)
+            .border(1.dp, HausaTechColors.Outline, PillShape)
+            .background(HausaTechColors.SurfaceVariant)
             .clickable(role = Role.Button, onClick = onClick)
             .padding(horizontal = 24.dp),
         contentAlignment = Alignment.Center
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             icon?.let {
-                Icon(it, contentDescription = null, tint = HausaTechColors.Accent)
+                Icon(it, contentDescription = null, tint = HausaTechColors.OnSurface)
                 Spacer(Modifier.width(8.dp))
             }
             Text(
                 text,
                 style = MaterialTheme.typography.labelLarge,
-                color = HausaTechColors.Accent
+                color = HausaTechColors.OnSurface
             )
         }
     }

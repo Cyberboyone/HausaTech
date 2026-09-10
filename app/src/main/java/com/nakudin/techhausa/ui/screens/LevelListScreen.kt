@@ -38,6 +38,7 @@ import com.nakudin.techhausa.ui.components.AdBanner
 import com.nakudin.techhausa.ui.components.CourseIcon
 import com.nakudin.techhausa.ui.components.Entrance
 import com.nakudin.techhausa.ui.components.LevelCard
+import com.nakudin.techhausa.ui.components.TwoToneHeading
 import com.nakudin.techhausa.ui.components.courseColorFor
 import com.nakudin.techhausa.ui.components.courseIconFor
 import com.nakudin.techhausa.ui.theme.HausaTechColors
@@ -47,17 +48,17 @@ private data class LevelStyle(val subtitle: String, val icon: ImageVector, val a
 
 private fun levelStyle(level: String, courseColor: Color): LevelStyle = when (level) {
     "Beginner" -> LevelStyle(
-        subtitle = "Foundation concepts — fara daga tushe",
+        subtitle = "Ginshikin fahimta — fara daga tushe",
         icon = Icons.Filled.School,
         accent = HausaTechColors.Success
     )
     "Intermediate" -> LevelStyle(
-        subtitle = "Build your knowledge — ƙara ilimi",
+        subtitle = "Ƙara iliminka — gina fahimta",
         icon = Icons.AutoMirrored.Filled.TrendingUp,
         accent = HausaTechColors.Warning
     )
     else -> LevelStyle(
-        subtitle = "Master the topic — zama gwani",
+        subtitle = "Zama gwani — ci gaba da horo",
         icon = Icons.Filled.EmojiEvents,
         accent = courseColor
     )
@@ -86,14 +87,19 @@ fun LevelListScreen(courseId: String, onBack: () -> Unit, onOpenLevel: (String) 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(course?.title ?: "") },
+                title = {
+                    TwoToneHeading(
+                        base = "Koyi",
+                        accent = course?.title?.split(" ")?.lastOrNull() ?: "Darussa"
+                    )
+                },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Koma baya")
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.background
+                    containerColor = HausaTechColors.Background
                 )
             )
         },
@@ -116,13 +122,14 @@ fun LevelListScreen(courseId: String, onBack: () -> Unit, onOpenLevel: (String) 
                         )
                         Spacer(Modifier.height(HausaTechSpacing.Md))
                         Text(
-                            "Choose your level",
-                            style = MaterialTheme.typography.headlineMedium
+                            "Zaɓi Matakin",
+                            style = MaterialTheme.typography.headlineMedium,
+                            color = HausaTechColors.OnBackground
                         )
                         Text(
                             "Zaɓi matakin da ya dace da kai",
                             style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                            color = HausaTechColors.Muted
                         )
                     }
                 }
@@ -133,7 +140,7 @@ fun LevelListScreen(courseId: String, onBack: () -> Unit, onOpenLevel: (String) 
                 Entrance(index = index) {
                     val style = levelStyle(level.level, color)
                     LevelCard(
-                        title = level.level.uppercase(),
+                        title = level.level,
                         subtitle = style.subtitle,
                         icon = style.icon,
                         accent = style.accent,

@@ -19,16 +19,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.ui.theme.HausaTechColors
 
-/**
- * Animated circular progress indicator with a gradient arc and a centered
- * percentage label — the signature visual of the dashboard and results.
- */
 @Composable
 fun ProgressRing(
     progress: Float,
@@ -44,7 +41,7 @@ fun ProgressRing(
         animationSpec = tween(durationMillis = 1000),
         label = "progress-ring"
     )
-    val trackColor = MaterialTheme.colorScheme.surfaceVariant
+    val trackColor = HausaTechColors.SurfaceVariant
     Box(modifier = modifier, contentAlignment = Alignment.Center) {
         Canvas(modifier = Modifier.matchParentSize()) {
             drawArc(
@@ -65,21 +62,18 @@ fun ProgressRing(
         if (showPercentage) {
             Text(
                 "${(animated * 100).toInt()}%",
-                style = MaterialTheme.typography.headlineSmall
+                style = MaterialTheme.typography.headlineSmall,
+                color = HausaTechColors.Accent
             )
         }
     }
 }
 
-/**
- * Linear progress bar with smooth animated fill, rounded track, and a
- * gradient indicator.
- */
 @Composable
 fun AnimatedProgressBar(
     progress: Float,
     modifier: Modifier = Modifier,
-    color: androidx.compose.ui.graphics.Color = HausaTechColors.Accent
+    color: Color = HausaTechColors.Accent
 ) {
     var displayed by remember { mutableFloatStateOf(0f) }
     LaunchedEffect(progress) { displayed = progress.coerceIn(0f, 1f) }
@@ -94,6 +88,6 @@ fun AnimatedProgressBar(
             .height(8.dp)
             .clip(CircleShape),
         color = color,
-        trackColor = MaterialTheme.colorScheme.surfaceVariant
+        trackColor = HausaTechColors.SurfaceVariant
     )
 }

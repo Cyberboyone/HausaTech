@@ -1,5 +1,6 @@
 package com.nakudin.techhausa.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -24,14 +25,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
+import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 import com.nakudin.techhausa.ui.theme.courseGradient
 
-/**
- * Rich course card for the Home grid: icon with glow, title, level range,
- * lesson counts, animated progress bar with percentage, and a continue
- * action — washed in the course's own brand color.
- */
 @Composable
 fun CourseProgressCard(
     title: String,
@@ -47,8 +44,9 @@ fun CourseProgressCard(
     Card(
         modifier = modifier.fillMaxWidth(),
         onClick = onClick,
-        shape = RoundedCornerShape(24.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        shape = RoundedCornerShape(18.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+        border = BorderStroke(1.dp, HausaTechColors.Outline)
     ) {
         Box(
             modifier = Modifier
@@ -63,18 +61,17 @@ fun CourseProgressCard(
                     contentDescription = title
                 )
                 Spacer(Modifier.height(4.dp))
-                Text(title, style = MaterialTheme.typography.titleLarge)
                 Text(
-                    "Beginner - Advanced",
+                    title,
+                    style = MaterialTheme.typography.titleLarge,
+                    color = HausaTechColors.OnBackground
+                )
+                Text(
+                    "$completedCount / $totalCount Darussa",
                     style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    color = HausaTechColors.Muted
                 )
                 Spacer(Modifier.height(4.dp))
-                Text(
-                    "$completedCount / $totalCount lessons",
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     AnimatedProgressBar(
                         progress = progress,
@@ -86,22 +83,6 @@ fun CourseProgressCard(
                         style = MaterialTheme.typography.labelLarge,
                         color = courseColor,
                         modifier = Modifier.padding(start = HausaTechSpacing.Sm)
-                    )
-                }
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.padding(top = 4.dp)
-                ) {
-                    Text(
-                        "Continue",
-                        style = MaterialTheme.typography.labelLarge,
-                        color = courseColor
-                    )
-                    Icon(
-                        Icons.AutoMirrored.Filled.ArrowForward,
-                        contentDescription = null,
-                        tint = courseColor,
-                        modifier = Modifier.padding(start = 4.dp)
                     )
                 }
             }

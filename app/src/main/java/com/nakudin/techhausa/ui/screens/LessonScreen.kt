@@ -1,6 +1,7 @@
 package com.nakudin.techhausa.ui.screens
 
 import android.graphics.BitmapFactory
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -45,7 +46,9 @@ import com.nakudin.techhausa.ui.components.DiagramView
 import com.nakudin.techhausa.ui.components.Entrance
 import com.nakudin.techhausa.ui.components.MetaChip
 import com.nakudin.techhausa.ui.components.PrimaryButton
+import com.nakudin.techhausa.ui.components.SecondaryButton
 import com.nakudin.techhausa.ui.components.SupplementaryDiagramView
+import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 
 private sealed class ContentSegment {
@@ -73,7 +76,6 @@ private fun parseContentSegments(content: String): List<ContentSegment> {
     return segments
 }
 
-/** Constrains readable content width on tablets while filling phones. */
 @Composable
 private fun CenteredMaxWidth(content: @Composable () -> Unit) {
     Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
@@ -83,11 +85,6 @@ private fun CenteredMaxWidth(content: @Composable () -> Unit) {
     }
 }
 
-/**
- * Premium reading experience: dark background, large title, metadata chips,
- * rounded diagram container, comfortable Hausa body text, and the quiz CTA
- * as an end-of-content button (kept away from the ad banner below).
- */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LessonScreen(
@@ -104,7 +101,7 @@ fun LessonScreen(
 
     if (lesson == null) {
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            Text("Ba a sami darasi ba")
+            Text("Ba a sami darasi ba", color = HausaTechColors.Muted)
         }
         return
     }
@@ -116,14 +113,19 @@ fun LessonScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Darasi ${lesson.order}") },
+                title = {
+                    Text(
+                        "Darasi ${lesson.order}",
+                        color = HausaTechColors.OnBackground
+                    )
+                },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Koma baya")
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.background
+                    containerColor = HausaTechColors.Background
                 )
             )
         },
@@ -148,13 +150,14 @@ fun LessonScreen(
                         Spacer(Modifier.height(HausaTechSpacing.Md))
                         Text(
                             lesson.title,
-                            style = MaterialTheme.typography.headlineMedium
+                            style = MaterialTheme.typography.headlineMedium,
+                            color = HausaTechColors.OnBackground
                         )
                         Spacer(Modifier.height(HausaTechSpacing.Sm))
                         Text(
                             lesson.summary,
                             style = MaterialTheme.typography.bodyLarge,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                            color = HausaTechColors.Muted
                         )
                     }
                 }
@@ -185,7 +188,7 @@ fun LessonScreen(
                             Text(
                                 segment.text,
                                 style = MaterialTheme.typography.bodyLarge.copy(lineHeight = 28.sp),
-                                color = MaterialTheme.colorScheme.onBackground
+                                color = HausaTechColors.OnBackground
                             )
                         }
                     }
@@ -201,10 +204,11 @@ fun LessonScreen(
                         bitmap?.let { bmp ->
                             CenteredMaxWidth {
                                 Card(
-                                    shape = RoundedCornerShape(20.dp),
+                                    shape = RoundedCornerShape(18.dp),
                                     colors = CardDefaults.cardColors(
-                                        containerColor = MaterialTheme.colorScheme.surface
+                                        containerColor = HausaTechColors.Surface
                                     ),
+                                    border = BorderStroke(1.dp, HausaTechColors.Outline),
                                     modifier = Modifier.fillMaxWidth()
                                 ) {
                                     Image(
@@ -222,12 +226,22 @@ fun LessonScreen(
             item {
                 CenteredMaxWidth {
                     Spacer(Modifier.height(HausaTechSpacing.Sm))
-                    PrimaryButton(
-                        text = "Fara Jarabawa",
-                        icon = Icons.AutoMirrored.Filled.ArrowForward,
-                        onClick = { onStartQuiz(lesson.id) }
-                    )
-                    // Breathing room so the CTA never sits against the ad banner.
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(HausaTechSpacing.Md)
+                    ) {
+                        SecondaryButton(
+                            text = "Na Baya",
+                            onClick = onBack,
+                            modifier = Modifier.weight(1f)
+                        )
+                        PrimaryButton(
+                            text = "Na gaba",
+                            icon = Icons.AutoMirrored.Filled.ArrowForward,
+                            onClick = { onStartQuiz(lesson.id) },
+                            modifier = Modifier.weight(1f)
+                        )
+                    }
                     Spacer(Modifier.height(HausaTechSpacing.Xl))
                 }
             }

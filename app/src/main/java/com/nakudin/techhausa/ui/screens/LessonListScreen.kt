@@ -42,6 +42,7 @@ import com.nakudin.techhausa.ui.components.LessonCard
 import com.nakudin.techhausa.ui.components.MetaChip
 import com.nakudin.techhausa.ui.components.courseColorFor
 import com.nakudin.techhausa.ui.components.courseIconFor
+import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 import kotlinx.coroutines.flow.combine
 
@@ -78,14 +79,14 @@ fun LessonListScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(course?.title ?: "") },
+                title = { Text(course?.title ?: "", color = HausaTechColors.OnBackground) },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Koma baya")
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.background
+                    containerColor = HausaTechColors.Background
                 )
             )
         },
@@ -110,13 +111,14 @@ fun LessonListScreen(
                             Column(Modifier.weight(1f)) {
                                 Text(
                                     level,
-                                    style = MaterialTheme.typography.headlineMedium
+                                    style = MaterialTheme.typography.headlineMedium,
+                                    color = HausaTechColors.OnBackground
                                 )
                                 Spacer(Modifier.height(HausaTechSpacing.Xs))
                                 Row {
                                     MetaChip(course?.title ?: "")
                                     Spacer(Modifier.width(HausaTechSpacing.Sm))
-                                    MetaChip("${lessons.size} lessons")
+                                    MetaChip("${lessons.size} Darussa")
                                 }
                             }
                         }
@@ -128,8 +130,9 @@ fun LessonListScreen(
                 Entrance(index = 1) {
                     HausaTechCard {
                         Text(
-                            "Your Progress",
-                            style = MaterialTheme.typography.titleMedium
+                            "Ci Gaba",
+                            style = MaterialTheme.typography.titleMedium,
+                            color = HausaTechColors.OnBackground
                         )
                         Spacer(Modifier.height(HausaTechSpacing.Xs))
                         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -149,7 +152,7 @@ fun LessonListScreen(
                         Text(
                             "$completedCount daga cikin ${lessons.size} darasi",
                             style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                            color = HausaTechColors.Muted
                         )
                     }
                 }
@@ -167,8 +170,6 @@ fun LessonListScreen(
                     modifier = Modifier.fillMaxWidth()
                 )
 
-                // A single banner after every 5 lessons keeps the list monetized
-                // without putting ads between every item or at the bottom as well.
                 if ((index + 1) % 5 == 0 && index != lessons.lastIndex) {
                     Spacer(Modifier.height(HausaTechSpacing.Xs))
                     AdBanner(modifier = Modifier.fillMaxWidth())

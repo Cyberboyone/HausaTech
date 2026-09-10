@@ -1,5 +1,6 @@
 package com.nakudin.techhausa.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -30,11 +31,6 @@ import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 
-/**
- * Premium floating bottom navigation for the two top-level destinations.
- * Dark elevated pill with a coral soft-highlight active state and Hausa
- * labels. Only shown on Home/Progress (wired in MainActivity).
- */
 @Composable
 fun BottomNavBar(currentRoute: String?, onNavigate: (String) -> Unit) {
     Box(
@@ -48,7 +44,7 @@ fun BottomNavBar(currentRoute: String?, onNavigate: (String) -> Unit) {
                 spotColor = Color.Black.copy(alpha = 0.6f)
             )
             .clip(RoundedCornerShape(28.dp))
-            .background(MaterialTheme.colorScheme.surfaceVariant)
+            .background(HausaTechColors.Elevated)
             .padding(horizontal = HausaTechSpacing.Sm, vertical = HausaTechSpacing.Sm)
     ) {
         Row(
@@ -96,14 +92,14 @@ private fun NavItem(
             icon,
             contentDescription = label,
             tint = if (selected) HausaTechColors.Accent
-            else MaterialTheme.colorScheme.onSurfaceVariant
+            else HausaTechColors.Muted
         )
         Spacer(Modifier.height(2.dp))
         Text(
             label,
             style = MaterialTheme.typography.labelMedium,
             color = if (selected) HausaTechColors.Accent
-            else MaterialTheme.colorScheme.onSurfaceVariant
+            else HausaTechColors.Muted
         )
     }
 }

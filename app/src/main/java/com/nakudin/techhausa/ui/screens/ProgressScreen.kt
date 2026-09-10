@@ -31,15 +31,13 @@ import com.nakudin.techhausa.ui.components.Entrance
 import com.nakudin.techhausa.ui.components.OverallProgressCard
 import com.nakudin.techhausa.ui.components.SectionHeader
 import com.nakudin.techhausa.ui.components.StatRow
+import com.nakudin.techhausa.ui.components.TwoToneHeading
 import com.nakudin.techhausa.ui.components.courseColorFor
 import com.nakudin.techhausa.ui.components.courseIconFor
+import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 import kotlinx.coroutines.flow.combine
 
-/**
- * Premium progress dashboard: greeting header, large overall ring card
- * with stats, then per-course cards in an adaptive grid.
- */
 @Composable
 fun ProgressScreen(onOpenCourse: (String) -> Unit) {
     val context = LocalContext.current
@@ -80,15 +78,12 @@ fun ProgressScreen(onOpenCourse: (String) -> Unit) {
             item(span = { GridItemSpan(maxLineSpan) }) {
                 Entrance {
                     Column {
-                        Text(
-                            "Your Progress",
-                            style = MaterialTheme.typography.headlineLarge
-                        )
+                        TwoToneHeading(base = "Ci Gaba", accent = "& Kammala")
                         Spacer(Modifier.height(HausaTechSpacing.Xs))
                         Text(
-                            "Track your learning journey",
+                            "Ci gaba da iliminka",
                             style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                            color = HausaTechColors.Muted
                         )
                     }
                 }
@@ -102,9 +97,9 @@ fun ProgressScreen(onOpenCourse: (String) -> Unit) {
                         stats = {
                             StatRow(
                                 stats = listOf(
-                                    "$totalCompleted" to "Completed",
-                                    "$remaining" to "Remaining",
-                                    "${courses.size}" to "Courses"
+                                    "$totalCompleted" to "Kammala",
+                                    "$remaining" to "Sai",
+                                    "${courses.size}" to "Kwasai"
                                 )
                             )
                         }
@@ -113,7 +108,7 @@ fun ProgressScreen(onOpenCourse: (String) -> Unit) {
             }
 
             item(span = { GridItemSpan(maxLineSpan) }) {
-                SectionHeader(title = "Course Progress")
+                SectionHeader(title = "Kategoriyoi")
             }
 
             itemsIndexed(courses, key = { _, course -> course.id }) { index, course ->

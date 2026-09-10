@@ -1,5 +1,6 @@
 package com.nakudin.techhausa.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -21,15 +22,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 
-/**
- * Base premium card: dark tonal surface, 24dp corners, generous padding.
- * Pass [gradient] for hero/accent washes, [onClick] to make it tappable.
- */
 @Composable
 fun HausaTechCard(
     modifier: Modifier = Modifier,
@@ -37,12 +33,14 @@ fun HausaTechCard(
     onClick: (() -> Unit)? = null,
     content: @Composable () -> Unit
 ) {
-    val shape = RoundedCornerShape(24.dp)
+    val shape = RoundedCornerShape(18.dp)
+    val border = BorderStroke(1.dp, HausaTechColors.Outline)
     if (onClick != null) {
         Card(
             modifier = modifier.fillMaxWidth(),
             shape = shape,
             colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            border = border,
             onClick = onClick
         ) {
             CardBody(gradient, shape, content)
@@ -81,10 +79,6 @@ private fun CardBody(
     }
 }
 
-/**
- * Section header: medium-weight title with an optional trailing action,
- * used above every content section for consistent hierarchy.
- */
 @Composable
 fun SectionHeader(
     title: String,
@@ -99,6 +93,7 @@ fun SectionHeader(
         Text(
             title,
             style = MaterialTheme.typography.titleLarge,
+            color = HausaTechColors.OnBackground,
             modifier = Modifier.weight(1f)
         )
         if (actionText != null && onActionClick != null) {
@@ -110,23 +105,19 @@ fun SectionHeader(
     Spacer(Modifier.height(HausaTechSpacing.Md))
 }
 
-/**
- * Small metadata chip (course name, level, lesson count) rendered on a
- * translucent dark pill.
- */
 @Composable
 fun MetaChip(text: String, modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .clip(RoundedCornerShape(12.dp))
-            .background(Color.White.copy(alpha = 0.10f))
+            .background(HausaTechColors.SurfaceVariant)
             .padding(horizontal = 12.dp, vertical = 6.dp),
         contentAlignment = Alignment.Center
     ) {
         Text(
             text,
             style = MaterialTheme.typography.labelSmall,
-            color = Color.White.copy(alpha = 0.85f)
+            color = HausaTechColors.Muted
         )
     }
 }

@@ -1,6 +1,8 @@
 package com.nakudin.techhausa.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -24,21 +26,23 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.nakudin.techhausa.model.SupplementaryDiagram
+import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 
 @Composable
 fun SupplementaryDiagramView(diagram: SupplementaryDiagram, modifier: Modifier = Modifier) {
     Card(
         modifier = modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(24.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        shape = RoundedCornerShape(18.dp),
+        colors = CardDefaults.cardColors(containerColor = HausaTechColors.SurfaceVariant),
+        border = BorderStroke(1.dp, HausaTechColors.Outline)
     ) {
         Column(Modifier.padding(16.dp)) {
             Text(
                 diagram.title,
                 style = MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.onSurface
+                color = HausaTechColors.OnBackground
             )
             Spacer(Modifier.height(HausaTechSpacing.Sm))
             when (diagram.type) {
@@ -52,7 +56,7 @@ fun SupplementaryDiagramView(diagram: SupplementaryDiagram, modifier: Modifier =
                 Text(
                     cap,
                     style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    color = HausaTechColors.Muted
                 )
             }
         }
@@ -70,12 +74,12 @@ private fun FlowDiagram(d: SupplementaryDiagram) {
                         .width(28.dp)
                         .height(28.dp)
                         .clip(RoundedCornerShape(14.dp))
-                        .background(MaterialTheme.colorScheme.primary),
+                        .background(HausaTechColors.Accent),
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
                         "${i + 1}",
-                        color = MaterialTheme.colorScheme.onPrimary,
+                        color = HausaTechColors.Background,
                         fontSize = 13.sp,
                         fontWeight = FontWeight.Bold
                     )
@@ -84,7 +88,7 @@ private fun FlowDiagram(d: SupplementaryDiagram) {
                 Text(
                     step,
                     style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurface,
+                    color = HausaTechColors.OnBackground,
                     modifier = Modifier.weight(1f)
                 )
             }
@@ -94,7 +98,7 @@ private fun FlowDiagram(d: SupplementaryDiagram) {
                         .padding(start = 13.dp)
                         .width(2.dp)
                         .height(10.dp)
-                        .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.3f))
+                        .background(HausaTechColors.Muted.copy(alpha = 0.3f))
                 )
             }
         }
@@ -113,8 +117,8 @@ private fun CompareDiagram(d: SupplementaryDiagram) {
 private fun SideColumn(title: String?, items: List<String>?, modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
-            .clip(RoundedCornerShape(16.dp))
-            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
+            .clip(RoundedCornerShape(14.dp))
+            .background(HausaTechColors.Elevated)
             .padding(12.dp)
     ) {
         title?.let {
@@ -122,7 +126,7 @@ private fun SideColumn(title: String?, items: List<String>?, modifier: Modifier 
                 it,
                 style = MaterialTheme.typography.titleSmall,
                 fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.primary
+                color = HausaTechColors.Accent
             )
             Spacer(Modifier.height(HausaTechSpacing.Xs))
         }
@@ -130,7 +134,7 @@ private fun SideColumn(title: String?, items: List<String>?, modifier: Modifier 
             Text(
                 "• $item",
                 style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurface,
+                color = HausaTechColors.OnBackground,
                 modifier = Modifier.padding(top = 2.dp)
             )
         }
@@ -147,14 +151,14 @@ private fun StackDiagram(d: SupplementaryDiagram) {
                 modifier = Modifier
                     .fillMaxWidth()
                     .clip(RoundedCornerShape(12.dp))
-                    .background(MaterialTheme.colorScheme.primary.copy(alpha = alpha.coerceAtMost(1f)))
+                    .background(HausaTechColors.Accent.copy(alpha = alpha.coerceAtMost(1f)))
                     .padding(horizontal = 16.dp, vertical = 10.dp),
                 contentAlignment = Alignment.Center
             ) {
                 Text(
                     item,
                     style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onPrimary,
+                    color = HausaTechColors.Background,
                     textAlign = TextAlign.Center
                 )
             }
@@ -169,8 +173,8 @@ private fun HubDiagram(d: SupplementaryDiagram) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Box(
             modifier = Modifier
-                .clip(RoundedCornerShape(16.dp))
-                .background(MaterialTheme.colorScheme.primary)
+                .clip(RoundedCornerShape(14.dp))
+                .background(HausaTechColors.Accent)
                 .padding(horizontal = 24.dp, vertical = 12.dp),
             contentAlignment = Alignment.Center
         ) {
@@ -178,16 +182,15 @@ private fun HubDiagram(d: SupplementaryDiagram) {
                 center,
                 style = MaterialTheme.typography.titleSmall,
                 fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.onPrimary
+                color = HausaTechColors.Background
             )
         }
         Spacer(Modifier.height(8.dp))
-        // connection line
         Box(
             modifier = Modifier
                 .width(2.dp)
                 .height(12.dp)
-                .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.3f))
+                .background(HausaTechColors.Muted.copy(alpha = 0.3f))
         )
         Spacer(Modifier.height(4.dp))
         Row(
@@ -198,14 +201,15 @@ private fun HubDiagram(d: SupplementaryDiagram) {
                 Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(12.dp))
-                        .background(MaterialTheme.colorScheme.secondaryContainer)
+                        .background(HausaTechColors.SurfaceVariant)
+                        .border(1.dp, HausaTechColors.Outline, RoundedCornerShape(12.dp))
                         .padding(horizontal = 10.dp, vertical = 6.dp),
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
                         sat,
                         style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onSecondaryContainer,
+                        color = HausaTechColors.Muted,
                         textAlign = TextAlign.Center
                     )
                 }

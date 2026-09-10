@@ -2,6 +2,7 @@ package com.nakudin.techhausa.ui.screens
 
 import android.app.Activity
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -13,6 +14,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
@@ -22,6 +24,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Cancel
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Card
@@ -44,6 +47,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
@@ -62,14 +66,6 @@ import com.nakudin.techhausa.ui.components.StatRow
 import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 
-/**
- * Premium focused quiz: question counter + progress, question in a rounded
- * card, large touch-target answers with selected/correct/incorrect states,
- * and a results hero with ring, stats, rewarded retry, and return actions.
- *
- * Quiz logic, interstitial/rewarded ads, and progress recording are
- * unchanged from the previous version — only presentation changed.
- */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun QuizScreen(
@@ -84,7 +80,7 @@ fun QuizScreen(
 
     if (lesson == null) {
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            Text("Ba a sami jarabawa ba")
+            Text("Ba a sami jarabawa ba", color = HausaTechColors.Muted)
         }
         return
     }
@@ -95,7 +91,6 @@ fun QuizScreen(
     val answers = remember { mutableStateListOf<Boolean>() }
     var showResults by remember { mutableStateOf(false) }
     var interstitialShown by remember { mutableStateOf(false) }
-    // Bumped on every retry so the options reshuffle each attempt.
     var shuffleSeed by remember { mutableIntStateOf(0) }
 
     val activity = context as? Activity
@@ -115,15 +110,11 @@ fun QuizScreen(
         rewardedManager.load()
     }
 
-    // Preload full-screen ads when the quiz opens.
     LaunchedEffect(lesson.id) {
         interstitialManager.load()
         rewardedManager.load()
     }
 
-    // Full-screen ads are deliberately occasional: only after every 4 completed
-    // quizzes and never more than once within a 10-minute window. If no ad is
-    // ready, the learner continues normally.
     LaunchedEffect(showResults) {
         if (showResults && !interstitialShown) {
             interstitialShown = true
@@ -142,7 +133,10 @@ fun QuizScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Text(if (showResults) "Sakamako" else "Tambaya ${currentIndex + 1} daga ${lesson.quiz.size}")
+                    Text(
+                        if (showResults) "Sakamako" else "Tambaya ${currentIndex + 1} daga ${lesson.quiz.size}",
+                        color = HausaTechColors.OnBackground
+                    )
                 },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
@@ -150,7 +144,7 @@ fun QuizScreen(
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.background
+                    containerColor = HausaTechColors.Background
                 )
             )
         },
@@ -171,8 +165,6 @@ fun QuizScreen(
                             onRewarded = { resetQuiz() }
                         )
                     } ?: false
-                    // Fall back to a free retry when the ad isn't ready
-                    // so learners are never blocked.
                     if (!shown) resetQuiz()
                 },
                 onFinish = onFinish,
@@ -181,9 +173,6 @@ fun QuizScreen(
             return@Scaffold
         }
 
-        // Shuffle the options once per question (and again on every retry)
-        // so the correct answer appears in a different/random position. Scoring,
-        // selection, and correct/wrong states all read this normalized copy.
         val rawQuestion = lesson.quiz[currentIndex]
         val question = remember(rawQuestion, shuffleSeed) {
             val correct = rawQuestion.options.getOrNull(rawQuestion.answerIndex)
@@ -233,15 +222,17 @@ fun QuizScreen(
             item {
                 Entrance {
                     Card(
-                        shape = RoundedCornerShape(24.dp),
+                        shape = RoundedCornerShape(18.dp),
                         colors = CardDefaults.cardColors(
-                            containerColor = MaterialTheme.colorScheme.surface
+                            containerColor = HausaTechColors.Surface
                         ),
+                        border = BorderStroke(1.dp, HausaTechColors.Outline),
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         Text(
                             question.question,
                             style = MaterialTheme.typography.titleLarge,
+                            color = HausaTechColors.OnBackground,
                             modifier = Modifier.padding(HausaTechSpacing.Xl)
                         )
                     }
@@ -271,16 +262,17 @@ fun QuizScreen(
                 item {
                     Entrance {
                         Card(
-                            shape = RoundedCornerShape(20.dp),
+                            shape = RoundedCornerShape(18.dp),
                             colors = CardDefaults.cardColors(
-                                containerColor = MaterialTheme.colorScheme.surfaceVariant
+                                containerColor = HausaTechColors.SurfaceVariant
                             ),
+                            border = BorderStroke(1.dp, HausaTechColors.Outline),
                             modifier = Modifier.fillMaxWidth()
                         ) {
                             Text(
                                 question.explanation,
                                 style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                color = HausaTechColors.Muted,
                                 modifier = Modifier.padding(HausaTechSpacing.Lg)
                             )
                         }
@@ -300,8 +292,50 @@ fun QuizScreen(
                             }
                         }
                     )
-                    // Breathing room so the button never sits against the ad banner.
                     Spacer(Modifier.height(HausaTechSpacing.Xl))
+                }
+            }
+
+            if (!answered) {
+                item {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.Center
+                    ) {
+                        Row(
+                            modifier = Modifier
+                                .clip(RoundedCornerShape(20.dp))
+                                .background(HausaTechColors.SurfaceVariant)
+                                .padding(horizontal = 16.dp, vertical = 8.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Icon(
+                                Icons.Filled.CheckCircle,
+                                contentDescription = null,
+                                tint = HausaTechColors.Success,
+                                modifier = Modifier.size(16.dp)
+                            )
+                            Spacer(Modifier.width(4.dp))
+                            Text(
+                                "${answers.count { it }}",
+                                style = MaterialTheme.typography.labelMedium,
+                                color = HausaTechColors.Muted
+                            )
+                            Spacer(Modifier.width(12.dp))
+                            Icon(
+                                Icons.Filled.Cancel,
+                                contentDescription = null,
+                                tint = HausaTechColors.Error,
+                                modifier = Modifier.size(16.dp)
+                            )
+                            Spacer(Modifier.width(4.dp))
+                            Text(
+                                "${answers.count { !it }}",
+                                style = MaterialTheme.typography.labelMedium,
+                                color = HausaTechColors.Muted
+                            )
+                        }
+                    }
                 }
             }
         }
@@ -310,39 +344,27 @@ fun QuizScreen(
 
 private enum class AnswerState { Default, Dimmed, Correct, Wrong }
 
-/** Large rounded answer touch-target with clear visual states. */
 @Composable
 private fun AnswerOption(
     option: String,
     state: AnswerState,
     onClick: () -> Unit
 ) {
-    val (container, border, content) = when (state) {
-        AnswerState.Default -> Triple(
-            MaterialTheme.colorScheme.surface,
-            HausaTechColors.Outline,
-            MaterialTheme.colorScheme.onSurface
-        )
-        AnswerState.Dimmed -> Triple(
-            MaterialTheme.colorScheme.surface,
-            HausaTechColors.Outline,
-            MaterialTheme.colorScheme.onSurfaceVariant
-        )
-        AnswerState.Correct -> Triple(
-            HausaTechColors.Success.copy(alpha = 0.14f),
-            HausaTechColors.Success,
-            MaterialTheme.colorScheme.onSurface
-        )
-        AnswerState.Wrong -> Triple(
-            HausaTechColors.Error.copy(alpha = 0.14f),
-            HausaTechColors.Error,
-            MaterialTheme.colorScheme.onSurface
-        )
+    val colors = when (state) {
+        AnswerState.Default -> AnswerColors(HausaTechColors.Surface, HausaTechColors.Outline, HausaTechColors.OnBackground)
+        AnswerState.Dimmed -> AnswerColors(HausaTechColors.Surface, HausaTechColors.Outline, HausaTechColors.Muted)
+        AnswerState.Correct -> AnswerColors(HausaTechColors.Success.copy(alpha = 0.12f), HausaTechColors.Success, HausaTechColors.OnBackground)
+        AnswerState.Wrong -> AnswerColors(HausaTechColors.Error.copy(alpha = 0.12f), HausaTechColors.Error, HausaTechColors.OnBackground)
+    }
+    val trailingIcon = when (state) {
+        AnswerState.Correct -> Icons.Filled.CheckCircle
+        AnswerState.Wrong -> Icons.Filled.Cancel
+        else -> null
     }
     Card(
-        shape = RoundedCornerShape(20.dp),
-        colors = CardDefaults.cardColors(containerColor = container),
-        border = BorderStroke(1.5.dp, border),
+        shape = RoundedCornerShape(14.dp),
+        colors = CardDefaults.cardColors(containerColor = colors.container),
+        border = BorderStroke(2.dp, colors.border),
         modifier = Modifier
             .fillMaxWidth()
             .clickable(role = Role.Button, onClick = onClick)
@@ -351,25 +373,29 @@ private fun AnswerOption(
             modifier = Modifier.padding(HausaTechSpacing.Lg),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            if (state == AnswerState.Correct) {
-                Icon(
-                    Icons.Filled.CheckCircle,
-                    contentDescription = "Daidai",
-                    tint = HausaTechColors.Success
-                )
-                Spacer(Modifier.width(HausaTechSpacing.Sm))
-            }
             Text(
                 option,
                 style = MaterialTheme.typography.titleMedium,
-                color = content,
+                color = colors.content,
                 modifier = Modifier.weight(1f)
             )
+            trailingIcon?.let { icon ->
+                Icon(
+                    icon,
+                    contentDescription = if (state == AnswerState.Correct) "Daidai" else "Kuskure",
+                    tint = colors.border
+                )
+            }
         }
     }
 }
 
-/** Premium results hero: ring, score stats, encouragement, retry + return. */
+private class AnswerColors(
+    val container: androidx.compose.ui.graphics.Color,
+    val border: androidx.compose.ui.graphics.Color,
+    val content: androidx.compose.ui.graphics.Color
+)
+
 @Composable
 private fun QuizResults(
     score: Int,
@@ -411,13 +437,13 @@ private fun QuizResults(
             Text(
                 message,
                 style = MaterialTheme.typography.titleLarge,
-                color = MaterialTheme.colorScheme.onBackground
+                color = HausaTechColors.OnBackground
             )
             Spacer(Modifier.height(HausaTechSpacing.Xs))
             Text(
                 "Ka samu maki $score daga cikin $total",
                 style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
+                color = HausaTechColors.Muted
             )
         }
         item {

@@ -1,5 +1,6 @@
 package com.nakudin.techhausa.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -30,10 +31,6 @@ import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 
-/**
- * Premium level card (Beginner / Intermediate / Advanced) with its own
- * accent treatment, lesson counts, and animated progress.
- */
 @Composable
 fun LevelCard(
     title: String,
@@ -50,8 +47,9 @@ fun LevelCard(
     Card(
         modifier = modifier.fillMaxWidth(),
         onClick = onClick,
-        shape = RoundedCornerShape(24.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        shape = RoundedCornerShape(18.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+        border = BorderStroke(1.dp, HausaTechColors.Outline)
     ) {
         Row(
             modifier = Modifier.padding(HausaTechSpacing.Xl),
@@ -59,30 +57,34 @@ fun LevelCard(
         ) {
             Box(
                 modifier = Modifier
-                    .size(56.dp)
-                    .clip(CircleShape)
+                    .size(44.dp)
+                    .clip(RoundedCornerShape(12.dp))
                     .background(accent.copy(alpha = 0.16f)),
                 contentAlignment = Alignment.Center
             ) {
-                Icon(icon, contentDescription = null, tint = accent)
+                Icon(icon, contentDescription = null, tint = accent, modifier = Modifier.size(24.dp))
             }
             Spacer(Modifier.width(HausaTechSpacing.Lg))
             Column(
                 Modifier.weight(1f),
                 verticalArrangement = Arrangement.spacedBy(HausaTechSpacing.Xs)
             ) {
-                Text(title, style = MaterialTheme.typography.headlineSmall)
+                Text(
+                    title,
+                    style = MaterialTheme.typography.headlineSmall,
+                    color = HausaTechColors.OnBackground
+                )
                 Text(
                     subtitle,
                     style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    color = HausaTechColors.Muted
                 )
                 Spacer(Modifier.height(HausaTechSpacing.Xs))
                 AnimatedProgressBar(progress = progress, color = accent)
                 Text(
                     "$completedCount / $totalCount lessons",
                     style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    color = HausaTechColors.Muted
                 )
             }
             Spacer(Modifier.width(HausaTechSpacing.Sm))

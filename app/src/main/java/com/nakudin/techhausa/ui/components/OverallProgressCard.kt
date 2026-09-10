@@ -13,6 +13,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.EmojiEvents
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -24,17 +27,13 @@ import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 
-/**
- * Large overall-progress hero: gradient ring with percentage, completed /
- * total lessons, and an optional stats row underneath.
- */
 @Composable
 fun OverallProgressCard(
     completed: Int,
     total: Int,
     modifier: Modifier = Modifier,
-    headline: String = "$completed / $total lessons completed",
-    subline: String = "Ka kammala darasi $completed daga cikin $total",
+    headline: String = "$completed / $total Darussa Kammala",
+    subline: String = "Jimlar Ci Gaba",
     stats: @Composable (() -> Unit)? = null
 ) {
     val progress = if (total > 0) completed.toFloat() / total else 0f
@@ -42,7 +41,7 @@ fun OverallProgressCard(
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(28.dp))
+            .clip(RoundedCornerShape(22.dp))
             .background(HausaTechColors.HeroGradient)
             .padding(HausaTechSpacing.Xl)
     ) {
@@ -51,28 +50,43 @@ fun OverallProgressCard(
                 .size(180.dp)
                 .offset(x = 140.dp, y = (-70).dp)
                 .clip(CircleShape)
-                .background(HausaTechColors.Accent.copy(alpha = 0.20f))
+                .background(HausaTechColors.GlowRadial)
                 .align(Alignment.TopEnd)
         )
+
+        Icon(
+            Icons.Filled.EmojiEvents,
+            contentDescription = null,
+            tint = Color(0xFFFFD54A),
+            modifier = Modifier
+                .size(32.dp)
+                .align(Alignment.TopEnd)
+        )
+
         Column(
             modifier = Modifier.fillMaxWidth(),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(HausaTechSpacing.Md)
         ) {
+            Text(
+                subline,
+                style = MaterialTheme.typography.labelLarge,
+                color = HausaTechColors.Muted
+            )
+            Text(
+                "${(progress * 100).toInt()}%",
+                style = MaterialTheme.typography.displaySmall,
+                color = HausaTechColors.Accent
+            )
             ProgressRing(
                 progress = progress,
-                modifier = Modifier.size(150.dp),
-                strokeWidth = 13.dp
+                modifier = Modifier.size(120.dp),
+                strokeWidth = 10.dp
             )
             Text(
                 headline,
-                style = MaterialTheme.typography.titleLarge,
-                color = Color.White
-            )
-            Text(
-                subline,
-                style = MaterialTheme.typography.bodyMedium,
-                color = Color.White.copy(alpha = 0.7f)
+                style = MaterialTheme.typography.titleMedium,
+                color = HausaTechColors.Muted
             )
             stats?.let {
                 Spacer(Modifier.height(HausaTechSpacing.Xs))
@@ -82,7 +96,6 @@ fun OverallProgressCard(
     }
 }
 
-/** Small stat tile used inside progress heroes. */
 @Composable
 fun StatTile(
     value: String,
@@ -96,12 +109,12 @@ fun StatTile(
         Text(
             value,
             style = MaterialTheme.typography.headlineSmall,
-            color = Color.White
+            color = HausaTechColors.Accent
         )
         Text(
             label,
             style = MaterialTheme.typography.labelMedium,
-            color = Color.White.copy(alpha = 0.65f)
+            color = HausaTechColors.Muted
         )
     }
 }

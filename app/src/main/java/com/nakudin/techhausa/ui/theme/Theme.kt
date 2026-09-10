@@ -13,46 +13,50 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
 // ---------------------------------------------------------------------------
-// HausaTech design system — premium dark learning-app theme.
-// Coral/pink/magenta accents on near-black surfaces, large rounded cards,
-// generous spacing. The app is dark-first by design (see spec section 18).
+// HausaTech design system — premium dark green "tech education" theme.
+// Bright lime/emerald green accents on near-black green-tinted surfaces,
+// large rounded cards, thin hairline card borders, generous spacing.
 // ---------------------------------------------------------------------------
 
 object HausaTechColors {
-    val Background = Color(0xFF0A0A0F)
-    val Surface = Color(0xFF141419)
-    val SurfaceVariant = Color(0xFF1C1C24)
-    val Elevated = Color(0xFF23232D)
+    val Background = Color(0xFF0A130E)
+    val Surface = Color(0xFF0F1D15)
+    val SurfaceVariant = Color(0xFF152A1E)
+    val Elevated = Color(0xFF1B3226)
 
-    val OnBackground = Color(0xFFF5F2EC)
-    val OnSurface = Color(0xFFF5F2EC)
-    val Muted = Color(0xFFA8A4B5)
+    val OnBackground = Color(0xFFF3F7F4)
+    val OnSurface = Color(0xFFF3F7F4)
+    val Muted = Color(0xFF8FA69A)
 
-    /** Primary coral-pink accent. */
-    val Accent = Color(0xFFFF6B81)
-    val AccentDeep = Color(0xFFFF3D6E)
-    val CoralOrange = Color(0xFFFF8A5C)
-    val Magenta = Color(0xFFB45CFF)
+    /** Primary brand green — buttons, active nav, progress fill. */
+    val Accent = Color(0xFF34D65C)
+    val AccentDeep = Color(0xFF1FAE46)
+    val AccentBright = Color(0xFF5CF08A)
 
     val Success = Color(0xFF34D399)
     val Warning = Color(0xFFFFB020)
     val Error = Color(0xFFFF5C5C)
 
-    val Outline = Color(0xFF2B2B36)
+    val Outline = Color(0xFF1E3A28)
 
-    /** Hero gradient: deep plum to near-black with a coral glow. */
+    /** Hero gradient: dark green with subtle radial glow. */
     val HeroGradient = Brush.linearGradient(
-        listOf(Color(0xFF3A1A2E), Color(0xFF1B1220), Color(0xFF121218))
+        listOf(Color(0xFF163826), Color(0xFF0D1F15), Color(0xFF0A130E))
     )
 
-    /** Primary CTA gradient: coral orange to pink to magenta. */
+    /** Primary CTA gradient: deep green to bright green. */
     val AccentGradient = Brush.horizontalGradient(
-        listOf(CoralOrange, Accent, AccentDeep)
+        listOf(Color(0xFF1FAE46), Color(0xFF34D65C), Color(0xFF5CF08A))
     )
 
     /** Subtle card sheen used on elevated surfaces. */
     val CardSheen = Brush.linearGradient(
-        listOf(Color(0xFF1E1E28), Color(0xFF15151C))
+        listOf(Color(0xFF15291C), Color(0xFF0F1D15))
+    )
+
+    /** Radial glow for hero/header banners. */
+    val GlowRadial = Brush.radialGradient(
+        listOf(Color(0xFF1E4A30).copy(alpha = 0.55f), Color.Transparent)
     )
 }
 
@@ -72,12 +76,12 @@ object HausaTechSpacing {
 
 private val DarkColorScheme = darkColorScheme(
     primary = HausaTechColors.Accent,
-    onPrimary = Color(0xFF2B0A12),
-    primaryContainer = Color(0xFF3A1F2B),
-    onPrimaryContainer = Color(0xFFFFD9E2),
-    secondary = HausaTechColors.Magenta,
+    onPrimary = Color(0xFF0A130E),
+    primaryContainer = Color(0xFF1B3226),
+    onPrimaryContainer = Color(0xFFB8F5C9),
+    secondary = HausaTechColors.AccentBright,
     onSecondary = Color.White,
-    tertiary = HausaTechColors.CoralOrange,
+    tertiary = HausaTechColors.AccentBright,
     background = HausaTechColors.Background,
     onBackground = HausaTechColors.OnBackground,
     surface = HausaTechColors.Surface,
@@ -88,7 +92,7 @@ private val DarkColorScheme = darkColorScheme(
     surfaceContainer = HausaTechColors.SurfaceVariant,
     surfaceContainerHigh = HausaTechColors.Elevated,
     outline = HausaTechColors.Outline,
-    outlineVariant = Color(0xFF20202A),
+    outlineVariant = Color(0xFF142E20),
     error = HausaTechColors.Error,
 )
 
@@ -108,8 +112,8 @@ private val AppTypography = Typography(
 private val AppShapes = Shapes(
     extraSmall = RoundedCornerShape(8.dp),
     small = RoundedCornerShape(12.dp),
-    medium = RoundedCornerShape(20.dp),
-    large = RoundedCornerShape(24.dp),
+    medium = RoundedCornerShape(18.dp),
+    large = RoundedCornerShape(22.dp),
     extraLarge = RoundedCornerShape(28.dp),
 )
 

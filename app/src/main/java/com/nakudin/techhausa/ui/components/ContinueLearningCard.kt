@@ -30,11 +30,6 @@ import androidx.compose.ui.unit.dp
 import com.nakudin.techhausa.ui.theme.HausaTechColors
 import com.nakudin.techhausa.ui.theme.HausaTechSpacing
 
-/**
- * Premium hero card for Home: course + lesson, gradient progress ring with
- * percentage, motivational line, and a pill CTA — on a plum/coral gradient
- * with soft glowing accents.
- */
 @Composable
 fun ContinueLearningCard(
     courseTitle: String,
@@ -46,18 +41,17 @@ fun ContinueLearningCard(
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(28.dp))
+            .clip(RoundedCornerShape(22.dp))
             .background(HausaTechColors.HeroGradient)
             .clickable(role = Role.Button, onClick = onClick)
             .padding(HausaTechSpacing.Xl)
     ) {
-        // Soft glowing accent orbs.
         Box(
             modifier = Modifier
                 .size(160.dp)
                 .offset(x = 120.dp, y = (-60).dp)
                 .clip(CircleShape)
-                .background(HausaTechColors.Accent.copy(alpha = 0.22f))
+                .background(HausaTechColors.Accent.copy(alpha = 0.18f))
                 .align(Alignment.TopEnd)
         )
         Box(
@@ -65,15 +59,15 @@ fun ContinueLearningCard(
                 .size(120.dp)
                 .offset(x = (-40).dp, y = 140.dp)
                 .clip(CircleShape)
-                .background(HausaTechColors.Magenta.copy(alpha = 0.16f))
+                .background(HausaTechColors.AccentBright.copy(alpha = 0.10f))
                 .align(Alignment.BottomStart)
         )
 
         Column {
             Text(
-                "Continue Learning",
+                "Ci Gaba da Koyo",
                 style = MaterialTheme.typography.labelLarge,
-                color = Color.White.copy(alpha = 0.75f)
+                color = HausaTechColors.Accent
             )
             Spacer(Modifier.height(HausaTechSpacing.Sm))
             Text(
@@ -99,7 +93,7 @@ fun ContinueLearningCard(
                 )
                 Column(Modifier.weight(1f)) {
                     Text(
-                        "You're doing great",
+                        "Ka yi daidai",
                         style = MaterialTheme.typography.titleMedium,
                         color = Color.White
                     )
@@ -107,7 +101,7 @@ fun ContinueLearningCard(
                     Text(
                         "Ci gaba daga inda ka tsaya",
                         style = MaterialTheme.typography.bodyMedium,
-                        color = Color.White.copy(alpha = 0.7f)
+                        color = HausaTechColors.Muted
                     )
                 }
             }
@@ -115,7 +109,7 @@ fun ContinueLearningCard(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .clip(RoundedCornerShape(20.dp))
+                    .clip(RoundedCornerShape(14.dp))
                     .background(HausaTechColors.AccentGradient)
                     .padding(vertical = 16.dp),
                 contentAlignment = Alignment.Center
