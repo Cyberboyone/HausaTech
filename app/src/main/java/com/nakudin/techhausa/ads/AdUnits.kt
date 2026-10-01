@@ -2,12 +2,11 @@ package com.nakudin.techhausa.ads
 
 /**
  * Central place for All AdMob ad unit IDs.
- * Currently using Google's test ad unit IDs — swap these with the production
- * IDs from AdMob console when moving to production.
+ * Production IDs, from this app's own AdMob account.
  */
 object AdUnits {
-    const val APP_ID = "ca-app-pub-3940256099942544~3347511713"
-    const val BANNER = "ca-app-pub-3940256099942544/6300978111"
-    const val INTERSTITIAL = "ca-app-pub-3940256099942544/1033173712"
-    const val REWARDED = "ca-app-pub-3940256099942544/5224354917"
+    const val APP_ID = "ca-app-pub-9529770421530115~1503799644"
+    const val BANNER = "ca-app-pub-9529770421530115/3718899449"
+    const val INTERSTITIAL = "ca-app-pub-9529770421530115/7299051803"
+    const val REWARDED = "ca-app-pub-9529770421530115/3531945619"
 }
