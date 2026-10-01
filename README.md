@@ -142,8 +142,8 @@ data-driven from these files.
   for its icon, progress bars, and diagrams. Dynamic/Material-You color
   is off by default so this branding isn't overridden by the user's
   wallpaper.
-- **Ads**: AdMob banner, wired to Google's official *test* unit ID —
-  replace before publishing
+- **Ads**: AdMob banner, interstitial, and rewarded, wired to production
+  ad unit IDs
 
 
 ## Important — have a native Hausa speaker review the content
@@ -174,8 +174,7 @@ speaker's judgment still beats mine on the rest of the text.
 **Still needs you:**
 - ⬜ Native Hausa speaker review of all lesson/quiz text (see above —
   this is the one thing I structurally cannot do myself)
-- ⬜ Replace the AdMob test App ID (manifest) and banner unit ID
-  (`AdBanner.kt`) with your real AdMob IDs from your own AdMob account
+- ✅ Real AdMob IDs in place — App ID, banner, interstitial, and rewarded
 - ⬜ First Gradle sync/build in Android Studio — nothing here has been
   compiled (no Android SDK in the environment this was built in), so
   treat that first build as the moment to catch any typos
